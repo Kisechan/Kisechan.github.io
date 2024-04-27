@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>Hello!</title>
+    <link href="/2024/04/27/Hello/"/>
+    <url>/2024/04/27/Hello/</url>
+    
+    <content type="html"><![CDATA[<p>#第一次测试 test </p><p>##小标题</p><p>如题，这是一个测试<br/>文章！\n\n</p><p><strong>粗体字体</strong></p><p><em>斜体字体</em></p><blockquote><p>这是引用</p></blockquote><p><a href="https://kisechan.github.io/">这是一个链接</a></p><p><img src="/./img/1.png" alt="这是一个图片"></p><ul><li>列表1</li><li>列表2<ul><li>列表2.1</li><li>列表2.2</li></ul></li></ul><hr><p>分割线</p><hr><p><del>这是要被删除的文字</del></p><p><u>这行文字已被添加下划线</u></p><p><code>Hello</code> World.</p><p>这是？？？代码块</p><hr><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br><span class="hljs-type">int</span> i;<br>cin&gt;&gt;i;<br>cout&lt;&lt;i&lt;&lt;endl;<br><span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure><p>这是表格<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="这是脚注1">[1]</span></a></sup></p><table><thead><tr><th>项目</th><th align="right">价格</th><th align="center">数量</th></tr></thead><tbody><tr><td>计算机</td><td align="right">$1600</td><td align="center">5</td></tr><tr><td>手机</td><td align="right">$12</td><td align="center">12</td></tr><tr><td>管线</td><td align="right">$1</td><td align="center">234</td></tr></tbody></table><p>$$E&#x3D;mc^2$$</p><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>这是脚注1<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2024/04/26/hello-world/"/>
     <url>/2024/04/26/hello-world/</url>
