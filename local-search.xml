@@ -8,7 +8,7 @@
     <link href="/2024/04/30/DownloadTest/"/>
     <url>/2024/04/30/DownloadTest/</url>
     
-    <content type="html"><![CDATA[<p>测试download<br>插入Pdf<br><a href="./source/jacs.2c12527.pdf">test</a></p><p>test</p>]]></content>
+    <content type="html"><![CDATA[<p>测试download<br>插入Pdf<br><img src="/./source/jacs.2c12527.pdf" alt="test"></p><p>test</p>]]></content>
     
     
     
