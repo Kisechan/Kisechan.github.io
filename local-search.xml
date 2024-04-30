@@ -8,9 +8,34 @@
     <link href="/2024/04/30/DownloadTest/"/>
     <url>/2024/04/30/DownloadTest/</url>
     
-    <content type="html"><![CDATA[<p>测试download<br>插入Pdf<br><a href="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202404301419177.pdf">测试Pdf</a></p><p>利用图床上传的图片<br><img src="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202404301412998.jpg" alt="测试图片"><br>test</p>]]></content>
+    <content type="html"><![CDATA[<p>测试download</p><hr><p>插入Pdf<br><a href="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202404301419177.pdf">测试Pdf</a></p><p>利用图床上传的图片<br><img src="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202404301412998.jpg" alt="测试图片"></p><p>测试压缩包<br><a href="!%5B%5D(https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202404301827975.zip)">测试压缩包</a></p>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>测试</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>现代物理有机化学》笔记：有机电子材料</title>
+    <link href="/2022/08/25/essay1/"/>
+    <url>/2022/08/25/essay1/</url>
+    
+    <content type="html"><![CDATA[<h3 id="17-1-1-无限-pi-体系：特别的聚乙炔"><a href="#17-1-1-无限-pi-体系：特别的聚乙炔" class="headerlink" title="17.1.1 无限$\pi$体系：特别的聚乙炔"></a>17.1.1 无限$\pi$体系：特别的聚乙炔</h3><p>首先绘制出“聚乙炔”的能级图：</p><p><img src="https://pic1.zhimg.com/80/v2-206a58e6e7864cfa3c4842feb743e224_1440w.jpg" alt="聚乙炔的能带结构"></p><p>而我们处理的策略就是将线性体系以环多烯的方式处理，因为它们的电子结构差不多，它们的能级满足以下关系：$\epsilon &#x3D;\alpha +2\cos(\frac{2\pi i}{ N})\times \beta$，其中$i$为轨道节点数目，$N$为原子总数目。例如，我们分析环戊二烯自由基（$N&#x3D;5$）：</p><p><img src="https://pic3.zhimg.com/v2-4cecf94a5adfc14d5b1a93da13b5cbe6_r.jpg" alt="环戊二烯自由基的能级图"></p><p>其中，$i&#x3D;\pm 2$时的轨道是反键轨道，其余的是成键轨道。那么，当$N\to +  \infty $时，我们就可以作出$\epsilon$关于$i$变化的图像：</p><p><img src="https://pic3.zhimg.com/80/v2-b12e5f350ca8746e3b1e701b7789fbb2_1440w.webp" alt="横轴代表节点数i，纵轴表示各能级能量"></p><p>可以看出，它类似于一个正弦曲线，最小值为$\alpha+2\beta$，最大值为$\alpha-2\beta$。</p><p>倘若我们将固体化学的概念引入这里，比如“晶胞”，即“重复单元”，然而，无限$\pi$体系中的所有$\mathrm{CH} $都是等价的，即聚乙炔的晶胞都是一个$\mathrm{CH} $，那么我们定义$a$为一个$\mathrm{CH} $的大小，和$k$($k&#x3D;\frac{2\pi i}{Na} $)由于$-\frac{N}{a} \le i\le +\frac{N}{a}$，那么$-\frac{\pi}{a} \le k\le +\frac{\pi}{a}$，将$k$代入$\epsilon$的定义式中，得到$\epsilon&#x3D;\alpha+\cos( ka )\times\beta$，则可以作出相应的图像：</p><p><img src="https://pic3.zhimg.com/80/v2-c33a766665d782c30f0e1314e50e7252_1440w.webp" alt="能级能量和$k$大小的关系，其中$k=\frac{\pi}{a}$时称作“Brillouion区边界”"></p><p>代表着能带内“相”的关系，代表着“相空间”，即$\pi$轨道相位组合的方式。$k&#x3D;0$时，所有单体的相位相同，$k&#x3D;\frac{\pi}{a} $时，所有单体的相位相反。</p><p><img src="https://pic3.zhimg.com/80/v2-e2806950cd9a483f4ce94b9c71dc43de_1440w.webp" alt="单体的相位（如果认为单体指的是两个$\mathrm{CH} $）"></p><p>$k&#x3D;0$时，所有相位相同，此时能量应最低，为$\alpha+2\beta$； 时，所有单体的相位相反，能量最高，为$\alpha-2\beta$；而π轨道（如上图中左下侧）异相组合时，能量应呈现非键轨道特性，为$\alpha$。（注意：这里原书认为单体，即重复单元为两个$\mathrm{CH} $，那么相应地，单体长度也会扩大两倍，变成 $a’$，$a’&#x3D;2a$）</p><p><img src="https://pic1.zhimg.com/80/v2-111c4155f5a7e56eba8fb6b36348ebf0_1440w.webp"></p><p>不过，不管怎么取“晶胞”，分子的电子结构都不会改变，那么理论上，聚乙炔的π轨道应当全满，$\pi^{<em>}$轨道应当全空，其Fermi能级（$E_{F}$，和HOMO是一个意思）就在中间，能量为$\alpha$ 。但在这个模型中，能带（$\pi$和$\pi^{</em>}$轨道组成的）之间的能级差（$E_{g}$，能隙）应该为 ，所以，聚乙炔就应该是一种有机金属导体了！可惜事实真的如此吗？</p><p>更何况，真实的材料可不会是一维的，所以以上分析还是有点瑕疵。这也是Hückel理论的一个缺陷。</p><hr><h3 id="17-1-2-Peierls形变"><a href="#17-1-2-Peierls形变" class="headerlink" title="17.1.2 Peierls形变"></a>17.1.2 Peierls形变</h3><p>我们发现，在Hückel理论中，聚乙炔的能隙等于$0$，而环丁二烯也是一个类似的体系：</p><p><img src="https://pic3.zhimg.com/v2-f48b12622dcd959b9c0546b8c694758a_r.jpg" alt="正方形和矩形形式的环丁二烯的能级"></p><p>如果不谈反芳香性等等因素的话，那环丁二烯本来应该是正方形的，这没什么问题。但是它实际上处于一个矩形的构型（长键长$1.54\mathrm{Å}$，短键长$1.37\mathrm{Å}$），这就导致HOMO和LUMO裂分，从而变得更稳定——矩形的构型能量比正方形低$5-10\mathrm{kcal&#x2F;mol}$——这也可以被称作是“伪Jahn-Teller效应”。因此，环丁二烯的基态应该是单重态（上图右），而非三重态（上图左），正方形的构型其实算是两种矩形构型交替变化的一个过渡态罢了。</p><p><img src="https://pic1.zhimg.com/80/v2-2f9637e74065a834c237c46f5cdf50a0_1440w.webp" alt="&quot;Jahn-Teller效应&quot;"></p><p>类似的效应在聚乙炔中也出现了，按照我们的预期，聚乙炔的C-C键应该都是等长的——可事实却不是这样，它的键长发生了形变，变成了长短交替的结构。几何形变让它出现了能隙，$E_{g}&#x3D;1.5\mathrm{eV}$，所以实际上，聚乙炔是一种半导体，这种形变叫做Peierls形变。</p><p><img src="https://pic1.zhimg.com/v2-f9e69cc4e90775e82b73494d9f7f800c_r.jpg" alt="形变导致的聚乙炔能量变化"></p><p><img src="https://pic2.zhimg.com/80/v2-b61538d0f411c01d9aa70b4a410458a5_1440w.webp" alt="假想的聚乙炔电子结构，所有的电子都是离域的"></p><p>此时，聚乙炔的HOMO（也就是$E_{F}$）是低于$\alpha$的，确实是稳定化了。其实在多数中性、闭壳的$\pi$体系中，这种长短键交替的现象是比较常见的。苯算是一个特例，由于强$\sigma$键的束缚，它的键长的确是均一的。</p><hr><h3 id="17-1-3-掺杂"><a href="#17-1-3-掺杂" class="headerlink" title="17.1.3 掺杂"></a>17.1.3 掺杂</h3><p>在$\pi$体系共轭聚合物中，聚乙炔等等只能算是半导体，而绝缘体更是普遍的情况。所以，为了改善它们的导电性，掺杂是一个很好的办法。例如把聚合物置于氧化剂（如$\mathrm{AsF_{5}}$，$\mathrm{I_{2}}$）氛围中，让其失去电子，引入正电荷，进行p型掺杂；或是用还原剂（如金属钠，萘-钠）处理进行n型掺杂。那么我们先讨论p型掺杂。</p><p><img src="https://pic3.zhimg.com/80/v2-983c851545c6e99b4642fe06b188dc46_1440w.webp" alt="掺杂后的聚乙炔和聚对苯撑（PPP）的结构"></p><p>进行n型掺杂，引入正电荷或自由基后会产生一个部分离域的正离子，为什么是部分离域呢？</p><ul><li><p>我们知道，烯丙基自由基比乙基自由基稳定，是因为它有离域体系，然而随着离域体系越来越大，自由基应该是更稳定的，随着碳原子数的增加，例如戊二烯基自由基，肯定是比烯丙基自由基稳定的，但是它们之间能量的差值会越来越小，到最后，离域提供的稳定化能只能说是微乎其微，不足挂齿了。（可能可以用共轭饱和理论来解释）</p></li><li><p>另外，由于Peierls形变为聚合物提供了稳定化能，但是掺和进来的正离子或自由基打乱了这个节奏，离域的能量不足以补偿打乱Peierls形变抬升的能量。</p></li></ul><p>随着掺杂得越来越多，产生的部分离域的电荷和自由基（称作“极化子”）也会变得越来越多，使得电导率上升。</p><p>这样掺杂的一个结果，就是能够形成“中间能隙束缚态”，代表着电子的缺失，也可以看作空轨道的引入，单占轨道从价带中独立出去。它的另一种解释是极化子的形成消除了Peierls形变。并且，新轨道的产生使得光学跃迁成为了可能，让产生的聚合物带上了颜色。</p><p><img src="https://pic2.zhimg.com/v2-b7004a6baec99318b3f453123953fea5_r.jpg" alt="中间能隙束缚态的形成"></p><p>重度掺杂也会导致“双极化子”的形成，它可能是两个极化子复合而成的。如果极化子是自由基，则它们会复合成新键；若是电荷，库仑斥力不应该会阻碍它们的复合吗？在气相中的确是这样的，但在固相中，材料的介电系数更大，减小了库仑斥力，并且引入的阴离子，如 $\mathrm{As_{2}F_{11}^{-}}$、$\mathrm{I_{3}^{-}}$等，扩散能力较强，屏蔽了其电荷，促使双极化子产生。</p><p><img src="https://pic1.zhimg.com/80/v2-1f81bd10ba97ebeb7c563a7241b2464c_1440w.webp" alt="双极化子的产生，注意：极化子比图示的更加离域"></p><p>与金属导体不同，这些聚合物的电导率（$\sigma$，电阻率$\rho$的倒数）常常与温度反相关，这是因为极化子的移动会导致碳骨架（它们的键长、键角等）轻微地改变，这需要一定的热活化能。金属在低温时，干扰晶格中自由电子运动的振动会减少。综上，电导率与温度的关系也是判定是否为金属导体的一大标准。</p><p>以上是对于p型掺杂半导体的论述，同理，n型掺杂也是差不多的。</p><hr><h3 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h3><p>特别感谢<a href="https://www.zhihu.com/people/lei-si-chen-48">@lesscho</a> 对本文的斧正，感恩捏！</p><hr><p>原文发表在<a href="https://zhuanlan.zhihu.com/p/659350625">知乎</a>。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>化学</tag>
+      
+    </tags>
     
   </entry>
   
@@ -24,6 +49,12 @@
     <content type="html"><![CDATA[<h1 id="第一次测试-test"><a href="#第一次测试-test" class="headerlink" title="第一次测试 test"></a>第一次测试 test</h1><h2 id="小标题"><a href="#小标题" class="headerlink" title="小标题"></a>小标题</h2><p>如题，这是一个测试文章！</p><p><strong>粗体字体</strong></p><p><em>斜体字体</em></p><blockquote><p>这是引用</p></blockquote><p><a href="https://kisechan.github.io/">这是一个链接</a></p><p><img src="/./img/1.png" alt="这是一个图片&lt;br/&gt;很可爱不是吗（"></p><ul><li>列表1</li><li>列表2<ul><li>列表2.1</li><li>列表2.2</li></ul></li></ul><hr><p>分割线</p><hr><p><del>这是要被删除的文字</del></p><p><u>这行文字已被添加下划线</u></p><p><code>Hello</code> World.</p><p>这是？？？代码块</p><hr><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br><span class="hljs-type">int</span> i;<br>cin&gt;&gt;i;<br>cout&lt;&lt;i&lt;&lt;endl;<br><span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure><p>这是表格<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="这是脚注1">[1]</span></a></sup></p><table><thead><tr><th>项目</th><th align="right">价格</th><th align="center">数量</th></tr></thead><tbody><tr><td>计算机</td><td align="right">$1600</td><td align="center">5</td></tr><tr><td>手机</td><td align="right">$12</td><td align="center">12</td></tr><tr><td>管线</td><td align="right">$1</td><td align="center">234</td></tr></tbody></table><p>测试公式：</p><p>$$ E&#x3D;mc^2 $$</p><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>这是脚注1<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>测试</tag>
+      
+    </tags>
     
   </entry>
   
