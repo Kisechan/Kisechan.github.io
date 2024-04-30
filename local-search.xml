@@ -8,7 +8,7 @@
     <link href="/2024/dijkstra/"/>
     <url>/2024/dijkstra/</url>
     
-    <content type="html"><![CDATA[<p>用qt写了一个能够实现可视化Dijkstra算法模拟寻路的小程序</p><p>没有写任何关于人性化的功能，只有纯粹的算法，如果输入的时候点了cancel或者输入了错误数据会导致程序直接崩溃）</p><p><a href="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202404302105526.7z">下载源码</a></p><p><a href="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202404302104761.7z">下载程序</a></p>]]></content>
+    <content type="html"><![CDATA[<p>用qt写了一个能够实现可视化Dijkstra算法模拟寻路的小程序</p><p>没有写任何关于人性化的功能，只有纯粹的算法，如果输入的时候点了cancel或者输入了错误数据会导致程序直接崩溃）</p><p><img src="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202404302115952.png" alt="示例"></p><p><a href="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202404302105526.7z">下载源码</a></p><p><a href="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202404302104761.7z">下载程序</a></p>]]></content>
     
     
     
