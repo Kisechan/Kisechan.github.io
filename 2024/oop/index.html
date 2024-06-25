@@ -16,18 +16,18 @@
   <meta name="author" content="Kisechan">
   <meta name="keywords" content="">
   
-    <meta name="description" content="面向对象编程面向对象编程的过程 OOA：面向对象分析（干什么）  OOD：面向对象设计（怎样干）  OOP：面向对象编程（实现）   面向对象的原则   面向对象的原则     单一职责 就一个类、接口、方法而言，应该仅有一个引起它变化的原因   开放封闭 软件的实体（类、模块、函数），对于扩展开放、对于修改关闭   依赖倒转 抽象不应该依赖于细节，细节应该依赖于抽象；高层也不依赖底层，而共同依赖">
+    <meta name="description" content="面向对象编程面向对象编程的过程 OOA：面向对象分析（干什么）  OOD：面向对象设计（怎样干）  OOP：面向对象编程（实现）   面向对象的原则   原则 解释    单一职责 一个大类不如多个小类灵活   接口隔离 依赖关系建立在最少的接口上   开放封闭 对扩展开放、对修改关闭   依赖倒转 最好关联抽象类，越抽象越底层   里氏替换 子类对象可以完全顶替父类，而程序的行为没有变   迪米">
 <meta property="og:type" content="article">
 <meta property="og:title" content="《面向对象程序设计》笔记">
 <meta property="og:url" content="http://kisechan.github.io/2024/oop/index.html">
 <meta property="og:site_name" content="~Kisechan&#39;s Blog~">
-<meta property="og:description" content="面向对象编程面向对象编程的过程 OOA：面向对象分析（干什么）  OOD：面向对象设计（怎样干）  OOP：面向对象编程（实现）   面向对象的原则   面向对象的原则     单一职责 就一个类、接口、方法而言，应该仅有一个引起它变化的原因   开放封闭 软件的实体（类、模块、函数），对于扩展开放、对于修改关闭   依赖倒转 抽象不应该依赖于细节，细节应该依赖于抽象；高层也不依赖底层，而共同依赖">
+<meta property="og:description" content="面向对象编程面向对象编程的过程 OOA：面向对象分析（干什么）  OOD：面向对象设计（怎样干）  OOP：面向对象编程（实现）   面向对象的原则   原则 解释    单一职责 一个大类不如多个小类灵活   接口隔离 依赖关系建立在最少的接口上   开放封闭 对扩展开放、对修改关闭   依赖倒转 最好关联抽象类，越抽象越底层   里氏替换 子类对象可以完全顶替父类，而程序的行为没有变   迪米">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202406021046984.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202406021048565.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202406021337183.svg">
 <meta property="article:published_time" content="2024-05-31T22:00:00.000Z">
-<meta property="article:modified_time" content="2024-06-21T13:55:11.242Z">
+<meta property="article:modified_time" content="2024-06-25T09:05:34.607Z">
 <meta property="article:author" content="Kisechan">
 <meta property="article:tag" content="CS">
 <meta name="twitter:card" content="summary_large_image">
@@ -205,7 +205,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          8.7k 字
+          8.6k 字
         
       </span>
     
@@ -266,7 +266,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-06-21T21:55:11+08:00
+                    本文最后更新于 2024-06-25T17:05:34+08:00
                   
                   
 
@@ -287,37 +287,37 @@
 <h2 id="面向对象的原则"><a href="#面向对象的原则" class="headerlink" title="面向对象的原则"></a>面向对象的原则</h2><table>
 <thead>
 <tr>
-<th>面向对象的原则</th>
-<th></th>
+<th align="center">原则</th>
+<th align="center">解释</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>单一职责</td>
-<td>就一个类、接口、方法而言，应该仅有一个引起它变化的原因</td>
+<td align="center">单一职责</td>
+<td align="center">一个大类不如多个小类灵活</td>
 </tr>
 <tr>
-<td>开放封闭</td>
-<td>软件的实体（类、模块、函数），对于扩展开放、对于修改关闭</td>
+<td align="center">接口隔离</td>
+<td align="center">依赖关系建立在最少的接口上</td>
 </tr>
 <tr>
-<td>依赖倒转</td>
-<td>抽象不应该依赖于细节，细节应该依赖于抽象；高层也不依赖底层，而共同依赖抽象（接口）</td>
+<td align="center">开放封闭</td>
+<td align="center">对扩展开放、对修改关闭</td>
 </tr>
 <tr>
-<td>里氏替换</td>
-<td>把父类对象用子类对象代替，程序的行为没有变。</td>
+<td align="center">依赖倒转</td>
+<td align="center">最好关联抽象类，越抽象越底层</td>
 </tr>
 <tr>
-<td>合成聚合复用</td>
-<td>尽量使用合成&#x2F;聚合，尽量不使用继承</td>
+<td align="center">里氏替换</td>
+<td align="center">子类对象可以完全顶替父类，而程序的行为没有变</td>
 </tr>
 <tr>
-<td>迪米特</td>
-<td>一个对象应该对其他对象有最少的了解</td>
+<td align="center">迪米特</td>
+<td align="center">一个对象应该对其他对象有最少的了解</td>
 </tr>
 <tr>
-<td>接口隔离</td>
-<td>依赖关系建立在最少的接口上</td>
+<td align="center">合成聚合复用</td>
+<td align="center">尽量使用合成（例如有成员<code>Engine _engine</code>）&#x2F;聚合（例如有成员<code>Engine&amp; _engine</code>），尽量不使用继承</td>
 </tr>
 </tbody></table>
 <h1 id="指针"><a href="#指针" class="headerlink" title="指针"></a>指针</h1><h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><p><code>a[b]</code>等效于<code>*(a+b)</code>，数组名就是指针。</p>
@@ -342,24 +342,24 @@
 <table>
 <thead>
 <tr>
-<th>定义</th>
+<th align="center">定义</th>
 <th align="center">意义</th>
 </tr>
 </thead>
 <tbody><tr>
-<td><code>const int *const p</code></td>
+<td align="center"><code>const int *const p</code></td>
 <td align="center">指向常量的指针常量</td>
 </tr>
 <tr>
-<td><code>int const * const p</code></td>
+<td align="center"><code>int const * const p</code></td>
 <td align="center">指向常量的指针常量</td>
 </tr>
 <tr>
-<td><code>int * const p</code></td>
+<td align="center"><code>int * const p</code></td>
 <td align="center">指针常量</td>
 </tr>
 <tr>
-<td><code>int const * p</code></td>
+<td align="center"><code>int const * p</code></td>
 <td align="center">常量指针</td>
 </tr>
 </tbody></table>
@@ -372,28 +372,28 @@
 <table>
 <thead>
 <tr>
-<th>定义</th>
+<th align="center">定义</th>
 <th align="center">意义</th>
 <th align="center">备注</th>
 </tr>
 </thead>
 <tbody><tr>
-<td><code>void A(int const *const p);</code></td>
+<td align="center"><code>void A(int const *const p);</code></td>
 <td align="center">指向常量的指针常量</td>
 <td align="center"></td>
 </tr>
 <tr>
-<td><code>void B(int *const p);</code></td>
+<td align="center"><code>void B(int *const p);</code></td>
 <td align="center">指针常量</td>
 <td align="center">数组内容可能被修改</td>
 </tr>
 <tr>
-<td><code>void C(int const *p);</code></td>
+<td align="center"><code>void C(int const *p);</code></td>
 <td align="center">常量指针</td>
 <td align="center"></td>
 </tr>
 <tr>
-<td><code>void D(int *p);</code></td>
+<td align="center"><code>void D(int *p);</code></td>
 <td align="center">普通指针</td>
 <td align="center">数组内容可能被修改</td>
 </tr>
@@ -432,13 +432,14 @@
 <p>在多线程环境下，每个线程可以安全地操作自己的返回值副本，避免了竞态条件的问题。</p>
 </li>
 </ul>
-<p>但是，返回变量也可能存在的一些缺点：</p>
+<p>一些缺点：</p>
 <ul>
 <li><p>性能开销：</p>
 <p>返回大型对象时，需要进行复制操作，可能会带来较大的性能开销，尤其是在频繁调用和处理大对象时。</p>
 </li>
 </ul>
-<h3 id="返回引用"><a href="#返回引用" class="headerlink" title="返回引用"></a>返回引用</h3><p>返回引用意味着函数返回的是原始对象的引用，调用者可以直接访问和修改原始对象。这种方式的优点包括：</p>
+<h3 id="返回引用"><a href="#返回引用" class="headerlink" title="返回引用"></a>返回引用</h3><p>返回引用意味着函数返回的是原始对象的引用，调用者可以直接访问和修改原始对象。</p>
+<p>优点包括：</p>
 <ul>
 <li><p>性能效率：</p>
 <p>避免了返回值时的对象复制，节省了时间和空间开销，特别是对于大型对象而言。</p>
@@ -447,7 +448,7 @@
 <p>允许调用者直接修改原始对象的状态，适用于需要在函数内部修改对象状态并且这些修改需要在函数外部保持的情况。</p>
 </li>
 </ul>
-<p>然而，返回引用也有其潜在的问题和注意事项：</p>
+<p>潜在的问题和注意事项：</p>
 <ul>
 <li><p>潜在的安全性问题：</p>
 <p>调用者可以通过返回的引用直接修改对象，这可能导致意外的副作用或错误状态，尤其是在多线程或复杂逻辑下。</p>
@@ -456,7 +457,7 @@
 <p>返回引用时需要确保引用的对象在函数返回后仍然有效，避免返回了一个悬空引用。</p>
 </li>
 </ul>
-<h3 id="如何选择"><a href="#如何选择" class="headerlink" title="如何选择"></a>如何选择</h3><p>通常情况下，可以遵循以下原则来选择返回变量或返回引用：</p>
+<h3 id="选择"><a href="#选择" class="headerlink" title="选择"></a>选择</h3><p>通常情况下，可以遵循以下原则来选择返回变量或返回引用：</p>
 <ul>
 <li><p><strong>小型对象或内置类型</strong>：优先考虑返回变量，因为复制开销较小，而且不会涉及引用悬挂的问题。</p>
 </li>
@@ -473,24 +474,24 @@
 <thead>
 <tr>
 <th align="center">概念</th>
-<th></th>
+<th align="center">解释</th>
 </tr>
 </thead>
 <tbody><tr>
 <td align="center">结构</td>
-<td>单纯堆积数据空间构造的类型。</td>
+<td align="center">单纯堆积数据空间构造的类型。</td>
 </tr>
 <tr>
 <td align="center">类</td>
-<td>不但描述数据空间，还描述其操作的自定义类型。</td>
+<td align="center">不但描述数据空间，还描述其操作的自定义类型。</td>
 </tr>
 <tr>
 <td align="center">变量</td>
-<td>由内部数据类型或衍生的结构类型所产生的实体。</td>
+<td align="center">由内部数据类型或衍生的结构类型所产生的实体。</td>
 </tr>
 <tr>
 <td align="center">对象</td>
-<td>由类产生的实体。<br/>本质上，变量也是对象，只不过简单一点罢了。</td>
+<td align="center">由类产生的实体。<br/>本质上，变量也是对象，只不过简单一点罢了。</td>
 </tr>
 </tbody></table>
 <p>类的作用：</p>
@@ -604,14 +605,11 @@
 <p>成员初始化列表不同于赋值。赋值是在对象存在以后再进行操作，而初始化则是直接在对象构造完成前进行操作。</p>
 <p>对于引用和<code>const</code>成员的初始化，只能在成员初始化列表中实现。</p>
 <h2 id="执行顺序"><a href="#执行顺序" class="headerlink" title="执行顺序"></a>执行顺序</h2><p>构造函数在构造时执行，全局变量的构造函数在<code>main()</code>函数之前执行，若全局对象分散在不同的源文件中，那么构造顺序时随机的。静态对象的构造函数在首次被调用时执行一次，在程序结束时析构。</p>
-<p>从复用的结构而言，对于有继承和组合的类，先执行包含的类或继承的父类的构造函数，以文本上的定义顺序执行构造，而与构造函数中<code>ClassA():ClassB(x),ClassC(y)&#123;&#125;</code>的执行顺序无关。</p>
+<p>从复用的结构而言，对于有继承和组合的类，先执行包含的类或继承的父类的构造函数，以文本上的定义顺序执行构造，而与构造函数初始化列表中<code>ClassA():ClassB(x),ClassC(y)&#123;&#125;</code>的执行顺序无关。</p>
 <p>对象析构时，按构造函数执行的逆序进行。</p>
 <p>对于对象数组，在用<code>delete[]</code>进行析构时，先析构靠后的，之后一个一个向前析构。</p>
 <h2 id="构造函数的调用"><a href="#构造函数的调用" class="headerlink" title="构造函数的调用"></a>构造函数的调用</h2><p>成员类不允许在定义时初始化，因为它仅仅是一个类型，而没有空间分配。例如：</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Student</span><br>&#123;<br>    string name;<br>    StudentID id;<br><span class="hljs-keyword">public</span>:<br>    <span class="hljs-built_in">Student</span>(string pName,<span class="hljs-type">int</span> ssID=<span class="hljs-number">0</span>)<br>    &#123;<br>    name=pName;<br>    <span class="hljs-function">StudentID <span class="hljs-title">id</span><span class="hljs-params">(ssID)</span></span>; <span class="hljs-comment">//错误</span><br>    &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
-<p>构造函数不允许滞后调用，在定义了以后调用。故可以引入新语法，对类中嵌套的类初始化（拷贝构造函数），调用那个类的构造函数：</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Student</span><br>&#123;<br>    string name;<br>    StudentID id;<br><span class="hljs-keyword">public</span>:<br>    <span class="hljs-built_in">Student</span>(string pName,<span class="hljs-type">int</span> ssID=<span class="hljs-number">0</span>):<span class="hljs-built_in">id</span>(ssID)   <span class="hljs-comment">//新语法</span><br>    &#123;<br>        name=pName;<br>    &#125;<br>&#125;; <br></code></pre></td></tr></table></figure>
-<p>对于引用成员和常量成员，不能用构造函数对它们赋值，所以这被认为是没有意义的。</p>
 <h2 id="关于动态内存"><a href="#关于动态内存" class="headerlink" title="关于动态内存"></a>关于动态内存</h2><p><code>Malloc()</code>和对应的<code>free()</code>函数不属于语言本身，于malloc.h中声明，因此在用它们执行申请动态内存时不能自动调用构造函数和析构函数。所以引入了<code>new</code>和<code>delete</code>关键字。</p>
 <p>通过<code>new</code>关键字申请的动态空间位于堆区，不会主动释放，因此使用<code>new</code>创建的新对象不会自动在程序结束时调用析构函数释放它自己，需要主动管理。因此，对于含有指针和动态内存的类，也需要在析构函数中执行<code>delete[]</code>语句释放空间。</p>
 <h2 id="拷贝"><a href="#拷贝" class="headerlink" title="拷贝"></a>拷贝</h2><p>如果让一个<code>A</code>类型的类进行<code>A b=a;</code>这样的操作，则会调用（默认的）拷贝构造函数<code>A(const A&amp;)</code>，为<code>b</code>初始化。</p>
@@ -688,6 +686,18 @@
 <p>使用<code>p.operator++()</code>或<code>p.operator++(0)</code>可以显式调用该运算符。</p>
 <h1 id="静态成员"><a href="#静态成员" class="headerlink" title="静态成员"></a>静态成员</h1><p>静态成员的空间不包含在对象中，在<code>main()</code>之前构造，生命周期等同于全局对象。多个个体对象共享一个共有数据。</p>
 <p>静态成员函数不再与对象<code>this</code>默认联系，但可以访问非<code>public</code>成员。</p>
+<h2 id="关于static关键字"><a href="#关于static关键字" class="headerlink" title="关于static关键字"></a>关于<code>static</code>关键字</h2><p><code>static</code>有三种用法</p>
+<ul>
+<li><p>函数外的静态变量（与 extern 相对）</p>
+<p>  内部链接性变量，仅能在一个编译单元中使用，不与其他编译单元共享。</p>
+</li>
+<li><p>函数中的静态变量（与栈空间中的局部变量相对）</p>
+<p>  位于变量数据区，因此函数返回时不析构的变量。</p>
+</li>
+<li><p>类中的静态成员变量（与对象成员相对）</p>
+<p>  所有实例共享的变量。</p>
+</li>
+</ul>
 <h1 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h1><p>继承的本质实际上就是由上到下完全的复制，但是继承方式在对内可见性上做了手脚；对外可见性则没有改变。继承后的对外权限等于或低于继承类型 。继承类型省略默认为<code>private</code>继承。<code>private</code>成员继承后只对原来兄弟方法可见。子类不能访问父类中的<code>private</code>成员，父类不能也做不到访问子类的所有内容。</p>
 <p><img src="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202406021046984.png" srcset="/img/loading.gif" lazyload></p>
 <p>派生的内容则等同于原始类的定义。派生类对象包含父类对象全部内容，<strong>凡是父类对象可以出现的地方都可以用子类对象代替</strong>，反之不可。例如：</p>
