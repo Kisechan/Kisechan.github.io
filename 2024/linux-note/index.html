@@ -24,7 +24,7 @@
 <meta property="og:description" content="Linux和开源UNIX诞生 时间：1969 地点：AT&amp;T 贝尔实验室 人物：Ken Thompson和Dennis Ritchie 动机：玩游戏 理念：简单易用（KISS，Keep it simple, stupid!）  最初使用汇编语言开发，1973年，二人使用C重写了UNIX源码。 发展UNIX以源代码形式发行，形成了两个重要流派：    UNIX版本 主要发行版分支    UN">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-11-22T05:49:11.000Z">
-<meta property="article:modified_time" content="2024-11-24T07:15:41.104Z">
+<meta property="article:modified_time" content="2024-11-24T07:32:38.996Z">
 <meta property="article:author" content="Kisechan">
 <meta property="article:tag" content="CS">
 <meta name="twitter:card" content="summary_large_image">
@@ -262,7 +262,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-11-24T15:15:41+08:00
+                    本文最后更新于 2024-11-24T15:32:38+08:00
                   
                   
 
@@ -297,15 +297,19 @@
 <td align="center">FreeBSD、NetBSD、OpenBSD</td>
 </tr>
 </tbody></table>
-<pre><code class="hljs">BSD：Berkeley Software Distribution
-</code></pre>
+<blockquote>
+<p>BSD：Berkeley Software Distribution</p>
+</blockquote>
 <p>80年代，UNIX版本剧增，各版本间差别扩大，于是就有了对每种实现必须定义各种限制的说明的<strong>标准化</strong>。两个重要的标准是：</p>
 <ul>
 <li><p><strong>系统V接口定义（SVID，System V Interface Definition）</strong>，来自AT&amp;T</p>
 </li>
-<li><p><strong>可移植操作系统接口（POSIX，Portable Operating System Interface）</strong>，来自ISO和IEEE：目前几乎所有的UNIX&#x2F;Linux发行版均遵循POSIX标准。</p>
+<li><p><strong>可移植操作系统接口（POSIX，Portable Operating System Interface）</strong>，来自ISO和IEEE</p>
 </li>
 </ul>
+<blockquote>
+<p>目前几乎所有的UNIX&#x2F;Linux发行版均遵循POSIX标准。</p>
+</blockquote>
 <h2 id="Linux的兴起"><a href="#Linux的兴起" class="headerlink" title="Linux的兴起"></a>Linux的兴起</h2><p>目前应用最广泛的类UNIX系统。<strong>2个人4个1</strong>：</p>
 <ul>
 <li>2个人：Richard Stallman &amp; Linus Torvalds</li>
@@ -1153,15 +1157,15 @@
 <p><code>root</code>用户的主目录是<code>/root</code>。</p>
 <p>工作目录是用户现在在文件系统中所在的目录。</p>
 <h3 id="文件命名规则"><a href="#文件命名规则" class="headerlink" title="文件命名规则"></a>文件命名规则</h3><ol>
-<li>长度约束：1~255个字符</li>
+<li>长度约束：1 ~ 255个字符</li>
 <li>唯一性约束：同一目录下不得存在同名文件</li>
 <li>大小写敏感</li>
 <li>字符约束尽量避免使用<code>&lt;</code>、<code>&gt;</code>、<code>(</code>、<code>)</code>、<code>[</code>、<code>]</code>、<code>&#123;</code>、<code>&#125;</code>、<code>*</code>、<code>?</code>、<code>”</code>、<code>’</code>、<code>-</code>、<code>$</code>、<code>^</code>、<code>空格</code></li>
-<li>推荐使用<code>A</code><del><code>Z</code>、<code>a</code></del><code>z</code>、<code>0</code>~&#96;9<code>、</code>_<code> 、</code>.&#96;</li>
+<li>推荐使用<code>A</code> ~ <code>Z</code>、<code>a</code> ~ <code>z</code>、<code>0</code> ~ <code>9</code>、<code>_</code> 、<code>.</code></li>
 </ol>
 <h2 id="文件操作命令"><a href="#文件操作命令" class="headerlink" title="文件操作命令"></a>文件操作命令</h2><h3 id="cd命令"><a href="#cd命令" class="headerlink" title="cd命令"></a><code>cd</code>命令</h3><p>用于改变工作目录（change directory）。</p>
 <p><code>cd</code>：返回用户主目录。</p>
-<p><code>cd ~[用户名]</code>：进入其他用户或自己的主目录，前提是拥有权限。</p>
+<p><code>cd  ~ [用户名]</code>：进入其他用户或自己的主目录，前提是拥有权限。</p>
 <h3 id="mkdir命令"><a href="#mkdir命令" class="headerlink" title="mkdir命令"></a><code>mkdir</code>命令</h3><p>创建目录，可以一次创建多个。</p>
 <p><code>-p</code>选项，可以一次创建多层目录。</p>
 <h3 id="rmdir命令"><a href="#rmdir命令" class="headerlink" title="rmdir命令"></a><code>rmdir</code>命令</h3><p>删除空目录。</p>
@@ -1222,7 +1226,7 @@
 <td align="center">文件名</td>
 </tr>
 </tbody></table>
-<p>在第一列中，第1个字符表示文件类型，第2~10个字符表示权限设置。</p>
+<p>在第一列中，第1个字符表示文件类型，第2 ~ 10个字符表示权限设置。</p>
 <p>第1个字符的意义：</p>
 <table>
 <thead>
@@ -1252,7 +1256,7 @@
 <td align="center">链接文件</td>
 </tr>
 </tbody></table>
-<p>第2~10个字符分三组，所有者、组用户、其他人，分别对应3个字符。</p>
+<p>第2 ~ 10个字符分三组，所有者、组用户、其他人，分别对应3个字符。</p>
 <table>
 <thead>
 <tr>
@@ -1413,7 +1417,7 @@
 </tr>
 <tr>
 <td align="center"><code>*</code></td>
-<td align="center">匹配任意的0~n个字符</td>
+<td align="center">匹配任意的0 ~ n个字符</td>
 </tr>
 <tr>
 <td align="center"><code>[列表]</code></td>
@@ -1863,14 +1867,14 @@
 </ul>
 <p>用户配置文件有：</p>
 <ul>
-<li><code>~/.bash_profile</code>：设置登录用户的bash环境；执行<code>~/.bashrc</code></li>
-<li><code>~/.bashrc</code>：设置当前用户的bash环境；执行<code>/etc/bashrc</code></li>
-<li><code>~/.bash_logout</code>：用户退出bash时执行</li>
+<li><code> ~ /.bash_profile</code>：设置登录用户的bash环境；执行<code> ~ /.bashrc</code></li>
+<li><code> ~ /.bashrc</code>：设置当前用户的bash环境；执行<code>/etc/bashrc</code></li>
+<li><code> ~ /.bash_logout</code>：用户退出bash时执行</li>
 </ul>
 <p>关于非登录shell和登录shell：</p>
 <ul>
-<li>登录shell是通过了账户密码环节的启动的shell，执行<code>~/.bash_profile</code>、<code>~/.bash_login</code>或<code>~/.profile</code></li>
-<li>非登录shell是在已登录的shell中打开新的shell时启动的，执行<code>~/.bashrc</code></li>
+<li>登录shell是通过了账户密码环节的启动的shell，执行<code> ~ /.bash_profile</code>、<code> ~ /.bash_login</code>或<code> ~ /.profile</code></li>
+<li>非登录shell是在已登录的shell中打开新的shell时启动的，执行<code> ~ /.bashrc</code></li>
 </ul>
 <h3 id="etc-profile文件"><a href="#etc-profile文件" class="headerlink" title="/etc/profile文件"></a><code>/etc/profile</code>文件</h3><p>是一个ASCII文件，定义全局环境变量，如<code>PATH</code>等。</p>
 <p>也可以设置<code>umask</code>值。</p>
@@ -1895,7 +1899,12 @@
 </ol>
 <p><code>makefile</code>语法规则：</p>
 <figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs arcade">目标<span class="hljs-number">1</span>:依赖文件列表<br>&lt;<span class="hljs-literal">tab</span>&gt;命令列表<br><br><span class="hljs-comment">//目标：要产生的文件名称或动作的名称</span><br><span class="hljs-comment">//依赖文件：用于产生目标的输入文件</span><br><span class="hljs-comment">//命令：make执行的动作</span><br></code></pre></td></tr></table></figure>
-<p><code>make</code>命令的用法：<code>make [-f file] [targets]</code>。make默认会在工作目录中寻找<code>makefile</code>文件作为输入，而<code>-f</code>指定其以外的作为输入。</p>
+<p>例如：</p>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs avrasm"><span class="hljs-symbol">cal:</span> cal.o <span class="hljs-keyword">sub</span>.o sum.o<br><span class="hljs-meta"># 要产生cal文件，依赖文件为cal.o，sub.o，sum.o</span><br>    gcc cal.o <span class="hljs-keyword">sub</span>.o sum.o -o cal<br>    <span class="hljs-meta"># 动作</span><br><br><span class="hljs-symbol">clean:</span> <br>    rm -rf *.o<br></code></pre></td></tr></table></figure>
+<p><code>make</code>命令的用法：<code>make [-f file] [targets]</code>。</p>
+<p>make默认会在工作目录中寻找<code>makefile</code>文件作为输入，而<code>-f</code>指定其以外的作为输入。</p>
+<p>如果没有指定的目标，则<code>make</code>会默认实现<code>makefile</code>的第一个目标然后退出，可以指定一个或多个目标，用空格分隔。</p>
+<p>例如<code>make clean</code>命令，就是执行上方的<code>clean</code>目标。</p>
 <h2 id="git"><a href="#git" class="headerlink" title="git"></a>git</h2><p>git是Linus为了更好管理Linux内核开发而开发的开源分布式版本控制系统。</p>
 <h3 id="配置邮箱和用户名"><a href="#配置邮箱和用户名" class="headerlink" title="配置邮箱和用户名"></a>配置邮箱和用户名</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">git config user.name &#123;用户名&#125;<br><span class="hljs-comment"># 配置用户名</span><br>git config user.email &#123;邮箱&#125;<br><span class="hljs-comment"># 配置邮箱</span><br></code></pre></td></tr></table></figure>
 <p>这是仓库级配置，只会影响本仓库。</p>
@@ -1954,8 +1963,8 @@
 <td align="center">脚本文件名</td>
 </tr>
 <tr>
-<td align="center"><code>$1</code>~&#96;$9&#96;</td>
-<td align="center">第1~9个命令行参数</td>
+<td align="center"><code>$1</code> ~ <code>$9</code></td>
+<td align="center">第1 ~ 9个命令行参数</td>
 </tr>
 <tr>
 <td align="center"><code>$#</code></td>
@@ -1979,7 +1988,7 @@
 </tr>
 </tbody></table>
 <p>命令行参数多于9个时，后面的会被忽略，但是仍可以用<code>$*</code>获得。</p>
-<p>使用<code>set</code>可以给<code>$1</code>~&#96;$9&#96;依次赋值。</p>
+<p>使用<code>set</code>可以给<code>$1</code> ~ <code>$9</code>依次赋值。</p>
 <h3 id="read命令"><a href="#read命令" class="headerlink" title="read命令"></a><code>read</code>命令</h3><p>从标准输入中读入字符串，存入变量中。若字符串数量多于变量的数量，则最后一个变量会存下剩下所有的字符串。</p>
 <h2 id="条件语句"><a href="#条件语句" class="headerlink" title="条件语句"></a>条件语句</h2><p><code>if-then</code>结构：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-keyword">if</span> [ condition ]<br><span class="hljs-comment"># 注意条件前后加空格</span><br><span class="hljs-keyword">then</span><br>    <span class="hljs-built_in">command</span><br><span class="hljs-keyword">fi</span><br></code></pre></td></tr></table></figure>
@@ -2153,7 +2162,7 @@
 </li>
 <li><code>y</code>表示设备编号，<code>a</code>为第1个，以此类推</li>
 <li><code>n</code>为磁盘分区号<ul>
-<li><code>1</code>~&#96;4&#96;为主分区或扩展分区</li>
+<li><code>1</code> ~ <code>4</code>为主分区或扩展分区</li>
 <li><code>5</code>以后为逻辑分区</li>
 </ul>
 </li>
@@ -2300,23 +2309,23 @@
 </thead>
 <tbody><tr>
 <td align="center"><code>f1</code></td>
-<td align="center">分钟（<code>0</code>~&#96;59&#96;）</td>
+<td align="center">分钟（<code>0</code> ~ <code>59</code>）</td>
 </tr>
 <tr>
 <td align="center"><code>f2</code></td>
-<td align="center">小时（<code>0</code>~&#96;23&#96;）</td>
+<td align="center">小时（<code>0</code> ~ <code>23</code>）</td>
 </tr>
 <tr>
 <td align="center"><code>f3</code></td>
-<td align="center">日期（<code>1</code>~&#96;31&#96;）</td>
+<td align="center">日期（<code>1</code> ~ <code>31</code>）</td>
 </tr>
 <tr>
 <td align="center"><code>f4</code></td>
-<td align="center">月份（<code>1</code>~&#96;12&#96;）</td>
+<td align="center">月份（<code>1</code> ~ <code>12</code>）</td>
 </tr>
 <tr>
 <td align="center"><code>f5</code></td>
-<td align="center">星期几（<code>0</code>~&#96;6<code>），</code>0&#96;代表星期天</td>
+<td align="center">星期几（<code>0</code> ~ <code>6</code>），<code>0</code>代表星期天</td>
 </tr>
 <tr>
 <td align="center"><code>command</code></td>
