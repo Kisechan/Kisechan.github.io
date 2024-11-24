@@ -24,7 +24,7 @@
 <meta property="og:description" content="Linux和开源UNIX诞生 时间：1969 地点：AT&amp;T 贝尔实验室 人物：Ken Thompson和Dennis Ritchie 动机：玩游戏 理念：简单易用（KISS，Keep it simple, stupid!）  最初使用汇编语言开发，1973年，二人使用C重写了UNIX源码。 发展UNIX以源代码形式发行，形成了两个重要流派：    UNIX版本 主要发行版分支    UN">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-11-22T05:49:11.000Z">
-<meta property="article:modified_time" content="2024-11-24T07:32:38.996Z">
+<meta property="article:modified_time" content="2024-11-24T13:43:19.068Z">
 <meta property="article:author" content="Kisechan">
 <meta property="article:tag" content="CS">
 <meta name="twitter:card" content="summary_large_image">
@@ -262,7 +262,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-11-24T15:32:38+08:00
+                    本文最后更新于 2024-11-24T21:43:19+08:00
                   
                   
 
@@ -671,9 +671,9 @@
 </ul>
 <p>例如：</p>
 <ul>
-<li><code># shutdown -h now</code>：立即关机&#96;</li>
-<li><code># shutdown -h 22:45</code>：在22:25关机&#96;</li>
-<li><code># shutdown -r +30</code>：30分钟后重启&#96;</li>
+<li><code># shutdown -h now</code>：立即关机</li>
+<li><code># shutdown -h 22:45</code>：在22:25关机</li>
+<li><code># shutdown -r +30</code>：30分钟后重启</li>
 </ul>
 <p><code>reboot</code>命令：重启。</p>
 <p><code>halt</code>命令：在大多数系统中等效于<code>shutdown -h now</code>。</p>
@@ -774,11 +774,8 @@
 <td align="center">nl</td>
 <td align="center">右移n格</td>
 </tr>
-<tr>
-<td align="center">大范围移动光标：</td>
-<td align="center"></td>
-</tr>
 </tbody></table>
+<p>大范围移动光标：</p>
 <table>
 <thead>
 <tr>
@@ -1401,6 +1398,23 @@
 <tbody><tr>
 <td align="center"><code>-s</code></td>
 <td align="center">创建软链接，类似于快捷方式，其中包含路径指针，访问它就是访问源文件的路径</td>
+</tr>
+</tbody></table>
+<h3 id="paste命令"><a href="#paste命令" class="headerlink" title="paste命令"></a><code>paste</code>命令</h3><p>用于按列合并。用法是<code>paste [选项] &#123;（多个）文件名&#125;</code>。</p>
+<table>
+<thead>
+<tr>
+<th align="center">选项</th>
+<th align="center">作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><code>-d</code></td>
+<td align="center">指定分隔符，默认是制表符<code>\t</code></td>
+</tr>
+<tr>
+<td align="center"><code>-s</code></td>
+<td align="center">将每个文件的每一行都按顺序拼接到一行上</td>
 </tr>
 </tbody></table>
 <h2 id="文件名匹配"><a href="#文件名匹配" class="headerlink" title="文件名匹配"></a>文件名匹配</h2><p>shell允许用户使用指定的模式匹配文件名：</p>
