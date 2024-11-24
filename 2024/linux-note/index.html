@@ -24,7 +24,7 @@
 <meta property="og:description" content="Linux和开源UNIX诞生 时间：1969 地点：AT&amp;T 贝尔实验室 人物：Ken Thompson和Dennis Ritchie 动机：玩游戏 理念：简单易用（KISS，Keep it simple, stupid!）  最初使用汇编语言开发，1973年，二人使用C重写了UNIX源码。 发展UNIX以源代码形式发行，形成了两个重要流派：    UNIX版本 主要发行版分支    UN">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-11-22T05:49:11.000Z">
-<meta property="article:modified_time" content="2024-11-24T05:25:47.123Z">
+<meta property="article:modified_time" content="2024-11-24T07:15:41.104Z">
 <meta property="article:author" content="Kisechan">
 <meta property="article:tag" content="CS">
 <meta name="twitter:card" content="summary_large_image">
@@ -262,7 +262,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-11-24T13:25:47+08:00
+                    本文最后更新于 2024-11-24T15:15:41+08:00
                   
                   
 
@@ -2159,20 +2159,20 @@
 </li>
 </ul>
 <p><code>/dev/xxy</code>是一个整体的磁盘，<code>dev/xxyn</code>是这个磁盘上的一个分区。</p>
-<h3 id="磁盘分区命令"><a href="#磁盘分区命令" class="headerlink" title="磁盘分区命令"></a>磁盘分区命令</h3><p><code>fdisk</code>命令对磁盘进行分区。语法为：<code>fdisk &#123;磁盘设备名&#125;</code>。使用<code>-l</code>选项可以显示磁盘分区表信息。</p>
+<h3 id="fdisk命令"><a href="#fdisk命令" class="headerlink" title="fdisk命令"></a><code>fdisk</code>命令</h3><p>对磁盘进行分区。语法为：<code>fdisk &#123;磁盘设备名&#125;</code>。使用<code>-l</code>选项可以显示磁盘分区表信息。</p>
 <p>例如：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">fdisk /dev/sdb<br><span class="hljs-comment"># 在第二块sd设备上创建分区</span><br></code></pre></td></tr></table></figure>
 
-<p><code>lsblk</code>用于列出块设备信息，用途与<code>fdisk -l</code>类似。</p>
-<p><code>blkid</code>用于查看块设备的文件系统类型，<code>LABEL</code>、<code>UUID</code>等信息。</p>
-<p><code>mkfs</code>用于在磁盘分区上创建文件系统，语法为<code>mkfs [选项] &#123;磁盘分区名&#125;</code>，选项<code>-t</code>用于创建执行的文件系统类型。例如：</p>
+<h3 id="lsblk命令"><a href="#lsblk命令" class="headerlink" title="lsblk命令"></a><code>lsblk</code>命令</h3><p>用于列出块设备信息，用途与<code>fdisk -l</code>类似。</p>
+<h3 id="blkid命令"><a href="#blkid命令" class="headerlink" title="blkid命令"></a><code>blkid</code>命令</h3><p>用于查看块设备的文件系统类型，<code>LABEL</code>、<code>UUID</code>等信息。</p>
+<h3 id="mkfs命令"><a href="#mkfs命令" class="headerlink" title="mkfs命令"></a><code>mkfs</code>命令</h3><p>用于在磁盘分区上创建文件系统，语法为<code>mkfs [选项] &#123;磁盘分区名&#125;</code>，选项<code>-t</code>用于创建执行的文件系统类型。例如：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">mkfs -t ext4 /dev/sdb1<br><span class="hljs-comment"># 分区类型指定为ext4</span><br></code></pre></td></tr></table></figure>
 
-<p><code>mount</code>用于挂载磁盘分区，语法为<code>mount [选项] &#123;磁盘分区文件&#125; &#123;目录&#125;</code>。</p>
+<h3 id="mount命令"><a href="#mount命令" class="headerlink" title="mount命令"></a><code>mount</code>命令</h3><p>用于挂载磁盘分区，语法为<code>mount [选项] &#123;磁盘分区文件&#125; &#123;目录&#125;</code>。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs bash">mount -t ext4 /dev/sdb1 /mnt/mdisk<br><span class="hljs-comment"># 将/dev/sdb1挂载到/mnt/mdisk，文件系统类型指定为ext4</span><br><br>mount<br><span class="hljs-comment"># 查看已挂载的文件系统</span><br><br>mount -a<br><span class="hljs-comment"># 将etc/fstab中所有的文件系统挂载</span><br></code></pre></td></tr></table></figure>
-<p><code>umount</code>用于卸载文件系统，<code>umount &#123;设备文件名/挂载文件系统的目录名&#125;</code>。</p>
-<p><code>df</code>列出磁盘分区空间使用情况，<code>-h</code>选项以易读方式显示。</p>
-<p><code>du</code>显示目录的磁盘使用情况。<code>-a</code>选项显示目录中目录和文件的占用情况。</p>
+<h3 id="umount命令"><a href="#umount命令" class="headerlink" title="umount命令"></a><code>umount</code>命令</h3><p>用于卸载文件系统，<code>umount &#123;设备文件名/挂载文件系统的目录名&#125;</code>。</p>
+<h3 id="df命令"><a href="#df命令" class="headerlink" title="df命令"></a><code>df</code>命令</h3><p>列出磁盘分区空间使用情况，<code>-h</code>选项以易读方式显示。</p>
+<h3 id="du命令"><a href="#du命令" class="headerlink" title="du命令"></a><code>du</code>命令</h3><p>显示目录的磁盘使用情况。<code>-a</code>选项显示目录中目录和文件的占用情况。</p>
 <h2 id="归档和压缩：tar工具"><a href="#归档和压缩：tar工具" class="headerlink" title="归档和压缩：tar工具"></a>归档和压缩：<code>tar</code>工具</h2><h3 id="打包"><a href="#打包" class="headerlink" title="打包"></a>打包</h3><p>使用<code>tar -cvf &#123;目标文件名&#125; &#123;（多个）文件名或目录&#125;</code>将一组文件打包到一个文件中。</p>
 <table>
 <thead>
