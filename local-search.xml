@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>利用vcpkg在VS中配置第三方库环境</title>
+    <link href="/2024/vcpkg/"/>
+    <url>/2024/vcpkg/</url>
+    
+    <content type="html"><![CDATA[<p>vcpkg是一个跨平台的C++包管理工具，可以自动下载、构建和配置第三方库，十分方便。</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>克隆vcpkg的源代码：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git <span class="hljs-built_in">clone</span> https://github.com/microsoft/vcpkg<br></code></pre></td></tr></table></figure><h2 id="构建"><a href="#构建" class="headerlink" title="构建"></a>构建</h2><p>clone完成后，进入vcpkg目录，运行：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">.\bootstrap-vcpkg.bat<br></code></pre></td></tr></table></figure><p>以构建vcpkg。</p><p>不太需要给vcpkg设置环境变量。</p><h2 id="集成至VS"><a href="#集成至VS" class="headerlink" title="集成至VS"></a>集成至VS</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">.\vcpkg integrate install<br></code></pre></td></tr></table></figure><p>此命令会将vcpkg的路径添加到VS的环境变量，从而能够自动配置第三方库。</p><h2 id="配置库"><a href="#配置库" class="headerlink" title="配置库"></a>配置库</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">.\vcpkg install [库名称]<br></code></pre></td></tr></table></figure><p>自动安装库，如果已经将vcpkg集成至VS，那么VS会自动检测到已安装的库。</p><p>如果自动集成没有成功，在VS中检测不到安装的库，那么就需要手动配置设置：</p><ul><li><strong>C&#x2F;C++-常规-附加包含目录：</strong>添加vcpkg下载的包目录的include路径</li><li><strong>链接器-常规-附加库目录：</strong>添加vcpkg下载的包目录的lib路径</li><li><strong>链接器-输入-附加依赖项：</strong>添加需要的库文件</li></ul><p>删除已下载的库：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">.\vcpkg remove [库名称]<br><br><span class="hljs-comment"># 如果该包被其他包依赖，vcpkg会提示你删除依赖项或强制删除</span><br><span class="hljs-comment"># 加上--recurse选项就可以强制删除</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>开发</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>数据结构板子合集</title>
     <link href="/2024/ds/"/>
     <url>/2024/ds/</url>
