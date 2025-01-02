@@ -27,7 +27,7 @@
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202501011908655.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202501011909022.png">
 <meta property="article:published_time" content="2024-12-09T13:45:11.000Z">
-<meta property="article:modified_time" content="2025-01-01T14:10:00.488Z">
+<meta property="article:modified_time" content="2025-01-02T11:06:13.360Z">
 <meta property="article:author" content="Kisechan">
 <meta property="article:tag" content="CS">
 <meta name="twitter:card" content="summary_large_image">
@@ -193,7 +193,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          6.3k 字
+          7k 字
         
       </span>
     
@@ -254,7 +254,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2025-01-01T22:10:00+08:00
+                    本文最后更新于 2025-01-02T19:06:13+08:00
                   
                   
 
@@ -272,6 +272,16 @@
 <h3 id="KMP算法实现2"><a href="#KMP算法实现2" class="headerlink" title="KMP算法实现2"></a>KMP算法实现2</h3><h4 id="next数组"><a href="#next数组" class="headerlink" title="next数组"></a>next数组</h4><p><code>next[j]</code>: <code>j</code>前字符串的最长公共前缀后缀的长度。</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">cal_next</span><span class="hljs-params">(<span class="hljs-type">char</span> p[])</span> </span>&#123;<br>    <span class="hljs-type">int</span> i = <span class="hljs-number">0</span>, j = <span class="hljs-number">-1</span>, m = <span class="hljs-built_in">strlen</span>(p); <span class="hljs-comment">// i 是后缀指针，j 是前缀指针</span><br>    next[<span class="hljs-number">0</span>] = <span class="hljs-number">-1</span>; <span class="hljs-comment">// 初始化 next[0] 为 -1</span><br>    <span class="hljs-keyword">while</span> (i &lt; m - <span class="hljs-number">1</span>) &#123;<br>        <span class="hljs-keyword">if</span> (j == <span class="hljs-number">-1</span> || p[i] == p[j]) &#123;<br>            i++, j++;<br>            next[i] = j; <span class="hljs-comment">// 更新 next[i]</span><br>        &#125; <span class="hljs-keyword">else</span> &#123;<br>            j = next[j]; <span class="hljs-comment">// 回溯 j</span><br>        &#125;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 <h4 id="查找子串-1"><a href="#查找子串-1" class="headerlink" title="查找子串"></a>查找子串</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">kmp</span><span class="hljs-params">(<span class="hljs-type">char</span> s[],<span class="hljs-type">char</span> p[])</span> </span>&#123;<br>    <span class="hljs-type">int</span> i=<span class="hljs-number">0</span>,j=<span class="hljs-number">0</span>,n=<span class="hljs-built_in">strlen</span>(s),m=<span class="hljs-built_in">strlen</span>(p);<br>    <span class="hljs-keyword">if</span> (n &lt; <span class="hljs-number">1</span> || m &lt; <span class="hljs-number">1</span> || n &lt; m) <span class="hljs-keyword">return</span> <span class="hljs-number">-1</span>;<br>    <span class="hljs-keyword">while</span>(i &lt; n &amp;&amp; j &lt; m)<br>        <span class="hljs-keyword">if</span>(j==<span class="hljs-number">-1</span> || s[i]==p[j]) i++,j++;<br>        <span class="hljs-keyword">else</span> j = next[j] ;<br>    <span class="hljs-keyword">return</span> j==m ? i-j : <span class="hljs-number">-1</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h3 id="总结和注意事项"><a href="#总结和注意事项" class="headerlink" title="总结和注意事项"></a>总结和注意事项</h3><p><strong><code>next</code> 数组的定义</strong></p>
+<ul>
+<li><code>next[i]</code> 表示模式串 <code>p</code> 的前缀 <code>p[0...i-1]</code> 的最长公共前后缀的长度。</li>
+<li><code>next[0]</code> 固定为 <code>-1</code>，因为第一个字符没有前缀。</li>
+</ul>
+<p><strong>关于计算</strong></p>
+<ul>
+<li>在计算最长公共前后缀时，<strong>不能将整个字符串本身</strong>作为前缀或后缀。</li>
+<li>前缀和后缀必须是字符串的<strong>真子串</strong>（即不能等于字符串本身）。</li>
+</ul>
 <h2 id="字典树-Trie"><a href="#字典树-Trie" class="headerlink" title="字典树 Trie"></a>字典树 Trie</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">struct</span> <span class="hljs-title class_">trie</span><br>&#123;<br>    <span class="hljs-type">int</span> nex[<span class="hljs-number">100000</span>][<span class="hljs-number">26</span>],cnt;<br>    <span class="hljs-type">bool</span> exist[<span class="hljs-number">100000</span>];<br>    <span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">insert</span><span class="hljs-params">(<span class="hljs-type">char</span>*s, <span class="hljs-type">int</span> l)</span></span><br><span class="hljs-function">    </span>&#123;<br>        <span class="hljs-type">int</span> p=<span class="hljs-number">0</span>;<br>        <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">0</span>;i&lt;l;i++)<br>        &#123;<br>            <span class="hljs-type">int</span> c=s[i]-<span class="hljs-string">&#x27;a&#x27;</span>;<br>            <span class="hljs-keyword">if</span>(!nex[p][c]) nex[p][c]=++cnt;<br>            p=nex[p][c];<br>        &#125;<br>        exist[p]=<span class="hljs-literal">true</span>;<br>    &#125;<br>    <span class="hljs-function"><span class="hljs-type">bool</span> <span class="hljs-title">find</span><span class="hljs-params">(<span class="hljs-type">char</span> *s, <span class="hljs-type">int</span> l)</span> </span><br><span class="hljs-function">    </span>&#123;<br>        <span class="hljs-type">int</span> p=<span class="hljs-number">0</span>;<br>        <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">0</span>;i&lt;l;i++)<br>        &#123;<br>            <span class="hljs-type">int</span> c=s[i]-<span class="hljs-string">&#x27;a&#x27;</span>;<br>            <span class="hljs-keyword">if</span>(!nex[p][c])<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>            p=nex[p][c];<br>        &#125;<br>        <span class="hljs-keyword">return</span> exist[p];<br>    &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
 <h1 id="树"><a href="#树" class="headerlink" title="树"></a>树</h1><h2 id="非递归树的遍历"><a href="#非递归树的遍历" class="headerlink" title="非递归树的遍历"></a>非递归树的遍历</h2><h3 id="中根遍历"><a href="#中根遍历" class="headerlink" title="中根遍历"></a>中根遍历</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">NonRecursiveInOrderTraversal</span><span class="hljs-params">(TreeNode* root)</span> </span>&#123;<br>    std::stack&lt;TreeNode*&gt; S;<br>    TreeNode* p = root;<br><br>    <span class="hljs-comment">// Traverse the tree</span><br>    <span class="hljs-keyword">while</span> (p != <span class="hljs-literal">NULL</span> || !S.<span class="hljs-built_in">empty</span>()) &#123;<br>        <span class="hljs-comment">// Reach the leftmost node</span><br>        <span class="hljs-keyword">while</span> (p != <span class="hljs-literal">NULL</span>) &#123;<br>            S.<span class="hljs-built_in">push</span>(p);<br>            p = p-&gt;left;<br>        &#125;<br><br>        <span class="hljs-comment">// Process the top node in the stack</span><br>        <span class="hljs-keyword">if</span> (!S.<span class="hljs-built_in">empty</span>()) &#123;<br>            p = S.<span class="hljs-built_in">top</span>();<br>            S.<span class="hljs-built_in">pop</span>();<br>            std::cout &lt;&lt; p-&gt;data &lt;&lt; <span class="hljs-string">&quot; &quot;</span>;  <span class="hljs-comment">// Visit the node</span><br><br>            <span class="hljs-comment">// Move to the right child</span><br>            p = p-&gt;right;<br>        &#125;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 <p>伪代码：</p>
@@ -314,11 +324,11 @@ Step 3: While the stack `S` is not empty:
 EndAlgorithm
 </code></pre>
 <h2 id="线索二叉树"><a href="#线索二叉树" class="headerlink" title="线索二叉树"></a>线索二叉树</h2><h2 id="Huffman树"><a href="#Huffman树" class="headerlink" title="Huffman树"></a>Huffman树</h2><p>为了使问题的处理更为方便，每当原二叉树中出现空子树时，就增加特殊的结点——空树叶，由此生成的二叉树称为<strong>扩充二叉树</strong>。规定空二叉树的扩充二叉树只有一个方形结点。圆形结点称为内结点 ，方形结点称为外结点。扩充二叉树每一个内结点都有两个儿子，每一个外结点没有儿子。</p>
-<p>扩充二叉树的<strong>外通路长度</strong>定义为从根到每个外结点的路径长度之和，内通路长度定义为从根到每个内结点的路径长度之和。给扩充二叉树中$n$个外结点赋上一个实数，称为该结点的权。树的加权外通路长度定义为：<br>$$<br>WPL&#x3D;\sum_{i&#x3D;1}^{n} w_i L_i<br>$$<br>在外结点权值分别为 $w_0,w_1…w_{n-1}$的扩充二叉树中，加权外通路长度最小的扩充二叉树称为<strong>最优二叉树</strong>，即<strong>Huffman树</strong>。</p>
+<p>扩充二叉树的<strong>外通路长度</strong>定义为从根到每个外结点的路径长度之和，内通路长度定义为从根到每个内结点的路径长度之和。给扩充二叉树中$n$个外结点赋上一个实数，称为该结点的权。树的加权外通路长度定义为：<br>$$<br>\text{WPL}&#x3D;\sum_{i&#x3D;1}^{n} w_i L_i<br>$$<br>在外结点权值分别为 $w_0,w_1…w_{n-1}$的扩充二叉树中，加权外通路长度最小的扩充二叉树称为<strong>最优二叉树</strong>，即<strong>Huffman树</strong>。</p>
 <p>建立Huffman树：</p>
 <ul>
 <li>利用堆（优先队列）：复杂度$O(n\log n)$</li>
-<li>把结点分成两类：原始和生成，每种都递增两个递增序列取最小，数组或队列均可，建议数组，时间复杂度$O(n)$。<br>$$<br>总编码长度&#x3D;WPL<br>$$</li>
+<li>把结点分成两类：原始和生成，每种都递增两个递增序列取最小，数组或队列均可，建议数组，时间复杂度$O(n)$。<br>$$<br>总编码长度&#x3D;\text{WPL}<br>$$</li>
 </ul>
 <h2 id="树、二叉树和森林"><a href="#树、二叉树和森林" class="headerlink" title="树、二叉树和森林"></a>树、二叉树和森林</h2><h3 id="树和二叉树的转换"><a href="#树和二叉树的转换" class="headerlink" title="树和二叉树的转换"></a>树和二叉树的转换</h3><p><img src="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202501011906113.png" srcset="/img/loading.gif" lazyload alt="树和二叉树的转换"></p>
 <ol>
@@ -428,7 +438,7 @@ EndAlgorithm
 <ol>
 <li><p>初始化： $U&#x3D;{u_0},u_0\in V,TE&#x3D;\emptyset$</p>
 </li>
-<li><p>找到满足$weight(u,v)&#x3D; min{weight(u_1 ,v_1)|u_1\in U, v_1\in V-U}$,的边把它并入 $TE$ 同时 $v$ 并入 $U$</p>
+<li><p>找到满足$\text{weight}(u,v)&#x3D; \text{min} {\text{weight}(u_1 ,v_1)|u_1\in U, v_1\in V-U}$,的边把它并入 $TE$ 同时 $v$ 并入 $U$</p>
 </li>
 <li><p>反复执行 2,直至 $V&#x3D;U$ 算法结束</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><code class="hljs cpp">priority_queue&lt;S&gt; q;<br><span class="hljs-type">int</span> dis[N];<br><span class="hljs-type">bool</span> vis[N];<br><br><span class="hljs-type">int</span> res = <span class="hljs-number">0</span>, cnt = <span class="hljs-number">0</span>;<br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Prim</span><span class="hljs-params">()</span> </span>&#123;<br>  <span class="hljs-built_in">memset</span>(dis, <span class="hljs-number">0x3f</span>, <span class="hljs-built_in">sizeof</span>(dis));<br>  dis[<span class="hljs-number">1</span>] = <span class="hljs-number">0</span>;<br>  q.<span class="hljs-built_in">push</span>(&#123;<span class="hljs-number">1</span>, <span class="hljs-number">0</span>&#125;);<br>  <span class="hljs-keyword">while</span> (!q.<span class="hljs-built_in">empty</span>()) &#123;<br>    <span class="hljs-keyword">if</span> (cnt &gt;= n) <span class="hljs-keyword">break</span>;<br>    <span class="hljs-type">int</span> u = q.<span class="hljs-built_in">top</span>().u, d = q.<span class="hljs-built_in">top</span>().d;<br>    q.<span class="hljs-built_in">pop</span>();<br>    <span class="hljs-keyword">if</span> (vis[u]) <span class="hljs-keyword">continue</span>;<br>    vis[u] = <span class="hljs-literal">true</span>;<br>    ++cnt;<br>    res += d;<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = h[u]; i; i = e[i].x) &#123;<br>      <span class="hljs-type">int</span> v = e[i].v, w = e[i].w;<br>      <span class="hljs-keyword">if</span> (w &lt; dis[v]) &#123;<br>        dis[v] = w, q.<span class="hljs-built_in">push</span>(&#123;v, w&#125;);<br>      &#125;<br>    &#125;<br>  &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
@@ -449,7 +459,7 @@ EndAlgorithm
 <ul>
 <li>$O( e \log e)$</li>
 </ul>
-<h2 id="拓扑排序"><a href="#拓扑排序" class="headerlink" title="拓扑排序"></a>拓扑排序</h2><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><p><strong>AOV 网</strong>：用顶点表示活动，用有向边表示活动之间的先后关系，称这样的有向图为 AOV 网 (Activity On Vertex。</p>
+<h2 id="拓扑排序"><a href="#拓扑排序" class="headerlink" title="拓扑排序"></a>拓扑排序</h2><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><p><strong>AOV 网</strong>：用顶点表示活动，用有向边表示活动之间的先后关系，称这样的有向图为 AOV 网 (Activity On Vertex)。</p>
 <p>拓扑序列：AOV 网中的所有顶点的一个线性序列，要求：如果在有向边 $&lt;V_i,V_j &gt;$，那么在序列中 $V_i$必位于 $V_j$ 之前。</p>
 <p>拓扑排序：构造 AOV 网的拓扑序列的过程称作拓扑排序</p>
 <h3 id="二级结论"><a href="#二级结论" class="headerlink" title="二级结论"></a>二级结论</h3><p>任意图的拓扑序列不一定存在。例如，存在回路的 AOV 网就无法找到拓扑序列。因为出现了有向环，则意味着某项活动以自己作为先决条件。</p>
@@ -458,16 +468,16 @@ EndAlgorithm
 <h3 id="关键路径"><a href="#关键路径" class="headerlink" title="关键路径"></a>关键路径</h3><p><strong>关键路径</strong>： AOE 网中具有最大长度的路径。</p>
 <p><strong>关键活动</strong>：不得延期的活动。</p>
 <p>关键活动是关键路径上的活动；关键路径是<strong>从源点到汇点由关键活动构成的路径</strong>。</p>
-<p>**最早开始时间$ve$**：按拓扑序递推，<br>$$<br>ve(k) &#x3D;<br>\begin{cases}<br>0, &amp; \text{if } k &#x3D; 1 \<br>\max { ve(j) + \text{weight}(&lt;j, k&gt;) }, &amp; \text{if } &lt;v_j, v_k&gt; \in E(G)<br>\end{cases}<br>$$<br>**最晚开始时间$vl$**：按拓扑序逆推，<br>$$<br>vl(k) &#x3D;<br>\begin{cases}<br>ve(n), &amp; \text{if } k &#x3D; n \<br>\min { vl(j) - \text{weight}(&lt;k, j&gt;) }, &amp; \text{if } &lt;v_k, v_j&gt; \in E(G)<br>\end{cases}<br>$$</p>
-<p><strong>关键活动</strong>： $vl(i)&#x3D;ve(i)$，表示活动 $a_i￥ 是没有时间余量的关键活动。</p>
+<p>最早开始时间$ve$：按拓扑序递推，<br>$$<br>ve(k) &#x3D;<br>\begin{cases}<br>0, &amp; \text{if } k &#x3D; 1 \<br>\max { ve(j) + \text{weight}(&lt;j, k&gt;) }, &amp; \text{if } &lt;v_j, v_k&gt; \in E(G)<br>\end{cases}<br>$$<br>最晚开始时间$vl$：按拓扑序逆推，<br>$$<br>vl(k) &#x3D;<br>\begin{cases}<br>ve(n), &amp; \text{if } k &#x3D; n \<br>\min { vl(j) - \text{weight}(&lt;k, j&gt;) }, &amp; \text{if } &lt;v_k, v_j&gt; \in E(G)<br>\end{cases}<br>$$</p>
+<p><strong>关键活动</strong>： $vl(i)&#x3D;ve(i)$，表示活动 $a_i$是没有时间余量的关键活动。</p>
 <h2 id="强联通分量"><a href="#强联通分量" class="headerlink" title="强联通分量"></a>强联通分量</h2><p>有向图中如果两个点能互相可及（或连通）则称这两个点强连通。</p>
 <p>有向图 $G$ 中任意两点互相可及（或连通） ，则称$G$ 是强连通图。</p>
 <p>有向图 $G$ 的极大强连通子图，称为<strong>强连通分量</strong>（SCC,Strongly Connected Component）。</p>
-<p>Tarjan算法</p>
+<p><strong>Tarjan算法</strong></p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">const</span> <span class="hljs-type">int</span> MAXN = <span class="hljs-number">1000</span>; <span class="hljs-comment">// 最大节点数</span><br>vector&lt;<span class="hljs-type">int</span>&gt; adj[MAXN]; <span class="hljs-comment">// 邻接表存储图</span><br><span class="hljs-type">int</span> DFN[MAXN], Low[MAXN]; <span class="hljs-comment">// DFN[u]：节点u的访问顺序，Low[u]：节点u能追溯到的最早节点</span><br><span class="hljs-type">bool</span> inStack[MAXN]; <span class="hljs-comment">// 记录节点是否在栈中</span><br>stack&lt;<span class="hljs-type">int</span>&gt; stk; <span class="hljs-comment">// 用于存储当前路径上的节点</span><br><span class="hljs-type">int</span> Index = <span class="hljs-number">0</span>; <span class="hljs-comment">// 全局索引，用于分配DFN值</span><br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">tarjan</span><span class="hljs-params">(<span class="hljs-type">int</span> u)</span> </span>&#123;<br>    DFN[u] = Low[u] = ++Index; <span class="hljs-comment">// 初始化DFN和Low</span><br>    stk.<span class="hljs-built_in">push</span>(u); <span class="hljs-comment">// 将当前节点压入栈</span><br>    inStack[u] = <span class="hljs-literal">true</span>; <span class="hljs-comment">// 标记节点在栈中</span><br><br>    <span class="hljs-comment">// 遍历所有邻接节点</span><br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> v : adj[u]) &#123;<br>        <span class="hljs-keyword">if</span> (!DFN[v]) &#123; <span class="hljs-comment">// 如果节点v未被访问过</span><br>            <span class="hljs-built_in">tarjan</span>(v); <span class="hljs-comment">// 递归访问v</span><br>            Low[u] = <span class="hljs-built_in">min</span>(Low[u], Low[v]); <span class="hljs-comment">// 更新Low[u]</span><br>        &#125; <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (inStack[v]) &#123; <span class="hljs-comment">// 如果节点v在栈中</span><br>            Low[u] = <span class="hljs-built_in">min</span>(Low[u], DFN[v]); <span class="hljs-comment">// 更新Low[u]</span><br>        &#125;<br>    &#125;<br><br>    <span class="hljs-comment">// 如果u是强连通分量的根</span><br>    <span class="hljs-keyword">if</span> (DFN[u] == Low[u]) &#123;<br>        cout &lt;&lt; <span class="hljs-string">&quot;Strongly Connected Component: &quot;</span>;<br>        <span class="hljs-keyword">while</span> (<span class="hljs-literal">true</span>) &#123;<br>            <span class="hljs-type">int</span> v = stk.<span class="hljs-built_in">top</span>(); <span class="hljs-comment">// 取出栈顶节点</span><br>            stk.<span class="hljs-built_in">pop</span>(); <span class="hljs-comment">// 弹出栈顶节点</span><br>            inStack[v] = <span class="hljs-literal">false</span>; <span class="hljs-comment">// 标记节点不在栈中</span><br>            cout &lt;&lt; v &lt;&lt; <span class="hljs-string">&quot; &quot;</span>; <span class="hljs-comment">// 输出节点</span><br>            <span class="hljs-keyword">if</span> (v == u) <span class="hljs-keyword">break</span>; <span class="hljs-comment">// 直到当前节点u被弹出</span><br>        &#125;<br>        cout &lt;&lt; endl;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>类似 DFS，如果求全图的SCC，每次选择一个未被访问的顶点u运行Tarjan算法。</p>
-<p>DFN数组可作访问标志</p>
-<p>inStack数组：顶点在栈中标志</p>
+<p>类似 DFS，如果求全图的SCC，每次选择一个未被访问的顶点<code>u</code>运行Tarjan算法。</p>
+<p><code>DFN</code>数组可作访问标志</p>
+<p><code>inStack</code>数组：顶点在栈中标志</p>
 <p>Tarjan算法中，每个顶点都被访问了一次，且只进出了一次堆栈，每条边也只被访问了一次，所以该算法的时间复杂度为 $O(n+e)$。</p>
 <h1 id="查找"><a href="#查找" class="headerlink" title="查找"></a>查找</h1><h2 id="概念-1"><a href="#概念-1" class="headerlink" title="概念"></a>概念</h2><table>
 <thead>
@@ -553,7 +563,7 @@ EndAlgorithm
 <p>$\theta$值接近0或1将导致散列地址集中在表的末端，$\theta$取0.618实验效果较好。</p>
 <h3 id="冲突消解"><a href="#冲突消解" class="headerlink" title="冲突消解"></a>冲突消解</h3><h4 id="拉链法"><a href="#拉链法" class="headerlink" title="拉链法"></a>拉链法</h4><p>对$h$值域$[0 , M−1]$中的每个值保持一个链表。</p>
 <p>每个链表中存放一组关键词互相冲突的记录，该组关键词有$h(K1)&#x3D;h(K2)&#x3D;…&#x3D;h(Kt)$。</p>
-<p>每个链表LIST[i]有一个表头HEAD[i] , $i&#x3D;h(K)+1$. 同一个链表中的记录按某种次序链接在一起。</p>
+<p>每个链表<code>LIST[i]</code>有一个表头<code>HEAD[i]</code>, $i&#x3D;h(K)+1$. 同一个链表中的记录按某种次序链接在一起。</p>
 <p>期望时间复杂度$O(1+\lambda)$，空间复杂度$O(M+N)$</p>
 <h4 id="开地址法"><a href="#开地址法" class="headerlink" title="开地址法"></a>开地址法</h4><p>插入关键词值为$K$的新元素的方法是：从地址$h(K)$开始, 按照某种次序探查插入新元素的空位置。其被检查的位置序列称为探查序列。</p>
 <ul>
@@ -566,9 +576,27 @@ EndAlgorithm
 <ul>
 <li>优点: 简单</li>
 <li>缺点: 基本聚集（容易使许多元素在散列表中连成一片，从而使探查的次数增加，影响查找效率）</li>
-<li>经验：M一般取N的5倍</li>
+<li>经验：$M$一般取$N$的5倍</li>
 </ul>
 <p>不能简单地将一个元素清除，这会隔离探查序列后面的元素，从而影响后面元素的查找过程。</p>
+<h2 id="查找长度"><a href="#查找长度" class="headerlink" title="查找长度"></a>查找长度</h2><p><strong>平均查找长度（Average Search Length, ASL）</strong> 是二叉搜索树或其他数据结构中，查找操作的平均路径长度的度量。它衡量了查找某个元素所需要的比较次数。</p>
+<p>查找操作可以分为两种情况：</p>
+<ul>
+<li><strong>查找成功（Successful Search）</strong>：即查找到目标元素。</li>
+<li><strong>查找失败（Unsuccessful Search）</strong>：即没有找到目标元素。</li>
+</ul>
+<p><strong>查找成功的平均查找长度</strong> 是指，在所有成功查找的情况下，平均需要多少次比较才能找到目标元素。它通常由树的<strong>深度</strong>（即节点到根的距离）来度量。</p>
+<p>计算方法：</p>
+<ul>
+<li>对于每个成功查找的节点，我们记录从根节点到该节点的路径长度（即节点的深度）。</li>
+<li>查找成功的平均查找长度是所有成功查找的路径长度的平均值。</li>
+</ul>
+<p>假设一个二叉搜索树中有 $n$ 个节点，并且我们从根节点到每个节点的路径长度为 $d_i$，其中 $1 \leq i \leq n$ 是每个节点的索引。那么，查找成功的平均查找长度 $\text{ASL}<em>{\text{success}}$ 可以通过以下公式计算：<br>$$<br>\text{ASL}</em>{\text{success}} &#x3D; \frac{1}{n} \sum_{i&#x3D;1}^{n} d_i<br>$$<br>其中，$d_i$ 是第 $i$ 个节点的深度。</p>
+<p><strong>查找失败的平均查找长度</strong> 是指，在查找操作没有找到目标元素的情况下，平均需要多少次比较。查找失败时，路径长度是指从根节点到查找失败位置的路径长度，即搜索的终止位置。</p>
+<p>假设树的总节点数为 $n$，查找失败时，路径长度一般会比查找成功时长，因为失败的查找通常会到达树的某一空子树。计算失败的查找路径长度时，涉及所有可能查找的失败位置。</p>
+<p>对于二叉搜索树，查找失败的路径通常与树的结构有很大关系。如果树接近平衡（即树的高度较小），则查找失败时的路径较短。如果树是不平衡的（例如，像链表一样），失败路径可能较长。</p>
+<p>$$<br>\text{ASL}<em>{\text{failure}} &#x3D; \frac{1}{n+1} \sum</em>{i&#x3D;1}^{n+1} d’_i<br>$$</p>
+<p>其中，$d’_i$ 是失败查找的位置的深度，$n+1$ 是树中假设的额外一个失败查找位置（即空子树位置）。这个计算通常需要根据树的具体结构来分析，或者通过模拟来估算。</p>
 <h1 id="排序"><a href="#排序" class="headerlink" title="排序"></a>排序</h1><h2 id="排序算法复杂度"><a href="#排序算法复杂度" class="headerlink" title="排序算法复杂度"></a>排序算法复杂度</h2><table>
 <thead>
 <tr>
