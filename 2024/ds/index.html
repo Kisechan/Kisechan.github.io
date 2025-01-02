@@ -16,18 +16,18 @@
   <meta name="author" content="Kisechan">
   <meta name="keywords" content="">
   
-    <meta name="description" content="线性表-栈-队列字符串模式匹配朴素的模式匹配，复杂度为$O(mn)$ 利用KMP算法的思想，需要实现前缀函数&#x2F;失败函数：$$f(j) &#x3D;\begin{cases}k, &amp; \text{( k ) 为满足 } p_0 p_1 \dots p_k &#x3D; p_{j-k} p_{j-k+1} \dots p_j \text{ 的最大值，且 } 0 \leq k &lt;">
+    <meta name="description" content="关于数据结构数据结构研究组织数据（结构化信息）的方法，以支持有效——满足时空限制的处理。 数据数据是计算机程序要处理的“原料” 是所有被计算机识别、存储和加工处理的符号的总称。 数据元素是组成数据的基本单位，也称数据成分、元素、结点等。数据可理解成数据元素的集合。数据元素可大可小，在程序中通常把一个数据元素作为一个整体来考虑和处理。 数据元素可由若干数据项组成。数据项也称为域、字段等。 数据结构数">
 <meta property="og:type" content="article">
 <meta property="og:title" content="数据结构课程板子合集&amp;笔记">
 <meta property="og:url" content="http://kisechan.github.io/2024/ds/index.html">
 <meta property="og:site_name" content="Kisechan&#39;s Blog">
-<meta property="og:description" content="线性表-栈-队列字符串模式匹配朴素的模式匹配，复杂度为$O(mn)$ 利用KMP算法的思想，需要实现前缀函数&#x2F;失败函数：$$f(j) &#x3D;\begin{cases}k, &amp; \text{( k ) 为满足 } p_0 p_1 \dots p_k &#x3D; p_{j-k} p_{j-k+1} \dots p_j \text{ 的最大值，且 } 0 \leq k &lt;">
+<meta property="og:description" content="关于数据结构数据结构研究组织数据（结构化信息）的方法，以支持有效——满足时空限制的处理。 数据数据是计算机程序要处理的“原料” 是所有被计算机识别、存储和加工处理的符号的总称。 数据元素是组成数据的基本单位，也称数据成分、元素、结点等。数据可理解成数据元素的集合。数据元素可大可小，在程序中通常把一个数据元素作为一个整体来考虑和处理。 数据元素可由若干数据项组成。数据项也称为域、字段等。 数据结构数">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202501011906113.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202501011908655.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202501011909022.png">
 <meta property="article:published_time" content="2024-12-09T13:45:11.000Z">
-<meta property="article:modified_time" content="2025-01-02T11:06:13.360Z">
+<meta property="article:modified_time" content="2025-01-02T12:24:19.106Z">
 <meta property="article:author" content="Kisechan">
 <meta property="article:tag" content="CS">
 <meta name="twitter:card" content="summary_large_image">
@@ -193,7 +193,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          7k 字
+          7.6k 字
         
       </span>
     
@@ -254,7 +254,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2025-01-02T19:06:13+08:00
+                    本文最后更新于 2025-01-02T20:24:19+08:00
                   
                   
 
@@ -264,7 +264,81 @@
             
               <div class="markdown-body">
                 
-                <h1 id="线性表-栈-队列"><a href="#线性表-栈-队列" class="headerlink" title="线性表-栈-队列"></a>线性表-栈-队列</h1><h1 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h1><h2 id="模式匹配"><a href="#模式匹配" class="headerlink" title="模式匹配"></a>模式匹配</h2><p>朴素的模式匹配，复杂度为$O(mn)$</p>
+                <h1 id="关于数据结构"><a href="#关于数据结构" class="headerlink" title="关于数据结构"></a>关于数据结构</h1><p>数据结构研究组织数据（结构化信息）的方法，以支持<strong>有效</strong>——满足时空限制的处理。</p>
+<h2 id="数据"><a href="#数据" class="headerlink" title="数据"></a>数据</h2><p><strong>数据</strong>是计算机程序要处理的“原料” 是所有被计算机识别、存储和加工处理的符号的总称。</p>
+<p><strong>数据元素</strong>是组成数据的基本单位，也称数据成分、元素、结点等。数据可理解成数据元素的集合。数据元素可大可小，在程序中通常把一个数据元素作为一个整体来考虑和处理。</p>
+<p>数据元素可由若干<strong>数据项</strong>组成。数据项也称为域、字段等。</p>
+<h2 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h2><p>数据结构由三部分组成：</p>
+<ul>
+<li><p><strong>数据的逻辑结构</strong>：数据元素和它们之间的逻辑关系。</p>
+</li>
+<li><p><strong>数据的存储结构</strong>：逻辑结构到存储空间的映射。</p>
+<ul>
+<li>顺序存储结构</li>
+<li>链接存储结构</li>
+<li>索引存储结构</li>
+<li>散列存储结构</li>
+</ul>
+</li>
+<li><p><strong>运算（操作）</strong>：CURD、排序</p>
+</li>
+</ul>
+<h2 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h2><p>算法是<strong>有穷规则的集合</strong>，规定了解决某一特定<br>类型问题的运算序列。</p>
+<p>通常，一个算法有5个重要特性（Knuth）：</p>
+<ol>
+<li><strong>有限性</strong>：算法必须在执行有限步后结束；</li>
+<li><strong>确定性</strong>：算法描述必须无歧义，通常结果确定；</li>
+<li><strong>可行性</strong>：算法中的运算必须是可行的；</li>
+<li><strong>输入</strong>：一个算法有零个或多个输入；</li>
+<li><strong>输出</strong>：一个算法有一个或多个输出；</li>
+</ol>
+<h1 id="线性表-栈-队列"><a href="#线性表-栈-队列" class="headerlink" title="线性表-栈-队列"></a>线性表-栈-队列</h1><h2 id="概念辨析"><a href="#概念辨析" class="headerlink" title="概念辨析"></a>概念辨析</h2><table>
+<thead>
+<tr>
+<th>特性</th>
+<th>线性表</th>
+<th>堆栈</th>
+<th>队列</th>
+<th>链表</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>逻辑结构</strong></td>
+<td>一对一的有序集合</td>
+<td>特殊的线性表（LIFO）</td>
+<td>特殊的线性表（FIFO）</td>
+<td>物理存储结构</td>
+</tr>
+<tr>
+<td><strong>操作限制</strong></td>
+<td>无特殊限制</td>
+<td>只能在栈顶操作</td>
+<td>队尾插入，队头删除</td>
+<td>无特殊限制</td>
+</tr>
+<tr>
+<td><strong>实现方式</strong></td>
+<td>顺序表、链表</td>
+<td>顺序栈、链式栈</td>
+<td>顺序队列、链式队列</td>
+<td>单向链表、双向链表、循环链表</td>
+</tr>
+<tr>
+<td><strong>访问方式</strong></td>
+<td>支持随机访问（顺序表）</td>
+<td>不支持随机访问</td>
+<td>不支持随机访问</td>
+<td>不支持随机访问</td>
+</tr>
+<tr>
+<td><strong>典型应用</strong></td>
+<td>通用数据存储</td>
+<td>函数调用栈、表达式求值</td>
+<td>任务调度、缓冲区管理</td>
+<td>动态数据存储</td>
+</tr>
+</tbody></table>
+<h1 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h1><h2 id="模式匹配"><a href="#模式匹配" class="headerlink" title="模式匹配"></a>模式匹配</h2><p>朴素的模式匹配，复杂度为$O(mn)$</p>
 <p>利用KMP算法的思想，需要实现前缀函数&#x2F;失败函数：<br>$$<br>f(j) &#x3D;<br>\begin{cases}<br>k, &amp; \text{( k ) 为满足 } p_0 p_1 \dots p_k &#x3D; p_{j-k} p_{j-k+1} \dots p_j \text{ 的最大值，且 } 0 \leq k &lt; j \<br>-1, &amp; \text{其他情况}<br>\end{cases}<br>$$</p>
 <h3 id="KMP算法实现1"><a href="#KMP算法实现1" class="headerlink" title="KMP算法实现1"></a>KMP算法实现1</h3><h4 id="前缀函数"><a href="#前缀函数" class="headerlink" title="前缀函数"></a>前缀函数</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-function">vector&lt;<span class="hljs-type">int</span>&gt; <span class="hljs-title">pi</span><span class="hljs-params">(string&amp;s)</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> n=s.<span class="hljs-built_in">length</span>();<br>    vector&lt;<span class="hljs-type">int</span>&gt;<span class="hljs-built_in">pi</span>(n);<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">1</span>;i&lt;n;i++)<br>    &#123;<br>        <span class="hljs-type">int</span> j=pi[i<span class="hljs-number">-1</span>];<br>        <span class="hljs-keyword">while</span>(j&gt;<span class="hljs-number">0</span>&amp;&amp;s[i]!=s[j]) j=pi[j<span class="hljs-number">-1</span>];<br>        <span class="hljs-keyword">if</span>(s[i]==s[j]) j++;<br>        pi[i]=j;<br>    &#125;<br>    <span class="hljs-keyword">return</span> pi;<br>&#125;<br></code></pre></td></tr></table></figure>
 <p>时间复杂度$O(n)$。</p>
@@ -355,14 +429,7 @@ EndAlgorithm
 <blockquote>
 <p>2.假设树中结点个数小于 $n(n \geq 2)$ 时定理成立。<br>当树中有$n$个结点时，由树的先根序列可知，第一个结点是根结点，设该结点的次数为 $k,(k\geq1)$ 因此根结点有 $k$个子树。第一个子树排在最前面 第 $k$个子树排在最后面并且每个子树的结点个数小于$n$。由归纳假设可知 每个子树可以唯一确定 从而整棵树的树形可以唯一确定。</p>
 </blockquote>
-<h1 id="其他数据结构"><a href="#其他数据结构" class="headerlink" title="其他数据结构"></a>其他数据结构</h1><h2 id="并查集"><a href="#并查集" class="headerlink" title="并查集"></a>并查集</h2><p>时间复杂度：</p>
-<ul>
-<li>查找： $O(n)$</li>
-<li>合并： $O(n)$</li>
-<li>启发式合并： $O( n\log n )$</li>
-</ul>
-<p>空间复杂度：$O(n)$</p>
-<h1 id="图论"><a href="#图论" class="headerlink" title="图论"></a>图论</h1><h2 id="图的存储"><a href="#图的存储" class="headerlink" title="图的存储"></a>图的存储</h2><h3 id="邻接矩阵和邻接链表"><a href="#邻接矩阵和邻接链表" class="headerlink" title="邻接矩阵和邻接链表"></a>邻接矩阵和邻接链表</h3><table>
+<h2 id="概念辨析-1"><a href="#概念辨析-1" class="headerlink" title="概念辨析"></a>概念辨析</h2><h1 id="图论"><a href="#图论" class="headerlink" title="图论"></a>图论</h1><h2 id="图的存储"><a href="#图的存储" class="headerlink" title="图的存储"></a>图的存储</h2><h3 id="邻接矩阵和邻接链表"><a href="#邻接矩阵和邻接链表" class="headerlink" title="邻接矩阵和邻接链表"></a>邻接矩阵和邻接链表</h3><table>
 <thead>
 <tr>
 <th align="center"></th>
@@ -689,6 +756,13 @@ EndAlgorithm
 <td>不稳定</td>
 </tr>
 </tbody></table>
+<h1 id="其他数据结构"><a href="#其他数据结构" class="headerlink" title="其他数据结构"></a>其他数据结构</h1><h2 id="并查集"><a href="#并查集" class="headerlink" title="并查集"></a>并查集</h2><p>时间复杂度：</p>
+<ul>
+<li>查找： $O(n)$</li>
+<li>合并： $O(n)$</li>
+<li>启发式合并： $O( n\log n )$</li>
+</ul>
+<p>空间复杂度：$O(n)$</p>
 
                 
               </div>
