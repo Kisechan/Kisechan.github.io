@@ -7,8 +7,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="apple-touch-icon" sizes="76x76" href="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202406032122134.jpg">
-  <link rel="icon" href="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202406032122134.jpg">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202502042130299.jpg">
+  <link rel="icon" href="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202502042130299.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
@@ -16,20 +16,22 @@
   <meta name="author" content="Kisechan">
   <meta name="keywords" content="">
   
-    <meta name="description" content="这是本人为了应付学校oop考试（结果还是喜提3.7），以课程ppt为基础整合出来给自己复习的文章。 Markdown源文件（Github仓库） 仓库里的内容会不定期更新。 面向对象编程 面向对象的三要素   封装与数据屏蔽   继承与重用   多态   面向对象编程的过程   OOA：面向对象分析（干什么）   OOD：面向对象设计（怎样干）   OOP：面向对象编程（实现）   面向对象的原则">
+    <meta name="description" content="这是本人为了应付学校oop考试（结果还是喜提3.7），以课程ppt为基础整合出来给自己复习的文章。 面向对象编程 面向对象的三要素   封装与数据屏蔽   继承与重用   多态   面向对象编程的过程   OOA：面向对象分析（干什么）   OOD：面向对象设计（怎样干）   OOP：面向对象编程（实现）   面向对象的原则    原则 解释     单一职责 一个大类不如多个小类灵活   接口隔">
 <meta property="og:type" content="article">
 <meta property="og:title" content="《面向对象程序设计》笔记">
 <meta property="og:url" content="http://kisechan.github.io/2024/oop/index.html">
 <meta property="og:site_name" content="Kisechan&#39;s Blog">
-<meta property="og:description" content="这是本人为了应付学校oop考试（结果还是喜提3.7），以课程ppt为基础整合出来给自己复习的文章。 Markdown源文件（Github仓库） 仓库里的内容会不定期更新。 面向对象编程 面向对象的三要素   封装与数据屏蔽   继承与重用   多态   面向对象编程的过程   OOA：面向对象分析（干什么）   OOD：面向对象设计（怎样干）   OOP：面向对象编程（实现）   面向对象的原则">
+<meta property="og:description" content="这是本人为了应付学校oop考试（结果还是喜提3.7），以课程ppt为基础整合出来给自己复习的文章。 面向对象编程 面向对象的三要素   封装与数据屏蔽   继承与重用   多态   面向对象编程的过程   OOA：面向对象分析（干什么）   OOD：面向对象设计（怎样干）   OOP：面向对象编程（实现）   面向对象的原则    原则 解释     单一职责 一个大类不如多个小类灵活   接口隔">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202406021046984.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202406021048565.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202406021337183.svg">
 <meta property="article:published_time" content="2024-05-31T22:00:00.000Z">
-<meta property="article:modified_time" content="2024-07-19T08:20:42.133Z">
+<meta property="article:modified_time" content="2024-06-28T03:30:12.000Z">
 <meta property="article:author" content="Kisechan">
-<meta property="article:tag" content="CS">
+<meta property="article:tag" content="C++">
+<meta property="article:tag" content="课程笔记">
+<meta property="article:tag" content="OOP">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202406021046984.png">
   
@@ -75,7 +77,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"kisechan.github.io","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"left","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"kisechan.github.io","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":["home"]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":true,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"left","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -101,7 +103,7 @@
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <strong>Kisechan</strong>
+      <strong>KISECHAN</strong>
     </a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
@@ -138,6 +140,30 @@
             </li>
           
         
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
         
           <li class="nav-item" id="search-btn">
             <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
@@ -161,13 +187,13 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202404301748480.jpg') no-repeat center center; background-size: cover;">
+     style="background: url('https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202502042159748.png') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="《面向对象程序设计》笔记"></span>
+            <span id="subtitle">《面向对象程序设计》笔记</span>
           
         </div>
 
@@ -256,7 +282,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-07-19T16:20:42+08:00
+                    本文最后更新于 2024-06-28T11:30:12+08:00
                   
                   
 
@@ -267,8 +293,6 @@
               <div class="markdown-body">
                 
                 <p>这是本人为了应付学校oop考试（结果还是喜提3.7），以课程ppt为基础整合出来给自己复习的文章。</p>
-<p><a target="_blank" rel="noopener" href="https://github.com/Kisechan/oop-notes">Markdown源文件（Github仓库）</a></p>
-<p>仓库里的内容会不定期更新。</p>
 <h1>面向对象编程</h1>
 <h2 id="面向对象的三要素">面向对象的三要素</h2>
 <ul>
@@ -1076,11 +1100,36 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/" class="category-chain-item">计算机</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
   
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/CS/" class="print-no-link">#CS</a>
+        <a href="/tags/C/" class="print-no-link">#C++</a>
+      
+        <a href="/tags/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/" class="print-no-link">#课程笔记</a>
+      
+        <a href="/tags/OOP/" class="print-no-link">#OOP</a>
       
     </div>
   
@@ -1200,7 +1249,7 @@
     <div class="footer-inner">
   
     <div class="footer-content">
-       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+       <span>Powered by </span> <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <span> | Theme </span> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
     </div>
   
   
@@ -1216,7 +1265,7 @@
   <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
 
   <script>
-    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.configure({"showSpinner":true,"trickleSpeed":100})
     NProgress.start()
     window.addEventListener('load', function() {
       NProgress.done();
@@ -1229,21 +1278,6 @@
 <script  src="/js/events.js" ></script>
 <script  src="/js/plugins.js" ></script>
 
-
-  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
-  <script>
-    (function (window, document) {
-      var typing = Fluid.plugins.typing;
-      var subtitle = document.getElementById('subtitle');
-      if (!subtitle || !typing) {
-        return;
-      }
-      var text = subtitle.getAttribute('data-typed-text');
-      
-        typing(text);
-      
-    })(window, document);
-  </script>
 
 
 
