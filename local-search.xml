@@ -71,7 +71,7 @@
     
     <categories>
       
-      <category>计算机</category>
+      <category>计算机课程笔记</category>
       
     </categories>
     
@@ -81,8 +81,6 @@
       <tag>算法</tag>
       
       <tag>C++</tag>
-      
-      <tag>课程笔记</tag>
       
     </tags>
     
@@ -107,8 +105,6 @@
     
     <tags>
       
-      <tag>课程笔记</tag>
-      
       <tag>计组</tag>
       
     </tags>
@@ -127,14 +123,12 @@
     
     <categories>
       
-      <category>计算机</category>
+      <category>计算机课程笔记</category>
       
     </categories>
     
     
     <tags>
-      
-      <tag>课程笔记</tag>
       
       <tag>Linux</tag>
       
@@ -172,7 +166,7 @@
   
   
   <entry>
-    <title>《面向对象程序设计》笔记</title>
+    <title>面向对象程序设计课程笔记</title>
     <link href="/2024/oop/"/>
     <url>/2024/oop/</url>
     
@@ -181,7 +175,7 @@
     
     <categories>
       
-      <category>计算机</category>
+      <category>计算机课程笔记</category>
       
     </categories>
     
@@ -189,8 +183,6 @@
     <tags>
       
       <tag>C++</tag>
-      
-      <tag>课程笔记</tag>
       
       <tag>OOP</tag>
       
