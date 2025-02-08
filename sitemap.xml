@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kisechan.github.io/about/index.html</loc>
+    
+    <lastmod>2025-02-08T13:32:53.801Z</lastmod>
+    
+    <date>1739021573801</date>
+    <title>About Me - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>http://kisechan.github.io/2025/hexo-pdf-test/</loc>
     
     <lastmod>2025-02-08T10:22:36.153Z</lastmod>
@@ -63,17 +74,6 @@
     
     <date>1724065200000</date>
     <title>二手房房价数据的爬取、清洗、可视化、预测 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>http://kisechan.github.io/about/index.html</loc>
-    
-    <lastmod>2024-07-18T15:43:57.817Z</lastmod>
-    
-    <date>1721317437817</date>
-    <title>About Me - Kisechan's Blog</title>
     
     <desc></desc>
   </url>
