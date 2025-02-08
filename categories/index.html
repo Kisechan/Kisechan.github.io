@@ -54,6 +54,10 @@
 
 
 
+  
+<link rel="stylesheet" href="/css/cursor.css">
+
+
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
@@ -113,35 +117,39 @@
           
           
           
-            <li class="nav-item">
-              <a class="nav-link" href="/archives/" target="_self">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" target="_self" href="javascript:;" role="button"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="iconfont icon-archive-fill"></i>
-                <span>归档</span>
+                <span>文章</span>
               </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/categories/" target="_self">
-                <i class="iconfont icon-category-fill"></i>
-                <span>分类</span>
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/tags/" target="_self">
-                <i class="iconfont icon-tags-fill"></i>
-                <span>标签</span>
-              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/archives/" target="_self">
+                    
+                    <span>归档</span>
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/categories/" target="_self">
+                    
+                    <span>分类</span>
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/tags/" target="_self">
+                    
+                    <span>标签</span>
+                  </a>
+                
+              </div>
             </li>
           
         
@@ -299,7 +307,7 @@
       
         <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/" class="category-count col-2 col-md-1 col-xm-1">
           <i class="iconfont icon-articles"></i>
-          <span>7</span>
+          <span>8</span>
         </a>
       
       <div class="category-collapse collapse " id="collapse-8a2b56e293ee788f1057ad236e06559e"
@@ -309,6 +317,15 @@
           
   <div class="category-post-list">
     
+    
+      
+      
+        <a href="/2025/hexo-pdf-test/" title="利用hexo-pdf在博客中插入pdf"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">利用hexo-pdf在博客中插入pdf</span>
+        </a>
+      
     
       
       
@@ -529,6 +546,10 @@
   <script  src="/js/local-search.js" ></script>
 
 
+
+
+  
+<script src="/js/cursor.js"></script>
 
 
 

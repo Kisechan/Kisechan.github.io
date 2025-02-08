@@ -54,6 +54,10 @@
 
 
 
+  
+<link rel="stylesheet" href="/css/cursor.css">
+
+
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
@@ -113,35 +117,39 @@
           
           
           
-            <li class="nav-item">
-              <a class="nav-link" href="/archives/" target="_self">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" target="_self" href="javascript:;" role="button"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="iconfont icon-archive-fill"></i>
-                <span>归档</span>
+                <span>文章</span>
               </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/categories/" target="_self">
-                <i class="iconfont icon-category-fill"></i>
-                <span>分类</span>
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/tags/" target="_self">
-                <i class="iconfont icon-tags-fill"></i>
-                <span>标签</span>
-              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/archives/" target="_self">
+                    
+                    <span>归档</span>
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/categories/" target="_self">
+                    
+                    <span>分类</span>
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/tags/" target="_self">
+                    
+                    <span>标签</span>
+                  </a>
+                
+              </div>
             </li>
           
         
@@ -202,13 +210,19 @@
                 
 
 <div class="list-group">
-  <p class="h4">共计 11 篇文章</p>
+  <p class="h4">共计 12 篇文章</p>
   <hr>
   
   
     
       
       <p class="h5">2025</p>
+    
+    <a href="/2025/hexo-pdf-test/" class="list-group-item list-group-item-action">
+      <time>02-08</time>
+      <div class="list-group-item-title">利用hexo-pdf在博客中插入pdf</div>
+    </a>
+  
     
     <a href="/2025/oop-practicum/" class="list-group-item list-group-item-action">
       <time>01-11</time>
@@ -264,12 +278,6 @@
     <a href="/2024/socket/" class="list-group-item list-group-item-action">
       <time>05-19</time>
       <div class="list-group-item-title">Windows上简单的Socket通信：echo程序</div>
-    </a>
-  
-    
-    <a href="/2024/dijkstra/" class="list-group-item list-group-item-action">
-      <time>04-30</time>
-      <div class="list-group-item-title">可视化Dijkstra算法模拟地图导航</div>
     </a>
   
 </div>
@@ -371,6 +379,10 @@
   <script  src="/js/local-search.js" ></script>
 
 
+
+
+  
+<script src="/js/cursor.js"></script>
 
 
 

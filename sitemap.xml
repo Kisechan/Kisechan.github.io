@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kisechan.github.io/2025/hexo-pdf-test/</loc>
+    
+    <lastmod>2025-02-08T10:00:09.939Z</lastmod>
+    
+    <date>1739007614000</date>
+    <title>利用hexo-pdf在博客中插入pdf - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>http://kisechan.github.io/2025/oop-practicum/</loc>
     
     <lastmod>2025-01-11T06:49:02.000Z</lastmod>

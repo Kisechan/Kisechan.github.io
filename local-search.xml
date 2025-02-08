@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>利用hexo-pdf在博客中插入pdf</title>
+    <link href="/2025/hexo-pdf-test/"/>
+    <url>/2025/hexo-pdf-test/</url>
+    
+    <content type="html"><![CDATA[<!-- 这里是正文 --><h1>安装</h1><p>hexo-pdf可以将pdf文件作为标签嵌入博客文档，利用<code>npm</code>安装：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm install --save hexo-pdf<br></code></pre></td></tr></table></figure><p>hexo-pdf的Github仓库：<a href="https://github.com/superalsrk/hexo-pdf">https://github.com/superalsrk/hexo-pdf</a></p><p>在安装完毕后，就可以在文档中插入语句</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs markdown">&#123;% pdf [文件路径] %&#125;<br></code></pre></td></tr></table></figure><p>来插入pdf文件。</p><h1>示例</h1><div class="row">    <embed src="./docs/jacs.2c12527.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    
+    <categories>
+      
+      <category>计算机</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>面向对象程序设计课设心得</title>
     <link href="/2025/oop-practicum/"/>
     <url>/2025/oop-practicum/</url>

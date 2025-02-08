@@ -54,6 +54,10 @@
 
 
 
+  
+<link rel="stylesheet" href="/css/cursor.css">
+
+
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
@@ -113,35 +117,39 @@
           
           
           
-            <li class="nav-item">
-              <a class="nav-link" href="/archives/" target="_self">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" target="_self" href="javascript:;" role="button"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="iconfont icon-archive-fill"></i>
-                <span>归档</span>
+                <span>文章</span>
               </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/categories/" target="_self">
-                <i class="iconfont icon-category-fill"></i>
-                <span>分类</span>
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/tags/" target="_self">
-                <i class="iconfont icon-tags-fill"></i>
-                <span>标签</span>
-              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/archives/" target="_self">
+                    
+                    <span>归档</span>
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/categories/" target="_self">
+                    
+                    <span>分类</span>
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/tags/" target="_self">
+                    
+                    <span>标签</span>
+                  </a>
+                
+              </div>
             </li>
           
         
@@ -206,7 +214,7 @@
                 
 
 <div class="text-center tagcloud">
-  <a href="/tags/C/" style="font-size: 30px; color: #337ab7">C++</a> <a href="/tags/Go/" style="font-size: 15px; color: #bbe">Go</a> <a href="/tags/Linux/" style="font-size: 15px; color: #bbe">Linux</a> <a href="/tags/OOP/" style="font-size: 25px; color: #6090c9">OOP</a> <a href="/tags/Python/" style="font-size: 15px; color: #bbe">Python</a> <a href="/tags/Qt/" style="font-size: 15px; color: #bbe">Qt</a> <a href="/tags/Redis/" style="font-size: 15px; color: #bbe">Redis</a> <a href="/tags/%E5%BC%80%E5%8F%91/" style="font-size: 20px; color: #8ea5dc">开发</a> <a href="/tags/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6/" style="font-size: 15px; color: #bbe">有机化学</a> <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" style="font-size: 15px; color: #bbe">机器学习</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 20px; color: #8ea5dc">算法</a> <a href="/tags/%E8%AE%A1%E7%BB%84/" style="font-size: 15px; color: #bbe">计组</a>
+  <a href="/tags/C/" style="font-size: 30px; color: #337ab7">C++</a> <a href="/tags/Go/" style="font-size: 15px; color: #bbe">Go</a> <a href="/tags/Hexo/" style="font-size: 15px; color: #bbe">Hexo</a> <a href="/tags/Linux/" style="font-size: 15px; color: #bbe">Linux</a> <a href="/tags/OOP/" style="font-size: 25px; color: #6090c9">OOP</a> <a href="/tags/Python/" style="font-size: 15px; color: #bbe">Python</a> <a href="/tags/Qt/" style="font-size: 15px; color: #bbe">Qt</a> <a href="/tags/Redis/" style="font-size: 15px; color: #bbe">Redis</a> <a href="/tags/%E5%BC%80%E5%8F%91/" style="font-size: 20px; color: #8ea5dc">开发</a> <a href="/tags/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6/" style="font-size: 15px; color: #bbe">有机化学</a> <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" style="font-size: 15px; color: #bbe">机器学习</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 20px; color: #8ea5dc">算法</a> <a href="/tags/%E8%AE%A1%E7%BB%84/" style="font-size: 15px; color: #bbe">计组</a>
 </div>
 
               </div>
@@ -296,6 +304,10 @@
   <script  src="/js/local-search.js" ></script>
 
 
+
+
+  
+<script src="/js/cursor.js"></script>
 
 
 
