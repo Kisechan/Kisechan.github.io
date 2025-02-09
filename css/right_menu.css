@@ -140,3 +140,8 @@ transition: opacity 1s ease-in-out;
 .show-tooltip {
 opacity: 0.8;
 }
+
+/* 新增的提示框样式 */
+#tooltip-clipboard {
+    top: 20%; /* 调整位置，避免与原有提示框重叠 */
+}
