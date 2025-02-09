@@ -865,6 +865,15 @@
 <!-- the boot of the theme, keep it at the bottom -->
 <script  src="/js/boot.js" ></script>
 
+<!-- 窗口监视 -->
+
+  <script type="text/javascript">
+    /*窗口监视*/
+    var originalTitle = document.title;
+    window.onblur = function(){document.title = "等你回来哦"};
+    window.onfocus = function(){document.title = originalTitle};
+  </script>
+
 
   <div id="tooltip-rightmenu" class="tooltip-rightmenu">如果需要使用原始右键菜单请按下 <strong>Ctrl+右键</strong></div>
 

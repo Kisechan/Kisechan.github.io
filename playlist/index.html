@@ -284,7 +284,7 @@
             <p>本页通过<a target="_blank" rel="noopener" href="https://github.com/MoePlayer/hexo-tag-aplayer">hexo-tag-aplayer</a>插件，将APlayer播放器插入hexo博客页面当中。</p>
           </div>
 
-    <div id="aplayer-ZmmFXSZk" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-CVqAYttq" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="13294501032" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#47b8e0" data-order="random"
     ></div>
 
@@ -416,6 +416,15 @@
 <!-- 主题的启动项，将它保持在最底部 -->
 <!-- the boot of the theme, keep it at the bottom -->
 <script  src="/js/boot.js" ></script>
+
+<!-- 窗口监视 -->
+
+  <script type="text/javascript">
+    /*窗口监视*/
+    var originalTitle = document.title;
+    window.onblur = function(){document.title = "等你回来哦"};
+    window.onfocus = function(){document.title = originalTitle};
+  </script>
 
 
   <div id="tooltip-rightmenu" class="tooltip-rightmenu">如果需要使用原始右键菜单请按下 <strong>Ctrl+右键</strong></div>
