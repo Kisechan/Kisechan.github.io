@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kisechan.github.io/about/index.html</loc>
+    
+    <lastmod>2025-02-10T12:02:12.654Z</lastmod>
+    
+    <date>1739188932654</date>
+    <title>关于 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>http://kisechan.github.io/playlist/index.html</loc>
     
     <lastmod>2025-02-09T13:29:53.434Z</lastmod>
     
     <date>1739104282000</date>
     <title>歌单 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>http://kisechan.github.io/about/index.html</loc>
-    
-    <lastmod>2025-02-08T13:32:53.801Z</lastmod>
-    
-    <date>1739021573801</date>
-    <title>About Me - Kisechan's Blog</title>
     
     <desc></desc>
   </url>
