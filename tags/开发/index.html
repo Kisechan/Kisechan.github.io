@@ -5,7 +5,7 @@
 
 
 
-<head>z
+<head>
   <meta charset="UTF-8">
   <link rel="apple-touch-icon" sizes="76x76" href="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202502042130299.jpg">
   <link rel="icon" href="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202502042130299.jpg">
@@ -29,6 +29,11 @@
   
   
   <title>标签 - 开发 - Kisechan&#39;s Blog</title>
+
+  <!--自定义添加的 Loading Page CSS 样式-->
+  
+    <link rel="stylesheet" type="text/css" href="/css/loading.css">
+  
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -96,7 +101,37 @@
 	</div>
 </div>
 <div id="banner"></div>
-
+  <!--自定义的 Loading Page-->
+  
+    
+    <div id="loader-box">
+      <!-- /* 你的 HTML 代码将放在这里 */ -->
+      <div class="loader-wrapper">
+        <div class="loader"><img src="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/202502042130299.jpg" srcset="/img/loading.gif" lazyload alt=""></div>
+        <div class="loader-text">
+            <!-- 10个div -->
+            <div>L</div>
+            <div>O</div>
+            <div>A</div>
+            <div>D</div>
+            <div>I</div>
+            <div>N</div>
+            <div>G</div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+      <script>
+          var endLoading = function () {
+              document.body.style.overflow = 'auto';
+              document.getElementById('loader-box').remove();
+          }
+          window.addEventListener('load',endLoading);
+      </script>
+    </div>
+  
+  
   <header>
     
 
