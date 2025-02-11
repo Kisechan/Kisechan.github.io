@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kisechan.github.io/2025/web1/</loc>
+    
+    <lastmod>2025-02-11T14:54:39.103Z</lastmod>
+    
+    <date>1739283424000</date>
+    <title>Web编程学习笔记1 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>http://kisechan.github.io/about/index.html</loc>
     
     <lastmod>2025-02-10T12:02:12.654Z</lastmod>
