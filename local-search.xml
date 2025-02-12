@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>Web编程学习笔记2：CSS基础样式</title>
+    <link href="/2025/web2/"/>
+    <url>/2025/web2/</url>
+    
+    <content type="html"><![CDATA[<!-- 这里是正文 --><div class="note note-primary">            <p>本笔记主要依据MDN Web Docs：<a href="https://developer.mozilla.org/zh-CN/">https://developer.mozilla.org/zh-CN/</a></p>          </div><h1>工作原理</h1><blockquote><p>本节主要参考<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Styling_basics/What_is_CSS">[1]</span></a></sup></p></blockquote><h2 id="文件处理流程">文件处理流程</h2><p>当浏览器展示一个文件的时候，必须兼顾文件的内容和文件的样式信息，那么它处理文件的流程就是：</p><ol><li>浏览器载入 HTML 文件（比如从网络上获取）。</li><li>将 HTML 文件转化成一个 DOM（Document Object Model），DOM 是文件在计算机内存中的表现形式。</li><li>接下来，浏览器会拉取该 HTML 相关的大部分资源，比如嵌入到页面的图片、视频和 CSS 样式。JavaScript 则会稍后进行处理，简单起见，同时此节主讲 CSS，所以这里对如何加载 JavaScript 不会展开叙述。</li><li>浏览器拉取到 CSS 之后会进行解析，根据选择器的不同类型（比如 element、class、id 等等）把他们分到不同的“桶”中。浏览器基于它找到的不同的选择器，将不同的规则（基于选择器的规则，如元素选择器、类选择器、id 选择器等）应用在对应的 DOM 的节点中，并添加节点依赖的样式（这个中间步骤称为渲染树）。</li><li>上述的规则应用于渲染树之后，渲染树会依照应该出现的结构进行布局。</li><li>网页展示在屏幕上（这一步被称为着色）。</li></ol><img src="https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Styling_basics/What_is_CSS/rendering.svg" alt="处理文件的流程"><h2 id="DOM">DOM</h2><p>一个 DOM 有一个树形结构，**标记语言中的每一个元素、属性以及每一段文字都对应着结构树中的一个节点（Node/DOM 或 DOM node）。**节点由节点本身和其他 DOM 节点的关系定义，有些节点有父节点，有些节点有兄弟节点（同级节点）。DOM 可以帮助 CSS 样式和 HTML 文件的内容结合。</p><p>例如：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><br>  Let&#x27;s use:<br>  <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Cascading<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Style<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>Sheets<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br></code></pre></td></tr></table></figure><p>它的DOM为：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs text">P<br>├─ &quot;Let&#x27;s use:&quot;<br>├─ SPAN<br>|  └─ &quot;Cascading&quot;<br>├─ SPAN<br>|  └─ &quot;Style&quot;<br>└─ SPAN<br>    └─ &quot;Sheets&quot;<br></code></pre></td></tr></table></figure><p>在这个时候，如果在网页中加上一些 CSS 文件加以渲染的话：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-selector-tag">span</span> &#123;<br>  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid black;<br>  <span class="hljs-attribute">background-color</span>: lime;<br>&#125;<br></code></pre></td></tr></table></figure><p>那么浏览器就会解析 HTML 文件，并创造一个 DOM，然后解析 CSS：浏览器会把 CSS 中的规则使用在三个<code>&lt;span&gt;</code>标签上，然后渲染出图像到屏幕。效果如图：</p><p><img src="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/20250212155818.png" alt="使用 CSS 渲染的效果"></p><p class="note note-warning">如果 CSS 文件中出现了无法解析的属性或值，那么浏览器并不会报错，它会什么也不做，然后继续处理下一个规则。</p><h1>CSS 语法</h1><blockquote><p>本节主要参考<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Styling_basics/Getting_started">[2]</span></a></sup></p></blockquote><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Styling_basics/What_is_CSS">https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Styling_basics/What_is_CSS</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a href="https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Styling_basics/Getting_started">https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Styling_basics/Getting_started</a><a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>Web</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Web</tag>
+      
+      <tag>HTML</tag>
+      
+      <tag>CSS</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Web编程学习笔记1：HTML基础语法</title>
     <link href="/2025/web1/"/>
     <url>/2025/web1/</url>
