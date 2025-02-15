@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kisechan&#39;s Blog</title>
+  
+  <subtitle>qwq</subtitle>
+  <link href="http://kisechan.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://kisechan.github.io/"/>
+  <updated>2025-02-15T00:30:50.526Z</updated>
+  <id>http://kisechan.github.io/</id>
+  
+  <author>
+    <name>Kisechan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给Fluid主题引入外部图标CSS</title>
+    <link href="http://kisechan.github.io/2025/hexo-icons/"/>
+    <id>http://kisechan.github.io/2025/hexo-icons/</id>
+    <published>2025-02-15T00:12:20.000Z</published>
+    <updated>2025-02-15T00:30:50.526Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;!-- 这里是正文 --&gt;
+&lt;h1&gt;图标库&lt;/h1&gt;
+&lt;p&gt;准备增加的是 &lt;strong&gt;FontAwesome 4.7.0 中完整的675个图标样式CSS&lt;/strong&gt;，链接可以参考：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="http://kisechan.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="http://kisechan.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Web编程学习笔记3：JS入门</title>
+    <link href="http://kisechan.github.io/2025/web3/"/>
+    <id>http://kisechan.github.io/2025/web3/</id>
+    <published>2025-02-13T11:05:11.000Z</published>
+    <updated>2025-02-14T16:02:41.808Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;!-- 这里是正文 --&gt;
+&lt;div class=&quot;note note-primary&quot;&gt;
+            &lt;p&gt;本笔记主要依据MDN Web Docs：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Web" scheme="http://kisechan.github.io/categories/Web/"/>
+    
+    
+    <category term="Web" scheme="http://kisechan.github.io/tags/Web/"/>
+    
+    <category term="JS" scheme="http://kisechan.github.io/tags/JS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Web编程学习笔记2：CSS基础样式</title>
+    <link href="http://kisechan.github.io/2025/web2/"/>
+    <id>http://kisechan.github.io/2025/web2/</id>
+    <published>2025-02-12T07:40:41.000Z</published>
+    <updated>2025-02-13T11:10:49.710Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;!-- 这里是正文 --&gt;
+&lt;div class=&quot;note note-primary&quot;&gt;
+            &lt;p&gt;本笔记主要依据MDN Web Docs：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Web" scheme="http://kisechan.github.io/categories/Web/"/>
+    
+    
+    <category term="Web" scheme="http://kisechan.github.io/tags/Web/"/>
+    
+    <category term="HTML" scheme="http://kisechan.github.io/tags/HTML/"/>
+    
+    <category term="CSS" scheme="http://kisechan.github.io/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Web编程学习笔记1：HTML基础语法</title>
+    <link href="http://kisechan.github.io/2025/web1/"/>
+    <id>http://kisechan.github.io/2025/web1/</id>
+    <published>2025-02-11T14:17:04.000Z</published>
+    <updated>2025-02-12T00:58:34.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note note-primary&quot;&gt;
+            &lt;p&gt;本笔记主要依据MDN Web Docs：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Web" scheme="http://kisechan.github.io/categories/Web/"/>
+    
+    
+    <category term="Web" scheme="http://kisechan.github.io/tags/Web/"/>
+    
+    <category term="HTML" scheme="http://kisechan.github.io/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用hexo-pdf在博客中插入pdf</title>
+    <link href="http://kisechan.github.io/2025/hexo-pdf-test/"/>
+    <id>http://kisechan.github.io/2025/hexo-pdf-test/</id>
+    <published>2025-02-08T09:40:14.000Z</published>
+    <updated>2025-02-14T12:36:09.190Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;!-- 这里是正文 --&gt;
+&lt;h1&gt;安装&lt;/h1&gt;
+&lt;p&gt;hexo-pdf可以将pdf文件作为标签嵌入博客文档，利用&lt;code&gt;npm&lt;/code&gt;安装：&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="http://kisechan.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="http://kisechan.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>面向对象程序设计课设心得</title>
+    <link href="http://kisechan.github.io/2025/oop-practicum/"/>
+    <id>http://kisechan.github.io/2025/oop-practicum/</id>
+    <published>2025-01-11T06:48:15.000Z</published>
+    <updated>2025-01-11T06:49:02.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;题设：电商系统&lt;/h1&gt;
+&lt;p&gt;利用&lt;strong&gt;C/S框架&lt;/strong&gt;完成一个电商系统的开发：&lt;br&gt;
+&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="http://kisechan.github.io/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="C++" scheme="http://kisechan.github.io/tags/C/"/>
+    
+    <category term="OOP" scheme="http://kisechan.github.io/tags/OOP/"/>
+    
+    <category term="开发" scheme="http://kisechan.github.io/tags/%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="Redis" scheme="http://kisechan.github.io/tags/Redis/"/>
+    
+    <category term="Go" scheme="http://kisechan.github.io/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用vcpkg在VS中配置第三方库环境</title>
+    <link href="http://kisechan.github.io/2024/vcpkg/"/>
+    <id>http://kisechan.github.io/2024/vcpkg/</id>
+    <published>2024-12-18T04:52:41.000Z</published>
+    <updated>2024-12-18T04:52:41.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;vcpkg是一个跨平台的C++包管理工具，可以自动下载、构建和配置第三方库，十分方便。&lt;/p&gt;
+&lt;h2 id=&quot;安装&quot;&gt;安装&lt;/h2&gt;
+&lt;p&gt;克隆vcpkg的源代码：&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="http://kisechan.github.io/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="开发" scheme="http://kisechan.github.io/tags/%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构课程板子合集&amp;笔记</title>
+    <link href="http://kisechan.github.io/2024/ds/"/>
+    <id>http://kisechan.github.io/2024/ds/</id>
+    <published>2024-12-09T13:45:11.000Z</published>
+    <updated>2024-01-02T04:34:41.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;关于数据结构&lt;/h1&gt;
+&lt;p&gt;数据结构研究组织数据（结构化信息）的方法，以支持&lt;strong&gt;有效&lt;/strong&gt;——满足时空限制的处理。&lt;/p&gt;
+&lt;h2 id=&quot;数据&quot;&gt;数据&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;数据&lt;/strong&gt;是计算机程序要处理的“原料”</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="http://kisechan.github.io/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="算法" scheme="http://kisechan.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="C++" scheme="http://kisechan.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>海明码</title>
+    <link href="http://kisechan.github.io/2024/hanming-code/"/>
+    <id>http://kisechan.github.io/2024/hanming-code/</id>
+    <published>2024-12-04T07:41:59.000Z</published>
+    <updated>2024-12-06T04:12:12.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;组成&quot;&gt;组成&lt;/h2&gt;
+&lt;p&gt;海明码具有一位纠错能力，通过插入多位冗余码来进行错误检测和纠正。&lt;/p&gt;
+&lt;p&gt;假设数据码原码有&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="http://kisechan.github.io/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="计组" scheme="http://kisechan.github.io/tags/%E8%AE%A1%E7%BB%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux课程笔记</title>
+    <link href="http://kisechan.github.io/2024/linux-note/"/>
+    <id>http://kisechan.github.io/2024/linux-note/</id>
+    <published>2024-11-22T05:49:11.000Z</published>
+    <updated>2024-11-25T10:00:02.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;Linux和开源&lt;/h1&gt;
+&lt;h2 id=&quot;UNIX&quot;&gt;UNIX&lt;/h2&gt;
+&lt;h3 id=&quot;诞生&quot;&gt;诞生&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;时间&lt;/strong&gt;：1969&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;地点&lt;/strong&gt;：AT&amp;amp;T</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="http://kisechan.github.io/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Linux" scheme="http://kisechan.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>二手房房价数据的爬取、清洗、可视化、预测</title>
+    <link href="http://kisechan.github.io/2024/crawer/"/>
+    <id>http://kisechan.github.io/2024/crawer/</id>
+    <published>2024-08-19T11:00:00.000Z</published>
+    <updated>2024-08-24T11:39:02.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;数据爬取&lt;/h1&gt;
+&lt;h2 id=&quot;爬虫和人机验证&quot;&gt;爬虫和人机验证&lt;/h2&gt;
+&lt;p&gt;利用Selenium库和Edge Driver可唤起实体浏览器，并捕获网站中的&lt;code&gt;Element&lt;/code&gt;元素。&lt;/p&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="http://kisechan.github.io/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="Python" scheme="http://kisechan.github.io/tags/Python/"/>
+    
+    <category term="机器学习" scheme="http://kisechan.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>面向对象程序设计课程笔记</title>
+    <link href="http://kisechan.github.io/2024/oop/"/>
+    <id>http://kisechan.github.io/2024/oop/</id>
+    <published>2024-05-31T22:00:00.000Z</published>
+    <updated>2024-06-28T03:30:12.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这是本人为了应付学校oop考试（结果还是喜提3.7），以课程ppt为基础整合出来给自己复习的文章。&lt;/p&gt;
+&lt;h1&gt;面向对象编程&lt;/h1&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="http://kisechan.github.io/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="C++" scheme="http://kisechan.github.io/tags/C/"/>
+    
+    <category term="OOP" scheme="http://kisechan.github.io/tags/OOP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>多态实验</title>
+    <link href="http://kisechan.github.io/2024/polymorphic/"/>
+    <id>http://kisechan.github.io/2024/polymorphic/</id>
+    <published>2024-05-25T14:20:24.000Z</published>
+    <updated>2024-05-27T13:11:03.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;组合模式的应用&lt;/h1&gt;
+&lt;p&gt;每个公司都有总部、多个分公司、多个办事处等，为上下级同构实体关系。每个实体均有人力部、财务部、销售部等职能部门，不再有下级部门。分公司下面继续有子公司……总部需要快速了解总公司的：组织结构+实体职责展示。（两个多态函数，输出文字即可）。&lt;/</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="http://kisechan.github.io/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="C++" scheme="http://kisechan.github.io/tags/C/"/>
+    
+    <category term="OOP" scheme="http://kisechan.github.io/tags/OOP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows上简单的Socket通信：echo程序</title>
+    <link href="http://kisechan.github.io/2024/socket/"/>
+    <id>http://kisechan.github.io/2024/socket/</id>
+    <published>2024-05-19T08:52:21.000Z</published>
+    <updated>2024-05-21T03:24:29.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="http://kisechan.github.io/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="C++" scheme="http://kisechan.github.io/tags/C/"/>
+    
+    <category term="OOP" scheme="http://kisechan.github.io/tags/OOP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>可视化Dijkstra算法模拟地图导航</title>
+    <link href="http://kisechan.github.io/2024/dijkstra/"/>
+    <id>http://kisechan.github.io/2024/dijkstra/</id>
+    <published>2024-04-30T13:03:55.000Z</published>
+    <updated>2024-04-30T13:03:55.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;用qt写了一个能够实现可视化Dijkstra算法模拟寻路的小程序&lt;/p&gt;
+&lt;p&gt;没有写任何关于人性化的功能，只有纯粹的算法，如果输入的时候点了cancel或者输入了错误数据会导致程序直接崩溃）&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="http://kisechan.github.io/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="Qt" scheme="http://kisechan.github.io/tags/Qt/"/>
+    
+    <category term="算法" scheme="http://kisechan.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="C++" scheme="http://kisechan.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《现代物理有机化学》笔记：有机电子材料</title>
+    <link href="http://kisechan.github.io/2022/essay1/"/>
+    <id>http://kisechan.github.io/2022/essay1/</id>
+    <published>2022-08-25T06:00:00.000Z</published>
+    <updated>2022-08-25T06:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;17-1-1-无限-pi体系：特别的聚乙炔&quot;&gt;17.1.1 无限&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math</summary>
+        
+      
+    
+    
+    
+    <category term="化学" scheme="http://kisechan.github.io/categories/%E5%8C%96%E5%AD%A6/"/>
+    
+    
+    <category term="有机化学" scheme="http://kisechan.github.io/tags/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6/"/>
+    
+  </entry>
+  
+</feed>
