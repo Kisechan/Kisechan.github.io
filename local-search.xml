@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>添加Fluid主题的图标CSS</title>
+    <link href="/2025/hexo-icons/"/>
+    <url>/2025/hexo-icons/</url>
+    
+    <content type="html"><![CDATA[<!-- 这里是正文 --><h1>图标库</h1><p>准备增加的是 <strong>FontAwesome 4.7.0 中完整的675个图标样式CSS</strong>，链接可以参考：<a href="https://9iphp.com/fa-icons">https://9iphp.com/fa-icons</a></p><h1>添加</h1><p>博主尝试过在<code>_config.fluid.yml</code>的<code>custom_css</code>下和新定义一个<code>fa</code>引入 CSS ，但是都不起效，查了文档<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://hexo.fluid-dev.com/docs/icon/#%E5%86%85%E7%BD%AE%E7%A4%BE%E4%BA%A4%E5%9B%BE%E6%A0%87">[1]</span></a></sup><sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://hexo.fluid-dev.com/docs/guide/#%E4%BA%8C%E7%BA%A7%E7%AB%99%E7%82%B9%E8%B7%AF%E5%BE%84">[2]</span></a></sup>发现可以直接自定义网页<code>&lt;head&gt;</code>元素里面的内容，那就好办了，在<code>_config.fluid.yml</code>下直接引入：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">custom_head:</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-string">&lt;link</span> <span class="hljs-string">href=&quot;https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css&quot;</span> <span class="hljs-string">rel=&quot;stylesheet&quot;&gt;</span><br></code></pre></td></tr></table></figure><p>配置文件里的图标可以命名成<code>fa fa-xxx</code>的形式引入，例如：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">icon:</span> <span class="hljs-string">&quot;fa fa-archive&quot;</span><br></code></pre></td></tr></table></figure><hr><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://hexo.fluid-dev.com/docs/icon/#%E5%86%85%E7%BD%AE%E7%A4%BE%E4%BA%A4%E5%9B%BE%E6%A0%87">https://hexo.fluid-dev.com/docs/icon/#内置社交图标</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a href="https://hexo.fluid-dev.com/docs/guide/#%E4%BA%8C%E7%BA%A7%E7%AB%99%E7%82%B9%E8%B7%AF%E5%BE%84">https://hexo.fluid-dev.com/docs/guide/#二级站点路径</a><a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>Hexo</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Web编程学习笔记3：JS入门</title>
     <link href="/2025/web3/"/>
     <url>/2025/web3/</url>
