@@ -6,7 +6,7 @@
   <link href="http://kisechan.github.io/atom.xml" rel="self"/>
   
   <link href="http://kisechan.github.io/"/>
-  <updated>2025-02-15T00:30:50.526Z</updated>
+  <updated>2025-02-17T12:41:10.189Z</updated>
   <id>http://kisechan.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给Hexo博客文章加密—— hexo-blog-encrypt</title>
+    <link href="http://kisechan.github.io/2025/hexo-encrypt/"/>
+    <id>http://kisechan.github.io/2025/hexo-encrypt/</id>
+    <published>2025-02-17T12:29:27.000Z</published>
+    <updated>2025-02-17T12:41:10.189Z</updated>
+    
+    
+    <summary type="html">有东西被加密了, 请输入密码查看.</summary>
+    
+    
+    
+    <category term="Hexo" scheme="http://kisechan.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="http://kisechan.github.io/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>给Fluid主题引入外部图标CSS</title>

@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>给Hexo博客文章加密—— hexo-blog-encrypt</title>
+    <link href="/2025/hexo-encrypt/"/>
+    <url>/2025/hexo-encrypt/</url>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="c45c5e07f9376e6bb45695df4fd359a71350091c80f944ff72399e73892b1a0c">bd25ed9264b080267271e137e33d0ce186371a6ad285b0b46a63f5bcf0796e4af090b9fcb0fe92c0016835151efae7c3c4caa78cd35d5aa36290202357996f6ac3dcaa116db48f6b89e8f6f321c94889ff06ad08236325208ea489f85af1a3ef1688be234d8b8b4ffb0d74241135165cc03a4b5d6c7403eaee1faabce8a0ff4b7fa391c5d77ea2ea5413fb222f8003c333f91fd0d728b26800b1ce81d0ead96e9492ec4c8b09f538205dc8a86758578580f4bad8ab6764390fba5cf9fb315a4e</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">密码是test</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <categories>
+      
+      <category>Hexo</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>给Fluid主题引入外部图标CSS</title>
     <link href="/2025/hexo-icons/"/>
     <url>/2025/hexo-icons/</url>

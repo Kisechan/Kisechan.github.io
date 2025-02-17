@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kisechan.github.io/2025/hexo-encrypt/</loc>
+    
+    <lastmod>2025-02-17T12:41:10.189Z</lastmod>
+    
+    <date>1739795367000</date>
+    <title>给Hexo博客文章加密—— hexo-blog-encrypt - Kisechan's Blog</title>
+    
+    <desc>有东西被加密了, 请输入密码查看.</desc>
+  </url>
+  
+  <url>
     <loc>http://kisechan.github.io/2025/hexo-icons/</loc>
     
     <lastmod>2025-02-15T00:30:50.526Z</lastmod>
