@@ -1,9 +1,20 @@
 var right_cilck_num = 0;
 
+function isMobile() {
+  // 通过用户代理字符串判断
+  const userAgent = navigator.userAgent;
+  const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
+
+  // 或者通过屏幕宽度判断
+  const isSmallScreen = window.innerWidth <= 768; // 通常认为宽度小于等于768px为手机模式
+
+  return isMobileDevice || isSmallScreen;
+}
+
 // 显示自定义右键菜单
 window.oncontextmenu = function (e) {
   // 检查是否按下了Ctrl键
-  if (e.ctrlKey) {
+  if (e.ctrlKey || isMobile()) {
     return true;
   }
 
