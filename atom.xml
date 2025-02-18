@@ -6,7 +6,7 @@
   <link href="http://kisechan.github.io/atom.xml" rel="self"/>
   
   <link href="http://kisechan.github.io/"/>
-  <updated>2025-02-17T15:58:40.776Z</updated>
+  <updated>2025-02-18T11:01:01.673Z</updated>
   <id>http://kisechan.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>让Hexo博客支持Emoji表情</title>
+    <link href="http://kisechan.github.io/2025/hexo-emoji/"/>
+    <id>http://kisechan.github.io/2025/hexo-emoji/</id>
+    <published>2025-02-18T10:48:09.000Z</published>
+    <updated>2025-02-18T11:01:01.673Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;安装&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;http://github.com/arturi/hexo-filter-github-emojis&quot;&gt;hexo-filter-github-emojis&lt;/a&gt; 是一个使用 Github Emojis API 来添加</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="http://kisechan.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="http://kisechan.github.io/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>给Hexo博客文章加密—— hexo-blog-encrypt</title>
@@ -47,8 +73,7 @@
       
         
         
-    <summary type="html">&lt;!-- 这里是正文 --&gt;
-&lt;h1&gt;图标库&lt;/h1&gt;
+    <summary type="html">&lt;h1&gt;图标库&lt;/h1&gt;
 &lt;p&gt;准备增加的是 &lt;strong&gt;FontAwesome 4.7.0 中完整的675个图标样式CSS&lt;/strong&gt;，链接可以参考：&lt;a</summary>
         
       
@@ -74,8 +99,7 @@
       
         
         
-    <summary type="html">&lt;!-- 这里是正文 --&gt;
-&lt;div class=&quot;note note-primary&quot;&gt;
+    <summary type="html">&lt;div class=&quot;note note-primary&quot;&gt;
             &lt;p&gt;本笔记主要依据MDN Web Docs：&lt;a</summary>
         
       
@@ -103,8 +127,7 @@
       
         
         
-    <summary type="html">&lt;!-- 这里是正文 --&gt;
-&lt;div class=&quot;note note-primary&quot;&gt;
+    <summary type="html">&lt;div class=&quot;note note-primary&quot;&gt;
             &lt;p&gt;本笔记主要依据MDN Web Docs：&lt;a</summary>
         
       
@@ -162,10 +185,9 @@
       
         
         
-    <summary type="html">&lt;!-- 这里是正文 --&gt;
-&lt;h1&gt;安装&lt;/h1&gt;
+    <summary type="html">&lt;h1&gt;安装&lt;/h1&gt;
 &lt;p&gt;hexo-pdf可以将pdf文件作为标签嵌入博客文档，利用&lt;code&gt;npm&lt;/code&gt;安装：&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td</summary>
         
       
     
@@ -228,7 +250,7 @@
     <summary type="html">&lt;p&gt;vcpkg是一个跨平台的C++包管理工具，可以自动下载、构建和配置第三方库，十分方便。&lt;/p&gt;
 &lt;h2 id=&quot;安装&quot;&gt;安装&lt;/h2&gt;
 &lt;p&gt;克隆vcpkg的源代码：&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+&lt;figure class=&quot;highlight</summary>
         
       
     

@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kisechan.github.io/2025/hexo-emoji/</loc>
+    
+    <lastmod>2025-02-18T11:01:01.673Z</lastmod>
+    
+    <date>1739875689000</date>
+    <title>让Hexo博客支持Emoji表情 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>http://kisechan.github.io/2025/hexo-encrypt/</loc>
     
     <lastmod>2025-02-17T15:58:40.776Z</lastmod>
