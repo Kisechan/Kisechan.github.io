@@ -47,38 +47,23 @@ function copyPageUrl() {
 	  });
   }
 
-// 切换夜间模式
-function toggleDarkMode() {
-  const body = document.body;
-  const isDarkMode = body.classList.toggle("dark-mode"); // 切换 dark-mode 类
-
-  // 保存用户偏好到 localStorage
-  localStorage.setItem("dark-mode", isDarkMode ? "enabled" : "disabled");
-
-  // 更新菜单文字
-  const darkModeButton = document.querySelector(".vlts-menu[onclick='toggleDarkMode()']");
-  if (darkModeButton) {
-    const icon = darkModeButton.querySelector(".iconfont");
-    const text = darkModeButton.querySelector("span");
-    if (isDarkMode) {
-      icon.classList.remove("icon-moon");
-      icon.classList.add("icon-sun");
-      text.textContent = "切换白天模式";
-    } else {
-      icon.classList.remove("icon-sun");
-      icon.classList.add("icon-moon");
-      text.textContent = "切换夜间模式";
-    }
+function toggleFullScreen() {
+  if (!document.fullscreenElement) {
+    // 进入全屏
+    document.documentElement.requestFullscreen().catch(err => {
+      console.error('无法进入全屏模式:', err);
+    });
+  } else {
+    // 退出全屏
+    document.exitFullscreen();
   }
 }
 
-// 初始化夜间模式
-function initDarkMode() {
-  const isDarkMode = localStorage.getItem("dark-mode") === "enabled";
-  if (isDarkMode) {
-    document.body.classList.add("dark-mode");
+function scrollToComments() {
+  const commentsSection = document.getElementById('gitalk-container');
+  if (commentsSection) {
+    commentsSection.scrollIntoView({ behavior: 'smooth' });
+  } else {
+    console.error('未找到评论区');
   }
 }
-
-// 页面加载时初始化
-initDarkMode();
