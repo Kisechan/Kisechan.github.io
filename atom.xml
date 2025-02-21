@@ -6,7 +6,7 @@
   <link href="http://kisechan.github.io/atom.xml" rel="self"/>
   
   <link href="http://kisechan.github.io/"/>
-  <updated>2025-02-18T11:03:41.481Z</updated>
+  <updated>2025-02-21T13:38:43.915Z</updated>
   <id>http://kisechan.github.io/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>给 Typora 主题 Purple 加上背景图片</title>
+    <link href="http://kisechan.github.io/2025/typora-purple/"/>
+    <id>http://kisechan.github.io/2025/typora-purple/</id>
+    <published>2025-02-21T13:22:45.000Z</published>
+    <updated>2025-02-21T13:38:43.915Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;Purple 修改&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/hliu202/typora-purple-theme&quot;&gt;Typora-Theme-Purple&lt;/a&gt; 是一款简洁、优美的 Typora</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="http://kisechan.github.io/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="Typora" scheme="http://kisechan.github.io/tags/Typora/"/>
+    
+  </entry>
+  
+  <entry>
     <title>让Hexo博客支持Emoji表情</title>
     <link href="http://kisechan.github.io/2025/hexo-emoji/"/>
     <id>http://kisechan.github.io/2025/hexo-emoji/</id>
     <published>2025-02-18T10:48:09.000Z</published>
-    <updated>2025-02-18T11:03:41.481Z</updated>
+    <updated>2025-02-21T11:46:55.508Z</updated>
     
     
       

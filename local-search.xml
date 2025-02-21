@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>给 Typora 主题 Purple 加上背景图片</title>
+    <link href="/2025/typora-purple/"/>
+    <url>/2025/typora-purple/</url>
+    
+    <content type="html"><![CDATA[<h1>Purple 修改</h1><p><a href="https://github.com/hliu202/typora-purple-theme">Typora-Theme-Purple</a> 是一款简洁、优美的 Typora 主题。</p><p>博主主要的修改点在背景和字体上面。在 css 文件中加入：</p><figure class="highlight css"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-selector-id">#write</span>{<br>    <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">.[图片路径]</span>);<br>    <span class="hljs-attribute">background-size</span>: <span class="hljs-number">30%</span>;<br>    <span class="hljs-attribute">background-repeat</span>: no-repeat;<br>    <span class="hljs-attribute">background-position</span>: right bottom;<br>}<br></code></pre></td></tr></tbody></table></figure><p>就可以给背景加上图片。</p><p>字体方面就只直接需要修改原文件的<code>font-family</code>属性就可以了。</p><p>主要参考：<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://github.com/hliu202/typora-purple-theme/issues/38">[1]</span></a></sup><sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://blog.csdn.net/lihuadaiyuoo/article/details/110677297">[2]</span></a></sup></p><h1>效果展示</h1><p>如图：</p><p><img src="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/typora-purple-reviseshowtime.png" alt="修改效果展示"></p><hr><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://github.com/hliu202/typora-purple-theme/issues/38">https://github.com/hliu202/typora-purple-theme/issues/38</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a href="https://blog.csdn.net/lihuadaiyuoo/article/details/110677297">https://blog.csdn.net/lihuadaiyuoo/article/details/110677297</a><a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>CS 杂谈</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Typora</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>让Hexo博客支持Emoji表情</title>
     <link href="/2025/hexo-emoji/"/>
     <url>/2025/hexo-emoji/</url>
