@@ -513,11 +513,11 @@
     <category term="CS 杂谈" scheme="http://kisechan.github.io/categories/CS-%E6%9D%82%E8%B0%88/"/>
     
     
-    <category term="Qt" scheme="http://kisechan.github.io/tags/Qt/"/>
-    
     <category term="算法" scheme="http://kisechan.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
     <category term="C++" scheme="http://kisechan.github.io/tags/C/"/>
+    
+    <category term="Qt" scheme="http://kisechan.github.io/tags/Qt/"/>
     
   </entry>
   
