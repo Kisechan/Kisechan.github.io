@@ -2,9 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kisechan.github.io/homo/index.html</loc>
+    
+    <lastmod>2025-02-25T03:38:14.423Z</lastmod>
+    
+    <date>1740453113000</date>
+    <title>数字恶臭化 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>http://kisechan.github.io/2025/typora-purple/</loc>
     
-    <lastmod>2025-02-21T13:38:43.915Z</lastmod>
+    <lastmod>2025-02-21T13:42:50.945Z</lastmod>
     
     <date>1740144165000</date>
     <title>给 Typora 主题 Purple 加上背景图片 - Kisechan's Blog</title>
