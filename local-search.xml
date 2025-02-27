@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>把 Docker 安装到别的磁盘</title>
+    <link href="/2025/docker-anotherdisk/"/>
+    <url>/2025/docker-anotherdisk/</url>
+    
+    <content type="html"><![CDATA[<h2 id="安装">安装</h2><p>博主把 Docker 安装到 C 盘导致 C 盘爆炸，需要把它挪个地方。</p><p>以管理员模式打开 cmd 对 <code>Docker Desktop Installer.exe</code> 执行：</p><figure class="highlight cmd"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cmd">"Docker Desktop Installer.exe" install --installation-<span class="hljs-built_in">dir</span>="[目标路径]"<br></code></pre></td></tr></tbody></table></figure><div class="note note-warning">            <p>如果用 powershell 的话，因为 powershell 语法比较严格，所以命令最前面就必须加上<code>&amp;</code>。否则 powershell 就会把安装程序的名字解析成一个字符串，而不是一个可执行程序。</p>          </div><p>部署 wsl2 的时候也可以用类似的方法把它安装到别的盘符。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>CS 杂谈</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Docker</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>用AstrBot框架搭建一个qq机器人</title>
     <link href="/2025/qqbot-astrbot/"/>
     <url>/2025/qqbot-astrbot/</url>

@@ -6,7 +6,7 @@
   <link href="http://kisechan.github.io/atom.xml" rel="self"/>
   
   <link href="http://kisechan.github.io/"/>
-  <updated>2025-02-27T11:42:58.342Z</updated>
+  <updated>2025-02-27T11:55:07.456Z</updated>
   <id>http://kisechan.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>把 Docker 安装到别的磁盘</title>
+    <link href="http://kisechan.github.io/2025/docker-anotherdisk/"/>
+    <id>http://kisechan.github.io/2025/docker-anotherdisk/</id>
+    <published>2025-02-27T10:35:33.000Z</published>
+    <updated>2025-02-27T11:55:07.456Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;安装&quot;&gt;安装&lt;/h2&gt;
+&lt;p&gt;博主把 Docker 安装到 C 盘导致 C 盘爆炸，需要把它挪个地方。&lt;/p&gt;
+&lt;p&gt;以管理员模式打开 cmd 对 &lt;code&gt;Docker Desktop Installer.exe&lt;/code&gt; 执行：&lt;/p&gt;
+&lt;figure</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="http://kisechan.github.io/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="Docker" scheme="http://kisechan.github.io/tags/Docker/"/>
+    
+  </entry>
   
   <entry>
     <title>用AstrBot框架搭建一个qq机器人</title>
@@ -543,31 +571,6 @@
     <category term="算法" scheme="http://kisechan.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
     <category term="C++" scheme="http://kisechan.github.io/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《现代物理有机化学》笔记：有机电子材料</title>
-    <link href="http://kisechan.github.io/2022/essay1/"/>
-    <id>http://kisechan.github.io/2022/essay1/</id>
-    <published>2022-08-25T06:00:00.000Z</published>
-    <updated>2022-08-25T06:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;17-1-1-无限-pi体系：特别的聚乙炔&quot;&gt;17.1.1 无限&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math</summary>
-        
-      
-    
-    
-    
-    <category term="化学" scheme="http://kisechan.github.io/categories/%E5%8C%96%E5%AD%A6/"/>
-    
-    
-    <category term="有机化学" scheme="http://kisechan.github.io/tags/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6/"/>
     
   </entry>
   
