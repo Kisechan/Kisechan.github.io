@@ -6,7 +6,7 @@
   <link href="http://kisechan.github.io/atom.xml" rel="self"/>
   
   <link href="http://kisechan.github.io/"/>
-  <updated>2025-02-21T13:42:50.945Z</updated>
+  <updated>2025-02-27T11:42:58.342Z</updated>
   <id>http://kisechan.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用AstrBot框架搭建一个qq机器人</title>
+    <link href="http://kisechan.github.io/2025/qqbot-astrbot/"/>
+    <id>http://kisechan.github.io/2025/qqbot-astrbot/</id>
+    <published>2025-02-27T10:14:55.000Z</published>
+    <updated>2025-02-27T11:42:58.342Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;部署框架&quot;&gt;部署框架&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;框架&lt;/strong&gt;提供的是机器人的基础功能，简化开发流程。&lt;/p&gt;
+&lt;p&gt;AstrBot 官方文档：&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="QQBot" scheme="http://kisechan.github.io/tags/QQBot/"/>
+    
+  </entry>
   
   <entry>
     <title>给 Typora 主题 Purple 加上背景图片</title>
@@ -513,11 +538,11 @@
     <category term="CS 杂谈" scheme="http://kisechan.github.io/categories/CS-%E6%9D%82%E8%B0%88/"/>
     
     
+    <category term="Qt" scheme="http://kisechan.github.io/tags/Qt/"/>
+    
     <category term="算法" scheme="http://kisechan.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
     <category term="C++" scheme="http://kisechan.github.io/tags/C/"/>
-    
-    <category term="Qt" scheme="http://kisechan.github.io/tags/Qt/"/>
     
   </entry>
   

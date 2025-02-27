@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>用AstrBot框架搭建一个qq机器人</title>
+    <link href="/2025/qqbot-astrbot/"/>
+    <url>/2025/qqbot-astrbot/</url>
+    
+    <content type="html"><![CDATA[<h2 id="部署框架">部署框架</h2><p><strong>框架</strong>提供的是机器人的基础功能，简化开发流程。</p><p>AstrBot 官方文档：<a href="https://astrbot.app/">https://astrbot.app/</a></p><p>博主使用的是官方提供的一键安装器部署<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://astrbot.app/deploy/astrbot/windows.html">[1]</span></a></sup>，也可以使用 Docker <sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://astrbot.app/deploy/astrbot/docker.html">[2]</span></a></sup>。</p><p>安装完毕后就可以按照命令行的输出打开控制面板了。</p><h2 id="部署协议端">部署协议端</h2><p><strong>协议端</strong>负责用 Websocket 等协议和聊天软件的服务器通信，并处理收发信息逻辑。</p><h3 id="Napcat-sup-id-fnref-3-class-footnote-ref-a-href-fn-3-rel-footnote-span-class-hint-top-hint-rounded-aria-label-https-napneko-github-io-3-span-a-sup">Napcat<sup id="fnref:3" class="footnote-ref"><a href="#fn:3" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://napneko.github.io/">[3]</span></a></sup></h3><p>博主尝试过部署 Napcat ，但是在唤起 QQ 客户端时， QQ 会直接崩溃，需要解决方案。</p><h3 id="Lagrange-sup-id-fnref-4-class-footnote-ref-a-href-fn-4-rel-footnote-span-class-hint-top-hint-rounded-aria-label-https-lagrangedev-github-io-Lagrange-Doc-4-span-a-sup">Lagrange<sup id="fnref:4" class="footnote-ref"><a href="#fn:4" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://lagrangedev.github.io/Lagrange.Doc/">[4]</span></a></sup></h3><p>根据文档配置好 <code>appsettings.json</code> 后，就可以扫描二维码登录 QQ ，就算是连接上机器人了。</p><h2 id="部署完成">部署完成</h2><p>效果如图：</p><p><img src="https://cdn.jsdelivr.net/gh/Kisechan/Picture-Bed-Kisechan@master/img/astrbot-showtime.png" alt="部署完成后的仪表盘"></p><hr><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://astrbot.app/deploy/astrbot/windows.html">https://astrbot.app/deploy/astrbot/windows.html</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a href="https://astrbot.app/deploy/astrbot/docker.html">https://astrbot.app/deploy/astrbot/docker.html</a><a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:3" class="footnote-text"><span><a href="https://napneko.github.io/">https://napneko.github.io/</a><a href="#fnref:3" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:4" class="footnote-text"><span><a href="https://lagrangedev.github.io/Lagrange.Doc/">https://lagrangedev.github.io/Lagrange.Doc/</a><a href="#fnref:4" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>QQBot</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>给 Typora 主题 Purple 加上背景图片</title>
     <link href="/2025/typora-purple/"/>
     <url>/2025/typora-purple/</url>
@@ -471,11 +490,11 @@
     
     <tags>
       
+      <tag>Qt</tag>
+      
       <tag>算法</tag>
       
       <tag>C++</tag>
-      
-      <tag>Qt</tag>
       
     </tags>
     
