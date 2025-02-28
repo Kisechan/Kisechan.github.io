@@ -6,7 +6,7 @@
   <link href="http://kisechan.github.io/atom.xml" rel="self"/>
   
   <link href="http://kisechan.github.io/"/>
-  <updated>2025-02-27T11:42:58.342Z</updated>
+  <updated>2025-02-28T10:46:09.216Z</updated>
   <id>http://kisechan.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>单调队列优化 dp</title>
+    <link href="http://kisechan.github.io/2025/monotonic-queue-dp/"/>
+    <id>http://kisechan.github.io/2025/monotonic-queue-dp/</id>
+    <published>2025-02-28T05:22:56.000Z</published>
+    <updated>2025-02-28T10:46:09.216Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;单调队列&quot;&gt;单调队列&lt;/h2&gt;
+&lt;p&gt;想要&lt;strong&gt;在一个固定区间内维护最大/最小值&lt;/strong&gt;，就可以考虑用单调队列实现。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="算法" scheme="http://kisechan.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>用AstrBot框架搭建一个qq机器人</title>
@@ -540,37 +565,6 @@
     <category term="C++" scheme="http://kisechan.github.io/tags/C/"/>
     
     <category term="OOP" scheme="http://kisechan.github.io/tags/OOP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>可视化Dijkstra算法模拟地图导航</title>
-    <link href="http://kisechan.github.io/2024/dijkstra/"/>
-    <id>http://kisechan.github.io/2024/dijkstra/</id>
-    <published>2024-04-30T13:03:55.000Z</published>
-    <updated>2024-04-30T13:03:55.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;用qt写了一个能够实现可视化Dijkstra算法模拟寻路的小程序&lt;/p&gt;
-&lt;p&gt;没有写任何关于人性化的功能，只有纯粹的算法，如果输入的时候点了cancel或者输入了错误数据会导致程序直接崩溃）&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="http://kisechan.github.io/categories/CS-%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="Qt" scheme="http://kisechan.github.io/tags/Qt/"/>
-    
-    <category term="算法" scheme="http://kisechan.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="C++" scheme="http://kisechan.github.io/tags/C/"/>
     
   </entry>
   
