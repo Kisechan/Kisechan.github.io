@@ -6,7 +6,7 @@
   <link href="http://kisechan.github.io/atom.xml" rel="self"/>
   
   <link href="http://kisechan.github.io/"/>
-  <updated>2025-02-28T10:46:09.216Z</updated>
+  <updated>2025-02-28T10:46:50.861Z</updated>
   <id>http://kisechan.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://kisechan.github.io/2025/monotonic-queue-dp/"/>
     <id>http://kisechan.github.io/2025/monotonic-queue-dp/</id>
     <published>2025-02-28T05:22:56.000Z</published>
-    <updated>2025-02-28T10:46:09.216Z</updated>
+    <updated>2025-02-28T10:46:50.861Z</updated>
     
     
       
@@ -38,6 +38,8 @@
     
     <category term="算法" scheme="http://kisechan.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
+    
+    <category term="dp" scheme="http://kisechan.github.io/tags/dp/"/>
     
   </entry>
   
