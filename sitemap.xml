@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kisechan.space/about/index.html</loc>
+    
+    <lastmod>2025-03-01T08:42:58.947Z</lastmod>
+    
+    <date>1740818578947</date>
+    <title>关于 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>https://blog.kisechan.space/2025/site-domain/</loc>
     
     <lastmod>2025-03-01T07:52:06.076Z</lastmod>
@@ -140,17 +151,6 @@
     
     <date>1739283424000</date>
     <title>Web编程学习笔记1：HTML基础语法 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/about/index.html</loc>
-    
-    <lastmod>2025-02-10T12:02:12.654Z</lastmod>
-    
-    <date>1739188932654</date>
-    <title>关于 - Kisechan's Blog</title>
     
     <desc></desc>
   </url>
