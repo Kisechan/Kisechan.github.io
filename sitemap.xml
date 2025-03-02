@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kisechan.space/2025/site-image-host/</loc>
+    
+    <lastmod>2025-03-02T12:33:42.233Z</lastmod>
+    
+    <date>1740917288000</date>
+    <title>Cloudflare+Github图床 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>https://blog.kisechan.space/2025/hexo-pdf-test/</loc>
     
     <lastmod>2025-03-01T15:28:31.528Z</lastmod>
