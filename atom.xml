@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-03-02T12:49:20.411Z</updated>
+  <updated>2025-03-03T10:17:38.970Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>算法笔记2：状压 dp</title>
+    <link href="https://blog.kisechan.space/2025/algo-state-dp/"/>
+    <id>https://blog.kisechan.space/2025/algo-state-dp/</id>
+    <published>2025-03-03T08:27:05.000Z</published>
+    <updated>2025-03-03T10:17:38.970Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;优化方式&quot;&gt;优化方式&lt;/h2&gt;
+&lt;p&gt;状压 dp 能将&lt;strong&gt;排列复杂度&lt;/strong&gt;转为&lt;strong&gt;指数级复杂度&lt;/strong&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="算法" scheme="https://blog.kisechan.space/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="dp" scheme="https://blog.kisechan.space/tags/dp/"/>
+    
+  </entry>
   
   <entry>
     <title>Cloudflare+Github图床</title>
@@ -65,11 +93,11 @@
   </entry>
   
   <entry>
-    <title>单调队列优化 dp</title>
+    <title>算法笔记1：单调队列优化 dp</title>
     <link href="https://blog.kisechan.space/2025/monotonic-queue-dp/"/>
     <id>https://blog.kisechan.space/2025/monotonic-queue-dp/</id>
     <published>2025-02-28T05:22:56.000Z</published>
-    <updated>2025-03-01T15:22:48.522Z</updated>
+    <updated>2025-03-03T08:51:06.428Z</updated>
     
     
       
@@ -531,35 +559,6 @@
     <category term="Python" scheme="https://blog.kisechan.space/tags/Python/"/>
     
     <category term="机器学习" scheme="https://blog.kisechan.space/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>面向对象程序设计课程笔记</title>
-    <link href="https://blog.kisechan.space/2024/oop/"/>
-    <id>https://blog.kisechan.space/2024/oop/</id>
-    <published>2024-05-31T22:00:00.000Z</published>
-    <updated>2024-06-28T03:30:12.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;这是本人为了应付学校oop考试（结果还是喜提3.7），以课程ppt为基础整合出来给自己复习的文章。&lt;/p&gt;
-&lt;h1&gt;面向对象编程&lt;/h1&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="C++" scheme="https://blog.kisechan.space/tags/C/"/>
-    
-    <category term="OOP" scheme="https://blog.kisechan.space/tags/OOP/"/>
     
   </entry>
   
