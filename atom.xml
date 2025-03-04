@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-03-03T10:17:38.970Z</updated>
+  <updated>2025-03-04T14:50:01.629Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>初始化 TailwindCSS 遇到的一些问题</title>
+    <link href="https://blog.kisechan.space/2025/tailwindcss-init/"/>
+    <id>https://blog.kisechan.space/2025/tailwindcss-init/</id>
+    <published>2025-03-04T14:35:13.000Z</published>
+    <updated>2025-03-04T14:50:01.629Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;问题&quot;&gt;问题&lt;/h2&gt;
+&lt;p&gt;博主当前的工程使用的是 Vite + Vue + Element Plus ，但 Element Plus 手感不好，还得手搓 CSS ，不好用，就打算转向 TailwindCSS 。&lt;/p&gt;
+&lt;p&gt;在对 TailwindCSS</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="Web" scheme="https://blog.kisechan.space/tags/Web/"/>
+    
+  </entry>
   
   <entry>
     <title>算法笔记2：状压 dp</title>
@@ -529,36 +556,6 @@
     
     
     <category term="Linux" scheme="https://blog.kisechan.space/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>二手房房价数据的爬取、清洗、可视化、预测</title>
-    <link href="https://blog.kisechan.space/2024/crawer/"/>
-    <id>https://blog.kisechan.space/2024/crawer/</id>
-    <published>2024-08-19T11:00:00.000Z</published>
-    <updated>2024-08-24T11:39:02.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;数据爬取&lt;/h1&gt;
-&lt;h2 id=&quot;爬虫和人机验证&quot;&gt;爬虫和人机验证&lt;/h2&gt;
-&lt;p&gt;利用Selenium库和Edge Driver可唤起实体浏览器，并捕获网站中的&lt;code&gt;Element&lt;/code&gt;元素。&lt;/p&gt;
-&lt;figure class=&quot;highlight</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="Python" scheme="https://blog.kisechan.space/tags/Python/"/>
-    
-    <category term="机器学习" scheme="https://blog.kisechan.space/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   

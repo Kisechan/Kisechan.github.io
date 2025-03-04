@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kisechan.space/2025/tailwindcss-init/</loc>
+    
+    <lastmod>2025-03-04T14:50:01.629Z</lastmod>
+    
+    <date>1741098913000</date>
+    <title>初始化 TailwindCSS 遇到的一些问题 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>https://blog.kisechan.space/2025/algo-state-dp/</loc>
     
     <lastmod>2025-03-03T10:17:38.970Z</lastmod>
