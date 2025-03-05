@@ -2,9 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kisechan.space/2025/site-friend-links/</loc>
+    
+    <lastmod>2025-03-05T11:41:44.159Z</lastmod>
+    
+    <date>1741173834000</date>
+    <title>用 Vue、 Element Plus 和 Yaml 实现的友链页面 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>https://blog.kisechan.space/2025/tailwindcss-init/</loc>
     
-    <lastmod>2025-03-04T14:50:01.629Z</lastmod>
+    <lastmod>2025-03-05T11:25:58.643Z</lastmod>
     
     <date>1741098913000</date>
     <title>初始化 TailwindCSS 遇到的一些问题 - Kisechan's Blog</title>
