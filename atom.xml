@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-03-06T06:45:55.959Z</updated>
+  <updated>2025-03-06T13:58:30.443Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>算法笔记4：数学专题</title>
+    <link href="https://blog.kisechan.space/2025/algo-maths/"/>
+    <id>https://blog.kisechan.space/2025/algo-maths/</id>
+    <published>2025-03-06T13:23:07.000Z</published>
+    <updated>2025-03-06T13:58:30.443Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;主要记录遇到的数学/统计专题和优化方法，不涉及到数论。&lt;/p&gt;
+&lt;h2 id=&quot;排列组合&quot;&gt;排列组合&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;无重复排列&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&quot;katex-block &quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="算法" scheme="https://blog.kisechan.space/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="数学" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>算法笔记3：折半搜索</title>
@@ -530,36 +560,6 @@
     
     
     <category term="开发" scheme="https://blog.kisechan.space/tags/%E5%BC%80%E5%8F%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据结构课程板子合集&amp;笔记</title>
-    <link href="https://blog.kisechan.space/2024/ds/"/>
-    <id>https://blog.kisechan.space/2024/ds/</id>
-    <published>2024-12-09T13:45:11.000Z</published>
-    <updated>2024-01-02T04:34:41.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;关于数据结构&lt;/h1&gt;
-&lt;p&gt;数据结构研究组织数据（结构化信息）的方法，以支持&lt;strong&gt;有效&lt;/strong&gt;——满足时空限制的处理。&lt;/p&gt;
-&lt;h2 id=&quot;数据&quot;&gt;数据&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;数据&lt;/strong&gt;是计算机程序要处理的“原料”</summary>
-        
-      
-    
-    
-    
-    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="算法" scheme="https://blog.kisechan.space/tags/%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="C++" scheme="https://blog.kisechan.space/tags/C/"/>
     
   </entry>
   
