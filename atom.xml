@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-03-05T11:46:15.502Z</updated>
+  <updated>2025-03-06T06:45:55.959Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>算法笔记3：折半搜索</title>
+    <link href="https://blog.kisechan.space/2025/algo-meet-in-the-middle/"/>
+    <id>https://blog.kisechan.space/2025/algo-meet-in-the-middle/</id>
+    <published>2025-03-06T06:25:34.000Z</published>
+    <updated>2025-03-06T06:45:55.959Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;优化&quot;&gt;优化&lt;/h2&gt;
+&lt;p&gt;Meet in the middle /</summary>
+        
+      
+    
+    
+    
+    <category term="算法" scheme="https://blog.kisechan.space/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="搜索" scheme="https://blog.kisechan.space/tags/%E6%90%9C%E7%B4%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>用 Vue、 Element Plus 和 Yaml 实现的友链页面</title>
@@ -534,33 +560,6 @@
     <category term="算法" scheme="https://blog.kisechan.space/tags/%E7%AE%97%E6%B3%95/"/>
     
     <category term="C++" scheme="https://blog.kisechan.space/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>海明码</title>
-    <link href="https://blog.kisechan.space/2024/hanming-code/"/>
-    <id>https://blog.kisechan.space/2024/hanming-code/</id>
-    <published>2024-12-04T07:41:59.000Z</published>
-    <updated>2024-12-06T04:12:12.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;组成&quot;&gt;组成&lt;/h2&gt;
-&lt;p&gt;海明码具有一位纠错能力，通过插入多位冗余码来进行错误检测和纠正。&lt;/p&gt;
-&lt;p&gt;假设数据码原码有&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="计组" scheme="https://blog.kisechan.space/tags/%E8%AE%A1%E7%BB%84/"/>
     
   </entry>
   
