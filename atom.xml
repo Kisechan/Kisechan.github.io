@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-03-06T14:03:08.679Z</updated>
+  <updated>2025-03-09T07:55:19.181Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://blog.kisechan.space/2025/algo-maths/"/>
     <id>https://blog.kisechan.space/2025/algo-maths/</id>
     <published>2025-03-06T13:23:07.000Z</published>
-    <updated>2025-03-06T14:03:08.679Z</updated>
+    <updated>2025-03-09T07:55:19.181Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;主要记录遇到的数学/统计专题和优化方法，不涉及到数论。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;主要记录遇到的数学/统计专题和优化方法，不涉及到太难的数论。&lt;/p&gt;
 &lt;h2 id=&quot;排列组合&quot;&gt;排列组合&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;无重复排列&lt;/strong&gt;：&lt;/li&gt;
