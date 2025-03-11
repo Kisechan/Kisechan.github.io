@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-03-09T07:55:19.181Z</updated>
+  <updated>2025-03-11T03:04:31.802Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>算法笔记5：树，最短路和生成树</title>
+    <link href="https://blog.kisechan.space/2025/algo-graph/"/>
+    <id>https://blog.kisechan.space/2025/algo-graph/</id>
+    <published>2025-03-11T02:39:50.000Z</published>
+    <updated>2025-03-11T03:04:31.802Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;树&quot;&gt;树&lt;/h2&gt;
+&lt;h3 id=&quot;LCA&quot;&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P3379&quot;&gt;LCA&lt;/a&gt;&lt;/h3&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    <category term="算法" scheme="https://blog.kisechan.space/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="图论" scheme="https://blog.kisechan.space/tags/%E5%9B%BE%E8%AE%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>算法笔记4：数学专题</title>
@@ -532,34 +559,6 @@
     <category term="Redis" scheme="https://blog.kisechan.space/tags/Redis/"/>
     
     <category term="Go" scheme="https://blog.kisechan.space/tags/Go/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>利用vcpkg在VS中配置第三方库环境</title>
-    <link href="https://blog.kisechan.space/2024/vcpkg/"/>
-    <id>https://blog.kisechan.space/2024/vcpkg/</id>
-    <published>2024-12-18T04:52:41.000Z</published>
-    <updated>2024-12-18T04:52:41.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;vcpkg是一个跨平台的C++包管理工具，可以自动下载、构建和配置第三方库，十分方便。&lt;/p&gt;
-&lt;h2 id=&quot;安装&quot;&gt;安装&lt;/h2&gt;
-&lt;p&gt;克隆vcpkg的源代码：&lt;/p&gt;
-&lt;figure class=&quot;highlight</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="开发" scheme="https://blog.kisechan.space/tags/%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   

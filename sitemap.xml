@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kisechan.space/2025/algo-graph/</loc>
+    
+    <lastmod>2025-03-11T03:04:31.802Z</lastmod>
+    
+    <date>1741660790000</date>
+    <title>算法笔记5：树，最短路和生成树 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>https://blog.kisechan.space/2025/algo-maths/</loc>
     
     <lastmod>2025-03-09T07:55:19.181Z</lastmod>
