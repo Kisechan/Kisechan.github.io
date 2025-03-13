@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-03-11T03:04:31.802Z</updated>
+  <updated>2025-03-13T12:07:31.401Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>算法笔记6：莫名其妙WA该去哪里Debug</title>
+    <link href="https://blog.kisechan.space/2025/algo-check-where/"/>
+    <id>https://blog.kisechan.space/2025/algo-check-where/</id>
+    <published>2025-03-13T02:56:12.000Z</published>
+    <updated>2025-03-13T12:07:31.401Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;与数据范围挂钩&quot;&gt;与数据范围挂钩&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;数组开小了&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mod&lt;/code&gt; 抄错了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;主要是涉及到</summary>
+        
+      
+    
+    
+    
+    <category term="算法" scheme="https://blog.kisechan.space/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>算法笔记5：树，最短路和生成树</title>
@@ -524,41 +553,6 @@
     
     
     <category term="Hexo" scheme="https://blog.kisechan.space/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>面向对象程序设计课设心得</title>
-    <link href="https://blog.kisechan.space/2025/oop-practicum/"/>
-    <id>https://blog.kisechan.space/2025/oop-practicum/</id>
-    <published>2025-01-11T06:48:15.000Z</published>
-    <updated>2025-01-11T06:49:02.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;题设：电商系统&lt;/h1&gt;
-&lt;p&gt;利用&lt;strong&gt;C/S框架&lt;/strong&gt;完成一个电商系统的开发：&lt;br&gt;
-&lt;img src=&quot;https://images.kisechan.space/202501111458665.png&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="C++" scheme="https://blog.kisechan.space/tags/C/"/>
-    
-    <category term="OOP" scheme="https://blog.kisechan.space/tags/OOP/"/>
-    
-    <category term="开发" scheme="https://blog.kisechan.space/tags/%E5%BC%80%E5%8F%91/"/>
-    
-    <category term="Redis" scheme="https://blog.kisechan.space/tags/Redis/"/>
-    
-    <category term="Go" scheme="https://blog.kisechan.space/tags/Go/"/>
     
   </entry>
   

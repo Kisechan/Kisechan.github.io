@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>算法笔记6：莫名其妙WA该去哪里Debug</title>
+    <link href="/2025/algo-check-where/"/>
+    <url>/2025/algo-check-where/</url>
+    
+    <content type="html"><![CDATA[<h2 id="与数据范围挂钩">与数据范围挂钩</h2><ul><li><strong>数组开小了</strong>。</li><li><code>mod</code> 抄错了。</li></ul><blockquote><p>主要是涉及到 <code>e</code> 的用法，还是用 <code>99999997</code> 这样的数字更稳妥。</p></blockquote><h2 id="特定的数据结构">特定的数据结构</h2><h3 id="堆-排序">堆/排序</h3><ul><li>自定义结构体的比较函数/运算符重载反了。</li><li>自定义结构体的比较函数/运算符重载条件缺失了（例如少了 <code>a==b</code> 的情况）。</li><li>数组下标从 <code>0</code> 开始。</li></ul><h3 id="并查集">并查集</h3><ul><li>没有初始化。</li></ul><h2 id="特定的算法">特定的算法</h2><h3 id="二分">二分</h3><ul><li><code>l</code> 和 <code>r</code> 之间的关系：是 <code>&lt;=</code> 还是 <code>&lt;</code> ，并且和 <code>mid</code> 挂钩——反复尝试排列组合不费脑子。</li><li>输出 <code>l</code> 还是 <code>l+1</code> 。</li><li>二分结束了以后是不是还要再进行一遍操作。</li></ul><h3 id="最短路">最短路</h3><ul><li><code>vis</code> 数组和 <code>dis</code> 数组初始化问题。</li></ul><h2 id="特定的-C-用法">特定的 C++ 用法</h2><ul><li><code>memset</code> 函数涉及到 <code>sizeof</code> 和初始化数值<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://blog.kisechan.space/2025/algo-state-dp/#%E5%85%B3%E4%BA%8E-memset-%E7%9A%84%E8%B8%A9%E5%9D%91">[1]</span></a></sup>的问题。</li></ul><blockquote><p><code>sizeof(bool)</code> 和 <code>sizeof(int)</code> 是不一样的，注意数组原本是什么类型。</p></blockquote><ul><li><code>char</code> 类型进行循环的时候， <code>ch&lt;='z'&amp;&amp;ch&gt;='a'</code> 有时候会无效，原因待查。</li></ul><hr><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://blog.kisechan.space/2025/algo-state-dp/#%E5%85%B3%E4%BA%8E-memset-%E7%9A%84%E8%B8%A9%E5%9D%91">https://blog.kisechan.space/2025/algo-state-dp/#关于-memset-的踩坑</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>算法</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>算法笔记5：树，最短路和生成树</title>
     <link href="/2025/algo-graph/"/>
     <url>/2025/algo-graph/</url>
