@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Allow: /
+Sitemap: https://blog.kisechan.space/sitemap.xml
