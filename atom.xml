@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-03-13T12:07:31.401Z</updated>
+  <updated>2025-03-15T06:13:29.122Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>难绷语言之 Whitespace</title>
+    <link href="https://blog.kisechan.space/2025/whitespace-introduce/"/>
+    <id>https://blog.kisechan.space/2025/whitespace-introduce/</id>
+    <published>2025-03-15T05:39:57.000Z</published>
+    <updated>2025-03-15T06:13:29.122Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
+&lt;p&gt;Whitespace 是一个由 Edwin Brady 和 Chris Morris 在 2002 年创造的语言&lt;sup id=&quot;fnref:1&quot; class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn:1&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>算法笔记6：莫名其妙WA该去哪里Debug</title>
@@ -526,33 +550,6 @@
     <category term="Web" scheme="https://blog.kisechan.space/tags/Web/"/>
     
     <category term="HTML" scheme="https://blog.kisechan.space/tags/HTML/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>利用hexo-pdf在博客中插入pdf</title>
-    <link href="https://blog.kisechan.space/2025/hexo-pdf-test/"/>
-    <id>https://blog.kisechan.space/2025/hexo-pdf-test/</id>
-    <published>2025-02-08T09:40:14.000Z</published>
-    <updated>2025-03-01T15:28:31.528Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;安装&lt;/h1&gt;
-&lt;p&gt;hexo-pdf可以将pdf文件作为标签嵌入博客文档，利用&lt;code&gt;npm&lt;/code&gt;安装：&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td</summary>
-        
-      
-    
-    
-    
-    <category term="Hexo" scheme="https://blog.kisechan.space/categories/Hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://blog.kisechan.space/tags/Hexo/"/>
     
   </entry>
   
