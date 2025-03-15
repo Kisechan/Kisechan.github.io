@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kisechan.space/2025/algo-k-ary-huffman-tree/</loc>
+    
+    <lastmod>2025-03-15T06:47:23.321Z</lastmod>
+    
+    <date>1741947446000</date>
+    <title>算法笔记7：k-叉 Huffman 树 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>https://blog.kisechan.space/2025/whitespace-introduce/</loc>
     
     <lastmod>2025-03-15T06:13:29.122Z</lastmod>

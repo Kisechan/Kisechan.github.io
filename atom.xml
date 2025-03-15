@@ -41,6 +41,34 @@
   </entry>
   
   <entry>
+    <title>算法笔记7：k-叉 Huffman 树</title>
+    <link href="https://blog.kisechan.space/2025/algo-k-ary-huffman-tree/"/>
+    <id>https://blog.kisechan.space/2025/algo-k-ary-huffman-tree/</id>
+    <published>2025-03-14T10:17:26.000Z</published>
+    <updated>2025-03-15T06:47:23.321Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;证明&quot;&gt;证明&lt;/h2&gt;
+&lt;p&gt;假设在 &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math</summary>
+        
+      
+    
+    
+    
+    <category term="算法" scheme="https://blog.kisechan.space/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="Huffman 树" scheme="https://blog.kisechan.space/tags/Huffman-%E6%A0%91/"/>
+    
+    <category term="数据结构" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
     <title>算法笔记6：莫名其妙WA该去哪里Debug</title>
     <link href="https://blog.kisechan.space/2025/algo-check-where/"/>
     <id>https://blog.kisechan.space/2025/algo-check-where/</id>
@@ -522,34 +550,6 @@
     <category term="HTML" scheme="https://blog.kisechan.space/tags/HTML/"/>
     
     <category term="CSS" scheme="https://blog.kisechan.space/tags/CSS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Web编程学习笔记1：HTML基础语法</title>
-    <link href="https://blog.kisechan.space/2025/web1/"/>
-    <id>https://blog.kisechan.space/2025/web1/</id>
-    <published>2025-02-11T14:17:04.000Z</published>
-    <updated>2025-02-12T00:58:34.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note note-primary&quot;&gt;
-            &lt;p&gt;本笔记主要依据MDN Web Docs：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Web" scheme="https://blog.kisechan.space/categories/Web/"/>
-    
-    
-    <category term="Web" scheme="https://blog.kisechan.space/tags/Web/"/>
-    
-    <category term="HTML" scheme="https://blog.kisechan.space/tags/HTML/"/>
     
   </entry>
   
