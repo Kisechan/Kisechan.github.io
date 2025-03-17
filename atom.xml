@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-03-15T06:13:29.122Z</updated>
+  <updated>2025-03-17T08:43:49.568Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>算法设计与分析 课程笔记</title>
+    <link href="https://blog.kisechan.space/2025/notes-algorithm-analysis/"/>
+    <id>https://blog.kisechan.space/2025/notes-algorithm-analysis/</id>
+    <published>2025-03-17T07:40:14.000Z</published>
+    <updated>2025-03-17T08:43:49.568Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>难绷语言之 Whitespace</title>
@@ -520,36 +543,6 @@
     <category term="Web" scheme="https://blog.kisechan.space/tags/Web/"/>
     
     <category term="JS" scheme="https://blog.kisechan.space/tags/JS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Web编程学习笔记2：CSS基础样式</title>
-    <link href="https://blog.kisechan.space/2025/web2/"/>
-    <id>https://blog.kisechan.space/2025/web2/</id>
-    <published>2025-02-12T07:40:41.000Z</published>
-    <updated>2025-03-01T15:22:48.543Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note note-primary&quot;&gt;
-            &lt;p&gt;本笔记主要依据MDN Web Docs：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Web" scheme="https://blog.kisechan.space/categories/Web/"/>
-    
-    
-    <category term="Web" scheme="https://blog.kisechan.space/tags/Web/"/>
-    
-    <category term="HTML" scheme="https://blog.kisechan.space/tags/HTML/"/>
-    
-    <category term="CSS" scheme="https://blog.kisechan.space/tags/CSS/"/>
     
   </entry>
   
