@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-03-29T09:35:20.703Z</updated>
+  <updated>2025-03-29T11:12:51.287Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.kisechan.space/2025/notes-database/"/>
     <id>https://blog.kisechan.space/2025/notes-database/</id>
     <published>2025-03-19T01:11:47.000Z</published>
-    <updated>2025-03-29T09:35:20.703Z</updated>
+    <updated>2025-03-29T11:12:51.287Z</updated>
     
     
       
@@ -37,6 +37,8 @@
     
     <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
     
+    
+    <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
