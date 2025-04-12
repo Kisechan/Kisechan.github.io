@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>网站替换新的图标 CSS</title>
+    <link href="/2025/site-new-icon-css/"/>
+    <url>/2025/site-new-icon-css/</url>
+    
+    <content type="html"><![CDATA[<h2 id="替换">替换</h2><p>之前使用的图标库提供了 CSS 链接，不过最近它的 cdn 疑似是挂掉了，国内访问本站很慢，有时候图标完全加载不出来。</p><p>于是参考了主题的文档<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://fluid-dev.github.io/hexo-fluid-docs/icon/#%E5%86%85%E7%BD%AE%E7%A4%BE%E4%BA%A4%E5%9B%BE%E6%A0%87">[1]</span></a></sup>，改为使用来自 <a href="https://www.iconfont.cn/">Iconfont</a> 的图标库，它能提供免费的图标和 CSS 链接，而且是阿里云提供的，国内访问不会受阻。免费版 Fontawesome 的图标库不提供 CSS ，不适合 Fluid 懒人配置。</p><hr><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://fluid-dev.github.io/hexo-fluid-docs/icon/#%E5%86%85%E7%BD%AE%E7%A4%BE%E4%BA%A4%E5%9B%BE%E6%A0%87">https://fluid-dev.github.io/hexo-fluid-docs/icon/#内置社交图标</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>网站维护</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>数据库原理 课程笔记</title>
     <link href="/2025/notes-database/"/>
     <url>/2025/notes-database/</url>
