@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-04-26T15:15:07.865Z</updated>
+  <updated>2025-04-28T15:13:33.812Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Typst 初体验</title>
+    <link href="https://blog.kisechan.space/2025/typst-hatsutaiken/"/>
+    <id>https://blog.kisechan.space/2025/typst-hatsutaiken/</id>
+    <published>2025-04-28T09:43:19.000Z</published>
+    <updated>2025-04-28T15:13:33.812Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note note-success&quot;&gt;
+            &lt;p&gt;&lt;strong&gt;参考&lt;/strong&gt;：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://typst.app/docs/&quot;&gt;Typst 官方文档&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="Typst" scheme="https://blog.kisechan.space/tags/Typst/"/>
+    
+  </entry>
   
   <entry>
     <title>数据库原理 课程笔记 (2)</title>
@@ -521,32 +547,6 @@
     
     
     <category term="Typora" scheme="https://blog.kisechan.space/tags/Typora/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>让Hexo博客支持Emoji表情</title>
-    <link href="https://blog.kisechan.space/2025/hexo-emoji/"/>
-    <id>https://blog.kisechan.space/2025/hexo-emoji/</id>
-    <published>2025-02-18T10:48:09.000Z</published>
-    <updated>2025-03-01T15:22:48.509Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1&gt;安装&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;http://github.com/arturi/hexo-filter-github-emojis&quot;&gt;hexo-filter-github-emojis&lt;/a&gt; 是一个使用 Github Emojis API 来添加</summary>
-        
-      
-    
-    
-    
-    <category term="Hexo" scheme="https://blog.kisechan.space/categories/Hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://blog.kisechan.space/tags/Hexo/"/>
     
   </entry>
   
