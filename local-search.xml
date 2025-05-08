@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Windows 下 Rust 环境配置踩坑</title>
+    <link href="/2025/rust-environment/"/>
+    <url>/2025/rust-environment/</url>
+    
+    <content type="html"><![CDATA[<div class="note note-primary">            <p>参考：<a href="https://course.rs/about-book.html">rust圣经</a>。</p>          </div><h2 id="下载-rustup">下载 <code>rustup</code></h2><p><a href="https://win.rustup.rs/x86_64"><code>rustup</code></a>&nbsp;是 Rust 的安装程序和版本管理程序。</p><h2 id="环境选择">环境选择</h2><p>Windows 环境下， Rust 编译生成 <code>.obj</code> 或 <code>.rlib</code> 文件后，还需要进行链接，才能产生 <code>.exe</code> 或 <code>.dll</code> ，但它本身并不内置链接器，所以使用的是 C/C++ 提供的链接器：</p><ul><li>MSVC 工具链：<code>link.exe</code>（来自 Visual Studio）</li><li>GNU 工具链使用的是：<code>ld.exe</code>（来自 MinGW）</li></ul><h2 id="安装">安装</h2><p>Rust 安装默认是安装到 C 盘，如果要将 Rust 安装到别的磁盘，可以事先将 <code>CARGO_HOME</code> 和 <code>RUSTUP_HOME</code> 两个用户变量设置好<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://blog.csdn.net/love906897406/article/details/126048624">[1]</span></a></sup>，值就是自定义的目标安装路径，例如：</p><ul><li><code>CARGO_HOME</code> : <code>D:\Rust\cargo_home</code></li><li><code>RUSTUP_HOME</code>: <code>D:\Rust\rustup_home</code><br>然后可以把 <code>%CARGO_HOME%</code> 和 <code>%RUSTUP_HOME%</code> 加到 <code>PATH</code> 里（不手动加应该也行）。<br>运行 <code>rustup-init.exe</code> ，选择配置 MSVC 工具链或 GNU 工具链。</li></ul><h3 id="GNU-工具链-sup-id-fnref-2-class-footnote-ref-a-href-fn-2-rel-footnote-span-class-hint-top-hint-rounded-aria-label-https-course-rs-first-try-installation-html-E5-9C-A8-windows-E4-B8-8A-E5-AE-89-E8-A3-85-rustup-2-span-a-sup">GNU 工具链<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://course.rs/first-try/installation.html#%E5%9C%A8-windows-%E4%B8%8A%E5%AE%89%E8%A3%85-rustup">[2]</span></a></sup></h3><p>首先配置 MSYS2 环境，将 <code>mingw64\bin</code> 添加到 <code>PATH</code> ，在 MSYS2 命令行中输入：</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">curl https://sh.rustup.rs -sSf | sh<br></code></pre></td></tr></tbody></table></figure><p>然后按照下面的顺序配置环境：</p><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><code class="hljs text">Current installation options:<br><br>   default host triple: x86_64-pc-windows-msvc<br>     default toolchain: stable (default)<br>               profile: default<br>  modify PATH variable: yes<br><br>1) Proceed with installation (default)<br>2) Customize installation<br>3) Cancel installation<br>&gt;2<br><br>I'm going to ask you the value of each of these installation options.<br>You may simply press the Enter key to leave unchanged.<br><br>Default host triple? [x86_64-pc-windows-msvc]<br>x86_64-pc-windows-gnu<br><br>Default toolchain? (stable/beta/nightly/none) [stable]<br>stable<br><br>Profile (which tools and data to install)? (minimal/default/complete) [default]<br>complete<br><br>Modify PATH variable? (Y/n)<br>Y<br><br>Current installation options:<br><br>   default host triple: x86_64-pc-windows-gnu<br>     default toolchain: stable<br>               profile: complete<br>  modify PATH variable: yes<br><br>1) Proceed with installation (default)<br>2) Customize installation<br>3) Cancel installation<br>&gt;<br></code></pre></td></tr></tbody></table></figure><p>到这里就配置好了。本人一开始就是使用 GNU 工具链配置环境的（之前嫌麻烦把 VS 删了不想下回来），但是运行 helloworld 的时候就出了错：</p><figure class="highlight rust"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs rust"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">main</span>() { <span class="hljs-built_in">println!</span>(<span class="hljs-string">"Hello, world!"</span>); }<br></code></pre></td></tr></tbody></table></figure><blockquote><p>VSCode 输出：</p><figure class="highlight text"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">&gt;Caused by: %1 不是有效的 Win32 应用程序。 (os error 193)<br></code></pre></td></tr></tbody></table></figure></blockquote><p>错误原因不明<sup id="fnref:3" class="footnote-ref"><a href="#fn:3" rel="footnote">&lt;span class=“hint–top hint–rounded” aria-label="可能可以参考： </a><a href="https://www.cnblogs.com/qumogu/p/16412076.html">https://www.cnblogs.com/qumogu/p/16412076.html</a> 和 <a href="https://zhuanlan.zhihu.com/p/613466378">https://zhuanlan.zhihu.com/p/613466378</a></sup></p><h2 id="参考和注解-3-span-a-sup-，可能是-MSYS2-环境有问题，看来-Windows-搞这些只能用-MSVC-了。">参考和注解"&gt;[3]，可能是 MSYS2 环境有问题，看来 Windows 搞这些只能用 MSVC 了。</h2><h3 id="MSVC-工具链">MSVC 工具链</h3><p>安装&nbsp;<a href="https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/">Microsoft C++ Build Tools</a>，只用勾选 C++ 环境的这两项：</p><ul><li><code>MSVC v143 - VS 2022 C++ x64/x86 build tools</code></li><li><code>Windows 10 SDK</code><br>然后打开安装程序一路默认即可。</li></ul><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://blog.csdn.net/love906897406/article/details/126048624">https://blog.csdn.net/love906897406/article/details/126048624</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a href="https://course.rs/first-try/installation.html#%E5%9C%A8-windows-%E4%B8%8A%E5%AE%89%E8%A3%85-rustup">https://course.rs/first-try/installation.html#在-windows-上安装-rustup</a><a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:3" class="footnote-text"><span>可能可以参考： <a href="https://www.cnblogs.com/qumogu/p/16412076.html">https://www.cnblogs.com/qumogu/p/16412076.html</a> 和 <a href="https://zhuanlan.zhihu.com/p/613466378">https://zhuanlan.zhihu.com/p/613466378</a><h2 id="参考和注解">参考和注解</h2><a href="#fnref:3" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>CS 杂谈</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Rust</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Typst 初体验</title>
     <link href="/2025/typst-hatsutaiken/"/>
     <url>/2025/typst-hatsutaiken/</url>
@@ -266,9 +291,9 @@
     
     <categories>
       
-      <category>Web</category>
-      
       <category>网站维护</category>
+      
+      <category>Web</category>
       
     </categories>
     
