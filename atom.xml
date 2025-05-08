@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-05-08T07:19:39.024Z</updated>
+  <updated>2025-05-08T07:27:33.550Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -21,17 +21,15 @@
     <link href="https://blog.kisechan.space/2025/rust-environment/"/>
     <id>https://blog.kisechan.space/2025/rust-environment/</id>
     <published>2025-05-07T14:12:46.000Z</published>
-    <updated>2025-05-08T07:19:39.024Z</updated>
+    <updated>2025-05-08T07:27:33.550Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;note note-primary&quot;&gt;
-            &lt;p&gt;参考：&lt;a href=&quot;https://course.rs/about-book.html&quot;&gt;rust圣经&lt;/a&gt;。&lt;/p&gt;
-          &lt;/div&gt;
-&lt;h2</summary>
+    <summary type="html">&lt;h2 id=&quot;下载-rustup&quot;&gt;下载 &lt;code&gt;rustup&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://win.rustup.rs/x86_64&quot;&gt;&lt;code&gt;rustup&lt;/code&gt;&lt;/a&gt;&amp;nbsp;是 Rust</summary>
         
       
     
