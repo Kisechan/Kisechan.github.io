@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-05-08T07:27:33.550Z</updated>
+  <updated>2025-05-08T13:02:51.945Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.kisechan.space/2025/rust-environment/"/>
     <id>https://blog.kisechan.space/2025/rust-environment/</id>
     <published>2025-05-07T14:12:46.000Z</published>
-    <updated>2025-05-08T07:27:33.550Z</updated>
+    <updated>2025-05-08T13:02:51.945Z</updated>
     
     
       
@@ -150,7 +150,7 @@
     <link href="https://blog.kisechan.space/2025/notes-algorithm-analysis/"/>
     <id>https://blog.kisechan.space/2025/notes-algorithm-analysis/</id>
     <published>2025-03-17T07:40:14.000Z</published>
-    <updated>2025-03-17T12:51:42.089Z</updated>
+    <updated>2025-05-12T08:41:13.243Z</updated>
     
     
       
@@ -165,6 +165,8 @@
     
     <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
     
+    
+    <category term="算法" scheme="https://blog.kisechan.space/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
