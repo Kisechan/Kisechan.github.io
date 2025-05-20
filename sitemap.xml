@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kisechan.space/2025/notes-database-3/</loc>
+    
+    <lastmod>2025-05-20T12:52:32.662Z</lastmod>
+    
+    <date>1747718322000</date>
+    <title>数据库原理 课程笔记 (3) - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>https://blog.kisechan.space/2025/notes-algorithm-analysis/</loc>
     
     <lastmod>2025-05-19T13:10:15.597Z</lastmod>
@@ -70,7 +81,7 @@
   <url>
     <loc>https://blog.kisechan.space/2025/notes-database-2/</loc>
     
-    <lastmod>2025-04-29T12:08:30.664Z</lastmod>
+    <lastmod>2025-04-30T13:45:12.000Z</lastmod>
     
     <date>1745412187000</date>
     <title>数据库原理 课程笔记 (2) - Kisechan's Blog</title>

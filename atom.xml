@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-05-08T13:02:51.945Z</updated>
+  <updated>2025-05-20T12:52:32.662Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据库原理 课程笔记 (3)</title>
+    <link href="https://blog.kisechan.space/2025/notes-database-3/"/>
+    <id>https://blog.kisechan.space/2025/notes-database-3/</id>
+    <published>2025-05-20T05:18:42.000Z</published>
+    <updated>2025-05-20T12:52:32.662Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;存储与文件&quot;&gt;存储与文件&lt;/h2&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
   
   <entry>
     <title>Windows 下 Rust 环境配置踩坑</title>
@@ -73,7 +99,7 @@
     <link href="https://blog.kisechan.space/2025/notes-database-2/"/>
     <id>https://blog.kisechan.space/2025/notes-database-2/</id>
     <published>2025-04-23T12:43:07.000Z</published>
-    <updated>2025-04-29T12:08:30.664Z</updated>
+    <updated>2025-04-30T13:45:12.000Z</updated>
     
     
       
@@ -521,34 +547,6 @@
     
     
     <category term="QQBot" scheme="https://blog.kisechan.space/tags/QQBot/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>把 Docker 安装到别的磁盘</title>
-    <link href="https://blog.kisechan.space/2025/docker-anotherdisk/"/>
-    <id>https://blog.kisechan.space/2025/docker-anotherdisk/</id>
-    <published>2025-02-27T04:35:33.000Z</published>
-    <updated>2025-03-01T15:22:48.498Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;安装&quot;&gt;安装&lt;/h2&gt;
-&lt;p&gt;博主把 Docker 安装到 C 盘导致 C 盘爆炸，需要把它挪个地方。&lt;/p&gt;
-&lt;p&gt;以管理员模式打开 cmd 对 &lt;code&gt;Docker Desktop Installer.exe&lt;/code&gt; 执行：&lt;/p&gt;
-&lt;figure</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="Docker" scheme="https://blog.kisechan.space/tags/Docker/"/>
     
   </entry>
   
