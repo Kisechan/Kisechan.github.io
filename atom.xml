@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-05-23T13:35:11.046Z</updated>
+  <updated>2025-05-24T07:29:21.315Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>操作系统复习</title>
+    <link href="https://blog.kisechan.space/2025/notes-operating-system/"/>
+    <id>https://blog.kisechan.space/2025/notes-operating-system/</id>
+    <published>2025-05-23T14:08:13.000Z</published>
+    <updated>2025-05-24T07:29:21.315Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;操作系统概述&quot;&gt;操作系统概述&lt;/h2&gt;
+&lt;h3 id=&quot;操作系统概念&quot;&gt;操作系统概念&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;地位&lt;/strong&gt;:</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="操作系统" scheme="https://blog.kisechan.space/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>数据库原理 课程笔记 (3)</title>
@@ -522,31 +550,6 @@
     
     
     <category term="dp" scheme="https://blog.kisechan.space/tags/dp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>用AstrBot框架搭建一个qq机器人</title>
-    <link href="https://blog.kisechan.space/2025/qqbot-astrbot/"/>
-    <id>https://blog.kisechan.space/2025/qqbot-astrbot/</id>
-    <published>2025-02-27T10:14:55.000Z</published>
-    <updated>2025-03-01T15:22:48.530Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;部署框架&quot;&gt;部署框架&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;框架&lt;/strong&gt;提供的是机器人的基础功能，简化开发流程。&lt;/p&gt;
-&lt;p&gt;AstrBot 官方文档：&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="QQBot" scheme="https://blog.kisechan.space/tags/QQBot/"/>
     
   </entry>
   
