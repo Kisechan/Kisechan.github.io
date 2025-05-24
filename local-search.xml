@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>NEOVIM 体验</title>
+    <link href="/2025/neovim-try/"/>
+    <url>/2025/neovim-try/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>具体内容以后再补，先写快捷键的。</p></blockquote><h2 id="快捷键归纳">快捷键归纳</h2><p>算是<a href="https://blog.kisechan.space/2024/linux-note/#%E8%BE%93%E5%85%A5%E6%A8%A1%E5%BC%8F">先前笔记的部分内容</a>的重置。</p><h3 id="模式切换">模式切换</h3><table><thead><tr><th style="text-align:center">快捷键</th><th style="text-align:center">功能</th></tr></thead><tbody><tr><td style="text-align:center"><kbd>i</kbd></td><td style="text-align:center">进入插入模式（<strong>光标前</strong>）</td></tr><tr><td style="text-align:center"><kbd>a</kbd></td><td style="text-align:center">进入插入模式（<strong>光标后</strong>）</td></tr><tr><td style="text-align:center"><kbd>o</kbd></td><td style="text-align:center">在下方新行插入</td></tr><tr><td style="text-align:center"><kbd>Esc</kbd> / <kbd>Ctrl</kbd>+<kbd>[</kbd></td><td style="text-align:center">返回普通模式</td></tr><tr><td style="text-align:center"><kbd>v</kbd></td><td style="text-align:center">进入可视模式（字符选择）</td></tr><tr><td style="text-align:center"><kbd>V</kbd></td><td style="text-align:center">行选择模式</td></tr><tr><td style="text-align:center"><kbd>Ctrl</kbd>+<kbd>v</kbd></td><td style="text-align:center">块选择模式</td></tr></tbody></table><h3 id="光标移动">光标移动</h3><table><thead><tr><th style="text-align:center">快捷键</th><th style="text-align:center">功能</th></tr></thead><tbody><tr><td style="text-align:center"><kbd>h</kbd> <kbd>j</kbd> <kbd>k</kbd> <kbd>l</kbd></td><td style="text-align:center">左/下/上/右移动</td></tr><tr><td style="text-align:center"><kbd>w</kbd> / <kbd>b</kbd></td><td style="text-align:center">跳到下一个/上一个<strong>单词开头</strong></td></tr><tr><td style="text-align:center"><kbd>e</kbd></td><td style="text-align:center">跳到单词末尾</td></tr><tr><td style="text-align:center"><kbd>0</kbd> / <kbd>$</kbd></td><td style="text-align:center">行首/行尾</td></tr><tr><td style="text-align:center"><kbd>gg</kbd> / <kbd>G</kbd></td><td style="text-align:center">文件开头/结尾</td></tr><tr><td style="text-align:center"><kbd>Ctrl</kbd>+<kbd>d</kbd> / <kbd>Ctrl</kbd>+<kbd>u</kbd></td><td style="text-align:center">向下/上翻半页</td></tr></tbody></table><h3 id="文本编辑">文本编辑</h3><table><thead><tr><th style="text-align:center">快捷键</th><th style="text-align:center">功能</th></tr></thead><tbody><tr><td style="text-align:center"><kbd>x</kbd></td><td style="text-align:center">删除当前字符</td></tr><tr><td style="text-align:center"><kbd>dd</kbd></td><td style="text-align:center">删除当前行</td></tr><tr><td style="text-align:center"><kbd>yy</kbd></td><td style="text-align:center">复制当前行</td></tr><tr><td style="text-align:center"><kbd>p</kbd> / <kbd>P</kbd></td><td style="text-align:center">粘贴到光标后/前</td></tr><tr><td style="text-align:center"><kbd>u</kbd> / <kbd>Ctrl</kbd>+<kbd>r</kbd></td><td style="text-align:center">撤销/重做</td></tr><tr><td style="text-align:center"><kbd>.</kbd></td><td style="text-align:center">重复上一次操作</td></tr></tbody></table><h3 id="窗口和标签页">窗口和标签页</h3><table><thead><tr><th style="text-align:center">快捷键</th><th style="text-align:center">功能</th></tr></thead><tbody><tr><td style="text-align:center"><kbd>Ctrl</kbd>+<kbd>w</kbd> <kbd>s</kbd></td><td style="text-align:center">水平分割窗口</td></tr><tr><td style="text-align:center"><kbd>Ctrl</kbd>+<kbd>w</kbd> <kbd>v</kbd></td><td style="text-align:center">垂直分割窗口</td></tr><tr><td style="text-align:center"><kbd>Ctrl</kbd>+<kbd>w</kbd> <kbd>h</kbd>/<kbd>j</kbd>/<kbd>k</kbd>/<kbd>l</kbd></td><td style="text-align:center">切换窗口方向</td></tr><tr><td style="text-align:center"><kbd>:tabnew</kbd></td><td style="text-align:center">新建标签页</td></tr><tr><td style="text-align:center"><kbd>gt</kbd> / <kbd>gT</kbd></td><td style="text-align:center">下一个/上一个标签页</td></tr></tbody></table><h3 id="搜索与替换">搜索与替换</h3><table><thead><tr><th style="text-align:center">快捷键</th><th style="text-align:center">功能</th></tr></thead><tbody><tr><td style="text-align:center"><kbd>/</kbd><code>关键词</code><kbd>Enter</kbd></td><td style="text-align:center">向下搜索</td></tr><tr><td style="text-align:center"><kbd>?</kbd><code>关键词</code><kbd>Enter</kbd></td><td style="text-align:center">向上搜索</td></tr><tr><td style="text-align:center"><kbd>n</kbd> / <kbd>N</kbd></td><td style="text-align:center">跳转到下一个/上一个匹配</td></tr><tr><td style="text-align:center"><kbd>:%s/old/new/g</kbd></td><td style="text-align:center">全局替换</td></tr></tbody></table><h3 id="其他实用功能">其他实用功能</h3><table><thead><tr><th style="text-align:center">快捷键</th><th style="text-align:center">功能</th></tr></thead><tbody><tr><td style="text-align:center"><kbd>Ctrl</kbd>+<kbd>z</kbd></td><td style="text-align:center">挂起  Neovim ，返回终端</td></tr><tr><td style="text-align:center"><kbd>fg</kbd></td><td style="text-align:center">恢复挂起的任务</td></tr><tr><td style="text-align:center"><kbd>:!</kbd><code>命令</code><kbd>Enter</kbd></td><td style="text-align:center">执行外部命令（如 <code>:!python %</code> 运行当前文件</td></tr></tbody></table><h2 id="参考和注解">参考和注解</h2>]]></content>
+    
+    
+    <categories>
+      
+      <category>CS 杂谈</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>neovim</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>操作系统复习</title>
     <link href="/2025/notes-operating-system/"/>
     <url>/2025/notes-operating-system/</url>
