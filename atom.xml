@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-05-24T12:38:45.615Z</updated>
+  <updated>2025-06-09T12:56:16.902Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据库原理 课程笔记 (4) 杂项和题目整理</title>
+    <link href="https://blog.kisechan.space/2025/notes-database-4/"/>
+    <id>https://blog.kisechan.space/2025/notes-database-4/</id>
+    <published>2025-06-09T11:27:29.000Z</published>
+    <updated>2025-06-09T12:56:16.902Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;概念整理&quot;&gt;概念整理&lt;/h2&gt;
+&lt;h3 id=&quot;码&quot;&gt;码&lt;/h3&gt;
+&lt;p&gt;来自&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
   
   <entry>
     <title>NEOVIM 体验</title>
@@ -74,11 +101,11 @@
   </entry>
   
   <entry>
-    <title>数据库原理 课程笔记 (3)</title>
+    <title>数据库原理 课程笔记 (3) 存储、索引、事务和并发</title>
     <link href="https://blog.kisechan.space/2025/notes-database-3/"/>
     <id>https://blog.kisechan.space/2025/notes-database-3/</id>
     <published>2025-05-20T05:18:42.000Z</published>
-    <updated>2025-06-09T06:47:24.474Z</updated>
+    <updated>2025-06-09T11:47:17.700Z</updated>
     
     
       
@@ -152,11 +179,11 @@
   </entry>
   
   <entry>
-    <title>数据库原理 课程笔记 (2)</title>
+    <title>数据库原理 课程笔记 (2) E-R 模型和关系模式</title>
     <link href="https://blog.kisechan.space/2025/notes-database-2/"/>
     <id>https://blog.kisechan.space/2025/notes-database-2/</id>
     <published>2025-04-23T12:43:07.000Z</published>
-    <updated>2025-06-09T11:20:38.403Z</updated>
+    <updated>2025-06-09T11:33:17.187Z</updated>
     
     
       
@@ -203,11 +230,11 @@
   </entry>
   
   <entry>
-    <title>数据库原理 课程笔记 (1)</title>
+    <title>数据库原理 课程笔记 (1) 数据库、关系代数和 SQL</title>
     <link href="https://blog.kisechan.space/2025/notes-database-1/"/>
     <id>https://blog.kisechan.space/2025/notes-database-1/</id>
     <published>2025-03-19T01:11:47.000Z</published>
-    <updated>2025-06-09T08:56:36.681Z</updated>
+    <updated>2025-06-09T12:04:29.869Z</updated>
     
     
       
@@ -437,9 +464,9 @@
     
     
     
-    <category term="Web" scheme="https://blog.kisechan.space/categories/Web/"/>
-    
     <category term="网站维护" scheme="https://blog.kisechan.space/categories/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/"/>
+    
+    <category term="Web" scheme="https://blog.kisechan.space/categories/Web/"/>
     
     
     <category term="Web" scheme="https://blog.kisechan.space/tags/Web/"/>
@@ -521,30 +548,6 @@
         
     <summary type="html">&lt;h2 id=&quot;旧图床&quot;&gt;旧图床&lt;/h2&gt;
 &lt;p&gt;之前网站使用的图床是用 Github 仓库 + jsDelivr 的 cdn ，但是jsDelivr</summary>
-        
-      
-    
-    
-    
-    <category term="网站维护" scheme="https://blog.kisechan.space/categories/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>网站域名变更所做的工作</title>
-    <link href="https://blog.kisechan.space/2025/site-domain/"/>
-    <id>https://blog.kisechan.space/2025/site-domain/</id>
-    <published>2025-03-01T05:52:30.000Z</published>
-    <updated>2025-05-06T12:19:11.450Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note note-primary&quot;&gt;
-            &lt;p&gt;从现在开始，本站域名便从 &lt;strong&gt;&lt;a href=&quot;http://kisechan.github.io&quot;&gt;kisechan.github.io&lt;/a&gt;&lt;/strong&gt;</summary>
         
       
     
