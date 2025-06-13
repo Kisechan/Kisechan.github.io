@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-06-10T07:12:48.004Z</updated>
+  <updated>2025-06-13T05:22:09.571Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>操作系统复习</title>
+    <link href="https://blog.kisechan.space/2025/notes-os/"/>
+    <id>https://blog.kisechan.space/2025/notes-os/</id>
+    <published>2025-06-13T05:16:37.000Z</published>
+    <updated>2025-06-13T05:22:09.571Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;操作系统概述&quot;&gt;操作系统概述&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;操作系统的概念、地位、作用与定义：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;地位：&lt;/strong&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="OS" scheme="https://blog.kisechan.space/tags/OS/"/>
+    
+  </entry>
   
   <entry>
     <title>数据库原理 课程笔记 (4) 杂项和题目整理</title>
@@ -519,30 +548,6 @@
         
     <summary type="html">&lt;h2 id=&quot;旧图床&quot;&gt;旧图床&lt;/h2&gt;
 &lt;p&gt;之前网站使用的图床是用 Github 仓库 + jsDelivr 的 cdn ，但是jsDelivr</summary>
-        
-      
-    
-    
-    
-    <category term="网站维护" scheme="https://blog.kisechan.space/categories/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>网站域名变更所做的工作</title>
-    <link href="https://blog.kisechan.space/2025/site-domain/"/>
-    <id>https://blog.kisechan.space/2025/site-domain/</id>
-    <published>2025-03-01T05:52:30.000Z</published>
-    <updated>2025-05-06T12:19:11.450Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note note-primary&quot;&gt;
-            &lt;p&gt;从现在开始，本站域名便从 &lt;strong&gt;&lt;a href=&quot;http://kisechan.github.io&quot;&gt;kisechan.github.io&lt;/a&gt;&lt;/strong&gt;</summary>
         
       
     
