@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-06-14T13:48:11.556Z</updated>
+  <updated>2025-06-15T08:03:00.988Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>notes-ptms</title>
+    <link href="https://blog.kisechan.space/2025/notes-ptms/"/>
+    <id>https://blog.kisechan.space/2025/notes-ptms/</id>
+    <published>2025-06-15T07:59:35.000Z</published>
+    <updated>2025-06-15T08:03:00.988Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;连续型随机变量分布&quot;&gt;连续型随机变量分布&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;分布名称&lt;/th&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>操作系统复习</title>
     <link href="https://blog.kisechan.space/2025/notes-os/"/>
     <id>https://blog.kisechan.space/2025/notes-os/</id>
     <published>2025-06-13T05:16:37.000Z</published>
-    <updated>2025-06-14T13:48:11.556Z</updated>
+    <updated>2025-06-15T07:30:45.442Z</updated>
     
     
       
@@ -464,9 +490,9 @@
     
     
     
-    <category term="网站维护" scheme="https://blog.kisechan.space/categories/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/"/>
-    
     <category term="Web" scheme="https://blog.kisechan.space/categories/Web/"/>
+    
+    <category term="网站维护" scheme="https://blog.kisechan.space/categories/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/"/>
     
     
     <category term="Web" scheme="https://blog.kisechan.space/tags/Web/"/>
@@ -531,30 +557,6 @@
     
     
     <category term="dp" scheme="https://blog.kisechan.space/tags/dp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Cloudflare+Github图床</title>
-    <link href="https://blog.kisechan.space/2025/site-image-host/"/>
-    <id>https://blog.kisechan.space/2025/site-image-host/</id>
-    <published>2025-03-02T12:08:08.000Z</published>
-    <updated>2025-03-02T12:49:20.411Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;旧图床&quot;&gt;旧图床&lt;/h2&gt;
-&lt;p&gt;之前网站使用的图床是用 Github 仓库 + jsDelivr 的 cdn ，但是jsDelivr</summary>
-        
-      
-    
-    
-    
-    <category term="网站维护" scheme="https://blog.kisechan.space/categories/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/"/>
-    
     
   </entry>
   
