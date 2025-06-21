@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-06-15T08:03:00.988Z</updated>
+  <updated>2025-06-21T15:06:35.039Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>notes-ptms</title>
+    <title>概率论与数理统计</title>
     <link href="https://blog.kisechan.space/2025/notes-ptms/"/>
     <id>https://blog.kisechan.space/2025/notes-ptms/</id>
     <published>2025-06-15T07:59:35.000Z</published>
-    <updated>2025-06-15T08:03:00.988Z</updated>
+    <updated>2025-06-21T15:06:35.039Z</updated>
     
     
       
@@ -39,6 +39,10 @@
     
     
     
+    <category term="复习笔记" scheme="https://blog.kisechan.space/categories/%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="数学" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
@@ -47,7 +51,7 @@
     <link href="https://blog.kisechan.space/2025/notes-os/"/>
     <id>https://blog.kisechan.space/2025/notes-os/</id>
     <published>2025-06-13T05:16:37.000Z</published>
-    <updated>2025-06-18T06:53:53.730Z</updated>
+    <updated>2025-06-18T08:09:14.960Z</updated>
     
     
       
