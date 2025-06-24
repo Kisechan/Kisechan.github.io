@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-06-23T15:11:11.391Z</updated>
+  <updated>2025-06-24T13:29:55.653Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java 程序设计</title>
+    <link href="https://blog.kisechan.space/2025/notes-java/"/>
+    <id>https://blog.kisechan.space/2025/notes-java/</id>
+    <published>2025-06-24T12:52:38.000Z</published>
+    <updated>2025-06-24T13:29:55.653Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;速通的倒数第二门，唉这学期怎么都在速通，活得太没意思了。&lt;/p&gt;
+&lt;p&gt;祝我好运。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;Java-基础&quot;&gt;Java 基础&lt;/h2&gt;
+&lt;h3 id=&quot;概述&quot;&gt;概述&lt;/h3&gt;
+&lt;p&gt;Java</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Java" scheme="https://blog.kisechan.space/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>概率论与数理统计</title>
@@ -535,34 +566,6 @@
     <category term="Web" scheme="https://blog.kisechan.space/tags/Web/"/>
     
     <category term="TailwindCSS" scheme="https://blog.kisechan.space/tags/TailwindCSS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>算法笔记2：状压 dp</title>
-    <link href="https://blog.kisechan.space/2025/algo-state-dp/"/>
-    <id>https://blog.kisechan.space/2025/algo-state-dp/</id>
-    <published>2025-03-03T08:27:05.000Z</published>
-    <updated>2025-03-03T10:17:38.970Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;优化方式&quot;&gt;优化方式&lt;/h2&gt;
-&lt;p&gt;状压 dp 能将&lt;strong&gt;排列复杂度&lt;/strong&gt;转为&lt;strong&gt;指数级复杂度&lt;/strong&gt;。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="算法" scheme="https://blog.kisechan.space/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="dp" scheme="https://blog.kisechan.space/tags/dp/"/>
     
   </entry>
   

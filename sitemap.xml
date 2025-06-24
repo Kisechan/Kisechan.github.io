@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kisechan.space/2025/notes-java/</loc>
+    
+    <lastmod>2025-06-24T13:29:55.653Z</lastmod>
+    
+    <date>1750769558000</date>
+    <title>Java 程序设计 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>https://blog.kisechan.space/2025/notes-ptms/</loc>
     
     <lastmod>2025-06-23T15:11:11.391Z</lastmod>
