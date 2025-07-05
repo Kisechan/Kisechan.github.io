@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kisechan.space/2025/site-gitea/</loc>
+    
+    <lastmod>2025-07-01T15:14:00.116Z</lastmod>
+    
+    <date>1751283535000</date>
+    <title>自部署 Gitea - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>https://blog.kisechan.space/2025/notes-java/</loc>
     
     <lastmod>2025-06-26T11:02:27.115Z</lastmod>
