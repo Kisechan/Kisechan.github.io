@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-07-08T21:18:17.722Z</updated>
+  <updated>2025-07-09T09:14:55.597Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.kisechan.space/2025/view-counter/"/>
     <id>https://blog.kisechan.space/2025/view-counter/</id>
     <published>2025-07-08T14:37:48.000Z</published>
-    <updated>2025-07-08T21:18:17.722Z</updated>
+    <updated>2025-07-09T09:14:55.597Z</updated>
     
     
       
@@ -29,8 +29,7 @@
         
         
     <summary type="html">&lt;p&gt;使用 Golang 和 Gin 实现一个简单的网页浏览计数服务。&lt;/p&gt;
-&lt;p&gt;&lt;a mtype=&quot;card&quot; href=&quot;#https://github.com/Kisechan/View-Counter&quot;&gt;View&amp;nbsp;Counter&lt;/a&gt;&lt;/p&gt;
-&lt;h2</summary>
+&lt;p&gt;&lt;a href=&quot;https://github.com/Kisechan/View-Counter&quot; name=&quot;https://github.com/fluidicon.png&quot;</summary>
         
       
     
