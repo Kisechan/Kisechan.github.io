@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kisechan.space/2025/notes-ptms/</loc>
+    
+    <lastmod>2025-07-11T04:16:52.067Z</lastmod>
+    
+    <date>1749974375000</date>
+    <title>概率论与数理统计 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>https://blog.kisechan.space/2025/view-counter/</loc>
     
     <lastmod>2025-07-09T09:18:17.095Z</lastmod>
@@ -30,17 +41,6 @@
     
     <date>1750769558000</date>
     <title>Java 程序设计 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/notes-ptms/</loc>
-    
-    <lastmod>2025-06-23T15:11:11.391Z</lastmod>
-    
-    <date>1749974375000</date>
-    <title>概率论与数理统计 - Kisechan's Blog</title>
     
     <desc></desc>
   </url>
