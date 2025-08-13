@@ -2,9 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kisechan.space/2025/typst-ptms/</loc>
+    
+    <lastmod>2025-08-13T00:09:15.035Z</lastmod>
+    
+    <date>1752150261000</date>
+    <title>用 Typst 排版一份概率论笔记 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>https://blog.kisechan.space/2025/notes-ptms/</loc>
     
-    <lastmod>2025-07-11T04:16:52.067Z</lastmod>
+    <lastmod>2025-08-12T23:37:57.985Z</lastmod>
     
     <date>1749974375000</date>
     <title>概率论与数理统计 - Kisechan's Blog</title>

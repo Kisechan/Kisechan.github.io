@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-07-09T09:18:17.095Z</updated>
+  <updated>2025-08-13T00:09:15.035Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用 Typst 排版一份概率论笔记</title>
+    <link href="https://blog.kisechan.space/2025/typst-ptms/"/>
+    <id>https://blog.kisechan.space/2025/typst-ptms/</id>
+    <published>2025-07-10T12:24:21.000Z</published>
+    <updated>2025-08-13T00:09:15.035Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;排版&quot;&gt;排版&lt;/h2&gt;
+&lt;p&gt;博主身为洁癖，受够了 &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="数学" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+    <category term="Typst" scheme="https://blog.kisechan.space/tags/Typst/"/>
+    
+  </entry>
   
   <entry>
     <title>网页浏览计数服务</title>
@@ -108,20 +136,20 @@
     <link href="https://blog.kisechan.space/2025/notes-ptms/"/>
     <id>https://blog.kisechan.space/2025/notes-ptms/</id>
     <published>2025-06-15T07:59:35.000Z</published>
-    <updated>2025-07-11T04:16:52.067Z</updated>
+    <updated>2025-08-12T23:37:57.985Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;row&quot;&gt;
-    &lt;embed src=&quot;https://images.kisechan.space/v1.1.pdf&quot; width=&quot;100%&quot; height=&quot;550&quot; type=&quot;application/pdf&quot;&gt;
-	&lt;/div&gt;
-
-
-
-&lt;h2</summary>
+    <summary type="html">&lt;h2 id=&quot;概率论&quot;&gt;概率论&lt;/h2&gt;
+&lt;h3 id=&quot;连续型随机变量分布&quot;&gt;连续型随机变量分布&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;分布名称&lt;/th&gt;
+&lt;th</summary>
         
       
     
@@ -534,32 +562,6 @@
     
     
     <category term="数学" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>算法笔记3：折半搜索</title>
-    <link href="https://blog.kisechan.space/2025/algo-meet-in-the-middle/"/>
-    <id>https://blog.kisechan.space/2025/algo-meet-in-the-middle/</id>
-    <published>2025-03-06T06:25:34.000Z</published>
-    <updated>2025-03-06T06:45:55.959Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;优化&quot;&gt;优化&lt;/h2&gt;
-&lt;p&gt;Meet in the middle /</summary>
-        
-      
-    
-    
-    
-    <category term="算法" scheme="https://blog.kisechan.space/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="搜索" scheme="https://blog.kisechan.space/tags/%E6%90%9C%E7%B4%A2/"/>
     
   </entry>
   
