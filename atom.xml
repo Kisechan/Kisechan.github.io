@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-08-13T00:17:08.507Z</updated>
+  <updated>2025-08-19T09:00:30.069Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>GitHub Profile 自动化更新最新博客文章</title>
+    <link href="https://blog.kisechan.space/2025/github-actions-blog-update/"/>
+    <id>https://blog.kisechan.space/2025/github-actions-blog-update/</id>
+    <published>2025-08-19T07:47:52.000Z</published>
+    <updated>2025-08-19T09:00:30.069Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;技术选型-GitHub-Actions&quot;&gt;技术选型 GitHub Actions&lt;/h2&gt;
+&lt;p&gt;我们的&lt;strong&gt;目标&lt;/strong&gt;是：在我的 &lt;a href=&quot;https://github.com/Kisechan&quot;&gt;GitHub</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="GitHub Actions" scheme="https://blog.kisechan.space/tags/GitHub-Actions/"/>
+    
+  </entry>
+  
+  <entry>
     <title>用 Typst 排版一份概率论笔记</title>
     <link href="https://blog.kisechan.space/2025/typst-ptms/"/>
     <id>https://blog.kisechan.space/2025/typst-ptms/</id>
-    <published>2025-07-10T12:24:21.000Z</published>
-    <updated>2025-08-13T00:17:08.507Z</updated>
+    <published>2025-07-29T12:24:21.000Z</published>
+    <updated>2025-08-19T09:04:18.139Z</updated>
     
     
       
@@ -532,36 +558,6 @@
     
     
     <category term="图论" scheme="https://blog.kisechan.space/tags/%E5%9B%BE%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>算法笔记4：数学专题</title>
-    <link href="https://blog.kisechan.space/2025/algo-maths/"/>
-    <id>https://blog.kisechan.space/2025/algo-maths/</id>
-    <published>2025-03-06T13:23:07.000Z</published>
-    <updated>2025-03-09T07:55:19.181Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;主要记录遇到的数学/统计专题和优化方法，不涉及到太难的数论。&lt;/p&gt;
-&lt;h2 id=&quot;排列组合&quot;&gt;排列组合&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;无重复排列&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class=&quot;katex-block &quot;&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="算法" scheme="https://blog.kisechan.space/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="数学" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
