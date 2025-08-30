@@ -4,10 +4,21 @@
   <url>
     <loc>https://blog.kisechan.space/2025/github-actions-blog-update/</loc>
     
-    <lastmod>2025-08-20T05:02:16.677Z</lastmod>
+    <lastmod>2025-08-30T13:52:21.641Z</lastmod>
     
     <date>1755589672000</date>
     <title>GitHub Profile 自动化更新最新博客文章 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/about/index.html</loc>
+    
+    <lastmod>2025-08-20T05:07:11.247Z</lastmod>
+    
+    <date>1755666431247</date>
+    <title>关于 - Kisechan's Blog</title>
     
     <desc></desc>
   </url>
@@ -349,17 +360,6 @@
     
     <date>1739007614000</date>
     <title>利用hexo-pdf在博客中插入pdf - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/about/index.html</loc>
-    
-    <lastmod>2025-03-01T15:23:19.160Z</lastmod>
-    
-    <date>1740842599160</date>
-    <title>关于 - Kisechan's Blog</title>
     
     <desc></desc>
   </url>
