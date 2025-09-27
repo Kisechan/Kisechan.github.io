@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-09-12T06:29:52.878Z</updated>
+  <updated>2025-09-27T09:29:02.265Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>计算机网络课程笔记</title>
+    <link href="https://blog.kisechan.space/2025/notes-networks/"/>
+    <id>https://blog.kisechan.space/2025/notes-networks/</id>
+    <published>2025-09-27T08:31:27.000Z</published>
+    <updated>2025-09-27T09:29:02.265Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;概论&quot;&gt;概论&lt;/h2&gt;
+&lt;h3 id=&quot;发展历史&quot;&gt;发展历史&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;早期系统&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;联机系统&lt;/strong&gt;：终端 – 线路 –</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="计算机网络" scheme="https://blog.kisechan.space/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>制作一只非常可爱的说的道理桌宠</title>
@@ -532,35 +563,6 @@
     <category term="Huffman 树" scheme="https://blog.kisechan.space/tags/Huffman-%E6%A0%91/"/>
     
     <category term="数据结构" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>算法笔记6：莫名其妙WA该去哪里Debug</title>
-    <link href="https://blog.kisechan.space/2025/algo-check-where/"/>
-    <id>https://blog.kisechan.space/2025/algo-check-where/</id>
-    <published>2025-03-13T02:56:12.000Z</published>
-    <updated>2025-03-19T02:54:33.829Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;与数据范围挂钩&quot;&gt;与数据范围挂钩&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;数组开小了&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mod&lt;/code&gt; 抄错了。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;主要是涉及到</summary>
-        
-      
-    
-    
-    
-    <category term="算法" scheme="https://blog.kisechan.space/categories/%E7%AE%97%E6%B3%95/"/>
-    
     
   </entry>
   
