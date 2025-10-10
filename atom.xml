@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-09-27T09:29:02.265Z</updated>
+  <updated>2025-10-10T12:57:42.067Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>为博客增添 PWA 支持</title>
+    <link href="https://blog.kisechan.space/2025/site-pwa/"/>
+    <id>https://blog.kisechan.space/2025/site-pwa/</id>
+    <published>2025-10-10T12:33:39.000Z</published>
+    <updated>2025-10-10T12:57:42.067Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;介绍&lt;/h2&gt;
+&lt;p&gt;Progressive Web App (PWA) 可以让网站变成一个可安装的小应用，甚至于能离线访问，非常炫酷。&lt;/p&gt;
+&lt;p&gt;要实现 PWA 支持，网站需要满足：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;有一个</summary>
+        
+      
+    
+    
+    
+    <category term="网站维护" scheme="https://blog.kisechan.space/categories/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>计算机网络课程笔记</title>
@@ -535,34 +563,6 @@
     
     <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>算法笔记7：k-叉 Huffman 树</title>
-    <link href="https://blog.kisechan.space/2025/algo-k-ary-huffman-tree/"/>
-    <id>https://blog.kisechan.space/2025/algo-k-ary-huffman-tree/</id>
-    <published>2025-03-14T10:17:26.000Z</published>
-    <updated>2025-03-15T06:55:39.040Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;证明&quot;&gt;证明&lt;/h2&gt;
-&lt;p&gt;假设在 &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math</summary>
-        
-      
-    
-    
-    
-    <category term="算法" scheme="https://blog.kisechan.space/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="Huffman 树" scheme="https://blog.kisechan.space/tags/Huffman-%E6%A0%91/"/>
-    
-    <category term="数据结构" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   

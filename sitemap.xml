@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kisechan.space/2025/site-pwa/</loc>
+    
+    <lastmod>2025-10-10T12:57:42.067Z</lastmod>
+    
+    <date>1760099619000</date>
+    <title>为博客增添 PWA 支持 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>https://blog.kisechan.space/2025/notes-networks/</loc>
     
     <lastmod>2025-09-27T09:29:02.265Z</lastmod>
