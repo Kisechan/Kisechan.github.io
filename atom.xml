@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-10-12T08:05:12.628Z</updated>
+  <updated>2025-10-21T15:51:19.601Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>体验 Rust 的特性</title>
+    <link href="https://blog.kisechan.space/2025/rust-taste/"/>
+    <id>https://blog.kisechan.space/2025/rust-taste/</id>
+    <published>2025-10-21T14:31:30.000Z</published>
+    <updated>2025-10-21T15:51:19.601Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;众所周知， Rust 是一个&lt;strong&gt;无 GC 且无需手动内存管理、性能高、工程性强、语言级安全性以及能同时得到工程派和学院派认可的语言&lt;/strong&gt;&lt;sup id=&quot;fnref:1&quot; class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn:1&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="Rust" scheme="https://blog.kisechan.space/tags/Rust/"/>
+    
+  </entry>
+  
+  <entry>
     <title>为博客增添 PWA 支持</title>
     <link href="https://blog.kisechan.space/2025/site-pwa/"/>
     <id>https://blog.kisechan.space/2025/site-pwa/</id>
     <published>2025-10-10T12:33:39.000Z</published>
-    <updated>2025-10-12T08:05:12.628Z</updated>
+    <updated>2025-10-21T14:34:11.185Z</updated>
     
     
       
@@ -539,30 +564,6 @@
     
     
     <category term="算法" scheme="https://blog.kisechan.space/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>难绷语言之 Whitespace</title>
-    <link href="https://blog.kisechan.space/2025/whitespace-introduce/"/>
-    <id>https://blog.kisechan.space/2025/whitespace-introduce/</id>
-    <published>2025-03-15T05:39:57.000Z</published>
-    <updated>2025-03-15T06:13:29.122Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
-&lt;p&gt;Whitespace 是一个由 Edwin Brady 和 Chris Morris 在 2002 年创造的语言&lt;sup id=&quot;fnref:1&quot; class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn:1&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
-    
     
   </entry>
   
