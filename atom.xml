@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-10-21T15:51:19.601Z</updated>
+  <updated>2025-10-28T13:42:41.064Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>设计一个数据库引擎 (1) 内存、外存和记录管理</title>
+    <link href="https://blog.kisechan.space/2025/db-engine-1/"/>
+    <id>https://blog.kisechan.space/2025/db-engine-1/</id>
+    <published>2025-10-28T10:49:59.000Z</published>
+    <updated>2025-10-28T13:42:41.064Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;介绍&lt;/h2&gt;
+&lt;p&gt;这是吉林大学软件工程卓越工程师班《&lt;em&gt;数据库系统应用程序开发&lt;/em&gt;》和《&lt;em&gt;系统软件综合实践&lt;/em&gt;》两门课程（共 3 学分）综合起来共同完成的课程项目。课程的内容主要是了解 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="练手项目" scheme="https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="Rust" scheme="https://blog.kisechan.space/tags/Rust/"/>
+    
+    <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
   
   <entry>
     <title>体验 Rust 的特性</title>
@@ -539,31 +567,6 @@
     
     
     <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>算法设计与分析 课程笔记</title>
-    <link href="https://blog.kisechan.space/2025/notes-algorithm-analysis/"/>
-    <id>https://blog.kisechan.space/2025/notes-algorithm-analysis/</id>
-    <published>2025-03-17T07:40:14.000Z</published>
-    <updated>2025-06-04T08:35:28.230Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="算法" scheme="https://blog.kisechan.space/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
