@@ -2,207 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.kisechan.space/2025/notes-se-1/</loc>
-    
-    <lastmod>2025-11-03T13:29:03.393Z</lastmod>
-    
-    <date>1762172102000</date>
-    <title>软件工程课程笔记 (1) - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/about/index.html</loc>
-    
-    <lastmod>2025-11-01T08:28:06.882Z</lastmod>
-    
-    <date>1761985686882</date>
-    <title>关于 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/db-engine-1/</loc>
-    
-    <lastmod>2025-11-01T08:25:32.553Z</lastmod>
-    
-    <date>1761648599000</date>
-    <title>设计一个数据库引擎 (1) 内存、外存和记录管理 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/rust-taste/</loc>
-    
-    <lastmod>2025-10-21T15:51:19.601Z</lastmod>
-    
-    <date>1761057090000</date>
-    <title>体验 Rust 的特性 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/site-pwa/</loc>
-    
-    <lastmod>2025-10-21T14:34:11.185Z</lastmod>
-    
-    <date>1760099619000</date>
-    <title>为博客增添 PWA 支持 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/notes-networks/</loc>
-    
-    <lastmod>2025-09-27T09:29:02.265Z</lastmod>
-    
-    <date>1758961887000</date>
-    <title>计算机网络课程笔记 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/shuodedaoli-deskpet/</loc>
-    
-    <lastmod>2025-09-12T06:29:52.878Z</lastmod>
-    
-    <date>1757580590000</date>
-    <title>制作一只非常可爱的说的道理桌宠 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/github-actions-blog-update/</loc>
-    
-    <lastmod>2025-08-30T13:52:21.641Z</lastmod>
-    
-    <date>1755589672000</date>
-    <title>GitHub Profile 自动化更新最新博客文章 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/typst-ptms/</loc>
-    
-    <lastmod>2025-08-19T09:04:18.139Z</lastmod>
-    
-    <date>1753791861000</date>
-    <title>用 Typst 排版一份概率论笔记 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/notes-ptms/</loc>
-    
-    <lastmod>2025-08-12T23:37:57.985Z</lastmod>
-    
-    <date>1749974375000</date>
-    <title>概率论与数理统计 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/view-counter/</loc>
-    
-    <lastmod>2025-07-09T09:18:17.095Z</lastmod>
-    
-    <date>1751985468000</date>
-    <title>网页浏览计数服务 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/site-gitea/</loc>
-    
-    <lastmod>2025-07-01T15:14:00.116Z</lastmod>
-    
-    <date>1751283535000</date>
-    <title>自部署 Gitea - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/notes-java/</loc>
-    
-    <lastmod>2025-06-26T11:02:27.115Z</lastmod>
-    
-    <date>1750769558000</date>
-    <title>Java 程序设计 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/notes-os/</loc>
-    
-    <lastmod>2025-06-18T08:09:14.960Z</lastmod>
-    
-    <date>1749791797000</date>
-    <title>操作系统复习 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/notes-database-3/</loc>
-    
-    <lastmod>2025-06-11T08:50:04.991Z</lastmod>
-    
-    <date>1747718322000</date>
-    <title>数据库原理 课程笔记 (3) 存储、索引、事务和并发 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/notes-database-2/</loc>
-    
-    <lastmod>2025-06-11T08:44:13.867Z</lastmod>
-    
-    <date>1745412187000</date>
-    <title>数据库原理 课程笔记 (2) E-R 模型和关系模式 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/notes-database-1/</loc>
-    
-    <lastmod>2025-06-11T06:16:42.600Z</lastmod>
-    
-    <date>1742346707000</date>
-    <title>数据库原理 课程笔记 (1) 数据库、关系代数和 SQL - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/notes-database-4/</loc>
-    
-    <lastmod>2025-06-10T07:12:48.004Z</lastmod>
-    
-    <date>1749468449000</date>
-    <title>数据库原理 课程笔记 (4) 杂项和题目整理 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
     <loc>https://blog.kisechan.space/map/index.html</loc>
     
-    <lastmod>2025-06-09T14:19:27.062Z</lastmod>
+    <lastmod>2025-11-07T10:49:34.558Z</lastmod>
     
     <date>1749478214000</date>
     <title>Map Widget Code - Kisechan's Blog</title>
@@ -211,56 +13,12 @@
   </url>
   
   <url>
-    <loc>https://blog.kisechan.space/2025/notes-algorithm-analysis/</loc>
+    <loc>https://blog.kisechan.space/playlist/index.html</loc>
     
-    <lastmod>2025-06-04T08:35:28.230Z</lastmod>
+    <lastmod>2025-11-07T10:49:34.558Z</lastmod>
     
-    <date>1742197214000</date>
-    <title>算法设计与分析 课程笔记 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/neovim-try/</loc>
-    
-    <lastmod>2025-05-24T12:38:45.615Z</lastmod>
-    
-    <date>1748089079000</date>
-    <title>NEOVIM 体验 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/rust-environment/</loc>
-    
-    <lastmod>2025-05-08T13:02:51.945Z</lastmod>
-    
-    <date>1746627166000</date>
-    <title>Windows 下 Rust 环境配置踩坑 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/site-domain/</loc>
-    
-    <lastmod>2025-05-06T12:19:11.450Z</lastmod>
-    
-    <date>1740808350000</date>
-    <title>网站域名变更所做的工作 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/typora-purple/</loc>
-    
-    <lastmod>2025-05-06T12:19:10.866Z</lastmod>
-    
-    <date>1740144165000</date>
-    <title>给 Typora 主题 Purple 加上背景图片 - Kisechan's Blog</title>
+    <date>1739104282000</date>
+    <title>歌单 - Kisechan's Blog</title>
     
     <desc></desc>
   </url>
@@ -268,7 +26,7 @@
   <url>
     <loc>https://blog.kisechan.space/2025/web2/</loc>
     
-    <lastmod>2025-05-06T12:19:06.132Z</lastmod>
+    <lastmod>2025-11-07T10:49:34.537Z</lastmod>
     
     <date>1739346041000</date>
     <title>Web编程学习笔记2：CSS基础样式 - Kisechan's Blog</title>
@@ -277,45 +35,12 @@
   </url>
   
   <url>
-    <loc>https://blog.kisechan.space/2025/typst-hatsutaiken/</loc>
+    <loc>https://blog.kisechan.space/2025/web3/</loc>
     
-    <lastmod>2025-04-29T02:25:30.978Z</lastmod>
+    <lastmod>2025-11-07T10:49:34.537Z</lastmod>
     
-    <date>1745833399000</date>
-    <title>Typst 初体验 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/site-new-icon-css/</loc>
-    
-    <lastmod>2025-04-12T11:57:24.478Z</lastmod>
-    
-    <date>1744458376000</date>
-    <title>网站替换新的图标 CSS - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/algo-check-where/</loc>
-    
-    <lastmod>2025-03-19T02:54:33.829Z</lastmod>
-    
-    <date>1741834572000</date>
-    <title>算法笔记6：莫名其妙WA该去哪里Debug - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/algo-k-ary-huffman-tree/</loc>
-    
-    <lastmod>2025-03-15T06:55:39.040Z</lastmod>
-    
-    <date>1741947446000</date>
-    <title>算法笔记7：k-叉 Huffman 树 - Kisechan's Blog</title>
+    <date>1739444711000</date>
+    <title>Web编程学习笔记3：JS入门 - Kisechan's Blog</title>
     
     <desc></desc>
   </url>
@@ -323,7 +48,7 @@
   <url>
     <loc>https://blog.kisechan.space/2025/whitespace-introduce/</loc>
     
-    <lastmod>2025-03-15T06:13:29.122Z</lastmod>
+    <lastmod>2025-11-07T10:49:34.537Z</lastmod>
     
     <date>1742017197000</date>
     <title>难绷语言之 Whitespace - Kisechan's Blog</title>
@@ -332,9 +57,427 @@
   </url>
   
   <url>
+    <loc>https://blog.kisechan.space/about/index.html</loc>
+    
+    <lastmod>2025-11-07T10:49:34.537Z</lastmod>
+    
+    <date>1762512574537</date>
+    <title>关于 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/homo/index.html</loc>
+    
+    <lastmod>2025-11-07T10:49:34.537Z</lastmod>
+    
+    <date>1740453293000</date>
+    <title>数字恶臭化工具 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/shuodedaoli-deskpet/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.536Z</lastmod>
+    
+    <date>1757580590000</date>
+    <title>制作一只非常可爱的说的道理桌宠 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/site-domain/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.536Z</lastmod>
+    
+    <date>1740808350000</date>
+    <title>网站域名变更所做的工作 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/site-friend-links/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.536Z</lastmod>
+    
+    <date>1741173834000</date>
+    <title>用 Vue、 Element Plus 和 Yaml 实现的友链页面 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/site-gitea/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.536Z</lastmod>
+    
+    <date>1751283535000</date>
+    <title>自部署 Gitea - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/site-new-icon-css/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.536Z</lastmod>
+    
+    <date>1744458376000</date>
+    <title>网站替换新的图标 CSS - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/site-image-host/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.536Z</lastmod>
+    
+    <date>1740917288000</date>
+    <title>Cloudflare+Github图床 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/site-pwa/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.536Z</lastmod>
+    
+    <date>1760099619000</date>
+    <title>为博客增添 PWA 支持 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/tailwindcss-init/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.536Z</lastmod>
+    
+    <date>1741098913000</date>
+    <title>初始化 TailwindCSS 遇到的一些问题 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/typora-purple/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.536Z</lastmod>
+    
+    <date>1740144165000</date>
+    <title>给 Typora 主题 Purple 加上背景图片 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/typst-hatsutaiken/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.536Z</lastmod>
+    
+    <date>1745833399000</date>
+    <title>Typst 初体验 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/typst-ptms/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.536Z</lastmod>
+    
+    <date>1753791861000</date>
+    <title>用 Typst 排版一份概率论笔记 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/view-counter/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.536Z</lastmod>
+    
+    <date>1751985468000</date>
+    <title>网页浏览计数服务 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/notes-ptms/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.535Z</lastmod>
+    
+    <date>1749974375000</date>
+    <title>概率论与数理统计 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/notes-se-1/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.535Z</lastmod>
+    
+    <date>1762172102000</date>
+    <title>软件工程课程笔记 (1) - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/notes-os/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.535Z</lastmod>
+    
+    <date>1749791797000</date>
+    <title>操作系统复习 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/qqbot-astrbot/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.535Z</lastmod>
+    
+    <date>1740651295000</date>
+    <title>用AstrBot框架搭建一个qq机器人 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/rust-environment/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.535Z</lastmod>
+    
+    <date>1746627166000</date>
+    <title>Windows 下 Rust 环境配置踩坑 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/rust-taste/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.535Z</lastmod>
+    
+    <date>1761057090000</date>
+    <title>体验 Rust 的特性 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/notes-algorithm-analysis/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.534Z</lastmod>
+    
+    <date>1742197214000</date>
+    <title>算法设计与分析 课程笔记 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/notes-database-2/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.534Z</lastmod>
+    
+    <date>1745412187000</date>
+    <title>数据库原理 课程笔记 (2) E-R 模型和关系模式 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/notes-database-4/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.534Z</lastmod>
+    
+    <date>1749468449000</date>
+    <title>数据库原理 课程笔记 (4) 杂项和题目整理 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/notes-networks/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.534Z</lastmod>
+    
+    <date>1758961887000</date>
+    <title>计算机网络课程笔记 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/notes-database-3/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.534Z</lastmod>
+    
+    <date>1747718322000</date>
+    <title>数据库原理 课程笔记 (3) 存储、索引、事务和并发 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/notes-database-1/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.534Z</lastmod>
+    
+    <date>1742346707000</date>
+    <title>数据库原理 课程笔记 (1) 数据库、关系代数和 SQL - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/notes-java/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.534Z</lastmod>
+    
+    <date>1750769558000</date>
+    <title>Java 程序设计 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/github-actions-blog-update/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.533Z</lastmod>
+    
+    <date>1755589672000</date>
+    <title>GitHub Profile 自动化更新最新博客文章 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/hexo-emoji/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.533Z</lastmod>
+    
+    <date>1739875689000</date>
+    <title>让Hexo博客支持Emoji表情 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/hexo-encrypt/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.533Z</lastmod>
+    
+    <date>1739795367000</date>
+    <title>给Hexo博客文章加密—— hexo-blog-encrypt - Kisechan's Blog</title>
+    
+    <desc>这是一个加密文件,需要输入密码才能查看</desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/hexo-icons/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.533Z</lastmod>
+    
+    <date>1739578340000</date>
+    <title>给Fluid主题引入外部图标CSS - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/hexo-pdf-test/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.533Z</lastmod>
+    
+    <date>1739007614000</date>
+    <title>利用hexo-pdf在博客中插入pdf - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/neovim-try/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.533Z</lastmod>
+    
+    <date>1748089079000</date>
+    <title>NEOVIM 体验 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/monotonic-queue-dp/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.533Z</lastmod>
+    
+    <date>1740720176000</date>
+    <title>算法笔记1：单调队列优化 dp - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/algo-state-dp/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.532Z</lastmod>
+    
+    <date>1740990425000</date>
+    <title>算法笔记2：状压 dp - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/db-engine-1/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.532Z</lastmod>
+    
+    <date>1761648599000</date>
+    <title>设计一个数据库引擎 (1) 内存、外存和记录管理 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/docker-anotherdisk/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.532Z</lastmod>
+    
+    <date>1740630933000</date>
+    <title>把 Docker 安装到别的磁盘 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/algo-check-where/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.531Z</lastmod>
+    
+    <date>1741834572000</date>
+    <title>算法笔记6：莫名其妙WA该去哪里Debug - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>https://blog.kisechan.space/2025/algo-graph/</loc>
     
-    <lastmod>2025-03-11T03:04:31.802Z</lastmod>
+    <lastmod>2025-11-07T10:49:34.531Z</lastmod>
     
     <date>1741660790000</date>
     <title>算法笔记5：树，最短路和生成树 - Kisechan's Blog</title>
@@ -343,9 +486,20 @@
   </url>
   
   <url>
+    <loc>https://blog.kisechan.space/2025/algo-k-ary-huffman-tree/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.531Z</lastmod>
+    
+    <date>1741947446000</date>
+    <title>算法笔记7：k-叉 Huffman 树 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>https://blog.kisechan.space/2025/algo-maths/</loc>
     
-    <lastmod>2025-03-09T07:55:19.181Z</lastmod>
+    <lastmod>2025-11-07T10:49:34.531Z</lastmod>
     
     <date>1741267387000</date>
     <title>算法笔记4：数学专题 - Kisechan's Blog</title>
@@ -356,153 +510,10 @@
   <url>
     <loc>https://blog.kisechan.space/2025/algo-meet-in-the-middle/</loc>
     
-    <lastmod>2025-03-06T06:45:55.959Z</lastmod>
+    <lastmod>2025-11-07T10:49:34.531Z</lastmod>
     
     <date>1741242334000</date>
     <title>算法笔记3：折半搜索 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/site-friend-links/</loc>
-    
-    <lastmod>2025-03-05T11:46:15.502Z</lastmod>
-    
-    <date>1741173834000</date>
-    <title>用 Vue、 Element Plus 和 Yaml 实现的友链页面 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/tailwindcss-init/</loc>
-    
-    <lastmod>2025-03-05T11:25:58.643Z</lastmod>
-    
-    <date>1741098913000</date>
-    <title>初始化 TailwindCSS 遇到的一些问题 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/algo-state-dp/</loc>
-    
-    <lastmod>2025-03-03T10:17:38.970Z</lastmod>
-    
-    <date>1740990425000</date>
-    <title>算法笔记2：状压 dp - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/monotonic-queue-dp/</loc>
-    
-    <lastmod>2025-03-03T08:51:06.428Z</lastmod>
-    
-    <date>1740720176000</date>
-    <title>算法笔记1：单调队列优化 dp - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/site-image-host/</loc>
-    
-    <lastmod>2025-03-02T12:49:20.411Z</lastmod>
-    
-    <date>1740917288000</date>
-    <title>Cloudflare+Github图床 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/hexo-pdf-test/</loc>
-    
-    <lastmod>2025-03-01T15:28:31.528Z</lastmod>
-    
-    <date>1739007614000</date>
-    <title>利用hexo-pdf在博客中插入pdf - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/web3/</loc>
-    
-    <lastmod>2025-03-01T15:22:48.545Z</lastmod>
-    
-    <date>1739444711000</date>
-    <title>Web编程学习笔记3：JS入门 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/qqbot-astrbot/</loc>
-    
-    <lastmod>2025-03-01T15:22:48.530Z</lastmod>
-    
-    <date>1740651295000</date>
-    <title>用AstrBot框架搭建一个qq机器人 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/hexo-icons/</loc>
-    
-    <lastmod>2025-03-01T15:22:48.513Z</lastmod>
-    
-    <date>1739578340000</date>
-    <title>给Fluid主题引入外部图标CSS - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/hexo-encrypt/</loc>
-    
-    <lastmod>2025-03-01T15:22:48.511Z</lastmod>
-    
-    <date>1739795367000</date>
-    <title>给Hexo博客文章加密—— hexo-blog-encrypt - Kisechan's Blog</title>
-    
-    <desc>这是一个加密文件,需要输入密码才能查看</desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/hexo-emoji/</loc>
-    
-    <lastmod>2025-03-01T15:22:48.509Z</lastmod>
-    
-    <date>1739875689000</date>
-    <title>让Hexo博客支持Emoji表情 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/2025/docker-anotherdisk/</loc>
-    
-    <lastmod>2025-03-01T15:22:48.498Z</lastmod>
-    
-    <date>1740630933000</date>
-    <title>把 Docker 安装到别的磁盘 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/homo/index.html</loc>
-    
-    <lastmod>2025-02-25T14:25:30.755Z</lastmod>
-    
-    <date>1740453293000</date>
-    <title>数字恶臭化工具 - Kisechan's Blog</title>
     
     <desc></desc>
   </url>
@@ -514,17 +525,6 @@
     
     <date>1739283424000</date>
     <title>Web编程学习笔记1：HTML基础语法 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
-    <loc>https://blog.kisechan.space/playlist/index.html</loc>
-    
-    <lastmod>2025-02-09T13:29:53.434Z</lastmod>
-    
-    <date>1739104282000</date>
-    <title>歌单 - Kisechan's Blog</title>
     
     <desc></desc>
   </url>
