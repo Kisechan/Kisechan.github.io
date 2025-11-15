@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-11-12T08:26:43.406Z</updated>
+  <updated>2025-11-15T08:19:52.952Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>软件设计模式 课程笔记</title>
+    <link href="https://blog.kisechan.space/2025/notes-design-pattern/"/>
+    <id>https://blog.kisechan.space/2025/notes-design-pattern/</id>
+    <published>2025-11-15T06:12:35.000Z</published>
+    <updated>2025-11-15T08:19:52.952Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://images.kisechan.space/20251115161935679.png&quot; alt=&quot;设计模式课程的主要内容&quot;&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;fold&quot;&gt;
+      &lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="设计模式" scheme="https://blog.kisechan.space/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>设计一个数据库引擎 (2) 索引</title>
@@ -548,32 +576,6 @@
     
     
     <category term="Typst" scheme="https://blog.kisechan.space/tags/Typst/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据库原理 课程笔记 (2) E-R 模型和关系模式</title>
-    <link href="https://blog.kisechan.space/2025/notes-database-2/"/>
-    <id>https://blog.kisechan.space/2025/notes-database-2/</id>
-    <published>2025-04-23T12:43:07.000Z</published>
-    <updated>2025-11-07T10:49:34.534Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;实体-联系模型&quot;&gt;实体-联系模型&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;实体-联系模型&lt;/strong&gt; (Entity-Relationship / E-R 模型)</summary>
-        
-      
-    
-    
-    
-    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
