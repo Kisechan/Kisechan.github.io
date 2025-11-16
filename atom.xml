@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-11-15T08:51:12.107Z</updated>
+  <updated>2025-11-16T12:28:02.548Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>机器学习 课程笔记</title>
+    <link href="https://blog.kisechan.space/2025/notes-machine-learning/"/>
+    <id>https://blog.kisechan.space/2025/notes-machine-learning/</id>
+    <published>2025-11-16T07:59:29.000Z</published>
+    <updated>2025-11-16T12:28:02.548Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;绪论&quot;&gt;绪论&lt;/h2&gt;
+&lt;p&gt;机器学习的定义：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A computer program is said to learn from experience &lt;span class=&quot;katex&quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="机器学习" scheme="https://blog.kisechan.space/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>软件设计模式 课程笔记</title>
@@ -550,32 +578,6 @@
     
     
     <category term="Rust" scheme="https://blog.kisechan.space/tags/Rust/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Typst 初体验</title>
-    <link href="https://blog.kisechan.space/2025/typst-hatsutaiken/"/>
-    <id>https://blog.kisechan.space/2025/typst-hatsutaiken/</id>
-    <published>2025-04-28T09:43:19.000Z</published>
-    <updated>2025-11-07T10:49:34.536Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note note-success&quot;&gt;
-            &lt;p&gt;&lt;strong&gt;参考&lt;/strong&gt;：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://typst.app/docs/&quot;&gt;Typst 官方文档&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="Typst" scheme="https://blog.kisechan.space/tags/Typst/"/>
     
   </entry>
   
