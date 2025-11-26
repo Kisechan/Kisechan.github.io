@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-11-17T14:12:14.635Z</updated>
+  <updated>2025-11-26T09:53:09.654Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>设计一个数据库引擎 (3) SQL 处理</title>
+    <link href="https://blog.kisechan.space/2025/db-engine-3/"/>
+    <id>https://blog.kisechan.space/2025/db-engine-3/</id>
+    <published>2025-11-26T09:49:01.000Z</published>
+    <updated>2025-11-26T09:53:09.654Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;任务要求&quot;&gt;任务要求&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;实现 SQL 的查询处理&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;针对 DML</summary>
+        
+      
+    
+    
+    
+    <category term="练手项目" scheme="https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="Rust" scheme="https://blog.kisechan.space/tags/Rust/"/>
+    
+    <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
   
   <entry>
     <title>机器学习 课程笔记</title>
@@ -551,32 +582,6 @@
     
     
     <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows 下 Rust 环境配置踩坑</title>
-    <link href="https://blog.kisechan.space/2025/rust-environment/"/>
-    <id>https://blog.kisechan.space/2025/rust-environment/</id>
-    <published>2025-05-07T14:12:46.000Z</published>
-    <updated>2025-11-07T10:49:34.535Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;下载-rustup&quot;&gt;下载 &lt;code&gt;rustup&lt;/code&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://win.rustup.rs/x86_64&quot;&gt;&lt;code&gt;rustup&lt;/code&gt;&lt;/a&gt;&amp;nbsp;是 Rust</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="Rust" scheme="https://blog.kisechan.space/tags/Rust/"/>
     
   </entry>
   
