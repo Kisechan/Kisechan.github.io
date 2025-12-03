@@ -9,9 +9,12 @@
     <lastmod>{{ post.date.toISOString() }}</lastmod>
     {% endif %}
     <date>{{ post.date }}</date>
-    <title>{{ post.title + ' - ' + config.title }}</title>
-    {# nunjucks 模版语法 https://github.com/mozilla/nunjucks #}
-    <desc>{{ post.description | default(post.excerpt) | default(post.content) | default(config.description) | striptags | truncate(200, true, '') }}</desc>
+    
+    {# 使用 CDATA 包裹，这样无论标题里有什么符号都不会报错，也不需要 escape #}
+    <title><![CDATA[{{ post.title + ' - ' + config.title }}]]></title>
+    
+    {# 描述部分同理 #}
+    <desc><![CDATA[{{ post.description | default(post.excerpt) | default(post.content) | default(config.description) | striptags | truncate(200, true, '') }}]]></desc>
   </url>
   {% endfor %}
 </urlset>
