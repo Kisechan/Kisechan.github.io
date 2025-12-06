@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-12-04T13:20:27.575Z</updated>
+  <updated>2025-12-06T06:50:24.480Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在 Cloudflare Workers 部署 skill-icons</title>
+    <link href="https://blog.kisechan.space/2025/skill-icons/"/>
+    <id>https://blog.kisechan.space/2025/skill-icons/</id>
+    <published>2025-12-06T06:15:08.000Z</published>
+    <updated>2025-12-06T06:50:24.480Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://skillicons.dev/&quot;&gt;&lt;strong&gt;Skill Icons 项目&lt;/strong&gt;&lt;/a&gt;是一个用于生成技能展示图标的工具，可以帮助用户在 GitHub</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>设计一个数据库引擎 (3) SQL 处理</title>
@@ -554,32 +577,6 @@
     
     
     <category term="neovim" scheme="https://blog.kisechan.space/tags/neovim/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据库原理 课程笔记 (3) 存储、索引、事务和并发</title>
-    <link href="https://blog.kisechan.space/2025/notes-database-3/"/>
-    <id>https://blog.kisechan.space/2025/notes-database-3/</id>
-    <published>2025-05-20T05:18:42.000Z</published>
-    <updated>2025-11-07T10:49:34.534Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;存储与文件&quot;&gt;存储与文件&lt;/h2&gt;
-&lt;h3</summary>
-        
-      
-    
-    
-    
-    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
