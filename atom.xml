@@ -101,7 +101,7 @@
     <link href="https://blog.kisechan.space/2025/notes-design-pattern/"/>
     <id>https://blog.kisechan.space/2025/notes-design-pattern/</id>
     <published>2025-11-15T06:12:35.000Z</published>
-    <updated>2025-11-25T07:44:18.123Z</updated>
+    <updated>2025-12-10T12:23:55.503Z</updated>
     
     
       
@@ -150,33 +150,6 @@
     <category term="Rust" scheme="https://blog.kisechan.space/tags/Rust/"/>
     
     <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>软件工程课程笔记 (1)</title>
-    <link href="https://blog.kisechan.space/2025/notes-se-1/"/>
-    <id>https://blog.kisechan.space/2025/notes-se-1/</id>
-    <published>2025-11-03T12:15:02.000Z</published>
-    <updated>2025-11-07T10:49:34.535Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;软件工程&quot;&gt;软件工程&lt;/h2&gt;
-&lt;h3 id=&quot;软件和软件危机&quot;&gt;软件和软件危机&lt;/h3&gt;
-&lt;h4</summary>
-        
-      
-    
-    
-    
-    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="软件工程" scheme="https://blog.kisechan.space/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
     
   </entry>
   
@@ -577,6 +550,32 @@
     
     
     <category term="neovim" scheme="https://blog.kisechan.space/tags/neovim/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据库原理 课程笔记 (3) 存储、索引、事务和并发</title>
+    <link href="https://blog.kisechan.space/2025/notes-database-3/"/>
+    <id>https://blog.kisechan.space/2025/notes-database-3/</id>
+    <published>2025-05-20T05:18:42.000Z</published>
+    <updated>2025-11-07T10:49:34.534Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;存储与文件&quot;&gt;存储与文件&lt;/h2&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
