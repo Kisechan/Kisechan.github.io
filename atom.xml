@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-12-06T06:50:24.480Z</updated>
+  <updated>2025-12-11T14:29:34.782Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>软件工程课程部分概念归纳</title>
+    <link href="https://blog.kisechan.space/2025/notes-software-engineering-summary/"/>
+    <id>https://blog.kisechan.space/2025/notes-software-engineering-summary/</id>
+    <published>2025-12-11T14:15:15.000Z</published>
+    <updated>2025-12-11T14:29:34.782Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;使用 &lt;a href=&quot;https://notebooklm.google.com/&quot;&gt;NotebookLM&lt;/a&gt; 完成。&lt;/p&gt;
+&lt;h2 id=&quot;英文简称概念归纳&quot;&gt;英文简称概念归纳&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="软件工程" scheme="https://blog.kisechan.space/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>在 Cloudflare Workers 部署 skill-icons</title>
@@ -550,32 +580,6 @@
     
     
     <category term="neovim" scheme="https://blog.kisechan.space/tags/neovim/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据库原理 课程笔记 (3) 存储、索引、事务和并发</title>
-    <link href="https://blog.kisechan.space/2025/notes-database-3/"/>
-    <id>https://blog.kisechan.space/2025/notes-database-3/</id>
-    <published>2025-05-20T05:18:42.000Z</published>
-    <updated>2025-11-07T10:49:34.534Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;存储与文件&quot;&gt;存储与文件&lt;/h2&gt;
-&lt;h3</summary>
-        
-      
-    
-    
-    
-    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
