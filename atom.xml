@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-12-22T14:11:33.254Z</updated>
+  <updated>2025-12-31T00:34:08.454Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git 团队合作的简单使用教程</title>
+    <link href="https://blog.kisechan.space/2025/how-to-use-git/"/>
+    <id>https://blog.kisechan.space/2025/how-to-use-git/</id>
+    <published>2025-12-31T00:22:45.000Z</published>
+    <updated>2025-12-31T00:34:08.454Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;可以直接把本文投喂给你的队友&lt;/li&gt;
+&lt;li&gt;只限于使用 Git 进行合作的场景，不会涉及刁钻神秘的 Git 命令比如 &lt;code&gt;cherrypick&lt;/code&gt; 以及复杂原理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;1-基础准备&quot;&gt;1.</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="git" scheme="https://blog.kisechan.space/tags/git/"/>
+    
+  </entry>
   
   <entry>
     <title>计算机网络总结归纳</title>
@@ -546,33 +575,6 @@
     
     
     <category term="OS" scheme="https://blog.kisechan.space/tags/OS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据库原理 课程笔记 (4) 杂项和题目整理</title>
-    <link href="https://blog.kisechan.space/2025/notes-database-4/"/>
-    <id>https://blog.kisechan.space/2025/notes-database-4/</id>
-    <published>2025-06-09T11:27:29.000Z</published>
-    <updated>2025-11-07T10:49:34.534Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;概念整理&quot;&gt;概念整理&lt;/h2&gt;
-&lt;h3 id=&quot;码&quot;&gt;码&lt;/h3&gt;
-&lt;p&gt;来自&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
