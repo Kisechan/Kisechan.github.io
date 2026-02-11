@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2025-12-31T00:34:08.454Z</updated>
+  <updated>2026-02-11T15:17:51.096Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NoSQL 的学习使用和环境配置</title>
+    <link href="https://blog.kisechan.space/2026/nosql/"/>
+    <id>https://blog.kisechan.space/2026/nosql/</id>
+    <published>2026-02-11T14:58:29.000Z</published>
+    <updated>2026-02-11T15:17:51.096Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;关于-NoSQL&quot;&gt;关于</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="Redis" scheme="https://blog.kisechan.space/tags/Redis/"/>
+    
+    <category term="MongoDB" scheme="https://blog.kisechan.space/tags/MongoDB/"/>
+    
+    <category term="Neo4j" scheme="https://blog.kisechan.space/tags/Neo4j/"/>
+    
+    <category term="HBase" scheme="https://blog.kisechan.space/tags/HBase/"/>
+    
+    <category term="Hadoop" scheme="https://blog.kisechan.space/tags/Hadoop/"/>
+    
+  </entry>
   
   <entry>
     <title>Git 团队合作的简单使用教程</title>
@@ -545,36 +580,6 @@
     
     
     <category term="数学" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>操作系统复习</title>
-    <link href="https://blog.kisechan.space/2025/notes-os/"/>
-    <id>https://blog.kisechan.space/2025/notes-os/</id>
-    <published>2025-06-13T05:16:37.000Z</published>
-    <updated>2025-11-07T10:49:34.535Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;操作系统概述&quot;&gt;操作系统概述&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;操作系统的概念、地位、作用与定义：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;地位：&lt;/strong&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="OS" scheme="https://blog.kisechan.space/tags/OS/"/>
     
   </entry>
   
