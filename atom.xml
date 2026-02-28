@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-02-22T14:27:12.601Z</updated>
+  <updated>2026-02-28T09:47:21.894Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -21,20 +21,23 @@
     <link href="https://blog.kisechan.space/2026/nosql/"/>
     <id>https://blog.kisechan.space/2026/nosql/</id>
     <published>2026-02-11T14:58:29.000Z</published>
-    <updated>2026-02-22T14:27:12.601Z</updated>
+    <updated>2026-02-28T09:47:21.894Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;关于-NoSQL&quot;&gt;关于</summary>
+    <summary type="html">&lt;div class=&quot;note note-success&quot;&gt;
+            &lt;p&gt;&lt;strong&gt;数据库系列笔记&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;点击查看系列汇总：&lt;/p&gt;&lt;p&gt;&lt;a target=&quot;_blank&quot;</summary>
         
       
     
     
     
-    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="数据库" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     
     <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
@@ -164,24 +167,23 @@
     <link href="https://blog.kisechan.space/2025/db-engine-3/"/>
     <id>https://blog.kisechan.space/2025/db-engine-3/</id>
     <published>2025-11-26T09:49:01.000Z</published>
-    <updated>2025-12-11T07:39:17.050Z</updated>
+    <updated>2026-02-28T09:47:41.519Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;任务要求&quot;&gt;任务要求&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;实现 SQL 的查询处理&lt;/strong&gt;。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;针对 DML</summary>
+    <summary type="html">&lt;div class=&quot;note note-success&quot;&gt;
+            &lt;p&gt;&lt;strong&gt;数据库系列笔记&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;点击查看系列汇总：&lt;/p&gt;&lt;p&gt;&lt;a target=&quot;_blank&quot;</summary>
         
       
     
     
     
     <category term="练手项目" scheme="https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="数据库" scheme="https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     
     <category term="Rust" scheme="https://blog.kisechan.space/tags/Rust/"/>
@@ -248,23 +250,23 @@
     <link href="https://blog.kisechan.space/2025/db-engine-2/"/>
     <id>https://blog.kisechan.space/2025/db-engine-2/</id>
     <published>2025-11-12T07:58:04.000Z</published>
-    <updated>2025-11-12T08:26:43.406Z</updated>
+    <updated>2026-02-28T09:47:36.609Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;任务需求&quot;&gt;任务需求&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;实现 B+ 树的算法&lt;/strong&gt;：生成、插入、修改、删除&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;针对 task1 中的表&lt;/strong&gt;：完成 create index 后，自动生成 B+</summary>
+    <summary type="html">&lt;div class=&quot;note note-success&quot;&gt;
+            &lt;p&gt;&lt;strong&gt;数据库系列笔记&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;点击查看系列汇总：&lt;/p&gt;&lt;p&gt;&lt;a target=&quot;_blank&quot;</summary>
         
       
     
     
     
     <category term="练手项目" scheme="https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="数据库" scheme="https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     
     <category term="Rust" scheme="https://blog.kisechan.space/tags/Rust/"/>
@@ -278,21 +280,23 @@
     <link href="https://blog.kisechan.space/2025/db-engine-1/"/>
     <id>https://blog.kisechan.space/2025/db-engine-1/</id>
     <published>2025-10-28T10:49:59.000Z</published>
-    <updated>2025-12-24T14:17:44.415Z</updated>
+    <updated>2026-02-28T09:47:30.424Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;介绍&lt;/h2&gt;
-&lt;p&gt;这是吉林大学软件工程卓越工程师班《&lt;em&gt;数据库系统应用程序开发&lt;/em&gt;》和《&lt;em&gt;系统软件综合实践&lt;/em&gt;》两门课程（共 3 学分）综合起来共同完成的课程项目。课程的内容主要是了解 &lt;a</summary>
+    <summary type="html">&lt;div class=&quot;note note-success&quot;&gt;
+            &lt;p&gt;&lt;strong&gt;数据库系列笔记&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;点击查看系列汇总：&lt;/p&gt;&lt;p&gt;&lt;a target=&quot;_blank&quot;</summary>
         
       
     
     
     
     <category term="练手项目" scheme="https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="数据库" scheme="https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     
     <category term="Rust" scheme="https://blog.kisechan.space/tags/Rust/"/>
