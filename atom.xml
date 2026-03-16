@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-03-15T15:30:35.630Z</updated>
+  <updated>2026-03-16T07:34:41.143Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Apuntes de español, semana 1</title>
+    <link href="https://blog.kisechan.space/2026/Apuntes-de-espan%CC%83ol-semana-1/"/>
+    <id>https://blog.kisechan.space/2026/Apuntes-de-espan%CC%83ol-semana-1/</id>
+    <published>2026-03-16T07:22:25.000Z</published>
+    <updated>2026-03-16T07:34:41.143Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;https://images.kisechan.space/Apuntes-de-espan%CC%83ol-semana-1.pdf&quot; width=&quot;100%&quot; height=&quot;550&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Linguistik" scheme="https://blog.kisechan.space/categories/Linguistik/"/>
+    
+    
+    <category term="Español" scheme="https://blog.kisechan.space/tags/Espanol/"/>
+    
+  </entry>
   
   <entry>
     <title>给你的歌词加上 Emoji！</title>
@@ -546,37 +572,6 @@
     
     <category term="网站维护" scheme="https://blog.kisechan.space/categories/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Java 程序设计</title>
-    <link href="https://blog.kisechan.space/2025/notes-java/"/>
-    <id>https://blog.kisechan.space/2025/notes-java/</id>
-    <published>2025-06-24T12:52:38.000Z</published>
-    <updated>2025-11-07T10:49:34.534Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;速通的倒数第二门，唉这学期怎么都在速通，活得太没意思了。&lt;/p&gt;
-&lt;p&gt;祝我好运。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;Java-基础&quot;&gt;Java 基础&lt;/h2&gt;
-&lt;h3 id=&quot;概述&quot;&gt;概述&lt;/h3&gt;
-&lt;p&gt;Java</summary>
-        
-      
-    
-    
-    
-    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="Java" scheme="https://blog.kisechan.space/tags/Java/"/>
     
   </entry>
   
