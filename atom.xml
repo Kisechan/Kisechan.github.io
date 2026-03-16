@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-03-16T07:34:41.143Z</updated>
+  <updated>2026-03-16T10:18:13.339Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -21,15 +21,19 @@
     <link href="https://blog.kisechan.space/2026/Apuntes-de-espan%CC%83ol-semana-1/"/>
     <id>https://blog.kisechan.space/2026/Apuntes-de-espan%CC%83ol-semana-1/</id>
     <published>2026-03-16T07:22:25.000Z</published>
-    <updated>2026-03-16T07:34:41.143Z</updated>
+    <updated>2026-03-16T10:18:13.339Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;row&quot;&gt;
-    &lt;embed src=&quot;https://images.kisechan.space/Apuntes-de-espan%CC%83ol-semana-1.pdf&quot; width=&quot;100%&quot; height=&quot;550&quot;</summary>
+    <summary type="html">&lt;div class=&quot;note note-danger&quot;&gt;
+            &lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;：&lt;/p&gt;&lt;p&gt;本文以 PDF 形式嵌入网页展示，在手机端可能不能正常显示。&lt;/p&gt;
+          &lt;/div&gt;
+
+
+	&lt;div</summary>
         
       
     
