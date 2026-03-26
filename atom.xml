@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-03-19T13:24:07.695Z</updated>
+  <updated>2026-03-26T09:08:25.062Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>机器人学入门笔记</title>
+    <link href="https://blog.kisechan.space/2026/robotics/"/>
+    <id>https://blog.kisechan.space/2026/robotics/</id>
+    <published>2026-03-26T07:55:45.000Z</published>
+    <updated>2026-03-26T09:08:25.062Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;机器人学主要包含三个方面：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;描述一个物体的坐标&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;运动学&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;顺运动学&lt;/strong&gt;：根</summary>
+        
+      
+    
+    
+    
+    <category term="具身智能" scheme="https://blog.kisechan.space/categories/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Apuntes de español, semana 2</title>
@@ -550,36 +582,6 @@
     <category term="数学" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E5%AD%A6/"/>
     
     <category term="Typst" scheme="https://blog.kisechan.space/tags/Typst/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>网页浏览计数服务</title>
-    <link href="https://blog.kisechan.space/2025/view-counter/"/>
-    <id>https://blog.kisechan.space/2025/view-counter/</id>
-    <published>2025-07-08T14:37:48.000Z</published>
-    <updated>2025-11-07T10:49:34.536Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;使用 Golang 和 Gin 实现一个简单的网页浏览计数服务。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/Kisechan/View-Counter&quot; name=&quot;https://github.com/fluidicon.png&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="开发" scheme="https://blog.kisechan.space/tags/%E5%BC%80%E5%8F%91/"/>
-    
-    <category term="Go" scheme="https://blog.kisechan.space/tags/Go/"/>
-    
-    <category term="后端" scheme="https://blog.kisechan.space/tags/%E5%90%8E%E7%AB%AF/"/>
     
   </entry>
   
