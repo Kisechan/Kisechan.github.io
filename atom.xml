@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-03-26T15:05:37.501Z</updated>
+  <updated>2026-03-29T04:06:20.167Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Apuntes de español, semana 3</title>
+    <link href="https://blog.kisechan.space/2026/Apuntes-de-espanol-semana-3/"/>
+    <id>https://blog.kisechan.space/2026/Apuntes-de-espanol-semana-3/</id>
+    <published>2026-03-29T04:03:11.000Z</published>
+    <updated>2026-03-29T04:06:20.167Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note note-danger&quot;&gt;
+            &lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;：&lt;/p&gt;&lt;p&gt;本文以 PDF 形式嵌入网页展示，在手机端可能不能正常显示。&lt;/p&gt;
+          &lt;/div&gt;
+
+
+	&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="Linguistik" scheme="https://blog.kisechan.space/categories/Linguistik/"/>
+    
+    
+    <category term="Español" scheme="https://blog.kisechan.space/tags/Espanol/"/>
+    
+  </entry>
   
   <entry>
     <title>机器人学入门笔记</title>
@@ -554,34 +584,6 @@
     
     
     <category term="GitHub Actions" scheme="https://blog.kisechan.space/tags/GitHub-Actions/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>用 Typst 排版一份概率论笔记</title>
-    <link href="https://blog.kisechan.space/2025/typst-ptms/"/>
-    <id>https://blog.kisechan.space/2025/typst-ptms/</id>
-    <published>2025-07-29T12:24:21.000Z</published>
-    <updated>2025-11-07T10:49:34.536Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;排版&quot;&gt;排版&lt;/h2&gt;
-&lt;p&gt;博主身为洁癖，受够了 &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="数学" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E5%AD%A6/"/>
-    
-    <category term="Typst" scheme="https://blog.kisechan.space/tags/Typst/"/>
     
   </entry>
   
