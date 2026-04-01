@@ -51,7 +51,7 @@
     <link href="https://blog.kisechan.space/2026/robotics/"/>
     <id>https://blog.kisechan.space/2026/robotics/</id>
     <published>2026-03-26T07:55:45.000Z</published>
-    <updated>2026-03-31T02:55:23.726Z</updated>
+    <updated>2026-04-01T02:42:46.344Z</updated>
     
     
       
@@ -60,14 +60,10 @@
         
     <summary type="html">&lt;p&gt;机器人学主要包含三个方面：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;描述一个物体的坐标&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;运动学&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;描述一个物体的坐标&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;运动学&lt;/strong&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;顺运动学&lt;/strong&gt;：根</summary>
+&lt;li&gt;&lt;strong&gt;顺运动学&lt;/strong&gt;：根据肌肉等的状态知道“手”的位置和动作&lt;/l</summary>
         
       
     
