@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-04-14T07:58:43.210Z</updated>
+  <updated>2026-04-22T08:41:04.240Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Notas de repaso en español</title>
+    <link href="https://blog.kisechan.space/2026/Notas-de-repaso-en-espanol/"/>
+    <id>https://blog.kisechan.space/2026/Notas-de-repaso-en-espanol/</id>
+    <published>2026-04-22T08:29:42.000Z</published>
+    <updated>2026-04-22T08:41:04.240Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;持续更新中。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;Ser、estar、tener-和-hay&quot;&gt;Ser、estar、tener 和 hay&lt;/h2&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="Linguistik" scheme="https://blog.kisechan.space/categories/Linguistik/"/>
+    
+    
+    <category term="Español" scheme="https://blog.kisechan.space/tags/Espanol/"/>
+    
+  </entry>
   
   <entry>
     <title>在各种情况导致 QQBot 崩了以后进行重新启动的快捷方式</title>
@@ -551,36 +580,6 @@
     
     
     <category term="计算机网络" scheme="https://blog.kisechan.space/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>制作一只非常可爱的说的道理桌宠</title>
-    <link href="https://blog.kisechan.space/2025/shuodedaoli-deskpet/"/>
-    <id>https://blog.kisechan.space/2025/shuodedaoli-deskpet/</id>
-    <published>2025-09-11T08:49:50.000Z</published>
-    <updated>2025-11-07T10:49:34.536Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 align=&quot;center&quot;&gt;说的道理桌宠，正式发布第一版正式版了！&lt;/h2&gt;
-&lt;p&gt;Shuodedaoli-Deskpet 是一款基于 Electron 开发的桌面宠物，让你在 Windows</summary>
-        
-      
-    
-    
-    
-    <category term="练手项目" scheme="https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/"/>
-    
-    
-    <category term="Vue" scheme="https://blog.kisechan.space/tags/Vue/"/>
-    
-    <category term="Electron" scheme="https://blog.kisechan.space/tags/Electron/"/>
-    
-    <category term="Nodejs" scheme="https://blog.kisechan.space/tags/Nodejs/"/>
     
   </entry>
   
