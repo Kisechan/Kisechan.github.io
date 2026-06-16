@@ -265,6 +265,31 @@
   </entry>
   
   <entry>
+    <title>我的长春感觉</title>
+    <link href="https://blog.kisechan.space/2026/thoughts-of-freljord/"/>
+    <id>https://blog.kisechan.space/2026/thoughts-of-freljord/</id>
+    <published>2026-03-13T21:49:17.000Z</published>
+    <updated>2026-06-16T18:34:47.431Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;伊通河在长春居然算是个比较著名的景点，但是话说回来，在这个连人工湖都能当成地标的地方也不算奇怪。&lt;/p&gt;
+&lt;p&gt;要我说，这个水量在南方顶多是个小溪。只能怪长春不争气，不怎么下雨，降水量少，干燥得让人受不了，要不然养出一条南北贯通城区的大河该有多壮观。&lt;/p&gt;
+&lt;p&gt;越是在这</summary>
+        
+      
+    
+    
+    
+    <category term="想法" scheme="https://blog.kisechan.space/categories/%E6%83%B3%E6%B3%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>给你的歌词加上 Emoji！</title>
     <link href="https://blog.kisechan.space/2026/kashi-emojilize/"/>
     <id>https://blog.kisechan.space/2026/kashi-emojilize/</id>
@@ -523,36 +548,6 @@
     <id>https://blog.kisechan.space/2025/db-engine-2/</id>
     <published>2025-11-12T07:58:04.000Z</published>
     <updated>2026-04-14T08:00:22.188Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note note-success&quot;&gt;
-            &lt;p&gt;&lt;strong&gt;数据库系列笔记&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;点击查看系列汇总：&lt;/p&gt;&lt;p&gt;&lt;a target=&quot;_blank&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="练手项目" scheme="https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/"/>
-    
-    <category term="数据库" scheme="https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    
-    <category term="Rust" scheme="https://blog.kisechan.space/tags/Rust/"/>
-    
-    <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>设计一个数据库引擎 (1) 内存、外存和记录管理</title>
-    <link href="https://blog.kisechan.space/2025/db-engine-1/"/>
-    <id>https://blog.kisechan.space/2025/db-engine-1/</id>
-    <published>2025-10-28T10:49:59.000Z</published>
-    <updated>2026-02-28T09:47:30.424Z</updated>
     
     
       
