@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-06-09T06:54:10.328Z</updated>
+  <updated>2026-06-16T18:32:52.324Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一些精神药物的服用体验</title>
+    <link href="https://blog.kisechan.space/2026/experiences-with-taking-psychiatric-medications/"/>
+    <id>https://blog.kisechan.space/2026/experiences-with-taking-psychiatric-medications/</id>
+    <published>2026-06-16T18:13:26.000Z</published>
+    <updated>2026-06-16T18:32:52.324Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;因为是第一次吃这类药物，所以记录一下当前吃过的部分精神药物的用后感受。笔者处方的症状为焦虑抑郁状态，吃的都是抗抑郁药（SSRI）和抗焦虑药（西泮），应该都算是药效较为温和的药物。&lt;/p&gt;
+&lt;p&gt;到现在大概吃了有一个月，所以大概还是有一些起效的……吧？&lt;/p&gt;
+&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="想法" scheme="https://blog.kisechan.space/categories/%E6%83%B3%E6%B3%95/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>想要成为鱼的猫</title>
@@ -549,31 +574,6 @@
     <category term="Rust" scheme="https://blog.kisechan.space/tags/Rust/"/>
     
     <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>体验 Rust 的特性</title>
-    <link href="https://blog.kisechan.space/2025/rust-taste/"/>
-    <id>https://blog.kisechan.space/2025/rust-taste/</id>
-    <published>2025-10-21T14:31:30.000Z</published>
-    <updated>2026-04-14T08:00:29.081Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;众所周知， Rust 是一个&lt;strong&gt;无 GC 且无需手动内存管理、性能高、工程性强、语言级安全性以及能同时得到工程派和学院派认可的语言&lt;/strong&gt;&lt;sup id=&quot;fnref:1&quot; class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn:1&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="Rust" scheme="https://blog.kisechan.space/tags/Rust/"/>
     
   </entry>
   
