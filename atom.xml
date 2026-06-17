@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-06-16T18:32:52.324Z</updated>
+  <updated>2026-06-17T13:59:57.547Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>编译原理课程笔记</title>
+    <link href="https://blog.kisechan.space/2026/notes-compilers/"/>
+    <id>https://blog.kisechan.space/2026/notes-compilers/</id>
+    <published>2026-06-17T12:41:50.000Z</published>
+    <updated>2026-06-17T13:59:57.547Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;概论&quot;&gt;概论&lt;/h2&gt;
+&lt;p&gt;编程语言的发展：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;第一代&lt;/strong&gt; &lt;strong&gt;机器语言&lt;/strong&gt;: 能够被计算机的硬件系统直接执行的指令程序,</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="编译原理" scheme="https://blog.kisechan.space/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>一些精神药物的服用体验</title>
@@ -539,36 +567,6 @@
     
     
     <category term="设计模式" scheme="https://blog.kisechan.space/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>设计一个数据库引擎 (2) 索引</title>
-    <link href="https://blog.kisechan.space/2025/db-engine-2/"/>
-    <id>https://blog.kisechan.space/2025/db-engine-2/</id>
-    <published>2025-11-12T07:58:04.000Z</published>
-    <updated>2026-04-14T08:00:22.188Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note note-success&quot;&gt;
-            &lt;p&gt;&lt;strong&gt;数据库系列笔记&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;点击查看系列汇总：&lt;/p&gt;&lt;p&gt;&lt;a target=&quot;_blank&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="练手项目" scheme="https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/"/>
-    
-    <category term="数据库" scheme="https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    
-    <category term="Rust" scheme="https://blog.kisechan.space/tags/Rust/"/>
-    
-    <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
