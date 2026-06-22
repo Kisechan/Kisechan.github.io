@@ -68,34 +68,6 @@
   </entry>
   
   <entry>
-    <title>编译原理课程笔记</title>
-    <link href="https://blog.kisechan.space/2026/notes-compilers-test/"/>
-    <id>https://blog.kisechan.space/2026/notes-compilers-test/</id>
-    <published>2026-06-17T12:41:50.000Z</published>
-    <updated>2026-06-21T14:28:15.702Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;概论&quot;&gt;概论&lt;/h2&gt;
-&lt;p&gt;编程语言的发展：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;第一代&lt;/strong&gt; &lt;strong&gt;机器语言&lt;/strong&gt;: 能够被计算机的硬件系统直接执行的指令程序,</summary>
-        
-      
-    
-    
-    
-    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="编译原理" scheme="https://blog.kisechan.space/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
     <title>一些精神药物的服用体验</title>
     <link href="https://blog.kisechan.space/2026/experiences-with-taking-psychiatric-medications/"/>
     <id>https://blog.kisechan.space/2026/experiences-with-taking-psychiatric-medications/</id>
@@ -565,6 +537,32 @@
     <category term="Rust" scheme="https://blog.kisechan.space/tags/Rust/"/>
     
     <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>机器学习 课程笔记</title>
+    <link href="https://blog.kisechan.space/2025/notes-machine-learning/"/>
+    <id>https://blog.kisechan.space/2025/notes-machine-learning/</id>
+    <published>2025-11-16T07:59:29.000Z</published>
+    <updated>2026-04-10T13:16:48.705Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note note-success&quot;&gt;
+            &lt;h2 id=&quot;写在前面&quot;&gt;写在前面&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;2025/12/09 更新&lt;/strong&gt;：&lt;/p&gt;&lt;p&gt;12 月 2</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="机器学习" scheme="https://blog.kisechan.space/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
