@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-06-19T13:47:24.000Z</updated>
+  <updated>2026-06-23T07:47:49.245Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>编译原理题型总结笔记</title>
+    <link href="https://blog.kisechan.space/2026/notes-compiler-solutions/"/>
+    <id>https://blog.kisechan.space/2026/notes-compiler-solutions/</id>
+    <published>2026-06-23T06:58:30.000Z</published>
+    <updated>2026-06-23T07:47:49.245Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;三个集合的求法&quot;&gt;三个集合的求法&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.kisechan.space/uploads/2026/06/23/image-20260623150209481-6d0570da.png&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="编译原理" scheme="https://blog.kisechan.space/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>我消沉的两个月里</title>
@@ -541,32 +567,6 @@
     <category term="Rust" scheme="https://blog.kisechan.space/tags/Rust/"/>
     
     <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>机器学习 课程笔记</title>
-    <link href="https://blog.kisechan.space/2025/notes-machine-learning/"/>
-    <id>https://blog.kisechan.space/2025/notes-machine-learning/</id>
-    <published>2025-11-16T07:59:29.000Z</published>
-    <updated>2026-04-10T13:16:48.705Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note note-success&quot;&gt;
-            &lt;h2 id=&quot;写在前面&quot;&gt;写在前面&lt;/h2&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;2025/12/09 更新&lt;/strong&gt;：&lt;/p&gt;&lt;p&gt;12 月 2</summary>
-        
-      
-    
-    
-    
-    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="机器学习" scheme="https://blog.kisechan.space/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
