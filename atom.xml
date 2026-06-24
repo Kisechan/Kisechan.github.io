@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-06-23T07:47:49.245Z</updated>
+  <updated>2026-06-24T07:38:02.208Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -21,15 +21,16 @@
     <link href="https://blog.kisechan.space/2026/notes-compiler-solutions/"/>
     <id>https://blog.kisechan.space/2026/notes-compiler-solutions/</id>
     <published>2026-06-23T06:58:30.000Z</published>
-    <updated>2026-06-23T07:47:49.245Z</updated>
+    <updated>2026-06-24T07:38:02.208Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;三个集合的求法&quot;&gt;三个集合的求法&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://images.kisechan.space/uploads/2026/06/23/image-20260623150209481-6d0570da.png&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;文法相关概念&quot;&gt;文法相关概念&lt;/h2&gt;
+&lt;p&gt;文法一般写成：&lt;/p&gt;
+&lt;p class=&quot;katex-block &quot;&gt;&lt;span class=&quot;katex-display&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span</summary>
         
       
     
