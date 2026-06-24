@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-06-24T07:38:02.208Z</updated>
+  <updated>2026-06-24T14:17:39.856Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -21,16 +21,24 @@
     <link href="https://blog.kisechan.space/2026/notes-compiler-solutions/"/>
     <id>https://blog.kisechan.space/2026/notes-compiler-solutions/</id>
     <published>2026-06-23T06:58:30.000Z</published>
-    <updated>2026-06-24T07:38:02.208Z</updated>
+    <updated>2026-06-24T14:17:39.856Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;文法相关概念&quot;&gt;文法相关概念&lt;/h2&gt;
-&lt;p&gt;文法一般写成：&lt;/p&gt;
-&lt;p class=&quot;katex-block &quot;&gt;&lt;span class=&quot;katex-display&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span</summary>
+    <summary type="html">## NFA，DFA 和正则表达式
+
+### 概念题
+
+&amp;gt; 与DFA相比，NFA的非确定性体现在:
+&amp;gt;
+&amp;gt; A. 允许有多个开始状态
+&amp;gt;
+&amp;gt; B. 允许有多个终止状态
+&amp;gt;
+&amp;gt; C.</summary>
         
       
     
@@ -71,7 +79,7 @@
     <link href="https://blog.kisechan.space/2026/notes-compilers/"/>
     <id>https://blog.kisechan.space/2026/notes-compilers/</id>
     <published>2026-06-17T12:41:50.000Z</published>
-    <updated>2026-06-22T14:14:13.961Z</updated>
+    <updated>2026-06-24T12:47:25.614Z</updated>
     
     
       
