@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-06-29T14:41:04.887Z</updated>
+  <updated>2026-07-22T02:17:22.554Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在服务器上比较优雅地使用 Agent</title>
+    <link href="https://blog.kisechan.space/2026/server-agent-workflow/"/>
+    <id>https://blog.kisechan.space/2026/server-agent-workflow/</id>
+    <published>2026-07-22T02:03:44.000Z</published>
+    <updated>2026-07-22T02:17:22.554Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;用的是 Mac remote 连接 ubuntu 22.04 的服务器，摸索出来了一套还可以的 agent workflow。&lt;/p&gt;
+&lt;h2 id=&quot;代理&quot;&gt;代理&lt;/h2&gt;
+&lt;p&gt;安装的是 mihomo，只有 CLI 界面也可以方便使用。&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>GMR 和 OmniRetarget</title>
@@ -538,29 +564,6 @@
     
     
     <category term="软件工程" scheme="https://blog.kisechan.space/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在 Cloudflare Workers 部署 skill-icons</title>
-    <link href="https://blog.kisechan.space/2025/skill-icons/"/>
-    <id>https://blog.kisechan.space/2025/skill-icons/</id>
-    <published>2025-12-06T06:15:08.000Z</published>
-    <updated>2026-04-14T08:00:18.183Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://skillicons.dev/&quot;&gt;&lt;strong&gt;Skill Icons 项目&lt;/strong&gt;&lt;/a&gt;是一个用于生成技能展示图标的工具，可以帮助用户在 GitHub</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
-    
     
   </entry>
   
