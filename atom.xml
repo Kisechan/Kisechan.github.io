@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-07-22T02:17:22.554Z</updated>
+  <updated>2026-08-03T19:52:29.672Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用 RVC 制作 AI 翻唱</title>
+    <link href="https://blog.kisechan.space/2026/rvc-ai-conversion/"/>
+    <id>https://blog.kisechan.space/2026/rvc-ai-conversion/</id>
+    <published>2026-08-03T14:12:28.000Z</published>
+    <updated>2026-08-03T19:52:29.672Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;博主第一次做 AI 翻唱，于是记录一下全流程的 pipeline 以及自己的经验。&lt;/p&gt;
+&lt;p&gt;下面是效果，让 AI 绘名唱了一下我最喜欢的夜鹿曲子，铃果的嗓子是神来的！&lt;/p&gt;
+&lt;iframe</summary>
+        
+      
+    
+    
+    
+    
+    <category term="AI 翻唱" scheme="https://blog.kisechan.space/tags/AI-%E7%BF%BB%E5%94%B1/"/>
+    
+  </entry>
   
   <entry>
     <title>在服务器上比较优雅地使用 Agent</title>
@@ -536,34 +561,6 @@
     
     
     <category term="计算机网络" scheme="https://blog.kisechan.space/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>软件工程课程部分内容归纳</title>
-    <link href="https://blog.kisechan.space/2025/notes-software-engineering-summary/"/>
-    <id>https://blog.kisechan.space/2025/notes-software-engineering-summary/</id>
-    <published>2025-12-11T14:15:15.000Z</published>
-    <updated>2026-04-14T08:00:16.491Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;前面的大部分内容使用 &lt;a href=&quot;https://notebooklm.google.com/&quot;&gt;NotebookLM&lt;/a&gt; 完成。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="软件工程" scheme="https://blog.kisechan.space/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
     
   </entry>
   
