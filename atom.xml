@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-08-19T18:52:14.859Z</updated>
+  <updated>2026-08-20T22:05:43.452Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我面对抑郁状态的一些可能的理想解法</title>
+    <link href="https://blog.kisechan.space/2026/depressive/"/>
+    <id>https://blog.kisechan.space/2026/depressive/</id>
+    <published>2026-08-20T21:05:45.000Z</published>
+    <updated>2026-08-20T22:05:43.452Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note note-primary&quot;&gt;
+            &lt;p&gt;文章主要内容&lt;strong&gt;由我和 GPT 5.6 共同整理&lt;/strong&gt;。&lt;/p&gt;
+          &lt;/div&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="想法" scheme="https://blog.kisechan.space/categories/%E6%83%B3%E6%B3%95/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>在无锡和杭州的愉快日子</title>
@@ -527,35 +553,6 @@
     <category term="HBase" scheme="https://blog.kisechan.space/tags/HBase/"/>
     
     <category term="Hadoop" scheme="https://blog.kisechan.space/tags/Hadoop/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Git 团队合作的简单使用教程</title>
-    <link href="https://blog.kisechan.space/2025/how-to-use-git/"/>
-    <id>https://blog.kisechan.space/2025/how-to-use-git/</id>
-    <published>2025-12-31T00:22:45.000Z</published>
-    <updated>2026-04-14T08:00:14.996Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;可以直接把本文投喂给你的队友&lt;/li&gt;
-&lt;li&gt;只限于使用 Git 进行合作的场景，不会涉及刁钻神秘的 Git 命令比如 &lt;code&gt;cherrypick&lt;/code&gt; 以及复杂原理&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;1-基础准备&quot;&gt;1.</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="git" scheme="https://blog.kisechan.space/tags/git/"/>
     
   </entry>
   
