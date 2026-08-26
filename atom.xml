@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-08-20T22:12:26.897Z</updated>
+  <updated>2026-08-26T00:35:26.377Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>eSIM 折腾记录</title>
+    <link href="https://blog.kisechan.space/2026/esim/"/>
+    <id>https://blog.kisechan.space/2026/esim/</id>
+    <published>2026-08-25T23:42:21.000Z</published>
+    <updated>2026-08-26T00:35:26.377Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note note-danger&quot;&gt;
+            &lt;p&gt;文章写于 2026 年八月，&lt;strong&gt;存在过时的可能性&lt;/strong&gt;。&lt;/p&gt;
+          &lt;/div&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>我面对抑郁状态的一些可能的理想解法</title>
@@ -515,44 +539,6 @@
     
     <category term="练手项目" scheme="https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>NoSQL 的学习使用和环境配置</title>
-    <link href="https://blog.kisechan.space/2026/nosql/"/>
-    <id>https://blog.kisechan.space/2026/nosql/</id>
-    <published>2026-02-11T14:58:29.000Z</published>
-    <updated>2026-04-14T08:00:13.585Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note note-success&quot;&gt;
-            &lt;p&gt;&lt;strong&gt;数据库系列笔记&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;点击查看系列汇总：&lt;/p&gt;&lt;p&gt;&lt;a target=&quot;_blank&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="课程笔记" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="数据库" scheme="https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    
-    <category term="数据库" scheme="https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    <category term="Redis" scheme="https://blog.kisechan.space/tags/Redis/"/>
-    
-    <category term="MongoDB" scheme="https://blog.kisechan.space/tags/MongoDB/"/>
-    
-    <category term="Neo4j" scheme="https://blog.kisechan.space/tags/Neo4j/"/>
-    
-    <category term="HBase" scheme="https://blog.kisechan.space/tags/HBase/"/>
-    
-    <category term="Hadoop" scheme="https://blog.kisechan.space/tags/Hadoop/"/>
     
   </entry>
   
