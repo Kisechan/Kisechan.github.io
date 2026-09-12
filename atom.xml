@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-08-26T00:39:37.037Z</updated>
+  <updated>2026-09-12T16:01:12.496Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的简易 Zed 配置和使用体验</title>
+    <link href="https://blog.kisechan.space/2026/zed/"/>
+    <id>https://blog.kisechan.space/2026/zed/</id>
+    <published>2026-09-12T15:34:57.000Z</published>
+    <updated>2026-09-12T16:01:12.496Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;因为 VSCode 目前一些已有的不好体验，包括 Electron 开发、新版本的丑陋 UI，外加社交媒体之类的地方对 Zed 的炒作，所以尝试了一下这个新的编辑器。&lt;/p&gt;
+&lt;p&gt;不得不说，其实使用起来比 VSCode 的可定制化程度还是更高的。但没有内置的</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="Zed" scheme="https://blog.kisechan.space/tags/Zed/"/>
+    
+  </entry>
   
   <entry>
     <title>eSIM 折腾记录</title>
@@ -514,30 +540,6 @@
     
     
     <category term="想法" scheme="https://blog.kisechan.space/categories/%E6%83%B3%E6%B3%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>给你的歌词加上 Emoji！</title>
-    <link href="https://blog.kisechan.space/2026/kashi-emojilize/"/>
-    <id>https://blog.kisechan.space/2026/kashi-emojilize/</id>
-    <published>2026-02-12T13:32:52.000Z</published>
-    <updated>2026-04-14T08:00:12.174Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;受启发于各种评论区中的文案，制作了一个用 LLM (&lt;em&gt;DeepSeek-Chat&lt;/em&gt;) &lt;strong&gt;为 Vocaloid 歌词等文案自动添加发癫 emoji 的小工具&lt;/strong&gt;：&lt;/p&gt;
-&lt;p&gt;&lt;a target=&quot;_blank&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="练手项目" scheme="https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/"/>
     
     
   </entry>

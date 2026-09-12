@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kisechan.space/2026/zed/</loc>
+    
+    <lastmod>2026-09-12T16:01:12.496Z</lastmod>
+    
+    <date>1789227297000</date>
+    <title>我的简易 Zed 配置和使用体验 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
     <loc>https://blog.kisechan.space/about/index.html</loc>
     
     <lastmod>2026-08-28T14:22:17.261Z</lastmod>
@@ -673,17 +684,6 @@
   </url>
   
   <url>
-    <loc>https://blog.kisechan.space/2025/hexo-encrypt/</loc>
-    
-    <lastmod>2025-11-07T10:49:34.533Z</lastmod>
-    
-    <date>1739795367000</date>
-    <title>给Hexo博客文章加密—— hexo-blog-encrypt - Kisechan's Blog</title>
-    
-    <desc>这是一个加密文件,需要输入密码才能查看</desc>
-  </url>
-  
-  <url>
     <loc>https://blog.kisechan.space/2025/hexo-emoji/</loc>
     
     <lastmod>2025-11-07T10:49:34.533Z</lastmod>
@@ -692,6 +692,17 @@
     <title>让Hexo博客支持Emoji表情 - Kisechan's Blog</title>
     
     <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/hexo-encrypt/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.533Z</lastmod>
+    
+    <date>1739795367000</date>
+    <title>给Hexo博客文章加密—— hexo-blog-encrypt - Kisechan's Blog</title>
+    
+    <desc>这是一个加密文件,需要输入密码才能查看</desc>
   </url>
   
   <url>
@@ -794,23 +805,23 @@
   </url>
   
   <url>
-    <loc>https://blog.kisechan.space/2025/algo-maths/</loc>
-    
-    <lastmod>2025-11-07T10:49:34.531Z</lastmod>
-    
-    <date>1741267387000</date>
-    <title>算法笔记4：数学专题 - Kisechan's Blog</title>
-    
-    <desc></desc>
-  </url>
-  
-  <url>
     <loc>https://blog.kisechan.space/2025/algo-meet-in-the-middle/</loc>
     
     <lastmod>2025-11-07T10:49:34.531Z</lastmod>
     
     <date>1741242334000</date>
     <title>算法笔记3：折半搜索 - Kisechan's Blog</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kisechan.space/2025/algo-maths/</loc>
+    
+    <lastmod>2025-11-07T10:49:34.531Z</lastmod>
+    
+    <date>1741267387000</date>
+    <title>算法笔记4：数学专题 - Kisechan's Blog</title>
     
     <desc></desc>
   </url>
