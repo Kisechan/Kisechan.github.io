@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-09-12T16:01:12.496Z</updated>
+  <updated>2026-09-15T10:32:33.281Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>算法题复健和推免机试记录</title>
+    <link href="https://blog.kisechan.space/2026/algorithm-rehabilitation/"/>
+    <id>https://blog.kisechan.space/2026/algorithm-rehabilitation/</id>
+    <published>2026-09-15T10:15:55.000Z</published>
+    <updated>2026-09-15T10:32:33.281Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近为了准备推免机试才重新捡起了算法题，老实说我其实一直对自己的做题能力没有什么信心：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;太久没做题了，一些板子都不记得了。&lt;/li&gt;
+&lt;li&gt;难的题型还有高阶的数据结构和完全不会。&lt;/li&gt;
+&lt;li&gt;之前参加的算法比赛没有成绩，被早培的 OIer</summary>
+        
+      
+    
+    
+    
+    <category term="算法" scheme="https://blog.kisechan.space/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>我的简易 Zed 配置和使用体验</title>
@@ -516,31 +543,6 @@
     
     
     <category term="Español" scheme="https://blog.kisechan.space/tags/Espanol/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的长春感觉</title>
-    <link href="https://blog.kisechan.space/2026/thoughts-of-freljord/"/>
-    <id>https://blog.kisechan.space/2026/thoughts-of-freljord/</id>
-    <published>2026-03-13T21:49:17.000Z</published>
-    <updated>2026-03-13T21:49:17.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;伊通河在长春居然算是个比较著名的景点，但是话说回来，在这个连人工湖都能当成地标的地方也不算奇怪。&lt;/p&gt;
-&lt;p&gt;要我说，这个水量在南方顶多是个小溪。只能怪长春不争气，不怎么下雨，降水量少，干燥得让人受不了，要不然养出一条南北贯通城区的大河该有多壮观。&lt;/p&gt;
-&lt;p&gt;越是在这</summary>
-        
-      
-    
-    
-    
-    <category term="想法" scheme="https://blog.kisechan.space/categories/%E6%83%B3%E6%B3%95/"/>
-    
     
   </entry>
   

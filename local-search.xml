@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>算法题复健和推免机试记录</title>
+    <link href="/2026/algorithm-rehabilitation/"/>
+    <url>/2026/algorithm-rehabilitation/</url>
+    
+    <content type="html"><![CDATA[<p>最近为了准备推免机试才重新捡起了算法题，老实说我其实一直对自己的做题能力没有什么信心：</p><ul><li>太久没做题了，一些板子都不记得了。</li><li>难的题型还有高阶的数据结构和完全不会。</li><li>之前参加的算法比赛没有成绩，被早培的 OIer 和天赋哥们吊起来打。</li><li>不愿意动脑子只想用 Agent 来写代码。</li></ul><p>因为这些原因，所以心里很虚，一直也没有什么动力去做题，本科三年也越来越觉得做题是毫无意义的，大一的时候放弃 ACM 队的选拔还有蓝桥杯大概也是因为这个原因<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="好在蓝桥杯现在变成路边一条了。">[1]</span></a></sup>。但是总归是要考的，所以就大概过了一遍 LeetCode Hot 100。</p><p>其实到了现在我几乎连 C++ 都不会了，只能手打一下题目来训练，于是复健了三天一直在做题，还是有好结果的。今天中午考武大的机试，四题 <font color="green">AC</font> 了两题，拿到 350/400 过了：</p><ol><li>一个区间 DP，<font color="green">AC</font>。</li><li>图 BFS，一个点 <font color="red">WA</font> 没调出来，90/100。</li><li>矩阵的 01 的翻转，<font color="red">不会</font>，骗分 60/100。</li><li>手写 GCD，签到题，<font color="green">AC</font>。</li></ol><p><img src="https://images.kisechan.space/uploads/2026/09/15/image-20260915182715003-566e2bb8.png" alt=""></p><h2 id="参考和注解">参考和注解</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>好在蓝桥杯现在变成路边一条了。<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↖</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>算法</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>我的简易 Zed 配置和使用体验</title>
     <link href="/2026/zed/"/>
     <url>/2026/zed/</url>
@@ -1371,9 +1390,9 @@
     
     <tags>
       
-      <tag>Vue</tag>
-      
       <tag>Web</tag>
+      
+      <tag>Vue</tag>
       
       <tag>Element Plus</tag>
       
