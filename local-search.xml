@@ -1381,9 +1381,9 @@
     
     <categories>
       
-      <category>Web</category>
-      
       <category>网站维护</category>
+      
+      <category>Web</category>
       
     </categories>
     
@@ -2035,11 +2035,11 @@
     
     <tags>
       
-      <tag>Qt</tag>
-      
       <tag>算法</tag>
       
       <tag>C++</tag>
+      
+      <tag>Qt</tag>
       
     </tags>
     
