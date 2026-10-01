@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-09-18T03:01:30.227Z</updated>
+  <updated>2026-10-01T23:19:51.711Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用 Wine 在 Mac 上玩一些老 galgame 的方法</title>
+    <link href="https://blog.kisechan.space/2026/games-for-mac/"/>
+    <id>https://blog.kisechan.space/2026/games-for-mac/</id>
+    <published>2026-10-01T23:04:43.000Z</published>
+    <updated>2026-10-01T23:19:51.711Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近想在 macOS 上玩一些 Windows 老游戏，主要是体积不大的 &lt;code&gt;.exe&lt;/code&gt; 小游戏和视觉小说。我的机器是 Apple Silicon Mac，所以玩 Windows 游戏要多一层架构转换问题。&lt;/p&gt;
+&lt;p&gt;最开始考虑的是直接使用</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>算法题复健和推免机试记录</title>
@@ -492,36 +516,6 @@
     <id>https://blog.kisechan.space/2026/Apuntes-de-espanol-semana-2/</id>
     <published>2026-03-19T13:02:37.000Z</published>
     <updated>2026-03-19T13:24:07.695Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note note-danger&quot;&gt;
-            &lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;：&lt;/p&gt;&lt;p&gt;本文以 PDF 形式嵌入网页展示，在手机端可能不能正常显示。&lt;/p&gt;
-          &lt;/div&gt;
-
-
-	&lt;div</summary>
-        
-      
-    
-    
-    
-    <category term="Linguistik" scheme="https://blog.kisechan.space/categories/Linguistik/"/>
-    
-    
-    <category term="Español" scheme="https://blog.kisechan.space/tags/Espanol/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Apuntes de español, semana 1</title>
-    <link href="https://blog.kisechan.space/2026/Apuntes-de-espan%CC%83ol-semana-1/"/>
-    <id>https://blog.kisechan.space/2026/Apuntes-de-espan%CC%83ol-semana-1/</id>
-    <published>2026-03-16T07:22:25.000Z</published>
-    <updated>2026-04-14T08:00:11.838Z</updated>
     
     
       
