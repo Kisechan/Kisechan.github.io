@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-10-01T23:22:59.848Z</updated>
+  <updated>2026-10-16T17:23:46.275Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>写给新的日子中，失败的我</title>
+    <link href="https://blog.kisechan.space/2026/for-new-myself/"/>
+    <id>https://blog.kisechan.space/2026/for-new-myself/</id>
+    <published>2026-10-08T20:28:49.000Z</published>
+    <updated>2026-10-16T17:23:46.275Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;上大学以来，或者说是从来都没有写过一点东西当作大的总结，那就趁现在还记得最近这几年的感受，把它们记录下来吧。马上就是生日，要在新的一岁到来之前，给自己留下点东西哦。&lt;/p&gt;
+&lt;p&gt;当然，在我敲下这几个字的时候应该就已经决定了这篇文章就是毫无营养的混乱的流水账，仅仅是把曾经挥</summary>
+        
+      
+    
+    
+    
+    <category term="想法" scheme="https://blog.kisechan.space/categories/%E6%83%B3%E6%B3%95/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>用 Wine 在 Mac 上玩一些老 galgame 的方法</title>
@@ -507,36 +531,6 @@
     
     <category term="具身智能" scheme="https://blog.kisechan.space/categories/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Apuntes de español, semana 2</title>
-    <link href="https://blog.kisechan.space/2026/Apuntes-de-espanol-semana-2/"/>
-    <id>https://blog.kisechan.space/2026/Apuntes-de-espanol-semana-2/</id>
-    <published>2026-03-19T13:02:37.000Z</published>
-    <updated>2026-03-19T13:24:07.695Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note note-danger&quot;&gt;
-            &lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;：&lt;/p&gt;&lt;p&gt;本文以 PDF 形式嵌入网页展示，在手机端可能不能正常显示。&lt;/p&gt;
-          &lt;/div&gt;
-
-
-	&lt;div</summary>
-        
-      
-    
-    
-    
-    <category term="Linguistik" scheme="https://blog.kisechan.space/categories/Linguistik/"/>
-    
-    
-    <category term="Español" scheme="https://blog.kisechan.space/tags/Espanol/"/>
     
   </entry>
   
