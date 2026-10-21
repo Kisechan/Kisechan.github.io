@@ -2,7 +2,7 @@
 title: Python
 url: https://blog.kisechan.space/tags/Python/
 type: tag
-time: '2026-10-21T16:02:14.153Z'
+time: '2026-10-21T16:13:46.163Z'
 ---
 
 ## Articles

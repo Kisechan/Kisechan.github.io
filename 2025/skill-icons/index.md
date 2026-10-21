@@ -2,7 +2,7 @@
 title: 在 Cloudflare Workers 部署 skill-icons
 url: https://blog.kisechan.space/2025/skill-icons/
 type: post
-time: '2026-10-21T16:02:14.153Z'
+time: '2026-10-21T16:13:46.163Z'
 ---
 
 [**Skill Icons 项目**](https://skillicons.dev/)是一个用于生成技能展示图标的工具，可以帮助用户在 GitHub 或简历中展示自己掌握的技术栈。但原项目已经很久没有维护，图标库也没有更新，于是博主自己部署了一个到 Cloudflare Workers，访问[这里](https://skill-icons.kisechan.space/)即可看到新的代码。
