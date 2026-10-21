@@ -1,0 +1,19 @@
+﻿---
+title: Apuntes de español, semana 1
+url: https://blog.kisechan.space/2026/Apuntes-de-espan%CC%83ol-semana-1/
+type: post
+time: '2026-10-21T16:02:14.153Z'
+---
+
+**注意**：
+
+本文以 PDF 形式嵌入网页展示，在手机端可能不能正常显示。
+
+如果 PDF 预览未能正常显示，可点击访问文件：
+
+---
+
+Apuntes-de-español-semana-1.pdf
+https://images.kisechan.space/Apuntes-de-espan%CC%83ol-semana-1.pdf
+
+---
