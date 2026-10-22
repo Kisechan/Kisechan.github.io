@@ -1,190 +1,48 @@
-﻿# Kisechan's Blog
+﻿# Kisechan 的博客
 
-> qwq
+> 这里是我的个人博客。我是 Kisechan，也使用 Kise Platinyl 这个名字。这里记录我的课程笔记、项目网站折腾，以及生活中的一些想法。
 
-Site: https://blog.kisechan.space/
-Author: Kisechan
-Language: zh-CN
-Generated: 2026-10-21T16:13:46.163Z
+给 Agent 的阅读说明：公开文章和独立页面提供 Markdown 副本。例如 `/2026/for-new-myself/` 对应 `/2026/for-new-myself/index.md` 和 `/2026/for-new-myself.md`。分类、标签、归档页同样提供 Markdown 列表，便于先选主题，再按需读取正文。
 
-## Articles
+站点参考 Cloudflare 的 Markdown for Agents 思路，为自动化阅读提供紧凑、可定位的内容。Markdown 从文章源文直接导出，保留代码围栏、语言标记和 LaTeX，图片使用绝对 URL 并保留 alt 文本，过滤导航、交互组件和正文注释。副本包含 YAML Front Matter，记录标题、来源 URL、页面类型、可选描述和生成时间；其中 `time` 表示副本生成时间，文章发布日期请查看来源页面。Markdown 使用 UTF-8 编码，页面通过 `rel="alternate"` 标明副本地址，通过 `rel="describedby"` 指向这份索引。请使用明确的 `.md` 地址获取正文，引用时优先采用 Front Matter 的原文 `url`。
 
-- [写给新的日子中，失败的我](https://blog.kisechan.space/2026/for-new-myself/index.md)
-- [用 Wine 在 Mac 上玩一些老 galgame 的方法](https://blog.kisechan.space/2026/games-for-mac/index.md)
-- [算法题复健和推免机试记录](https://blog.kisechan.space/2026/algorithm-rehabilitation/index.md)
-- [我的简易 Zed 配置和使用体验](https://blog.kisechan.space/2026/zed/index.md)
-- [eSIM 折腾记录](https://blog.kisechan.space/2026/esim/index.md)
-- [我面对抑郁状态的一些可能的理想解法](https://blog.kisechan.space/2026/depressive/index.md)
-- [在无锡和杭州的愉快日子](https://blog.kisechan.space/2026/travelogue-jiangyin-wuxi-hangzhou/index.md)
-- [使用 RVC 制作 AI 翻唱](https://blog.kisechan.space/2026/rvc-ai-conversion/index.md)
-- [在服务器上比较优雅地使用 Agent](https://blog.kisechan.space/2026/server-agent-workflow/index.md)
-- [GMR 和 OmniRetarget](https://blog.kisechan.space/2026/gmr-omniretarget/index.md)
-- [编译原理题型总结笔记](https://blog.kisechan.space/2026/notes-compiler-solutions/index.md)
-- [我消沉的两个月里](https://blog.kisechan.space/2026/in-my-depressed-days/index.md)
-- [编译原理课程笔记](https://blog.kisechan.space/2026/notes-compilers/index.md)
-- [一些精神药物的服用体验](https://blog.kisechan.space/2026/experiences-with-taking-psychiatric-medications/index.md)
-- [想要成为鱼的猫](https://blog.kisechan.space/2026/catfish/index.md)
-- [香港游记](https://blog.kisechan.space/2026/travelogue-hongkong/index.md)
-- [Notas de repaso en español](https://blog.kisechan.space/2026/Notas-de-repaso-en-espanol/index.md)
-- [在各种情况导致 QQBot 崩了以后进行重新启动的快捷方式](https://blog.kisechan.space/2026/qqbot-astrbot-run-and-reload/index.md)
-- [Apuntes de español, semana 3](https://blog.kisechan.space/2026/Apuntes-de-espanol-semana-3/index.md)
-- [机器人学入门笔记](https://blog.kisechan.space/2026/robotics/index.md)
-- [Apuntes de español, semana 2](https://blog.kisechan.space/2026/Apuntes-de-espanol-semana-2/index.md)
-- [Apuntes de español, semana 1](https://blog.kisechan.space/2026/Apuntes-de-espan%CC%83ol-semana-1/index.md)
-- [我的长春感觉](https://blog.kisechan.space/2026/thoughts-of-freljord/index.md)
-- [给你的歌词加上 Emoji！](https://blog.kisechan.space/2026/kashi-emojilize/index.md)
-- [NoSQL 的学习使用和环境配置](https://blog.kisechan.space/2026/nosql/index.md)
-- [Git 团队合作的简单使用教程](https://blog.kisechan.space/2025/how-to-use-git/index.md)
-- [计算机网络总结归纳](https://blog.kisechan.space/2025/notes-networks-summary/index.md)
-- [软件工程课程部分内容归纳](https://blog.kisechan.space/2025/notes-software-engineering-summary/index.md)
-- [在 Cloudflare Workers 部署 skill-icons](https://blog.kisechan.space/2025/skill-icons/index.md)
-- [设计一个数据库引擎 (3) SQL 处理](https://blog.kisechan.space/2025/db-engine-3/index.md)
-- [机器学习 课程笔记](https://blog.kisechan.space/2025/notes-machine-learning/index.md)
-- [软件设计模式 课程笔记](https://blog.kisechan.space/2025/notes-design-pattern/index.md)
-- [设计一个数据库引擎 (2) 索引](https://blog.kisechan.space/2025/db-engine-2/index.md)
-- [设计一个数据库引擎 (1) 内存、外存和记录管理](https://blog.kisechan.space/2025/db-engine-1/index.md)
-- [体验 Rust 的特性](https://blog.kisechan.space/2025/rust-taste/index.md)
-- [为博客增添 PWA 支持](https://blog.kisechan.space/2025/site-pwa/index.md)
-- [计算机网络课程笔记](https://blog.kisechan.space/2025/notes-networks/index.md)
-- [制作一只非常可爱的说的道理桌宠](https://blog.kisechan.space/2025/shuodedaoli-deskpet/index.md)
-- [GitHub Profile 自动化更新最新博客文章](https://blog.kisechan.space/2025/github-actions-blog-update/index.md)
-- [用 Typst 排版一份概率论笔记](https://blog.kisechan.space/2025/typst-ptms/index.md)
-- [网页浏览计数服务](https://blog.kisechan.space/2025/view-counter/index.md)
-- [自部署 Gitea](https://blog.kisechan.space/2025/site-gitea/index.md)
-- [Java 程序设计](https://blog.kisechan.space/2025/notes-java/index.md)
-- [概率论与数理统计](https://blog.kisechan.space/2025/notes-ptms/index.md)
-- [操作系统复习](https://blog.kisechan.space/2025/notes-os/index.md)
-- [数据库原理 课程笔记 (4) 杂项和题目整理](https://blog.kisechan.space/2025/notes-database-4/index.md)
-- [NEOVIM 体验](https://blog.kisechan.space/2025/neovim-try/index.md)
-- [数据库原理 课程笔记 (3) 存储、索引、事务和并发](https://blog.kisechan.space/2025/notes-database-3/index.md)
-- [Windows 下 Rust 环境配置踩坑](https://blog.kisechan.space/2025/rust-environment/index.md)
-- [Typst 初体验](https://blog.kisechan.space/2025/typst-hatsutaiken/index.md)
-- [数据库原理 课程笔记 (2) E-R 模型和关系模式](https://blog.kisechan.space/2025/notes-database-2/index.md)
-- [网站替换新的图标 CSS](https://blog.kisechan.space/2025/site-new-icon-css/index.md)
-- [数据库原理 课程笔记 (1) 数据库、关系代数和 SQL](https://blog.kisechan.space/2025/notes-database-1/index.md)
-- [算法设计与分析 课程笔记](https://blog.kisechan.space/2025/notes-algorithm-analysis/index.md)
-- [难绷语言之 Whitespace](https://blog.kisechan.space/2025/whitespace-introduce/index.md)
-- [算法笔记7：k-叉 Huffman 树](https://blog.kisechan.space/2025/algo-k-ary-huffman-tree/index.md)
-- [算法笔记6：莫名其妙WA该去哪里Debug](https://blog.kisechan.space/2025/algo-check-where/index.md)
-- [算法笔记5：树，最短路和生成树](https://blog.kisechan.space/2025/algo-graph/index.md)
-- [算法笔记4：数学专题](https://blog.kisechan.space/2025/algo-maths/index.md)
-- [算法笔记3：折半搜索](https://blog.kisechan.space/2025/algo-meet-in-the-middle/index.md)
-- [用 Vue、 Element Plus 和 Yaml 实现的友链页面](https://blog.kisechan.space/2025/site-friend-links/index.md)
-- [初始化 TailwindCSS 遇到的一些问题](https://blog.kisechan.space/2025/tailwindcss-init/index.md)
-- [算法笔记2：状压 dp](https://blog.kisechan.space/2025/algo-state-dp/index.md)
-- [Cloudflare+Github图床](https://blog.kisechan.space/2025/site-image-host/index.md)
-- [网站域名变更所做的工作](https://blog.kisechan.space/2025/site-domain/index.md)
-- [算法笔记1：单调队列优化 dp](https://blog.kisechan.space/2025/monotonic-queue-dp/index.md)
-- [用AstrBot框架搭建一个qq机器人](https://blog.kisechan.space/2025/qqbot-astrbot/index.md)
-- [把 Docker 安装到别的磁盘](https://blog.kisechan.space/2025/docker-anotherdisk/index.md)
-- [给 Typora 主题 Purple 加上背景图片](https://blog.kisechan.space/2025/typora-purple/index.md)
-- [让Hexo博客支持Emoji表情](https://blog.kisechan.space/2025/hexo-emoji/index.md)
-- [给Fluid主题引入外部图标CSS](https://blog.kisechan.space/2025/hexo-icons/index.md)
-- [Web编程学习笔记3：JS入门](https://blog.kisechan.space/2025/web3/index.md)
-- [Web编程学习笔记2：CSS基础样式](https://blog.kisechan.space/2025/web2/index.md)
-- [Web编程学习笔记1：HTML基础语法](https://blog.kisechan.space/2025/web1/index.md)
-- [利用hexo-pdf在博客中插入pdf](https://blog.kisechan.space/2025/hexo-pdf-test/index.md)
-- [面向对象程序设计课设心得](https://blog.kisechan.space/2025/oop-practicum/index.md)
-- [利用vcpkg在VS中配置第三方库环境](https://blog.kisechan.space/2024/vcpkg/index.md)
-- [数据结构课程板子合集 with 笔记](https://blog.kisechan.space/2024/ds/index.md)
-- [海明码](https://blog.kisechan.space/2024/hanming-code/index.md)
-- [Linux课程笔记](https://blog.kisechan.space/2024/linux-note/index.md)
-- [二手房房价数据的爬取、清洗、可视化、预测](https://blog.kisechan.space/2024/crawer/index.md)
-- [面向对象程序设计课程笔记](https://blog.kisechan.space/2024/oop/index.md)
-- [多态实验](https://blog.kisechan.space/2024/polymorphic/index.md)
-- [Windows上简单的Socket通信：echo程序](https://blog.kisechan.space/2024/socket/index.md)
-- [可视化Dijkstra算法模拟地图导航](https://blog.kisechan.space/2024/dijkstra/index.md)
-- [《现代物理有机化学》笔记：有机电子材料](https://blog.kisechan.space/2022/essay1/index.md)
+内容用途偏好：允许搜索索引和 Agent 按需读取、检索、摘要与引用，声明禁止模型训练和微调；具体信号见 robots.txt 的 `Content-Signal: search=yes, ai-input=yes, ai-train=no`。引用请注明作者和来源；文章的内容许可见各页面标注及 About 中的 CC BY-NC-SA 4.0 说明。
 
-## Pages
+## 站点导览
 
-- [关于](https://blog.kisechan.space/about/index.md)
-- [数字恶臭化工具](https://blog.kisechan.space/homo/index.md)
-- [Map Widget Code](https://blog.kisechan.space/map/index.md)
-- [歌单](https://blog.kisechan.space/playlist/index.md)
-- [Links](https://blog.kisechan.space/links/index.md)
+- [关于我](https://blog.kisechan.space/about.md): 作者介绍、研究兴趣和联系方式。
+- [全部文章归档](https://blog.kisechan.space/archives.md): 完整的公开文章列表，可从这里查找本文未列出的内容。
+- [分类索引](https://blog.kisechan.space/categories.md): 按学习与写作主题浏览文章。
+- [标签索引](https://blog.kisechan.space/tags.md): 按技术、工具和课程关键词继续查找。
 
-## Indexes
+## 课程笔记
 
-- [Kisechan's Blog](https://blog.kisechan.space/index.md)
+- [课程笔记分类](https://blog.kisechan.space/categories/课程笔记.md): 机器学习、编译原理、算法、网络和操作系统等本科课程的学习记录。
+- [机器学习 课程笔记](https://blog.kisechan.space/2025/notes-machine-learning.md): 从基本概念到常见学习方法，配合公式和图示整理课程内容。
+- [编译原理课程笔记](https://blog.kisechan.space/2026/notes-compilers.md): 编译与解释、词法分析、语法分析等内容的系统整理。
+- [数据库原理 课程笔记 (1) 数据库、关系代数和 SQL](https://blog.kisechan.space/2025/notes-database-1.md): 数据库系列的理论入口，可继续阅读关系模式、存储、事务和并发部分。
+- [操作系统复习](https://blog.kisechan.space/2025/notes-os.md): 操作系统基本概念、资源管理和课程复习提纲。
 
-## Categories
+## CS 杂谈与算法
 
-- [Linguistik](https://blog.kisechan.space/categories/Linguistik/index.md)
-- [算法](https://blog.kisechan.space/categories/%E7%AE%97%E6%B3%95/index.md)
-- [想法](https://blog.kisechan.space/categories/%E6%83%B3%E6%B3%95/index.md)
-- [CS 杂谈](https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/index.md)
-- [练手项目](https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/index.md)
-- [课程笔记](https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/index.md)
-- [化学](https://blog.kisechan.space/categories/%E5%8C%96%E5%AD%A6/index.md)
-- [数据库](https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/%E6%95%B0%E6%8D%AE%E5%BA%93/index.md)
-- [具身智能](https://blog.kisechan.space/categories/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/index.md)
-- [Hexo](https://blog.kisechan.space/categories/Hexo/index.md)
-- [数据库](https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E6%95%B0%E6%8D%AE%E5%BA%93/index.md)
-- [网站维护](https://blog.kisechan.space/categories/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/index.md)
-- [Web](https://blog.kisechan.space/categories/Web/index.md)
-- [游记](https://blog.kisechan.space/categories/%E6%B8%B8%E8%AE%B0/index.md)
-- [Categories](https://blog.kisechan.space/categories/index.md)
+- [CS 杂谈分类](https://blog.kisechan.space/categories/CS-杂谈.md): 编程语言、开发工具、环境配置与实际使用经验。
+- [在服务器上比较优雅地使用 Agent](https://blog.kisechan.space/2026/server-agent-workflow.md): 远程服务器上的 OpenCode、Codex 和 SSH 工作流。
+- [体验 Rust 的特性](https://blog.kisechan.space/2025/rust-taste.md): 在工程实践中理解 Rust 的语法、所有权与语言特性。
+- [算法分类](https://blog.kisechan.space/categories/算法.md): 算法题笔记与实现记录。
+- [算法笔记1：单调队列优化 dp](https://blog.kisechan.space/2025/monotonic-queue-dp.md): 从滑动窗口与单调队列理解动态规划优化。
+- [可视化Dijkstra算法模拟地图导航](https://blog.kisechan.space/2024/dijkstra.md): 使用 Qt 实现最短路算法的可视化寻路小程序。
 
-## Tags
+## 语言学习与生活记录
 
-- [Español](https://blog.kisechan.space/tags/Espanol/index.md)
-- [图论](https://blog.kisechan.space/tags/%E5%9B%BE%E8%AE%BA/index.md)
-- [Huffman 树](https://blog.kisechan.space/tags/Huffman-%E6%A0%91/index.md)
-- [数据结构](https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.md)
-- [搜索](https://blog.kisechan.space/tags/%E6%90%9C%E7%B4%A2/index.md)
-- [dp](https://blog.kisechan.space/tags/dp/index.md)
-- [Python](https://blog.kisechan.space/tags/Python/index.md)
-- [机器学习](https://blog.kisechan.space/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/index.md)
-- [Rust](https://blog.kisechan.space/tags/Rust/index.md)
-- [数据库](https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/index.md)
-- [数学](https://blog.kisechan.space/tags/%E6%95%B0%E5%AD%A6/index.md)
-- [Qt](https://blog.kisechan.space/tags/Qt/index.md)
-- [算法](https://blog.kisechan.space/tags/%E7%AE%97%E6%B3%95/index.md)
-- [C++](https://blog.kisechan.space/tags/C/index.md)
-- [Docker](https://blog.kisechan.space/tags/Docker/index.md)
-- [有机化学](https://blog.kisechan.space/tags/%E6%9C%89%E6%9C%BA%E5%8C%96%E5%AD%A6/index.md)
-- [计组](https://blog.kisechan.space/tags/%E8%AE%A1%E7%BB%84/index.md)
-- [Hexo](https://blog.kisechan.space/tags/Hexo/index.md)
-- [GitHub Actions](https://blog.kisechan.space/tags/GitHub-Actions/index.md)
-- [git](https://blog.kisechan.space/tags/git/index.md)
-- [Linux](https://blog.kisechan.space/tags/Linux/index.md)
-- [neovim](https://blog.kisechan.space/tags/neovim/index.md)
-- [Redis](https://blog.kisechan.space/tags/Redis/index.md)
-- [MongoDB](https://blog.kisechan.space/tags/MongoDB/index.md)
-- [Neo4j](https://blog.kisechan.space/tags/Neo4j/index.md)
-- [HBase](https://blog.kisechan.space/tags/HBase/index.md)
-- [Hadoop](https://blog.kisechan.space/tags/Hadoop/index.md)
-- [编译原理](https://blog.kisechan.space/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/index.md)
-- [Java](https://blog.kisechan.space/tags/Java/index.md)
-- [OS](https://blog.kisechan.space/tags/OS/index.md)
-- [计算机网络](https://blog.kisechan.space/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/index.md)
-- [设计模式](https://blog.kisechan.space/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/index.md)
-- [OOP](https://blog.kisechan.space/tags/OOP/index.md)
-- [开发](https://blog.kisechan.space/tags/%E5%BC%80%E5%8F%91/index.md)
-- [Go](https://blog.kisechan.space/tags/Go/index.md)
-- [QQBot](https://blog.kisechan.space/tags/QQBot/index.md)
-- [AI 翻唱](https://blog.kisechan.space/tags/AI-%E7%BF%BB%E5%94%B1/index.md)
-- [Vue](https://blog.kisechan.space/tags/Vue/index.md)
-- [Electron](https://blog.kisechan.space/tags/Electron/index.md)
-- [Nodejs](https://blog.kisechan.space/tags/Nodejs/index.md)
-- [Web](https://blog.kisechan.space/tags/Web/index.md)
-- [Element Plus](https://blog.kisechan.space/tags/Element-Plus/index.md)
-- [TailwindCSS](https://blog.kisechan.space/tags/TailwindCSS/index.md)
-- [软件工程](https://blog.kisechan.space/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/index.md)
-- [Typora](https://blog.kisechan.space/tags/Typora/index.md)
-- [Typst](https://blog.kisechan.space/tags/Typst/index.md)
-- [后端](https://blog.kisechan.space/tags/%E5%90%8E%E7%AB%AF/index.md)
-- [HTML](https://blog.kisechan.space/tags/HTML/index.md)
-- [JS](https://blog.kisechan.space/tags/JS/index.md)
-- [Zed](https://blog.kisechan.space/tags/Zed/index.md)
-- [CSS](https://blog.kisechan.space/tags/CSS/index.md)
-- [Tags](https://blog.kisechan.space/tags/index.md)
+- [Notas de repaso en español](https://blog.kisechan.space/2026/Notas-de-repaso-en-espanol.md): 西班牙语名词、冠词等语法的复习整理。
+- [想法分类](https://blog.kisechan.space/categories/想法.md): 个人经历、学习和生活中的思考。
+- [写给新的日子中，失败的我](https://blog.kisechan.space/2026/for-new-myself.md): 对大学生活、成长与自我认识的回顾。
+- [游记分类](https://blog.kisechan.space/categories/游记.md): 旅行中的见闻与经历。
 
-## Archives
+## 抓取入口与格式参考
 
-- [Archives](https://blog.kisechan.space/archives/index.md)
-
-## Optional
-
-- [Source repository](https://github.com/Kisechan/Kisechan.github.io): Branch: master
+- [robots.txt](https://blog.kisechan.space/robots.txt): 公开抓取规则、AI 用途偏好和 Sitemap 地址。
+- [Sitemap](https://blog.kisechan.space/sitemap.xml): 供爬虫发现页面的站点地图。
+- [RSS / Atom](https://blog.kisechan.space/atom.xml): 订阅最近更新的文章。
+- [Cloudflare Markdown for Agents](https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/): 本站 Agent 阅读体验参考的 Markdown 访问设计。
+- [llms.txt v2 提案](https://llmstxt.org/): 本索引与 Markdown 发现链接采用的格式约定。

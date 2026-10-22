@@ -1,5 +1,25 @@
+# Content Signals: https://contentsignals.org/
+# search: search indexing; ai-input: inference/RAG; ai-train: training/fine-tuning.
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /admin/
 Disallow: /private/
+Disallow: /search/
+Disallow: /cdn-cgi/
 Allow: /
 Sitemap: https://blog.kisechan.space/sitemap.xml
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+# Agent index: https://blog.kisechan.space/llms.txt
+# Public Markdown copies are available through page alternate links.

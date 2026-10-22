@@ -2,7 +2,7 @@
 title: 《现代物理有机化学》笔记：有机电子材料
 url: https://blog.kisechan.space/2022/essay1/
 type: post
-time: '2026-10-21T16:13:46.163Z'
+time: '2026-10-22T16:41:52.395Z'
 ---
 
 ### 17.1.1 无限$\pi$体系：特别的聚乙炔

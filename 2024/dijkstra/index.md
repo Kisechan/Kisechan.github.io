@@ -2,7 +2,7 @@
 title: 可视化Dijkstra算法模拟地图导航
 url: https://blog.kisechan.space/2024/dijkstra/
 type: post
-time: '2026-10-21T16:13:46.163Z'
+time: '2026-10-22T16:41:52.395Z'
 ---
 
 用qt写了一个能够实现可视化Dijkstra算法模拟寻路的小程序

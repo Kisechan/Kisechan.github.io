@@ -2,7 +2,7 @@
 title: 香港游记
 url: https://blog.kisechan.space/2026/travelogue-hongkong/
 type: post
-time: '2026-10-21T16:13:46.163Z'
+time: '2026-10-22T16:41:52.395Z'
 ---
 
 18 号周一去了一趟香港，可惜犯了很多笨蛋操作，原本的计划基本都泡汤了，也没有停留多久，事先没有安排好导致除了很多岔子，下次再来就会准备好了！

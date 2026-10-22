@@ -2,7 +2,7 @@
 title: Git 团队合作的简单使用教程
 url: https://blog.kisechan.space/2025/how-to-use-git/
 type: post
-time: '2026-10-21T16:13:46.163Z'
+time: '2026-10-22T16:41:52.395Z'
 ---
 
 - 可以直接把本文投喂给你的队友
