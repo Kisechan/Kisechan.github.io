@@ -2,7 +2,7 @@
 title: neovim
 url: https://blog.kisechan.space/tags/neovim/
 type: tag
-time: '2026-10-23T14:43:06.486Z'
+time: '2026-10-23T15:19:31.963Z'
 ---
 
 ## Articles

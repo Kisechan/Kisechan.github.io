@@ -2,7 +2,7 @@
 title: 用 Wine 在 Mac 上玩一些老 galgame 的方法
 url: https://blog.kisechan.space/2026/games-for-mac/
 type: post
-time: '2026-10-23T14:43:06.486Z'
+time: '2026-10-23T15:19:31.963Z'
 ---
 
 最近想在 macOS 上玩一些 Windows 老游戏，主要是体积不大的 `.exe` 小游戏和视觉小说。我的机器是 Apple Silicon Mac，所以玩 Windows 游戏要多一层架构转换问题。

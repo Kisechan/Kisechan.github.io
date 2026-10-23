@@ -2,7 +2,7 @@
 title: Agent 时代一些有意思的 Web 小惯例
 url: https://blog.kisechan.space/2026/web-for-agents/
 type: post
-time: '2026-10-23T14:43:06.486Z'
+time: '2026-10-23T15:19:31.963Z'
 ---
 
 本文主要来介绍一些 Web 开发领域有意思的约定，以及现在的 Agent 时代又有些什么新的潮流，来方便 Agent 工作。例如，`robots.txt` 可以让爬虫了解网站希望它遵循的抓取规则；搜索引擎可以通过 `sitemap.xml` 获得网站的页面清单；RSS 阅读器能够通过 `atom.xml` 订阅内容更新。
@@ -16,6 +16,13 @@ time: '2026-10-23T14:43:06.486Z'
 - **Resource / Service Discovery**（资源与服务发现）：允许客户端自动找到网站提供的资源、API 或服务。
 - **Well-Known URIs**（众所周知的 URI）：通过正式注册的固定路径实现服务发现。
 - **Content Negotiation**（内容协商）：通过 HTTP 请求和响应头，在同一资源的不同表示形式之间进行选择。
+
+---
+
+也可以去知乎看本文
+https://zhuanlan.zhihu.com/p/2097102804544496101
+
+---
 
 ## 根目录中的经典约定
 

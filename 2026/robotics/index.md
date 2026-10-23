@@ -2,7 +2,7 @@
 title: 机器人学入门笔记
 url: https://blog.kisechan.space/2026/robotics/
 type: post
-time: '2026-10-23T14:43:06.486Z'
+time: '2026-10-23T15:19:31.963Z'
 ---
 
 机器人学主要包含三个方面：

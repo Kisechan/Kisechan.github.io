@@ -2,7 +2,7 @@
 title: Typst 初体验
 url: https://blog.kisechan.space/2025/typst-hatsutaiken/
 type: post
-time: '2026-10-23T14:43:06.486Z'
+time: '2026-10-23T15:19:31.963Z'
 ---
 
 **参考**：
