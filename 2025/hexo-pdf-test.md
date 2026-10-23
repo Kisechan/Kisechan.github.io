@@ -2,7 +2,7 @@
 title: 利用hexo-pdf在博客中插入pdf
 url: https://blog.kisechan.space/2025/hexo-pdf-test/
 type: post
-time: '2026-10-22T16:41:52.395Z'
+time: '2026-10-23T14:43:06.486Z'
 ---
 
 # 安装

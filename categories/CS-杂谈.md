@@ -2,11 +2,12 @@
 title: CS 杂谈
 url: https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/
 type: category
-time: '2026-10-22T16:41:52.395Z'
+time: '2026-10-23T14:43:06.486Z'
 ---
 
 ## Articles
 
+- [Agent 时代一些有意思的 Web 小惯例](https://blog.kisechan.space/2026/web-for-agents/index.md)
 - [用 Wine 在 Mac 上玩一些老 galgame 的方法](https://blog.kisechan.space/2026/games-for-mac/index.md)
 - [我的简易 Zed 配置和使用体验](https://blog.kisechan.space/2026/zed/index.md)
 - [在服务器上比较优雅地使用 Agent](https://blog.kisechan.space/2026/server-agent-workflow/index.md)

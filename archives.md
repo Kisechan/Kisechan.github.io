@@ -2,11 +2,12 @@
 title: Archives
 url: https://blog.kisechan.space/archives/
 type: archive
-time: '2026-10-22T16:41:52.395Z'
+time: '2026-10-23T14:43:06.486Z'
 ---
 
 ## Articles
 
+- [Agent 时代一些有意思的 Web 小惯例](https://blog.kisechan.space/2026/web-for-agents/index.md)
 - [写给新的日子中，失败的我](https://blog.kisechan.space/2026/for-new-myself/index.md)
 - [用 Wine 在 Mac 上玩一些老 galgame 的方法](https://blog.kisechan.space/2026/games-for-mac/index.md)
 - [算法题复健和推免机试记录](https://blog.kisechan.space/2026/algorithm-rehabilitation/index.md)

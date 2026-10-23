@@ -6,7 +6,7 @@
   <link href="https://blog.kisechan.space/atom.xml" rel="self"/>
   
   <link href="https://blog.kisechan.space/"/>
-  <updated>2026-10-16T17:23:46.275Z</updated>
+  <updated>2026-10-23T14:42:33.037Z</updated>
   <id>https://blog.kisechan.space/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Agent 时代一些有意思的 Web 小惯例</title>
+    <link href="https://blog.kisechan.space/2026/web-for-agents/"/>
+    <id>https://blog.kisechan.space/2026/web-for-agents/</id>
+    <published>2026-10-23T09:45:40.000Z</published>
+    <updated>2026-10-23T14:42:33.037Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本文主要来介绍一些 Web 开发领域有意思的约定，以及现在的 Agent 时代又有些什么新的潮流，来方便 Agent 工作。例如，&lt;code&gt;robots.txt&lt;/code&gt; 可以让爬虫了解网站希望它遵循的抓取规则；搜索引擎可以通过</summary>
+        
+      
+    
+    
+    
+    <category term="CS 杂谈" scheme="https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>写给新的日子中，失败的我</title>
@@ -503,34 +526,6 @@
     
     
     <category term="Español" scheme="https://blog.kisechan.space/tags/Espanol/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>机器人学入门笔记</title>
-    <link href="https://blog.kisechan.space/2026/robotics/"/>
-    <id>https://blog.kisechan.space/2026/robotics/</id>
-    <published>2026-03-26T07:55:45.000Z</published>
-    <updated>2026-04-14T08:00:11.404Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;机器人学主要包含三个方面：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;描述一个物体的坐标&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;运动学&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;顺运动学&lt;/strong&gt;：根据肌肉等的状态知道“手”的位置和动作&lt;/l</summary>
-        
-      
-    
-    
-    
-    <category term="具身智能" scheme="https://blog.kisechan.space/categories/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/"/>
-    
     
   </entry>
   

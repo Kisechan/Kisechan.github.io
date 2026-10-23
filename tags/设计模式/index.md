@@ -2,7 +2,7 @@
 title: 设计模式
 url: https://blog.kisechan.space/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/
 type: tag
-time: '2026-10-22T16:41:52.395Z'
+time: '2026-10-23T14:43:06.486Z'
 ---
 
 ## Articles

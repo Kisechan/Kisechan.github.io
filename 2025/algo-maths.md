@@ -2,7 +2,7 @@
 title: 算法笔记4：数学专题
 url: https://blog.kisechan.space/2025/algo-maths/
 type: post
-time: '2026-10-22T16:41:52.395Z'
+time: '2026-10-23T14:43:06.486Z'
 ---
 
 主要记录遇到的数学/统计专题和优化方法，不涉及到太难的数论。

@@ -2,7 +2,7 @@
 title: 我的长春感觉
 url: https://blog.kisechan.space/2026/thoughts-of-freljord/
 type: post
-time: '2026-10-22T16:41:52.395Z'
+time: '2026-10-23T14:43:06.486Z'
 ---
 
 伊通河在长春居然算是个比较著名的景点，但是话说回来，在这个连人工湖都能当成地标的地方也不算奇怪。

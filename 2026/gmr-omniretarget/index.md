@@ -2,7 +2,7 @@
 title: GMR 和 OmniRetarget
 url: https://blog.kisechan.space/2026/gmr-omniretarget/
 type: post
-time: '2026-10-22T16:41:52.395Z'
+time: '2026-10-23T14:43:06.486Z'
 ---
 
 人形机器人要做一件看起来很简单的事：**模仿人类动作**。但是因为人和机器人的身体根本不一样——腿长不同、手臂比例不同、关节活动范围不同、驱动方式不同。这就是所谓的**具身差距**（Embodiment Gap），所以这个工作做起来并不简单。

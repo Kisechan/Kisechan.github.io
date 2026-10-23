@@ -2,7 +2,7 @@
 title: Huffman 树
 url: https://blog.kisechan.space/tags/Huffman-%E6%A0%91/
 type: tag
-time: '2026-10-22T16:41:52.395Z'
+time: '2026-10-23T14:43:06.486Z'
 ---
 
 ## Articles
