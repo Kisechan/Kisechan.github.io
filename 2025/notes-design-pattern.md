@@ -2,7 +2,7 @@
 title: 软件设计模式 课程笔记
 url: https://blog.kisechan.space/2025/notes-design-pattern/
 type: post
-time: '2026-10-23T15:19:31.963Z'
+time: '2026-10-24T09:09:07.707Z'
 ---
 
 ![设计模式课程的主要内容](https://images.kisechan.space/20251115161935679.png)

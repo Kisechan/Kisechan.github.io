@@ -2,7 +2,7 @@
 title: 制作一只非常可爱的说的道理桌宠
 url: https://blog.kisechan.space/2025/shuodedaoli-deskpet/
 type: post
-time: '2026-10-23T15:19:31.963Z'
+time: '2026-10-24T09:09:07.707Z'
 ---
 
 <h2 align="center">说的道理桌宠，正式发布第一版正式版了！</h2>
