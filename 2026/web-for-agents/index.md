@@ -2,7 +2,7 @@
 title: Agent 时代一些有意思的 Web 小惯例
 url: https://blog.kisechan.space/2026/web-for-agents/
 type: post
-time: '2026-11-06T05:43:46.184Z'
+time: '2026-11-06T13:26:47.409Z'
 ---
 
 本文主要来介绍一些 Web 开发领域有意思的约定，以及现在的 Agent 时代又有些什么新的潮流，来方便 Agent 工作。例如，`robots.txt` 可以让爬虫了解网站希望它遵循的抓取规则；搜索引擎可以通过 `sitemap.xml` 获得网站的页面清单；RSS 阅读器能够通过 `atom.xml` 订阅内容更新。

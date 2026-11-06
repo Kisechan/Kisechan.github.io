@@ -2,7 +2,7 @@
 title: 具身智能
 url: https://blog.kisechan.space/categories/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/
 type: category
-time: '2026-11-06T05:43:46.184Z'
+time: '2026-11-06T13:26:47.409Z'
 ---
 
 ## Articles

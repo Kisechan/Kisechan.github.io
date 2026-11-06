@@ -2,7 +2,7 @@
 title: Windows 下 Rust 环境配置踩坑
 url: https://blog.kisechan.space/2025/rust-environment/
 type: post
-time: '2026-11-06T05:43:46.184Z'
+time: '2026-11-06T13:26:47.409Z'
 ---
 
 ## 下载 `rustup`

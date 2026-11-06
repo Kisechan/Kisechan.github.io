@@ -2,7 +2,7 @@
 title: 海明码
 url: https://blog.kisechan.space/2024/hanming-code/
 type: post
-time: '2026-11-06T05:43:46.184Z'
+time: '2026-11-06T13:26:47.409Z'
 ---
 
 ## 组成

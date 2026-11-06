@@ -2,7 +2,7 @@
 title: 想法
 url: https://blog.kisechan.space/categories/%E6%83%B3%E6%B3%95/
 type: category
-time: '2026-11-06T05:43:46.184Z'
+time: '2026-11-06T13:26:47.409Z'
 ---
 
 ## Articles

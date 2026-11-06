@@ -2,7 +2,7 @@
 title: 数学
 url: https://blog.kisechan.space/tags/%E6%95%B0%E5%AD%A6/
 type: tag
-time: '2026-11-06T05:43:46.184Z'
+time: '2026-11-06T13:26:47.409Z'
 ---
 
 ## Articles
