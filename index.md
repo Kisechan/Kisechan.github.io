@@ -2,7 +2,7 @@
 title: Kisechan's Blog
 url: https://blog.kisechan.space/
 type: home
-time: '2026-11-06T13:26:47.409Z'
+time: '2026-11-06T13:40:07.331Z'
 ---
 
 ## Articles

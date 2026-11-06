@@ -2,7 +2,7 @@
 title: 关于
 url: https://blog.kisechan.space/about/
 type: page
-time: '2026-11-06T13:26:47.409Z'
+time: '2026-11-06T13:40:07.331Z'
 ---
 
 很高兴见到你哦！我是 `Kisechan`, a. k. a. `Kise Platinyl` [^1]。

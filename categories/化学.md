@@ -2,7 +2,7 @@
 title: 化学
 url: https://blog.kisechan.space/categories/%E5%8C%96%E5%AD%A6/
 type: category
-time: '2026-11-06T13:26:47.409Z'
+time: '2026-11-06T13:40:07.331Z'
 ---
 
 ## Articles
