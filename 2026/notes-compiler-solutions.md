@@ -2,7 +2,7 @@
 title: 编译原理题型总结笔记
 url: https://blog.kisechan.space/2026/notes-compiler-solutions/
 type: post
-time: '2026-10-24T09:09:07.707Z'
+time: '2026-11-06T05:43:46.184Z'
 ---
 
 ## 主要题型（根据 23 级考题）

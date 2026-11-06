@@ -2,7 +2,7 @@
 title: 一些精神药物的服用体验
 url: https://blog.kisechan.space/2026/experiences-with-taking-psychiatric-medications/
 type: post
-time: '2026-10-24T09:09:07.707Z'
+time: '2026-11-06T05:43:46.184Z'
 ---
 
 因为是第一次吃这类药物，所以记录一下当前吃过的部分精神药物的用后感受。笔者处方的症状为焦虑抑郁状态，吃的都是抗抑郁药（SSRI）和抗焦虑药（西泮），应该都算是药效较为温和的药物。

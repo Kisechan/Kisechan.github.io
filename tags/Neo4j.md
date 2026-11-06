@@ -2,7 +2,7 @@
 title: Neo4j
 url: https://blog.kisechan.space/tags/Neo4j/
 type: tag
-time: '2026-10-24T09:09:07.707Z'
+time: '2026-11-06T05:43:46.184Z'
 ---
 
 ## Articles

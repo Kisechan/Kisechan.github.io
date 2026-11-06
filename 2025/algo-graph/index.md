@@ -2,7 +2,7 @@
 title: 算法笔记5：树，最短路和生成树
 url: https://blog.kisechan.space/2025/algo-graph/
 type: post
-time: '2026-10-24T09:09:07.707Z'
+time: '2026-11-06T05:43:46.184Z'
 ---
 
 ## 树

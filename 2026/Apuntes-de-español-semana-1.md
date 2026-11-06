@@ -2,7 +2,7 @@
 title: Apuntes de español, semana 1
 url: https://blog.kisechan.space/2026/Apuntes-de-espan%CC%83ol-semana-1/
 type: post
-time: '2026-10-24T09:09:07.707Z'
+time: '2026-11-06T05:43:46.184Z'
 ---
 
 **注意**：
