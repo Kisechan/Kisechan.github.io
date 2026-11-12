@@ -2,7 +2,7 @@
 title: Linux
 url: https://blog.kisechan.space/tags/Linux/
 type: tag
-time: '2026-11-06T13:40:07.331Z'
+time: '2026-11-12T13:10:36.978Z'
 ---
 
 ## Articles

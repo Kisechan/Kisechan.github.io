@@ -1,8 +1,8 @@
 ﻿---
-title: Kisechan's Blog
+title: Κομήτης
 url: https://blog.kisechan.space/
 type: home
-time: '2026-11-06T13:40:07.331Z'
+time: '2026-11-12T13:10:36.978Z'
 ---
 
 ## Articles
