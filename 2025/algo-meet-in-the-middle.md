@@ -2,7 +2,7 @@
 title: 算法笔记3：折半搜索
 url: https://blog.kisechan.space/2025/algo-meet-in-the-middle/
 type: post
-time: '2026-11-13T17:05:52.044Z'
+time: '2026-11-13T17:22:51.854Z'
 ---
 
 ## 优化

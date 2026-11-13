@@ -2,7 +2,7 @@
 title: Web编程学习笔记1：HTML基础语法
 url: https://blog.kisechan.space/2025/web1/
 type: post
-time: '2026-11-13T17:05:52.044Z'
+time: '2026-11-13T17:22:51.854Z'
 ---
 
 本笔记主要依据MDN Web Docs：[https://developer.mozilla.org/zh-CN/](https://developer.mozilla.org/zh-CN/)

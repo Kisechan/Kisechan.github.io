@@ -2,7 +2,7 @@
 title: 难绷语言之 Whitespace
 url: https://blog.kisechan.space/2025/whitespace-introduce/
 type: post
-time: '2026-11-13T17:05:52.044Z'
+time: '2026-11-13T17:22:51.854Z'
 ---
 
 ## 简介
