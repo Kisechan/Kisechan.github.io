@@ -2,7 +2,7 @@
 title: Web
 url: https://blog.kisechan.space/tags/Web/
 type: tag
-time: '2026-11-13T17:02:24.471Z'
+time: '2026-11-13T17:05:52.044Z'
 ---
 
 ## Articles

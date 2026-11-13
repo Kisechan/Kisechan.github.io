@@ -2,11 +2,12 @@
 title: Κομήτης
 url: https://blog.kisechan.space/
 type: home
-time: '2026-11-13T17:02:24.471Z'
+time: '2026-11-13T17:05:52.044Z'
 ---
 
 ## Articles
 
+- [“正确”的理想的，我的生活](https://blog.kisechan.space/2026/dreaming-live/index.md)
 - [Agent 时代一些有意思的 Web 小惯例](https://blog.kisechan.space/2026/web-for-agents/index.md)
 - [写给新的日子中，失败的我](https://blog.kisechan.space/2026/for-new-myself/index.md)
 - [用 Wine 在 Mac 上玩一些老 galgame 的方法](https://blog.kisechan.space/2026/games-for-mac/index.md)

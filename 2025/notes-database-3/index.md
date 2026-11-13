@@ -2,7 +2,7 @@
 title: 数据库原理 课程笔记 (3) 存储、索引、事务和并发
 url: https://blog.kisechan.space/2025/notes-database-3/
 type: post
-time: '2026-11-13T17:02:24.471Z'
+time: '2026-11-13T17:05:52.044Z'
 ---
 
 **数据库系列笔记**

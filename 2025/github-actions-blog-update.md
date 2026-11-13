@@ -2,7 +2,7 @@
 title: GitHub Profile 自动化更新最新博客文章
 url: https://blog.kisechan.space/2025/github-actions-blog-update/
 type: post
-time: '2026-11-13T17:02:24.471Z'
+time: '2026-11-13T17:05:52.044Z'
 ---
 
 ## 技术选型 GitHub Actions

@@ -2,11 +2,12 @@
 title: 想法
 url: https://blog.kisechan.space/categories/%E6%83%B3%E6%B3%95/
 type: category
-time: '2026-11-13T17:02:24.471Z'
+time: '2026-11-13T17:05:52.044Z'
 ---
 
 ## Articles
 
+- [“正确”的理想的，我的生活](https://blog.kisechan.space/2026/dreaming-live/index.md)
 - [写给新的日子中，失败的我](https://blog.kisechan.space/2026/for-new-myself/index.md)
 - [我面对抑郁状态的一些可能的理想解法](https://blog.kisechan.space/2026/depressive/index.md)
 - [我消沉的两个月里](https://blog.kisechan.space/2026/in-my-depressed-days/index.md)
