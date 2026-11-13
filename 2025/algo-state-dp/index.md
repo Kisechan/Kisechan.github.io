@@ -2,7 +2,7 @@
 title: 算法笔记2：状压 dp
 url: https://blog.kisechan.space/2025/algo-state-dp/
 type: post
-time: '2026-11-12T13:10:36.978Z'
+time: '2026-11-13T17:02:24.471Z'
 ---
 
 ## 优化方式

@@ -2,7 +2,7 @@
 title: C++
 url: https://blog.kisechan.space/tags/C/
 type: tag
-time: '2026-11-12T13:10:36.978Z'
+time: '2026-11-13T17:02:24.471Z'
 ---
 
 ## Articles

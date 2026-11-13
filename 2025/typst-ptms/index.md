@@ -2,7 +2,7 @@
 title: 用 Typst 排版一份概率论笔记
 url: https://blog.kisechan.space/2025/typst-ptms/
 type: post
-time: '2026-11-12T13:10:36.978Z'
+time: '2026-11-13T17:02:24.471Z'
 ---
 
 ## 排版
