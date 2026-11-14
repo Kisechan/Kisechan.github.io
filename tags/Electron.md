@@ -2,7 +2,7 @@
 title: Electron
 url: https://blog.kisechan.space/tags/Electron/
 type: tag
-time: '2026-11-14T12:21:46.894Z'
+time: '2026-11-14T14:04:43.467Z'
 ---
 
 ## Articles

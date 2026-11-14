@@ -2,7 +2,7 @@
 title: 让Hexo博客支持Emoji表情
 url: https://blog.kisechan.space/2025/hexo-emoji/
 type: post
-time: '2026-11-14T12:21:46.894Z'
+time: '2026-11-14T14:04:43.467Z'
 ---
 
 # 安装

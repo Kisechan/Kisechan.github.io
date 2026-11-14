@@ -2,7 +2,7 @@
 title: 概率论与数理统计
 url: https://blog.kisechan.space/2025/notes-ptms/
 type: post
-time: '2026-11-14T12:21:46.894Z'
+time: '2026-11-14T14:04:43.467Z'
 ---
 
 ## 概率论
@@ -67,8 +67,10 @@ $$
 ### 随机变量函数的分布
 
 $$
+\begin{gathered}
 \text{if}\quad x=g(y)\quad\text{and}\quad f(x) \text{ 为 } X \text{ 的 PMF， }g(y)\text{ 单调， then}\\
 f_Y(y)=f_X(g(y))g'(y)
+\end{gathered}
 $$
 
 另外注意上下限
@@ -286,8 +288,10 @@ $k\to+\infty$ 时， $t$ 分布收敛于 $\mathcal N(0,1)$
 对于从正态总体中抽取的样本 $X_i$，有，
 
 $$
+\begin{gathered}
 \frac{\bar{X}_n - \mu}{\sigma / \sqrt{n}} \sim \mathcal{N}(0,1)\\
 \frac{(n-1)S^2}{\sigma^2}\sim\chi^2(n-1)
+\end{gathered}
 $$
 
 则，
@@ -316,8 +320,10 @@ $$
 且
 
 $$
+\begin{gathered}
 \text{if } T\sim t(k)\text{, then}\\
 T^2\sim F(1,k)
+\end{gathered}
 $$
 
 ### 点估计法

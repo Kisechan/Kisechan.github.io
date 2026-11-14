@@ -2,7 +2,7 @@
 title: 编译原理课程笔记
 url: https://blog.kisechan.space/2026/notes-compilers/
 type: post
-time: '2026-11-14T12:21:46.894Z'
+time: '2026-11-14T14:04:43.467Z'
 ---
 
 ## 概论
@@ -245,8 +245,10 @@ $a(a|b)^*$ 表示所有以 $a$ 开头，后面跟任意个 $a$ 或 $b$ 的字符
 整数可用正则表达式描述。设：
 
 $$
+\begin{gathered}
 D=0|1|2|\dots|9\\
 D_1=1|2|\dots|9
+\end{gathered}
 $$
 
 则：
@@ -275,8 +277,10 @@ $$
 其中：
 
 $$
+\begin{gathered}
 L=A|B|\dots|Z|a|b|\dots|z|\_\\
 D=0|1|\dots|9
+\end{gathered}
 $$
 
 整数常量：
@@ -492,8 +496,10 @@ DFA 可以用来描述词法分析中的各种单词。
 标识符的描述，设：
 
 $$
+\begin{gathered}
 L=a|b|\dots|z|A|B|\dots|Z|\_\\
 D=0|1|2|\dots|9
+\end{gathered}
 $$
 
 标识符的正则表达式为：

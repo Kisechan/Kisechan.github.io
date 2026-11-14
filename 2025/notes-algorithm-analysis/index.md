@@ -2,7 +2,7 @@
 title: 算法设计与分析 课程笔记
 url: https://blog.kisechan.space/2025/notes-algorithm-analysis/
 type: post
-time: '2026-11-14T12:21:46.894Z'
+time: '2026-11-14T14:04:43.467Z'
 ---
 
 ## 导引
@@ -116,9 +116,11 @@ $f(n)$ 表示算法运行时需要的时间，它是与机器和语言有关的�
 **常用的求和公式**
 
 $$
+\begin{gathered}
 \sum_{1\leq i\leq n}1=\Theta(n)\\
 \sum_{1\leq i\leq n}i=n(n+1)/2=\Theta(n^2)\\
 \sum_{1\leq i\leq n}i^2=n(n+1)(2n+1)/6=\Theta(n^3)
+\end{gathered}
 $$
 
 通式：
@@ -614,14 +616,15 @@ end  MERGE
 归并排序算法消耗的时间：
 
 $$
+\begin{gathered}
 T(n)=
 \begin{cases}
 a&&n=1,a为常数\\
 2T(n/2)+cn&&n>1,c为常数
 \end{cases}
 \\
-\\
 \Rightarrow \boxed{T(n)=O(n\log n)}
+\end{gathered}
 $$
 
 - 当数组只有一个元素时 ($n=1$)，**排序所需的时间是一个常数** $a$。

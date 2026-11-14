@@ -2,7 +2,7 @@
 title: 软件工程课程部分内容归纳
 url: https://blog.kisechan.space/2025/notes-software-engineering-summary/
 type: post
-time: '2026-11-14T12:21:46.894Z'
+time: '2026-11-14T14:04:43.467Z'
 ---
 
 > 前面的大部分内容使用 [NotebookLM](https://notebooklm.google.com/) 完成。
@@ -137,7 +137,7 @@ COCOMO (COCOMO 81) 模型用于估算工作量和开发时间，其一般形式�
 
 稳态可用性 $A$ 的计算公式：
 
-1. 基于停机时间 $T_{故障}$ 和正常运行时间 $T_{成功}$ 的计算： $ A = \frac{\sum T_{成功}}{\sum T_{成功} + \sum T_{故障}} $
+1. 基于停机时间 $T_{\text{故障}}$ 和正常运行时间 $T_{\text{成功}}$ 的计算： $ A = \frac{\sum T_{\text{成功}}}{\sum T_{\text{成功}} + \sum T_{\text{故障}}} $
 2. 基于平均无故障时间 $\text{MTTF}$ 和平均维修时间 $\text{MTTR}$ 的计算： $ A = \frac{MTTF}{MTTF + MTTR} $
 
 ---
@@ -330,12 +330,12 @@ $$
 或者展开写成：
 
 $$
-\text{MTTF}_{当前} \times (E_T - E_{已改当前}) = \text{MTTF}_{目标} \times (E_T - E_{已改目标})
+\text{MTTF}_{\text{当前}} \times (E_T - E_{\text{已改当前}}) = \text{MTTF}_{\text{目标}} \times (E_T - E_{\text{已改目标}})
 $$
 
 - $E_T$：总错误数（由公式1算出）。
-- $E_{已改}$：已经被你修好的错误数。
-- $(E_T - E_{已改})$：就是剩余错误数。
+- $E_{\text{已改}}$：已经被你修好的错误数。
+- $(E_T - E_{\text{已改}})$：就是剩余错误数。
 
 ---
 
@@ -359,7 +359,7 @@ $$
 第一步：算出总共有多少个Bug ($E_T$)
 
 利用“捕获-再捕获”公式（也就是甲乙两个人的数据）：
-$$E_T = \frac{甲发现 \times 乙发现}{共同发现} = \frac{20 \times 24}{6}$$
+$$E_T = \frac{\text{甲发现} \times \text{乙发现}}{\text{共同发现}} = \frac{20 \times 24}{6}$$
 $$E_T = 80 \text{ (个)}$$
 
 答：刚开始程序中总共有 80 个潜藏错误。

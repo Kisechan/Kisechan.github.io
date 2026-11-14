@@ -2,7 +2,7 @@
 title: 机器人学入门笔记
 url: https://blog.kisechan.space/2026/robotics/
 type: post
-time: '2026-11-14T12:21:46.894Z'
+time: '2026-11-14T14:04:43.467Z'
 ---
 
 机器人学主要包含三个方面：
@@ -26,7 +26,8 @@ time: '2026-11-14T12:21:46.894Z'
 可以得到一个特性：
 
 $$
-\begin{align*}
+\begin{gathered}
+\begin{aligned}
 {}^{A}_{B}R &=
 \begin{bmatrix}
 \hat{X}_A \cdot \hat{X}_B & \hat{X}_A \cdot \hat{Y}_B & \hat{X}_A \cdot \hat{Z}_B \\
@@ -49,11 +50,12 @@ $$
 \end{bmatrix}^ T
 \\
 &= ({}^{B}_{A}R)^{T}
-\end{align*}
+\end{aligned}
 
 \\
 \Rightarrow
 \boxed{^A_BR= {}^{B}_{A}R^{T}}
+\end{gathered}
 $$
 
 而且显然可以得到：
@@ -89,6 +91,7 @@ Fixed angle 旋转指的是这个物体**依次绕空间中固定不动的坐标
 绕固定坐标系 $X,Y,Z$ 轴旋转角度 $\alpha,\beta,\gamma$，则对应的基本旋转矩阵为：
 
 $$
+\begin{gathered}
 R_x(\alpha)=
 \begin{bmatrix}
 1 & 0 & 0\\
@@ -110,6 +113,7 @@ R_z(\gamma)=
 \sin\gamma & \cos\gamma & 0\\
 0 & 0 & 1
 \end{bmatrix}
+\end{gathered}
 $$
 
 若使用 Fixed angle，按绕 $X$轴、$Y$ 轴、$Z$ 轴的旋转顺序分别旋转角度 $\alpha,\beta,\gamma$，它的整体旋转矩阵为

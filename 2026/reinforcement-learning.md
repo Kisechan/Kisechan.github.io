@@ -2,7 +2,7 @@
 title: 强化学习概述：复习一些经典算法
 url: https://blog.kisechan.space/2026/reinforcement-learning/
 type: post
-time: '2026-11-14T12:21:46.894Z'
+time: '2026-11-14T14:04:43.467Z'
 ---
 
 ## 决策和交互
@@ -104,7 +104,7 @@ https://blog.candlest.cc/archives/1027
 
 ## DQN
 
-根据 Bellman Expectation Equation，我们可以找到最优 Q Function，也就是 Bellman Optimality Equation：
+根据 Bellman Expectation Equation，我们可以找到最优 $Q$ Function，也就是 Bellman Optimality Equation：
 
 $$
 { Q^*(s,a)= \mathbb E \left[ r+\gamma\max_{a'}Q^*(s',a') \right] }
@@ -112,7 +112,7 @@ $$
 
 ---
 
-DQN 全称 Deep Q-Network，它的思路很简单，也就是使用神经网络拟合 Q Function，让网络学会预测每个动作的长期收益。
+DQN 全称 Deep $Q$-Network，它的思路很简单，也就是使用神经网络拟合 $Q$ Function，让网络学会预测每个动作的长期收益。
 
 假设一个 agent 有$n$ 个离散动作，输入当前状态 $s_t$，要神经网络 $\theta$ 输出 $Q_\theta(s_t)= [Q_1,Q_2,\ldots,Q_n]$，选择 $Q$ 最大的那个动作就可以了。但是网络本身并不知道 $Q$ 应该是多少，它需要通过环境交互得到的 reward，不断调整参数，让预测的 $Q$ 越来越准确。
 
@@ -124,13 +124,15 @@ DQN 全称 Deep Q-Network，它的思路很简单，也就是使用神经网络�
 - 执行动作后到达的新状态 $s_{t+1}$。
 - 下一状态下能够选择的动作。
 
-因此，我们可以构造一个目标值 $y_t$，这个在强化学习里面叫做 TD (Temporal-Difference) Target：
+因此，我们可以构造一个目标值 $y_t$，这个在强化学习里面叫做 TD (Temporal-Difference) Target[^1]：
 
 $$
 y_t= r_t+ \gamma\max_{a'} Q_{\theta^-}(s_{t+1},a')
 $$
 
 其中：
+
+[^1]: 这个叫时序差分，利用相邻时间步的价值估计之差，逐步修正对长期收益的预测。TD Target 的含义就是根据当前真实获得的 Reward，以及下一状态的价值估计，计算当前状态应该具有的目标价值。并不是等 agent 完成整个任务，拿到所有未来奖励之后，才更新当前价值。而是只观察一步，然后利用当前时间步获得的真实 reward 和下一时间步的价值估计。这个差不多就是 Monte Carlo 和动态规划的思想。
 
 - $r_t$：环境给出的即时奖励。
 - $\gamma$：折扣因子。
@@ -311,7 +313,10 @@ Entropy Bonus（熵奖励）是强化学习和 LLM 强化学习微调常见的�
 策略熵衡量策略概率分布的不确定性，定义为：
 
 $$
-\mathcal H(\pi)= -\sum_a\pi(a|s)\log\pi(a|s)
+\begin{align}
+\mathcal H(\pi) &= -\sum_a\pi(a|s)\log\pi(a|s)\\
+&= -\mathbb E_{a\sim\pi} [\log\pi(a|s)]
+\end{align}
 $$
 
 PPO 希望在优化动作价值的同时，保留适当的探索能力。
@@ -402,9 +407,9 @@ formatter: 'Maximum'
 
 ### On Policy 训练
 
-PPO 的 Actor 和 Critic 是共享底层的两个头，它们是一起更新的[^1]，所以可以把它们的 Loss 放在一起，PPO 算法的整体 Loss 通常写成：
+PPO 的 Actor 和 Critic 是共享底层的两个头，它们是一起更新的[^2]，所以可以把它们的 Loss 放在一起，PPO 算法的整体 Loss 通常写成：
 
-[^1]: Actor 头只受到 $L^\text{CLIP}$ 和熵的影响，Critic 头只受到 $L^{VF}(\phi)$ 的影响，这个可以求偏导看出来的，但是它们最终会汇合到共享的底层网络，所以最终还是会以 $L$ 来反向传播。
+[^2]: Actor 头只受到 $L^\text{CLIP}$ 和熵的影响，Critic 头只受到 $L^{VF}(\phi)$ 的影响，这个可以求偏导看出来的，但是它们最终会汇合到共享的底层网络，所以最终还是会以 $L$ 来反向传播。
 
 $$
 L= -L^\text{CLIP} +c_vL^{VF} -c_e\mathcal H(\pi)
@@ -434,5 +439,133 @@ PPO **主要使用当前策略产生的数据来更新当前策略**，所以叫
 - 再用新策略收集下一批数据。
 
 PPO 会对同一批数据做多个 Epoch 的优化，但 Clip 限制了策略相对旧策略的变化。
+
+## SAC
+
+SAC 的全称是 Soft Actor-Critic，但它追求**最大熵 Actor-Critic**。PPO 通过 Entropy Bonus 鼓励探索，SAC 将这个思想进一步融入整个优化目标——它希望智能体：
+
+1. 获得较高的累计 reward。
+2. 保持足够的随机性，避免过早陷入单一策略。
+
+定义最大熵目标：
+
+$$
+\begin{align}
+J(\pi)&= \mathbb E_\pi \left[ \sum_{t=0}^{\infty} \gamma^t \left( r_t+\alpha\mathcal H(\pi(\cdot|s_t)) \right) \right]\\
+&=\mathbb E_\pi \left[ \sum_t\gamma^t \left( r_t\textcolor{red}{\underbrace{-\alpha\log\pi(a_t|s_t)}_{\text{熵奖励项}}} \right) \right]
+\end{align}
+$$
+
+其中 $\alpha$ 叫作 Temperature Parameter，控制奖励和熵之间的权衡。它使得策略在追求高 Reward 的同时，也会考虑动作分布的多样性。
+
+### SAC 的网络
+
+标准 SAC 通常包含：
+
+- Actor：策略网络。
+- Critic 1：第一个 $Q$ Network。
+- Critic 2：第二个 $Q$ Network。
+- Target Critic 1。
+- Target Critic 2。
+
+为什么需要两个 Critic？因为单个 $Q$ Network 容易高估动作价值。
+
+注意， **$Q$ 评价的是动作，$V$ 评价的是整体状态**。
+
+SAC 的 $Q$ 通常取两个 Critic 预测的最小值 $Q_{\min}(s,a)= \min(Q_1(s,a),Q_2(s,a))$，使用较小的估计值，可以减轻 $Q$ Value 的过度高估。
+
+### Critic
+
+SAC 构造的 TD Target 与 DQN 相比，它考虑了下一状态策略的熵。首先从下一状态的 Actor 中采样动作 $a'\sim\pi_\theta(\cdot|s')$，然后计算：
+
+$$
+y= r+ \gamma \left[ \min_{i=1,2}Q_{\bar\phi_i}(s',a') -\alpha\log\pi_\theta(a'|s') \right]
+$$
+
+其中：
+
+- \(r\)：当前 Reward。
+- \(Q_{\bar\phi_i}\)：Target Critic。
+- \(\min Q\)：使用较保守的 $Q$ Value。
+- \(-\alpha\log\pi\)：熵奖励。
+- \(\gamma\)：未来奖励折扣。
+
+对比 DQN 的 $y_{\text{DQN}} = r+\gamma\max_{a'}Q(s',a')$，SAC 的目标 $y_{\text{SAC}} = r+\gamma \left[ Q_{\min}(s',a') -\alpha\log\pi(a'|s') \right]$ 体现了两种算法的不同。DQN 假设下一步选择 Q Value 最大的动作，而 SAC 从当前策略中采样下一步动作，并把熵也纳入未来价值。
+
+Critic 使用 MSE Loss：
+
+$$
+L_Q(\phi_i)= \mathbb E \left[ (Q_{\phi_i}(s,a)-y)^2 \right]
+$$
+
+两个 Critic 分别计算自己的 Loss，再进行梯度下降，与 DQN 的 Q Network 更新有很强的相似性。
+
+### Actor
+
+SAC 希望 Actor 选择具有较高 $Q$ Value 的动作，同时保持较高熵，因此 Actor 的目标是：
+
+$$
+J_\pi(\theta)= \mathbb E_{s\sim D,\ a\sim\pi_\theta} \left[ \alpha\log\pi_\theta(a|s) - \min_iQ_{\phi_i}(s,a) \right]
+$$
+
+### 处理连续动作
+
+比如 agent 需要输出一个连续控制向量 $\vec a=[a_1,a_2,\ldots,a_n]$[^3]，Actor 通常不直接输出一个确定动作，而是输出概率分布的参数：
+
+[^3]: 比如机器人关节的参数就不是一个固定的值，是离散的。PPO 当然也可以用这样的输出来做，但是 SAC 这个貌似比较典型。
+
+$$
+\mu_\theta(s),\quad \sigma_\theta(s)
+$$
+
+然后做正态分布：
+
+$$
+u=\mu_\theta(s)+ \sigma_\theta(s)\odot\epsilon, \quad \epsilon\sim\mathcal N(0,I)
+$$
+
+再通过 $\tanh$ 将动作限制到指定范围：
+
+$$
+a=\tanh(u)
+$$
+
+这叫 reparameterization trick（重参数化技巧），它的作用是让随机动作采样过程可以参与梯度计算。因为随机变量 \(\epsilon\) 独立于网络参数，梯度可以通过 \(\mu_\theta\)、\(\sigma_\theta\) 传递，因此 SAC 可以通过 Actor 的梯度更新，逐步找到具有更高价值的连续动作分布。
+
+### Temperature
+
+前面介绍了 $\alpha$，它决定奖励与熵之间的权重。如果 \(\alpha\) 固定，可能出现探索过多或探索不足的情况。因此 SAC 可以自动调整 Temperature。
+
+定义目标熵 $\mathcal H_{\text{target}}$，希望当前策略的熵接近这个目标。常见的自动 Temperature 调整 Loss 为：
+
+$$
+L(\alpha)= -\mathbb E \left[ \alpha \left( \log\pi_\theta(a|s) +\mathcal H_{\text{target}} \right) \right]
+$$
+
+这里通常使用 $\alpha=e^\beta$，通过优化 \(\beta\) 保证 \(\alpha>0\)。直观理解：
+
+- 当前策略熵低于目标：增加探索强度。
+- 当前策略熵高于目标：降低探索强度。
+
+这样 SAC 可以根据策略实际表现动态调整探索程度。
+
+## Off-Policy 训练
+
+SAC 同样使用 Replay Buffer，每次环境交互后，保存 $(s_t,a_t,r_t,s_{t+1},\text{done})$，随后从历史经验中随机采样 batch，这些经验可以来自过去的不同策略。
+
+SAC 使用当前 Actor 和 Critic 来处理这些历史数据：
+
+- Critic 利用经验计算 TD Target。
+- Actor 利用当前 Critic 优化策略。
+- Temperature 根据目标熵进行调整。
+- Target Critic 通过软更新保持稳定。
+
+Target Network 的软更新：
+
+$$
+\bar\phi\leftarrow \tau\phi+(1-\tau)\bar\phi
+$$
+
+这里的 \(\tau\) 通常比较小。这样 Target Critic 会平滑地跟随在线 Critic。
 
 ## 参考和注解

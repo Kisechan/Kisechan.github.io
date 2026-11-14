@@ -2,7 +2,7 @@
 title: 用AstrBot框架搭建一个qq机器人
 url: https://blog.kisechan.space/2025/qqbot-astrbot/
 type: post
-time: '2026-11-14T12:21:46.894Z'
+time: '2026-11-14T14:04:43.467Z'
 ---
 
 ## 部署框架

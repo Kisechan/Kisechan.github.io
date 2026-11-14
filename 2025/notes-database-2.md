@@ -2,7 +2,7 @@
 title: 数据库原理 课程笔记 (2) E-R 模型和关系模式
 url: https://blog.kisechan.space/2025/notes-database-2/
 type: post
-time: '2026-11-14T12:21:46.894Z'
+time: '2026-11-14T14:04:43.467Z'
 ---
 
 **数据库系列笔记**
@@ -721,7 +721,9 @@ BCNF 分解的流程如下：
 例子来自 [https://blog.csdn.net/qq_31636495/article/details/135537131](https://blog.csdn.net/qq_31636495/article/details/135537131)
 
 $$
+\begin{gathered}
 R=(ABC)\\ \{AB \to C, C \to B\}
+\end{gathered}
 $$
 
 候选码为 $\{(AB), (AC)\}$

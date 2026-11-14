@@ -2,7 +2,7 @@
 title: 编译原理题型总结笔记
 url: https://blog.kisechan.space/2026/notes-compiler-solutions/
 type: post
-time: '2026-11-14T12:21:46.894Z'
+time: '2026-11-14T14:04:43.467Z'
 ---
 
 ## 主要题型（根据 23 级考题）
@@ -184,8 +184,10 @@ $$
 形式化地说：
 
 $$
+\begin{gathered}
 S\Rightarrow^*\alpha A\gamma\\
 A\Rightarrow^*\beta
+\end{gathered}
 $$
 
 所以：

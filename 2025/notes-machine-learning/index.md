@@ -2,7 +2,7 @@
 title: 机器学习 课程笔记
 url: https://blog.kisechan.space/2025/notes-machine-learning/
 type: post
-time: '2026-11-14T12:21:46.894Z'
+time: '2026-11-14T14:04:43.467Z'
 ---
 
 ## 写在前面
@@ -2834,8 +2834,10 @@ MLP 的参数量就是**权重 $w$ 和偏置项 $b$ 的总数量**，用于衡�
 利用**链式法则 (Chain Rule)**，像剥洋葱一样一层层剥开：
 
 $$
-\frac{\partial E}{\partial w} = \frac{\partial E}{\partial a} \cdot \frac{\partial a}{\partial z} \cdot \frac{\partial z}{\partial w}\\\\
+\begin{gathered}
+\frac{\partial E}{\partial w} = \frac{\partial E}{\partial a} \cdot \frac{\partial a}{\partial z} \cdot \frac{\partial z}{\partial w}\\
 \frac{\partial E}{\partial b} = \frac{\partial E}{\partial a} \cdot \frac{\partial a}{\partial z} \cdot \frac{\partial z}{\partial b}
+\end{gathered}
 $$
 
 我们一项一项算：
