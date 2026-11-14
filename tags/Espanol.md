@@ -2,7 +2,7 @@
 title: Español
 url: https://blog.kisechan.space/tags/Espanol/
 type: tag
-time: '2026-11-14T14:04:43.467Z'
+time: '2026-11-14T16:02:44.851Z'
 ---
 
 ## Articles

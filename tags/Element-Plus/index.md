@@ -2,7 +2,7 @@
 title: Element Plus
 url: https://blog.kisechan.space/tags/Element-Plus/
 type: tag
-time: '2026-11-14T14:04:43.467Z'
+time: '2026-11-14T16:02:44.851Z'
 ---
 
 ## Articles

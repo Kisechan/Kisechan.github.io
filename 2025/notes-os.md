@@ -2,7 +2,7 @@
 title: 操作系统复习
 url: https://blog.kisechan.space/2025/notes-os/
 type: post
-time: '2026-11-14T14:04:43.467Z'
+time: '2026-11-14T16:02:44.851Z'
 ---
 
 ## 操作系统概述

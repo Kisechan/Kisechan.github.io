@@ -2,7 +2,7 @@
 title: 强化学习概述：复习一些经典算法
 url: https://blog.kisechan.space/2026/reinforcement-learning/
 type: post
-time: '2026-11-14T14:04:43.467Z'
+time: '2026-11-14T16:02:44.851Z'
 ---
 
 ## 决策和交互
@@ -15,13 +15,13 @@ $$
 
 其实就是状态和转移，强化学习的最基本状态交互循环，符号可以用下面的方式理解：
 
-|     符号     |                       理解                        |
-| :----------: | :-----------------------------------------------: |
-| $\mathcal S$ |                  所有可能的状态                   |
-| $\mathcal A$ |                所有可以执行的动作                 |
-| $P(s'\|s,a)$ | 在状态 $s$，执行动作 $a$ 后到达新状态 $s'$ 的概率 |
-| $R(s,a,s')$  |   从状态 $s$ 到 $s'$，执行动作 $a$ 所获得的奖励   |
-|   $\gamma$   |               对未来奖励的折扣程度                |
+|     符号     |                     理解                      |
+| :----------: | :-------------------------------------------: |
+| $\mathcal S$ |                所有可能的状态                 |
+| $\mathcal A$ |              所有可以执行的动作               |
+|    $P(s'     |                     s,a)$                     | 在状态 $s$，执行动作 $a$ 后到达新状态 $s'$ 的概率 |
+| $R(s,a,s')$  | 从状态 $s$ 到 $s'$，执行动作 $a$ 所获得的奖励 |
+|   $\gamma$   |             对未来奖励的折扣程度              |
 
 下面讲到的所有东西，都**只和动作、状态、奖励有关**。
 
@@ -34,7 +34,7 @@ $$
 G_t&=r_t+\gamma r_{t+1}
 +\gamma^2r_{t+2}+\cdots\\
 &=
-\boxed{
+{
 \sum_{k=0}^{\infty}\gamma^k r_{t+k}
 }\quad \text{where } \gamma \in [0,1]
 
@@ -132,7 +132,7 @@ $$
 
 其中：
 
-[^1]: 这个叫时序差分，利用相邻时间步的价值估计之差，逐步修正对长期收益的预测。TD Target 的含义就是根据当前真实获得的 Reward，以及下一状态的价值估计，计算当前状态应该具有的目标价值。并不是等 agent 完成整个任务，拿到所有未来奖励之后，才更新当前价值。而是只观察一步，然后利用当前时间步获得的真实 reward 和下一时间步的价值估计。这个差不多就是 Monte Carlo 和动态规划的思想。
+[^1]: 这个叫时序差分，利用相邻时间步的价值估计之差，逐步修正对长期收益的预测。TD Target 的含义就是根据当前真实获得的 Reward，以及下一状态的价值估计，计算当前状态应该具有的目标价值。并不是等 agent 完成整个任务，拿到所有未来奖励之后，才更新当前价值。而是只观察一步，然后利用当前时间步获得的真实 reward 和下一时间步的价值估计。差不多就是 Monte Carlo 和动态规划的思想。
 
 - $r_t$：环境给出的即时奖励。
 - $\gamma$：折扣因子。
@@ -175,10 +175,10 @@ $$
 
 所以 DQN 引入两个网络：
 
-| 网络           | 作用                  |
-| -------------- | :-------------------- |
-| Policy Network | 负责当前 Q Value 预测 |
-| Target Network | 负责计算 TD Target    |
+| 网络           | 作用                    |
+| -------------- | :---------------------- |
+| Policy Network | 负责当前 $Q$ Value 预测 |
+| Target Network | 负责计算 TD Target      |
 
 Target Network 使用相对稳定的参数 $\theta^-$，定期将 Policy Network 的参数 $\theta$ 复制过去，或者是使用软更新：
 
@@ -190,7 +190,7 @@ $$
 
 ## PPO
 
-DQN 学习 Q Value，然后根据 Q Value 选择动作。
+DQN 学习 $Q$ Value，然后根据 $Q$ Value 选择动作。
 
 PPO 采取另一种思路，直接训练一个神经网络，让它学习**在不同状态下应该以多大概率选择各个动作**。
 
@@ -200,11 +200,7 @@ PPO 使用一个 Policy Network，也叫 Actor。Actor 输入 $s_t$，输出 $\p
 
 ### Critic
 
-Actor 可以输出动作概率，那应该怎么知道某个动作究竟好不好呢？因此，我们需要一个基准，就是 Critic。它预测当前状态的期望累计收益，学习：
-
-$$
- { V_\phi(s) }
-$$
+Actor 可以输出动作概率，那应该怎么知道某个动作究竟好不好呢？因此，我们需要一个基准，就是 Critic。它预测当前状态的期望累计收益，学习 $V_\phi(s)$。
 
 ### Advantage
 
@@ -234,12 +230,11 @@ $$
 其中：
 
 - $\gamma$：折扣因子。
-- $\lambda$：GAE 参数。
+- $\lambda$：GAE 参数，控制我们如何综合不同时间跨度的 TD Error。
 
-$\lambda$ 控制我们如何综合不同时间跨度的 TD Error。
+  - $\lambda=0$：只使用单步 TD Error。
 
-- $\lambda=0$：只使用单步 TD Error。
-- $\lambda\to1$：综合更多未来 TD Error。
+  - $\lambda\to1$：综合更多未来 TD Error。
 
 因此，GAE 能够在估计偏差和方差之间进行折中。
 
@@ -313,15 +308,15 @@ Entropy Bonus（熵奖励）是强化学习和 LLM 强化学习微调常见的�
 策略熵衡量策略概率分布的不确定性，定义为：
 
 $$
-\begin{align}
+\begin{align*}
 \mathcal H(\pi) &= -\sum_a\pi(a|s)\log\pi(a|s)\\
 &= -\mathbb E_{a\sim\pi} [\log\pi(a|s)]
-\end{align}
+\end{align*}
 $$
 
 PPO 希望在优化动作价值的同时，保留适当的探索能力。
 
-比如二元熵函数（$y=-\left[x\ln\left(x\right)+\left(1-x\right)\ln\left(1-x\right)\right]$）：
+比如二元熵函数（$H(x)=\left[x\ln\left(x\right)+\left(1-x\right)\ln\left(1-x\right)\right]$）：
 
 {
 title: {
@@ -405,7 +400,7 @@ formatter: 'Maximum'
 }]
 }
 
-### On Policy 训练
+### On-Policy 训练
 
 PPO 的 Actor 和 Critic 是共享底层的两个头，它们是一起更新的[^2]，所以可以把它们的 Loss 放在一起，PPO 算法的整体 Loss 通常写成：
 
@@ -450,10 +445,10 @@ SAC 的全称是 Soft Actor-Critic，但它追求**最大熵 Actor-Critic**。PP
 定义最大熵目标：
 
 $$
-\begin{align}
+\begin{align*}
 J(\pi)&= \mathbb E_\pi \left[ \sum_{t=0}^{\infty} \gamma^t \left( r_t+\alpha\mathcal H(\pi(\cdot|s_t)) \right) \right]\\
 &=\mathbb E_\pi \left[ \sum_t\gamma^t \left( r_t\textcolor{red}{\underbrace{-\alpha\log\pi(a_t|s_t)}_{\text{熵奖励项}}} \right) \right]
-\end{align}
+\end{align*}
 $$
 
 其中 $\alpha$ 叫作 Temperature Parameter，控制奖励和熵之间的权衡。它使得策略在追求高 Reward 的同时，也会考虑动作分布的多样性。
@@ -484,13 +479,13 @@ $$
 
 其中：
 
-- \(r\)：当前 Reward。
-- \(Q_{\bar\phi_i}\)：Target Critic。
-- \(\min Q\)：使用较保守的 $Q$ Value。
-- \(-\alpha\log\pi\)：熵奖励。
-- \(\gamma\)：未来奖励折扣。
+- $r$：当前 Reward。
+- $Q_{\bar\phi_i}$：Target Critic。
+- $\min Q$：使用较保守的 $Q$ Value。
+- $-\alpha\log\pi$：熵奖励。
+- $\gamma$：未来奖励折扣。
 
-对比 DQN 的 $y_{\text{DQN}} = r+\gamma\max_{a'}Q(s',a')$，SAC 的目标 $y_{\text{SAC}} = r+\gamma \left[ Q_{\min}(s',a') -\alpha\log\pi(a'|s') \right]$ 体现了两种算法的不同。DQN 假设下一步选择 Q Value 最大的动作，而 SAC 从当前策略中采样下一步动作，并把熵也纳入未来价值。
+对比 DQN 的 $y_{\text{DQN}} = r+\gamma\max_{a'}Q(s',a')$，SAC 的目标 $y_{\text{SAC}} = r+\gamma \left[ Q_{\min}(s',a') -\alpha\log\pi(a'|s') \right]$ 体现了两种算法的不同。DQN 假设下一步选择 $Q$ Value 最大的动作，而 SAC 从当前策略中采样下一步动作，并把熵也纳入未来价值。
 
 Critic 使用 MSE Loss：
 
@@ -530,11 +525,11 @@ $$
 a=\tanh(u)
 $$
 
-这叫 reparameterization trick（重参数化技巧），它的作用是让随机动作采样过程可以参与梯度计算。因为随机变量 \(\epsilon\) 独立于网络参数，梯度可以通过 \(\mu_\theta\)、\(\sigma_\theta\) 传递，因此 SAC 可以通过 Actor 的梯度更新，逐步找到具有更高价值的连续动作分布。
+这叫重参数化技巧，它的作用是让随机动作采样过程可以参与梯度计算。因为随机变量 $\epsilon$ 独立于网络参数，梯度可以通过 $\mu_\theta$、$\sigma_\theta$ 传递，因此 SAC 可以通过 Actor 的梯度更新，逐步找到具有更高价值的连续动作分布。
 
 ### Temperature
 
-前面介绍了 $\alpha$，它决定奖励与熵之间的权重。如果 \(\alpha\) 固定，可能出现探索过多或探索不足的情况。因此 SAC 可以自动调整 Temperature。
+前面介绍了 $\alpha$，它决定奖励与熵之间的权重。如果 $\alpha$ 固定，可能出现探索过多或探索不足的情况。因此 SAC 可以自动调整 Temperature。
 
 定义目标熵 $\mathcal H_{\text{target}}$，希望当前策略的熵接近这个目标。常见的自动 Temperature 调整 Loss 为：
 
@@ -542,7 +537,7 @@ $$
 L(\alpha)= -\mathbb E \left[ \alpha \left( \log\pi_\theta(a|s) +\mathcal H_{\text{target}} \right) \right]
 $$
 
-这里通常使用 $\alpha=e^\beta$，通过优化 \(\beta\) 保证 \(\alpha>0\)。直观理解：
+这里通常使用 $\alpha=e^\beta$，通过优化 $\beta$ 保证 $\alpha>0$。直观理解：
 
 - 当前策略熵低于目标：增加探索强度。
 - 当前策略熵高于目标：降低探索强度。
@@ -558,14 +553,12 @@ SAC 使用当前 Actor 和 Critic 来处理这些历史数据：
 - Critic 利用经验计算 TD Target。
 - Actor 利用当前 Critic 优化策略。
 - Temperature 根据目标熵进行调整。
-- Target Critic 通过软更新保持稳定。
-
-Target Network 的软更新：
+- Target Critic 通过软更新保持稳定。Target Network 的软更新：
 
 $$
 \bar\phi\leftarrow \tau\phi+(1-\tau)\bar\phi
 $$
 
-这里的 \(\tau\) 通常比较小。这样 Target Critic 会平滑地跟随在线 Critic。
+这里的 $\tau$ 通常比较小。这样 Target Critic 会平滑地跟随在线 Critic。
 
 ## 参考和注解

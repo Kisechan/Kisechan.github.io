@@ -2,7 +2,7 @@
 title: Java 程序设计
 url: https://blog.kisechan.space/2025/notes-java/
 type: post
-time: '2026-11-14T14:04:43.467Z'
+time: '2026-11-14T16:02:44.851Z'
 ---
 
 > 速通的倒数第二门，唉这学期怎么都在速通，活得太没意思了。
