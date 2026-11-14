@@ -2,7 +2,7 @@
 title: 为博客增添 PWA 支持
 url: https://blog.kisechan.space/2025/site-pwa/
 type: post
-time: '2026-11-14T11:19:34.174Z'
+time: '2026-11-14T11:25:37.292Z'
 ---
 
 ## 介绍

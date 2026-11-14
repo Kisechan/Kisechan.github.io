@@ -2,7 +2,7 @@
 title: 算法笔记7：k-叉 Huffman 树
 url: https://blog.kisechan.space/2025/algo-k-ary-huffman-tree/
 type: post
-time: '2026-11-14T11:19:34.174Z'
+time: '2026-11-14T11:25:37.292Z'
 ---
 
 ## 证明

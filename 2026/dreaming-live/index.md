@@ -2,7 +2,7 @@
 title: “正确”的理想的，我的生活
 url: https://blog.kisechan.space/2026/dreaming-live/
 type: post
-time: '2026-11-14T11:19:34.174Z'
+time: '2026-11-14T11:25:37.292Z'
 ---
 
 只是很想讲讲近况。

@@ -2,7 +2,7 @@
 title: 网站替换新的图标 CSS
 url: https://blog.kisechan.space/2025/site-new-icon-css/
 type: post
-time: '2026-11-14T11:19:34.174Z'
+time: '2026-11-14T11:25:37.292Z'
 ---
 
 ## 替换

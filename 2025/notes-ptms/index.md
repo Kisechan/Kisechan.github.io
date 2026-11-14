@@ -2,7 +2,7 @@
 title: 概率论与数理统计
 url: https://blog.kisechan.space/2025/notes-ptms/
 type: post
-time: '2026-11-14T11:19:34.174Z'
+time: '2026-11-14T11:25:37.292Z'
 ---
 
 ## 概率论

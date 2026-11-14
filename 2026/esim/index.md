@@ -2,7 +2,7 @@
 title: eSIM 折腾记录
 url: https://blog.kisechan.space/2026/esim/
 type: post
-time: '2026-11-14T11:19:34.174Z'
+time: '2026-11-14T11:25:37.292Z'
 ---
 
 文章写于 2026 年八月，**存在过时的可能性**。
