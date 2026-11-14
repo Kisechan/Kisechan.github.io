@@ -2,7 +2,7 @@
 title: Cloudflare+Github图床
 url: https://blog.kisechan.space/2025/site-image-host/
 type: post
-time: '2026-11-13T17:22:51.854Z'
+time: '2026-11-14T11:19:34.174Z'
 ---
 
 ## 旧图床

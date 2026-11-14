@@ -2,7 +2,7 @@
 title: 想要成为鱼的猫
 url: https://blog.kisechan.space/2026/catfish/
 type: post
-time: '2026-11-13T17:22:51.854Z'
+time: '2026-11-14T11:19:34.174Z'
 ---
 
 想要成为鱼，可是我不会游泳。

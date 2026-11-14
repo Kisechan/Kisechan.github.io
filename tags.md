@@ -2,7 +2,7 @@
 title: Tags
 url: https://blog.kisechan.space/tags/
 type: tag_index
-time: '2026-11-13T17:22:51.854Z'
+time: '2026-11-14T11:19:34.174Z'
 ---
 
 ## Tags
@@ -27,6 +27,7 @@ time: '2026-11-13T17:22:51.854Z'
 - [计组](https://blog.kisechan.space/tags/%E8%AE%A1%E7%BB%84/index.md): 1 articles
 - [Hexo](https://blog.kisechan.space/tags/Hexo/index.md): 3 articles
 - [git](https://blog.kisechan.space/tags/git/index.md): 1 articles
+- [Linux](https://blog.kisechan.space/tags/Linux/index.md): 1 articles
 - [neovim](https://blog.kisechan.space/tags/neovim/index.md): 1 articles
 - [Redis](https://blog.kisechan.space/tags/Redis/index.md): 2 articles
 - [MongoDB](https://blog.kisechan.space/tags/MongoDB/index.md): 1 articles
@@ -34,16 +35,16 @@ time: '2026-11-13T17:22:51.854Z'
 - [HBase](https://blog.kisechan.space/tags/HBase/index.md): 1 articles
 - [Hadoop](https://blog.kisechan.space/tags/Hadoop/index.md): 1 articles
 - [编译原理](https://blog.kisechan.space/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/index.md): 2 articles
-- [Linux](https://blog.kisechan.space/tags/Linux/index.md): 1 articles
-- [设计模式](https://blog.kisechan.space/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/index.md): 1 articles
 - [Java](https://blog.kisechan.space/tags/Java/index.md): 1 articles
-- [计算机网络](https://blog.kisechan.space/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/index.md): 2 articles
+- [设计模式](https://blog.kisechan.space/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/index.md): 1 articles
 - [OS](https://blog.kisechan.space/tags/OS/index.md): 1 articles
 - [OOP](https://blog.kisechan.space/tags/OOP/index.md): 4 articles
 - [开发](https://blog.kisechan.space/tags/%E5%BC%80%E5%8F%91/index.md): 3 articles
 - [Go](https://blog.kisechan.space/tags/Go/index.md): 2 articles
+- [计算机网络](https://blog.kisechan.space/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/index.md): 2 articles
 - [QQBot](https://blog.kisechan.space/tags/QQBot/index.md): 2 articles
 - [软件工程](https://blog.kisechan.space/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/index.md): 1 articles
+- [强化学习](https://blog.kisechan.space/tags/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/index.md): 1 articles
 - [AI 翻唱](https://blog.kisechan.space/tags/AI-%E7%BF%BB%E5%94%B1/index.md): 1 articles
 - [Vue](https://blog.kisechan.space/tags/Vue/index.md): 2 articles
 - [Electron](https://blog.kisechan.space/tags/Electron/index.md): 1 articles
@@ -55,6 +56,6 @@ time: '2026-11-13T17:22:51.854Z'
 - [Typst](https://blog.kisechan.space/tags/Typst/index.md): 2 articles
 - [后端](https://blog.kisechan.space/tags/%E5%90%8E%E7%AB%AF/index.md): 1 articles
 - [HTML](https://blog.kisechan.space/tags/HTML/index.md): 2 articles
+- [JS](https://blog.kisechan.space/tags/JS/index.md): 1 articles
 - [CSS](https://blog.kisechan.space/tags/CSS/index.md): 1 articles
 - [Zed](https://blog.kisechan.space/tags/Zed/index.md): 1 articles
-- [JS](https://blog.kisechan.space/tags/JS/index.md): 1 articles

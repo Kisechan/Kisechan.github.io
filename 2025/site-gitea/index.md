@@ -2,7 +2,7 @@
 title: 自部署 Gitea
 url: https://blog.kisechan.space/2025/site-gitea/
 type: post
-time: '2026-11-13T17:22:51.854Z'
+time: '2026-11-14T11:19:34.174Z'
 ---
 
 ## 部署

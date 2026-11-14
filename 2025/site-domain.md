@@ -2,7 +2,7 @@
 title: 网站域名变更所做的工作
 url: https://blog.kisechan.space/2025/site-domain/
 type: post
-time: '2026-11-13T17:22:51.854Z'
+time: '2026-11-14T11:19:34.174Z'
 ---
 
 从现在开始，本站域名便从 **kisechan.github.io** 正式迁移到 **blog.kisechan.space** 了！
