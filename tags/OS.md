@@ -2,7 +2,7 @@
 title: OS
 url: https://blog.kisechan.space/tags/OS/
 type: tag
-time: '2026-11-14T11:34:37.297Z'
+time: '2026-11-14T11:45:48.841Z'
 ---
 
 ## Articles

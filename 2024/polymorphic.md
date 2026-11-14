@@ -2,7 +2,7 @@
 title: 多态实验
 url: https://blog.kisechan.space/2024/polymorphic/
 type: post
-time: '2026-11-14T11:34:37.297Z'
+time: '2026-11-14T11:45:48.841Z'
 ---
 
 # 组合模式的应用

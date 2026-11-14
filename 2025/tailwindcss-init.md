@@ -2,7 +2,7 @@
 title: 初始化 TailwindCSS 遇到的一些问题
 url: https://blog.kisechan.space/2025/tailwindcss-init/
 type: post
-time: '2026-11-14T11:34:37.297Z'
+time: '2026-11-14T11:45:48.841Z'
 ---
 
 ## 问题

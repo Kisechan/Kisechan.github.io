@@ -2,7 +2,7 @@
 title: 强化学习概述：复习一些经典算法
 url: https://blog.kisechan.space/2026/reinforcement-learning/
 type: post
-time: '2026-11-14T11:34:37.297Z'
+time: '2026-11-14T11:45:48.841Z'
 ---
 
 ## 决策和交互
@@ -81,10 +81,10 @@ $$
 Return 可以拆成两部分：
 
 $$
-G_t=\underbrace{r_t}_\text{当前的奖励}+\gamma G_{t+1}
+G_t=\underbrace{r_t}_\mathclap{当前的奖励}+\gamma G_{t+1}
 $$
 
-当前的累计收益 = 当前奖励 + 折扣后的未来累计收益。因此有 Bellman Expectation Equation，其中 $a\sim \pi $ 表示 $a$ 服从 $\pi$ 分布，也就是从其中取出来的：
+当前的累计收益 = 当前奖励 + 折扣后的未来累计收益。因此有 Bellman Expectation Equation，其中 $a\sim \pi$ 表示 $a$ 服从 $\pi$ 分布，也就是从其中取出来的：
 
 $$
 \begin{align*}
@@ -114,7 +114,7 @@ $$
 
 DQN 全称 Deep Q-Network，它的思路很简单，也就是使用神经网络拟合 Q Function，让网络学会预测每个动作的长期收益。
 
-假设一个 agent 有$n$ 个离散动作，输入当前状态 $s_t$，要神经网络 $\theta$ 输出 $ Q_\theta(s_t)= [Q_1,Q_2,\ldots,Q_n] $，选择 $Q$ 最大的那个动作就可以了。但是网络本身并不知道 $Q$ 应该是多少，它需要通过环境交互得到的 reward，不断调整参数，让预测的 $Q$ 越来越准确。
+假设一个 agent 有$n$ 个离散动作，输入当前状态 $s_t$，要神经网络 $\theta$ 输出 $Q_\theta(s_t)= [Q_1,Q_2,\ldots,Q_n] $，选择 $Q$ 最大的那个动作就可以了。但是网络本身并不知道 $Q$ 应该是多少，它需要通过环境交互得到的 reward，不断调整参数，让预测的 $Q$ 越来越准确。
 
 ### DQN 是怎么利用 reward 的
 
@@ -194,7 +194,7 @@ PPO 采取另一种思路，直接训练一个神经网络，让它学习**在�
 
 ### Actor
 
-PPO 使用一个 Policy Network，也叫 Actor。Actor 输入 $s_t$，输出 ${ \pi_\theta(a|s) } $，也就是给定状态 $s$，选择动作 $a$ 的概率。通常是用 softmax 处理然后输出的。
+PPO 使用一个 Policy Network，也叫 Actor。Actor 输入 $s_t$，输出 $\pi_\theta(a|s)$，也就是给定状态 $s$，选择动作 $a$ 的概率。通常是用 softmax 处理然后输出的。
 
 ### Critic
 

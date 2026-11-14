@@ -2,7 +2,7 @@
 title: 我面对抑郁状态的一些可能的理想解法
 url: https://blog.kisechan.space/2026/depressive/
 type: post
-time: '2026-11-14T11:34:37.297Z'
+time: '2026-11-14T11:45:48.841Z'
 ---
 
 文章主要内容**由我和 GPT 5.6 共同整理**。
