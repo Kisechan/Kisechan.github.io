@@ -2,7 +2,7 @@
 title: 编译原理课程笔记
 url: https://blog.kisechan.space/2026/notes-compilers/
 type: post
-time: '2026-11-14T12:07:42.265Z'
+time: '2026-11-14T12:21:46.894Z'
 ---
 
 ## 概论

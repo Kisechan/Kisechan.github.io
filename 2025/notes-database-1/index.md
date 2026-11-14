@@ -2,7 +2,7 @@
 title: 数据库原理 课程笔记 (1) 数据库、关系代数和 SQL
 url: https://blog.kisechan.space/2025/notes-database-1/
 type: post
-time: '2026-11-14T12:07:42.265Z'
+time: '2026-11-14T12:21:46.894Z'
 ---
 
 **数据库系列笔记**

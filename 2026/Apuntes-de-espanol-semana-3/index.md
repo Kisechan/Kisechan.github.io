@@ -2,7 +2,7 @@
 title: Apuntes de español, semana 3
 url: https://blog.kisechan.space/2026/Apuntes-de-espanol-semana-3/
 type: post
-time: '2026-11-14T12:07:42.265Z'
+time: '2026-11-14T12:21:46.894Z'
 ---
 
 **注意**：

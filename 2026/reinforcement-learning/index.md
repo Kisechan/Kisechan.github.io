@@ -2,7 +2,7 @@
 title: 强化学习概述：复习一些经典算法
 url: https://blog.kisechan.space/2026/reinforcement-learning/
 type: post
-time: '2026-11-14T12:07:42.265Z'
+time: '2026-11-14T12:21:46.894Z'
 ---
 
 ## 决策和交互
@@ -81,7 +81,7 @@ $$
 Return 可以拆成两部分：
 
 $$
-G_t=\underbrace{r_t}_\mathclap{当前的奖励}+\gamma G_{t+1}
+G_t=\underbrace{r_t}_{\mathclap{\text{当前的奖励}}}+\gamma G_{t+1}
 $$
 
 当前的累计收益 = 当前奖励 + 折扣后的未来累计收益。因此有 Bellman Expectation Equation，其中 $a\sim \pi$ 表示 $a$ 服从 $\pi$ 分布，也就是从其中取出来的：
@@ -114,7 +114,7 @@ $$
 
 DQN 全称 Deep Q-Network，它的思路很简单，也就是使用神经网络拟合 Q Function，让网络学会预测每个动作的长期收益。
 
-假设一个 agent 有$n$ 个离散动作，输入当前状态 $s_t$，要神经网络 $\theta$ 输出 $Q_\theta(s_t)= [Q_1,Q_2,\ldots,Q_n] $，选择 $Q$ 最大的那个动作就可以了。但是网络本身并不知道 $Q$ 应该是多少，它需要通过环境交互得到的 reward，不断调整参数，让预测的 $Q$ 越来越准确。
+假设一个 agent 有$n$ 个离散动作，输入当前状态 $s_t$，要神经网络 $\theta$ 输出 $Q_\theta(s_t)= [Q_1,Q_2,\ldots,Q_n]$，选择 $Q$ 最大的那个动作就可以了。但是网络本身并不知道 $Q$ 应该是多少，它需要通过环境交互得到的 reward，不断调整参数，让预测的 $Q$ 越来越准确。
 
 ### DQN 是怎么利用 reward 的
 
@@ -316,7 +316,7 @@ $$
 
 PPO 希望在优化动作价值的同时，保留适当的探索能力。
 
-比如二元熵函数（$y=-\left[x\ln\left(x\right)+\left(1-x\right)\ln x\right]$）：
+比如二元熵函数（$y=-\left[x\ln\left(x\right)+\left(1-x\right)\ln\left(1-x\right)\right]$）：
 
 {
 title: {
