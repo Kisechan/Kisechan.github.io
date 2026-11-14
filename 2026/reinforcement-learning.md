@@ -2,7 +2,7 @@
 title: 强化学习概述：复习一些经典算法
 url: https://blog.kisechan.space/2026/reinforcement-learning/
 type: post
-time: '2026-11-14T11:45:48.841Z'
+time: '2026-11-14T12:07:42.265Z'
 ---
 
 ## 决策和交互
@@ -297,7 +297,7 @@ $$
 然后让 Critic 的预测值接近这个目标：
 
 $$
- { L^{VF}(\phi)= \mathbb E_t \left[ (V_\phi(s_t)-R_t^\text{target})^2 \right] }
+{ L^{VF}(\phi)= \mathbb E_t \left[ (V_\phi(s_t)-R_t^\text{target})^2 \right] }
 $$
 
 这就是 Value Loss。
@@ -316,9 +316,95 @@ $$
 
 PPO 希望在优化动作价值的同时，保留适当的探索能力。
 
+比如二元熵函数（$y=-\left[x\ln\left(x\right)+\left(1-x\right)\ln x\right]$）：
+
+{
+title: {
+text: 'Binary Entropy Function',
+left: 'center'
+},
+tooltip: {
+trigger: 'axis',
+formatter: function(params) {
+return 'x = ' + params[0].value[0].toFixed(3) +
+'<br/>H(x) = ' + params[0].value[1].toFixed(5);
+}
+},
+grid: {
+left: '12%',
+right: '8%',
+top: '18%',
+bottom: '15%'
+},
+xAxis: {
+type: 'value',
+name: 'x',
+min: 0,
+max: 1,
+interval: 0.1,
+axisLine: {
+onZero: false
+}
+},
+yAxis: {
+type: 'value',
+name: 'H(x)',
+min: 0,
+max: 0.75,
+interval: 0.1
+},
+series: [{
+name: 'H(x)',
+type: 'line',
+smooth: true,
+symbol: 'none',
+lineStyle: {
+width: 3
+},
+areaStyle: {
+opacity: 0.12
+},
+data: [
+[0.00, 0.00000],
+[0.05, 0.19852],
+[0.10, 0.32508],
+[0.15, 0.42271],
+[0.20, 0.50040],
+[0.25, 0.56234],
+[0.30, 0.61086],
+[0.35, 0.64745],
+[0.40, 0.67301],
+[0.45, 0.68814],
+[0.50, 0.69315],
+[0.55, 0.68814],
+[0.60, 0.67301],
+[0.65, 0.64745],
+[0.70, 0.61086],
+[0.75, 0.56234],
+[0.80, 0.50040],
+[0.85, 0.42271],
+[0.90, 0.32508],
+[0.95, 0.19852],
+[1.00, 0.00000]
+],
+markPoint: {
+data: [{
+coord: [0.5, 0.69315],
+name: 'Maximum',
+symbolSize: 45,
+label: {
+formatter: 'Maximum'
+}
+}]
+}
+}]
+}
+
 ### On Policy 训练
 
-PPO 算法的整体 Loss 通常写成：
+PPO 的 Actor 和 Critic 是共享底层的两个头，它们是一起更新的[^1]，所以可以把它们的 Loss 放在一起，PPO 算法的整体 Loss 通常写成：
+
+[^1]: Actor 头只受到 $L^\text{CLIP}$ 和熵的影响，Critic 头只受到 $L^{VF}(\phi)$ 的影响，这个可以求偏导看出来的，但是它们最终会汇合到共享的底层网络，所以最终还是会以 $L$ 来反向传播。
 
 $$
 L= -L^\text{CLIP} +c_vL^{VF} -c_e\mathcal H(\pi)
@@ -329,16 +415,16 @@ $$
 - $-L^\text{CLIP}$：最大化策略目标。
 - $c_vL^{VF}$：降低 Critic 的预测误差。
 - $-c_e\mathcal H$：鼓励策略保持一定熵。
+- $c_v$ 和 $c_e$ 是超参数。
 
 那么训练过程大概就可以写成：
 
 1. **使用当前策略采样**，Actor 根据当前状态输出动作概率，随机选择动作。
 2. **收集经验**，保存 State、Action、Reward、旧策略概率、Value。
 3. **计算 GAE**，利用 Reward 和 Critic 的预测计算 Advantage。
-4. **更新 Actor**，利用 PPO Clipped Objective 更新策略网络。
-5. **更新 Critic**，利用 Value Loss 更新价值网络。
-6. **重复优化**，对刚刚收集的 Batch 进行多个 Epoch 的优化。
-7. **重新采样**，使用更新后的策略与环境交互，收集新经验。
+4. **更新 Actor 和 Critic**。
+5. **重复优化**，对刚刚收集的 Batch 进行多个 Epoch 的优化。
+6. **重新采样**，使用更新后的策略与环境交互，收集新经验。
 
 PPO **主要使用当前策略产生的数据来更新当前策略**，所以叫做 On-Policy 的算法。例如：
 

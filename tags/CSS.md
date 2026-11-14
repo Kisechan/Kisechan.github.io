@@ -2,7 +2,7 @@
 title: CSS
 url: https://blog.kisechan.space/tags/CSS/
 type: tag
-time: '2026-11-14T11:45:48.841Z'
+time: '2026-11-14T12:07:42.265Z'
 ---
 
 ## Articles
