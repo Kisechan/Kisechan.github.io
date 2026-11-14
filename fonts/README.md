@@ -2,7 +2,7 @@
 title: ''
 url: https://blog.kisechan.space/fonts/README.html
 type: page
-time: '2026-11-14T11:25:37.292Z'
+time: '2026-11-14T11:34:37.297Z'
 ---
 
 # Blog fonts
@@ -16,6 +16,6 @@ Fonts are served locally as WOFF2 with `font-display: swap`. Each family's SIL O
 
 Avenir is referenced exclusively through local() and restricted to Latin Unicode ranges. Greek and Cyrillic use Source Sans 3 Light. Source Sans 3 maps CSS weight 400 to Light (300) and CSS weight 700 to Medium (500), preserving the theme’s existing emphasis semantics. CJK normal text maps the Light outlines to CSS weight 400 alongside Source Sans 3 Light; CSS weight 700 maps to Medium outlines for lighter headings and emphasis.
 
-Math uses KaTeX’s default HTML + MathML output and bundled KaTeX font families, loaded by the theme’s KaTeX stylesheet.
+Math uses KaTeX’s default HTML + MathML output and bundled KaTeX font families, served locally by `scripts/katex-assets.js` from the installed KaTeX package. Its versioned stylesheet URL keeps rendering code, styles and math fonts aligned.
 
 Typography rules: `/css/fonts.css`. Font families and stylesheet registration: `_config.fluid.yml`. Math renderer: `_config.yml`.
