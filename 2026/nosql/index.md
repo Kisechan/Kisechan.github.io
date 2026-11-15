@@ -2,7 +2,7 @@
 title: NoSQL 的学习使用和环境配置
 url: https://blog.kisechan.space/2026/nosql/
 type: post
-time: '2026-11-14T16:02:44.851Z'
+time: '2026-11-15T08:04:21.993Z'
 ---
 
 **数据库系列笔记**

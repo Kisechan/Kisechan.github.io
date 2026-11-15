@@ -2,7 +2,7 @@
 title: Categories
 url: https://blog.kisechan.space/categories/
 type: category_index
-time: '2026-11-14T16:02:44.851Z'
+time: '2026-11-15T08:04:21.993Z'
 ---
 
 ## Categories
@@ -10,8 +10,8 @@ time: '2026-11-14T16:02:44.851Z'
 - [Linguistik](https://blog.kisechan.space/categories/Linguistik/index.md): 4 articles
 - [算法](https://blog.kisechan.space/categories/%E7%AE%97%E6%B3%95/index.md): 8 articles
 - [想法](https://blog.kisechan.space/categories/%E6%83%B3%E6%B3%95/index.md): 7 articles
-- [练手项目](https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/index.md): 7 articles
 - [CS 杂谈](https://blog.kisechan.space/categories/CS-%E6%9D%82%E8%B0%88/index.md): 24 articles
+- [练手项目](https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/index.md): 7 articles
 - [化学](https://blog.kisechan.space/categories/%E5%8C%96%E5%AD%A6/index.md): 1 articles
 - [课程笔记](https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/index.md): 19 articles
 - [数据库](https://blog.kisechan.space/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/%E6%95%B0%E6%8D%AE%E5%BA%93/index.md): 3 articles
