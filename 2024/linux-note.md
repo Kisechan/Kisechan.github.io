@@ -2,7 +2,7 @@
 title: Linux课程笔记
 url: https://blog.kisechan.space/2024/linux-note/
 type: post
-time: '2026-11-15T08:04:21.993Z'
+time: '2026-11-15T08:57:06.623Z'
 ---
 
 # Linux和开源

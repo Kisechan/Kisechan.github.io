@@ -2,7 +2,7 @@
 title: 用 Vue、 Element Plus 和 Yaml 实现的友链页面
 url: https://blog.kisechan.space/2025/site-friend-links/
 type: post
-time: '2026-11-15T08:04:21.993Z'
+time: '2026-11-15T08:57:06.623Z'
 ---
 
 ## 友链格式

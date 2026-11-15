@@ -2,7 +2,7 @@
 title: NEOVIM 体验
 url: https://blog.kisechan.space/2025/neovim-try/
 type: post
-time: '2026-11-15T08:04:21.993Z'
+time: '2026-11-15T08:57:06.623Z'
 ---
 
 > 具体内容以后再补，先写快捷键的。

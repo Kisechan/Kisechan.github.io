@@ -2,7 +2,7 @@
 title: ''
 url: https://blog.kisechan.space/fonts/README.html
 type: page
-time: '2026-11-15T08:04:21.993Z'
+time: '2026-11-15T08:57:06.623Z'
 ---
 
 # Blog fonts
