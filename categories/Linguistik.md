@@ -2,7 +2,7 @@
 title: Linguistik
 url: https://blog.kscn.uk/categories/Linguistik/
 type: category
-time: '2026-11-17T12:50:06.115Z'
+time: '2026-11-17T13:09:51.092Z'
 ---
 
 ## Articles

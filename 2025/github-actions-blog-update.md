@@ -2,7 +2,7 @@
 title: GitHub Profile 自动化更新最新博客文章
 url: https://blog.kscn.uk/2025/github-actions-blog-update/
 type: post
-time: '2026-11-17T12:50:06.115Z'
+time: '2026-11-17T13:09:51.092Z'
 ---
 
 ## 技术选型 GitHub Actions

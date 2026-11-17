@@ -2,7 +2,7 @@
 title: 数学
 url: https://blog.kscn.uk/tags/%E6%95%B0%E5%AD%A6/
 type: tag
-time: '2026-11-17T12:50:06.115Z'
+time: '2026-11-17T13:09:51.092Z'
 ---
 
 ## Articles

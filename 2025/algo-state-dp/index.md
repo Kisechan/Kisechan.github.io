@@ -2,7 +2,7 @@
 title: 算法笔记2：状压 dp
 url: https://blog.kscn.uk/2025/algo-state-dp/
 type: post
-time: '2026-11-17T12:50:06.115Z'
+time: '2026-11-17T13:09:51.092Z'
 ---
 
 ## 优化方式

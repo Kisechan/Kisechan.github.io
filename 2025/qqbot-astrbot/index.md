@@ -2,7 +2,7 @@
 title: 用AstrBot框架搭建一个qq机器人
 url: https://blog.kscn.uk/2025/qqbot-astrbot/
 type: post
-time: '2026-11-17T12:50:06.115Z'
+time: '2026-11-17T13:09:51.092Z'
 ---
 
 ## 部署框架

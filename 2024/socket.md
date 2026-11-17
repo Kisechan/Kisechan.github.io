@@ -2,7 +2,7 @@
 title: Windows上简单的Socket通信：echo程序
 url: https://blog.kscn.uk/2024/socket/
 type: post
-time: '2026-11-17T12:50:06.115Z'
+time: '2026-11-17T13:09:51.092Z'
 ---
 
 ### 关于Socket

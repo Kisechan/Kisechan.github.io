@@ -2,7 +2,7 @@
 title: Rust
 url: https://blog.kscn.uk/tags/Rust/
 type: tag
-time: '2026-11-17T12:50:06.115Z'
+time: '2026-11-17T13:09:51.092Z'
 ---
 
 ## Articles

@@ -2,7 +2,7 @@
 title: 给 Typora 主题 Purple 加上背景图片
 url: https://blog.kscn.uk/2025/typora-purple/
 type: post
-time: '2026-11-17T12:50:06.115Z'
+time: '2026-11-17T13:09:51.092Z'
 ---
 
 # Purple 修改
