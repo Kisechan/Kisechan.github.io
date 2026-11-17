@@ -1,8 +1,8 @@
 ﻿---
 title: 使用 RVC 制作 AI 翻唱
-url: https://blog.kisechan.space/2026/rvc-ai-conversion/
+url: https://blog.kscn.uk/2026/rvc-ai-conversion/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 博主第一次做 AI 翻唱，于是记录一下全流程的 pipeline 以及自己的经验。
@@ -40,7 +40,7 @@ https://github.com/Kisechan/rvc-conversion-pipeline
 
 准备一些训练用的歌曲素材，比如：
 
-![](https://images.kisechan.space/uploads/2026/08/05/image-20260805182508487-5b130f40.png)
+![](https://images.kscn.uk/uploads/2026/08/05/image-20260805182508487-5b130f40.png)
 
 网易云下载的 `ncm` 文件转换成 `mp3` 可以用 ncmdump：
 
@@ -135,7 +135,7 @@ UVR 的工作效率很高，audio-separator[gpu] 也很方便 CLI 使用，但�
 
 然后就是用 WebUI 训练了，可以用端口转发到本机来做，比如：
 
-![](https://images.kisechan.space/uploads/2026/08/06/image-20260806013135498-db6bfa7e.png)
+![](https://images.kscn.uk/uploads/2026/08/06/image-20260806013135498-db6bfa7e.png)
 
 很傻瓜式，但是要注意一些路径问题，要不然很麻烦。填写内容可以参考：
 
@@ -157,7 +157,7 @@ UVR 的工作效率很高，audio-separator[gpu] 也很方便 CLI 使用，但�
 
 ## 推理
 
-![](https://images.kisechan.space/uploads/2026/08/06/image-20260806013633867-6c8a7600.png)
+![](https://images.kscn.uk/uploads/2026/08/06/image-20260806013633867-6c8a7600.png)
 
 右边的这四个参数是最影响效果的，但是如果随便选的参数都能效果不错的话，那再调教影响应该也不大，~~我是听不出来~~。
 

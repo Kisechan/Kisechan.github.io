@@ -1,10 +1,10 @@
 ﻿---
 title: Element Plus
-url: https://blog.kisechan.space/tags/Element-Plus/
+url: https://blog.kscn.uk/tags/Element-Plus/
 type: tag
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## Articles
 
-- [用 Vue、 Element Plus 和 Yaml 实现的友链页面](https://blog.kisechan.space/2025/site-friend-links/index.md)
+- [用 Vue、 Element Plus 和 Yaml 实现的友链页面](https://blog.kscn.uk/2025/site-friend-links/index.md)

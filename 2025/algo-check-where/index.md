@@ -1,8 +1,8 @@
 ﻿---
 title: 算法笔记6：莫名其妙WA该去哪里Debug
-url: https://blog.kisechan.space/2025/algo-check-where/
+url: https://blog.kscn.uk/2025/algo-check-where/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## 与数据范围挂钩
@@ -47,4 +47,4 @@ time: '2026-11-15T08:57:06.623Z'
 
 ---
 
-[^1]: https://blog.kisechan.space/2025/algo-state-dp/#%E5%85%B3%E4%BA%8E-memset-%E7%9A%84%E8%B8%A9%E5%9D%91
+[^1]: https://blog.kscn.uk/2025/algo-state-dp/#%E5%85%B3%E4%BA%8E-memset-%E7%9A%84%E8%B8%A9%E5%9D%91

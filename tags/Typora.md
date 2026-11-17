@@ -1,10 +1,10 @@
 ﻿---
 title: Typora
-url: https://blog.kisechan.space/tags/Typora/
+url: https://blog.kscn.uk/tags/Typora/
 type: tag
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## Articles
 
-- [给 Typora 主题 Purple 加上背景图片](https://blog.kisechan.space/2025/typora-purple/index.md)
+- [给 Typora 主题 Purple 加上背景图片](https://blog.kscn.uk/2025/typora-purple/index.md)

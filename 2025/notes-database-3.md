@@ -1,8 +1,8 @@
 ﻿---
 title: 数据库原理 课程笔记 (3) 存储、索引、事务和并发
-url: https://blog.kisechan.space/2025/notes-database-3/
+url: https://blog.kscn.uk/2025/notes-database-3/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 **数据库系列笔记**
@@ -12,22 +12,22 @@ time: '2026-11-15T08:57:06.623Z'
 ---
 
 Kisechan 的数据库系列笔记
-https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/
+https://blog.kscn.uk/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/
 
 ---
 
 - **数据库原理课程笔记部分**：
-  - [数据库原理 课程笔记 (1) 数据库、关系代数和 SQL](https://blog.kisechan.space/2025/notes-database-1/)
-  - [数据库原理 课程笔记 (2) E-R 模型和关系模式](https://blog.kisechan.space/2025/notes-database-2/)
+  - [数据库原理 课程笔记 (1) 数据库、关系代数和 SQL](https://blog.kscn.uk/2025/notes-database-1/)
+  - [数据库原理 课程笔记 (2) E-R 模型和关系模式](https://blog.kscn.uk/2025/notes-database-2/)
   - 数据库原理 课程笔记 (3) 存储、索引、事务和并发【**当前阅读**】
-  - [数据库原理 课程笔记 (4) 杂项和题目整理](https://blog.kisechan.space/2025/notes-database-4/)
+  - [数据库原理 课程笔记 (4) 杂项和题目整理](https://blog.kscn.uk/2025/notes-database-4/)
 - **手搓数据库** (CS346) **部分**：
-  - [设计一个数据库引擎 (1) 内存、外存和记录管理](https://blog.kisechan.space/2025/db-engine-1/)
-  - [设计一个数据库引擎 (2) 索引](https://blog.kisechan.space/2025/db-engine-2/)
-  - [设计一个数据库引擎 (3) SQL 处理](https://blog.kisechan.space/2025/db-engine-3/)
+  - [设计一个数据库引擎 (1) 内存、外存和记录管理](https://blog.kscn.uk/2025/db-engine-1/)
+  - [设计一个数据库引擎 (2) 索引](https://blog.kscn.uk/2025/db-engine-2/)
+  - [设计一个数据库引擎 (3) SQL 处理](https://blog.kscn.uk/2025/db-engine-3/)
 - **Oracle 和 NoSQL 课程部分**：
   - ~~Oracle 的学习使用和环境配置~~
-  - [NoSQL 的学习使用和环境配置](https://blog.kisechan.space/2026/nosql/)
+  - [NoSQL 的学习使用和环境配置](https://blog.kscn.uk/2026/nosql/)
 
 ## 存储与文件
 
@@ -432,7 +432,7 @@ DROP INDEX branch_index;
 
 事务是对数据库的一组操作，**要么全部执行，要么全部不执行**。
 
-关于事务的相关其他内容在[先前的笔记](https://blog.kisechan.space/2025/notes-database-1/#%E4%BA%8B%E5%8A%A1)也出现过。
+关于事务的相关其他内容在[先前的笔记](https://blog.kscn.uk/2025/notes-database-1/#%E4%BA%8B%E5%8A%A1)也出现过。
 
 **重点：ACID 特性**
 
@@ -443,7 +443,7 @@ DROP INDEX branch_index;
 | 隔离性 (**I**solation)   | 多事务并发执行互不影响                 | 多人同时转账时不会互相干扰                   |
 | 持久性 (**D**urability)  | 事务一旦提交，对数据库的修改是永久的   | 突然断电，数据仍然不会丢失                   |
 
-![ACID](https://images.kisechan.space/acid.jpg)
+![ACID](https://images.kscn.uk/acid.jpg)
 
 ### 事务的状态和转移
 

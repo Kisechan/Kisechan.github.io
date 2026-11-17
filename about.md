@@ -1,13 +1,13 @@
 ﻿---
 title: 关于
-url: https://blog.kisechan.space/about/
+url: https://blog.kscn.uk/about/
 type: page
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 很高兴见到你哦！我是 `Kisechan`, a. k. a. `Kise Platinyl` [^1]。
 
-- 我来自**江西省南昌市新建区**，是纯正南昌人。当前常驻南昌，可能过些日子就会搬去上海。
+- 我来自**江西省南昌市新建区**，是纯正南昌人。当前常驻上海。
 - 我现在就读于**吉林大学**软件工程卓越工程师班（2023 级），目前已录取**上海交通大学**人工智能学院推免硕士研究生。
 - 高中搞过一段时间化学竞赛，36 届中国化学奥林匹克竞赛省一退役。
 - 目前比较喜欢具身智能和多模态的研究方向，也爱用 Rust 等现代技术栈做些小应用。
@@ -24,7 +24,7 @@ time: '2026-11-15T08:57:06.623Z'
 
 本人是重度聊天爱好者，想要私聊的话，非常推荐使用下面的方式：
 
-- **QQ**：1158389252，**添加好友请注明来意和自我介绍**。[点击显示二维码](https://images.kisechan.space/uploads/2026/08/28/qq-qrcode-09f52178.jpg)。
+- **QQ**：1158389252，**添加好友请注明来意和自我介绍**。[点击显示二维码](https://images.kscn.uk/uploads/2026/08/28/qq-qrcode-09f52178.jpg)。
 - **邮箱**：[kisechan_@outlook.com](mailto:kisechan_@outlook.com)。
 - Telegram：[@kiseplatinyl](https://t.me/kiseplatinyl)。
 - X 私信。
@@ -39,10 +39,10 @@ time: '2026-11-15T08:57:06.623Z'
 
 [^2]: Cloudflare 现在隔个把个月就崩，怕了它。
 
-- [**blog.kisechan.space**](https://blog.kisechan.space/)：使用 Cloudflare Pages 部署【推荐访问这个】
+- [**blog.kscn.uk**](https://blog.kscn.uk/)：使用 Cloudflare Pages 部署【推荐访问这个】
 - [kisechan.github.io](https://kisechan.github.io/)：使用 GitHub Pages 部署，国内访问不大流畅
 
-本站主要更新本人的[**本科阶段的课程笔记**](https://blog.kisechan.space/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/)[^3]、**技术上的杂谈**、**网站维护更新的相关日志**、**自己做的一些小东西**，也可能有**生活记录**和自己的**想法**，敬请期待！本站内容遵循 [`CC BY-NC-SA 4.0`](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议发布。
+本站主要更新本人的[**本科阶段的课程笔记**](https://blog.kscn.uk/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/)[^3]、**技术上的杂谈**、**网站维护更新的相关日志**、**自己做的一些小东西**，也可能有**生活记录**和自己的**想法**，敬请期待！本站内容遵循 [`CC BY-NC-SA 4.0`](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议发布。
 
 这个小网站是我大一的时候建起来的，那个时候还对技术一点都不懂呢，能持续到现在也花了不少的心血（感慨）。
 

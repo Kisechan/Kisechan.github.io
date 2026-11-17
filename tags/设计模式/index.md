@@ -1,10 +1,10 @@
 ﻿---
 title: 设计模式
-url: https://blog.kisechan.space/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/
+url: https://blog.kscn.uk/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/
 type: tag
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## Articles
 
-- [软件设计模式 课程笔记](https://blog.kisechan.space/2025/notes-design-pattern/index.md)
+- [软件设计模式 课程笔记](https://blog.kscn.uk/2025/notes-design-pattern/index.md)

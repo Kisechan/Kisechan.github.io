@@ -1,8 +1,8 @@
 ﻿---
 title: 数据结构课程板子合集 with 笔记
-url: https://blog.kisechan.space/2024/ds/
+url: https://blog.kscn.uk/2024/ds/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 # 关于数据结构
@@ -325,7 +325,7 @@ $$
 
 ### 树和二叉树的转换
 
-![树和二叉树的转换](https://images.kisechan.space/202501011906113.png)
+![树和二叉树的转换](https://images.kscn.uk/202501011906113.png)
 
 1. 每个结点的**大孩子**作为对应二叉树该结点的
    **左孩子**
@@ -339,9 +339,9 @@ $$
 
 ### 森林和二叉树的转换
 
-![森林和二叉树的转换](https://images.kisechan.space/202501011908655.png)
+![森林和二叉树的转换](https://images.kscn.uk/202501011908655.png)
 
-![](https://images.kisechan.space/202501011909022.png)
+![](https://images.kscn.uk/202501011909022.png)
 
 由森林(d)转换成二叉树(a)之后，二叉树的根是第一棵树的根，二叉树的左子树是由第一棵树的诸子树转换来的，二叉树的右子树是由第二棵树和第三棵树转换来的。
 
@@ -395,7 +395,7 @@ for (int i = head[u]; ~i; i = nxt[i]) {  // ~i 表示 i != -1
 
 ## 最短路
 
-![Floyd算法](https://images.kisechan.space/202501022124136.png)
+![Floyd算法](https://images.kscn.uk/202501022124136.png)
 
 ## 生成树
 

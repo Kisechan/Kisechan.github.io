@@ -1,10 +1,10 @@
 ﻿---
 title: Zed
-url: https://blog.kisechan.space/tags/Zed/
+url: https://blog.kscn.uk/tags/Zed/
 type: tag
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## Articles
 
-- [我的简易 Zed 配置和使用体验](https://blog.kisechan.space/2026/zed/index.md)
+- [我的简易 Zed 配置和使用体验](https://blog.kscn.uk/2026/zed/index.md)

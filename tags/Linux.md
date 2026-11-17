@@ -1,10 +1,10 @@
 ﻿---
 title: Linux
-url: https://blog.kisechan.space/tags/Linux/
+url: https://blog.kscn.uk/tags/Linux/
 type: tag
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## Articles
 
-- [Linux课程笔记](https://blog.kisechan.space/2024/linux-note/index.md)
+- [Linux课程笔记](https://blog.kscn.uk/2024/linux-note/index.md)

@@ -1,10 +1,10 @@
 ﻿---
 title: 软件工程
-url: https://blog.kisechan.space/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/
+url: https://blog.kscn.uk/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/
 type: tag
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## Articles
 
-- [软件工程课程部分内容归纳](https://blog.kisechan.space/2025/notes-software-engineering-summary/index.md)
+- [软件工程课程部分内容归纳](https://blog.kscn.uk/2025/notes-software-engineering-summary/index.md)

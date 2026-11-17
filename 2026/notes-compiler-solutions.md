@@ -1,8 +1,8 @@
 ﻿---
 title: 编译原理题型总结笔记
-url: https://blog.kisechan.space/2026/notes-compiler-solutions/
+url: https://blog.kscn.uk/2026/notes-compiler-solutions/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## 主要题型（根据 23 级考题）
@@ -227,7 +227,7 @@ $$
 
 ## 三个集合的求法
 
-![](https://images.kisechan.space/uploads/2026/06/23/image-20260623150209481-6d0570da.png)
+![](https://images.kscn.uk/uploads/2026/06/23/image-20260623150209481-6d0570da.png)
 
 ### First 集
 
@@ -259,7 +259,7 @@ $$
 
 ### 例题
 
-![](https://images.kisechan.space/uploads/2026/06/24/image-20260624192528632-72fcc142.png)
+![](https://images.kscn.uk/uploads/2026/06/24/image-20260624192528632-72fcc142.png)
 
 首先需要包含 $T'$ 的 First 集减去 $\varepsilon$。
 
@@ -273,7 +273,7 @@ $E$ 的 Follow 集显然是 $\lbrace\#, )\rbrace$。$\text{Follow}(E')\subset \t
 
 标准构表流程是：**先求每个产生式右部的 $\text{FIRST}$，再求各非终结符的 $\text{FOLLOW}$，最后按规则把产生式填入表格。**
 
-![](https://images.kisechan.space/uploads/2026/06/24/image-20260624194729158-7c1b2ac3.png)
+![](https://images.kscn.uk/uploads/2026/06/24/image-20260624194729158-7c1b2ac3.png)
 
 终结符集合是：${a,b,d,e,\# }$
 
@@ -493,7 +493,7 @@ $$
 
 ---
 
-![](https://images.kisechan.space/uploads/2026/06/24/image-20260624201107189-06ff19d2.png)
+![](https://images.kscn.uk/uploads/2026/06/24/image-20260624201107189-06ff19d2.png)
 
 这道题没有 $\varepsilon$，所以只看前两步就够了。
 

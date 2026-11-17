@@ -1,8 +1,8 @@
 ﻿---
 title: 计算机网络课程笔记
-url: https://blog.kisechan.space/2025/notes-networks/
+url: https://blog.kscn.uk/2025/notes-networks/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## 概论
@@ -165,7 +165,7 @@ time: '2026-11-15T08:57:06.623Z'
     - **差分曼彻斯特 (Differential Manchester):** 位中间跳变仅用于同步。
       - _规则:_ 每一位**开始处**，有跳变 = 0，无跳变 = 1。
 
-![](https://images.kisechan.space/20251220210317242.png)
+![](https://images.kscn.uk/20251220210317242.png)
 
 - **数字 -> 模拟编码**
   - **ASK (幅移):** 调幅度。抗干扰差。
@@ -1068,7 +1068,7 @@ ISO定义了四类基本的交互动作：
 
 #### 拥塞控制图解与计算例题
 
-![](https://images.kisechan.space/20251220202410381.png)
+![](https://images.kscn.uk/20251220202410381.png)
 
 **图解逻辑**：
 
@@ -1095,7 +1095,7 @@ ISO定义了四类基本的交互动作：
 
 #### 连接建立
 
-![](https://images.kisechan.space/20251220202811488.png)
+![](https://images.kscn.uk/20251220202811488.png)
 
 即著名的**三次握手**：
 
@@ -1106,7 +1106,7 @@ ISO定义了四类基本的交互动作：
 
 #### 连接终止
 
-![](https://images.kisechan.space/20251220202832018.png)
+![](https://images.kscn.uk/20251220202832018.png)
 
 - 通常采用“四次挥手”或对称释放模型。
 - 发送方发 DR (Disconnect Request)，接收方回 DC (Disconnect Confirm)。
@@ -1156,7 +1156,7 @@ IEEE 802 标准主要对应 OSI 参考模型的**物理层**和**数据链路层
 3. 有限竞争协议
    特点：利⽤上述⼆者的优势。
 
-![](https://images.kisechan.space/20251220204224949.png)
+![](https://images.kscn.uk/20251220204224949.png)
 
 在LAN中，多个⽤⼾在没有任何控制的情况下同时访问⼀条线路时，会存在由于不同信号叠加⽽相互破坏的情
 况。这就是冲突。为了使冲突发⽣的可能性最⼩，需要有⼀种机制来协调通信。
@@ -1214,7 +1214,7 @@ CSMA/CD的发展：MA-〉CSMA-〉CSMA/CD
 
 #### MAC 帧格式
 
-![](https://images.kisechan.space/20251220210127981.png)
+![](https://images.kscn.uk/20251220210127981.png)
 
 - **DIX Ethernet V2**（最常用）：包含**类型 (Type)** 字段，用于标识上层协议（如IP、ARP）。
 - **IEEE 802.3**：包含**长度 (Length)** 字段。
@@ -1257,11 +1257,11 @@ CSMA/CD的发展：MA-〉CSMA-〉CSMA/CD
 1.  **检测困难**：发送功率远大于接收功率，难以边发边听。
 2.  **隐蔽终端**：A和C都想发给B，但A听不到C，直接发会导致在B处冲突。
 
-![](https://images.kisechan.space/20251220210852918.png)
+![](https://images.kscn.uk/20251220210852918.png)
 
 3. **暴露终端**：由于侦听到其他站点的发送⽽误以为信道忙导致不能发送。暴露站点能侦听到发送端但不会⼲扰接收端
 
-![](https://images.kisechan.space/20251220210915141.png)
+![](https://images.kscn.uk/20251220210915141.png)
 
 因此，802.11 采用了 **CSMA/CA (带冲突避免)** 机制：
 
@@ -1323,7 +1323,7 @@ CSMA/CD的发展：MA-〉CSMA-〉CSMA/CD
 
 ### TCP/IP 网络体系结构
 
-![](https://images.kisechan.space/20251220212415703.png)
+![](https://images.kscn.uk/20251220212415703.png)
 
 TCP/IP 是事实上的工业标准，不同于 OSI 的七层理论模型，TCP/IP 实际上由四层组成，运⾏TCP/IP协议的⽹络通常由五层构成，将接口层拆分）。
 
@@ -1358,7 +1358,7 @@ IP 是 TCP/IP 的核心，所有的TCP、UDP、ICMP和IGMP数据都是以IP数�
   - **127.x.x.x**：环回地址（Loopback），用于本机测试。
   - **私有地址**：10.x.x.x, 172.16-31.x.x, 192.168.x.x（企业内部使用，不可在公网路由）。
 
-![](https://images.kisechan.space/20251219202456784.png)
+![](https://images.kscn.uk/20251219202456784.png)
 
 #### 子网划分与 VLSM (计算重点)
 
@@ -1389,7 +1389,7 @@ IPv4 地址不够 + 网络规模变大 ➡️ A/B/C 类地址浪费严重 ➡️
 
 #### IP 数据报格式与分片
 
-![](https://images.kisechan.space/20251219205645577.png)
+![](https://images.kscn.uk/20251219205645577.png)
 
 1. 版本号 (Version) [4 bit]：
    ⽬前IP协议的版本号为4（IPv4），它正在逐渐被IPv6版本所替代。
@@ -1426,9 +1426,9 @@ IPv4 地址不够 + 网络规模变大 ➡️ A/B/C 类地址浪费严重 ➡️
 
 最⼤传送单元(MTU)： MTU（Maximum Transmission Unit）是指在⽹络上传输的最⼤数据帧的⼤⼩，通常以字节为单位。MTU限制了IP数据报在传输链路上的最⼤⻓度。MTU的⼤⼩包括IP报头和数据部分。当数据报的⼤⼩超过MTU时，需要进⾏分⽚（Fragmentation）。
 
-![](https://images.kisechan.space/20251220213346919.png)
+![](https://images.kscn.uk/20251220213346919.png)
 
-![](https://images.kisechan.space/20251220213404483.png)
+![](https://images.kscn.uk/20251220213404483.png)
 
 #### ARP (地址解析协议)
 

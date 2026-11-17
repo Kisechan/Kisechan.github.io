@@ -1,16 +1,16 @@
 ﻿---
 title: 面向对象程序设计课设心得
-url: https://blog.kisechan.space/2025/oop-practicum/
+url: https://blog.kscn.uk/2025/oop-practicum/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 # 题设：电商系统
 
 利用**C/S框架**完成一个电商系统的开发：
-![主要功能](https://images.kisechan.space/202501111458665.png)
+![主要功能](https://images.kscn.uk/202501111458665.png)
 
-![性能要求](https://images.kisechan.space/202501111459828.png)
+![性能要求](https://images.kscn.uk/202501111459828.png)
 
 根据题设，可以依据如下的架构完成该项目：
 

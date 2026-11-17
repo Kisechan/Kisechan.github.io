@@ -1,8 +1,8 @@
 ﻿---
 title: Cloudflare+Github图床
-url: https://blog.kisechan.space/2025/site-image-host/
+url: https://blog.kscn.uk/2025/site-image-host/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## 旧图床
@@ -13,11 +13,11 @@ time: '2026-11-15T08:57:06.623Z'
 
 ## Cloudflare 图床
 
-因为博主的图片是放在 Github 的仓库里面的，嫌麻烦不想转到 Cloudflare 的容器里面，所以就在 Cloudflare 新建了一个项目页面 `images.kisechan.space/` ，对接这个图床的仓库。同时，这个仓库就可以设置成私有了，之前使用公用 cdn 仓库就必须是公开的，让博主有些不舒服。
+因为博主的图片是放在 Github 的仓库里面的，嫌麻烦不想转到 Cloudflare 的容器里面，所以就在 Cloudflare 新建了一个项目页面 `images.kscn.uk/` ，对接这个图床的仓库。同时，这个仓库就可以设置成私有了，之前使用公用 cdn 仓库就必须是公开的，让博主有些不舒服。
 
 加载图片测试：
 
-![测试图片：https://images.kisechan.space/site-image-host-index.jpg](https://images.kisechan.space/site-image-host-index.jpg)
+![测试图片：https://images.kscn.uk/site-image-host-index.jpg](https://images.kscn.uk/site-image-host-index.jpg)
 
 从本人的体感上面来说，加载速度确实是快了一些，以前有时候能卡个半天图片还经常挂掉:cry:。
 
@@ -33,7 +33,7 @@ import re
 
 old_pattern = re.compile(r'https://cdn\.jsdelivr\.net/gh/Github 用户名/仓库名@分支/路径/(.*?\.(?:jpg|png|gif))')
 
-new_url = 'https://images.kisechan.space/'
+new_url = 'https://images.kscn.uk/'
 
 for root, dirs, files in os.walk('./'):
     for file in files:

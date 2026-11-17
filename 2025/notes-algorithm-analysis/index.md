@@ -1,8 +1,8 @@
 ﻿---
 title: 算法设计与分析 课程笔记
-url: https://blog.kisechan.space/2025/notes-algorithm-analysis/
+url: https://blog.kscn.uk/2025/notes-algorithm-analysis/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## 导引
@@ -674,7 +674,7 @@ $C$ 有 $n^2$ 个元素，一个元素需要做 $n$ 次乘法和 $n-1$ 次加法
 
 如果是将矩阵直接切割成子矩阵，实际上是不能优化的，因为并没有减少子问题的实际数量。
 
-![矩阵分割](https://images.kisechan.space/image-20250317200547691.png)
+![矩阵分割](https://images.kscn.uk/image-20250317200547691.png)
 
 斯特拉森在分治法的基础上，利用技巧减少了子问题的个数。它用 7 个乘法和 10 个加(减)法来算出 7 个 $\frac{n}{2}\times\frac{n}{2}$ 的中间矩阵，用 8 个加(减)法算出子问题的解 $C[i][j]$，让时间复杂度从 $T(n)=8T(\frac{n}{2})+cn^2$ 减少到了 $T(n)=7T(\frac{n}{2})+cn^2$，时间复杂度 $O(n^{\log 7})$。
 
@@ -720,7 +720,7 @@ $$
 
 据此可得到如下过程：
 
-![求解过程](https://images.kisechan.space/20250602144610.png)
+![求解过程](https://images.kscn.uk/20250602144610.png)
 
 ### 主定理
 
@@ -958,13 +958,13 @@ GREEDY-KNAPSACK(P, W, M, X, n):
 
 5. 重复上述操作，最终将 $Y$ 变成与 $X$ 完全一样，而价值至少没有减少，说明 $X$ 是最优解。
 
-![](https://images.kisechan.space/67de4e269f8fde4b61150e4f69285cae_720.png)
+![](https://images.kscn.uk/67de4e269f8fde4b61150e4f69285cae_720.png)
 
-![](https://images.kisechan.space/33e97401f8e5d52353b6df042f238ca3_720.png)
+![](https://images.kscn.uk/33e97401f8e5d52353b6df042f238ca3_720.png)
 
-![](https://images.kisechan.space/aba8bae4a6ec99fb4a26b01333442385_720.png)
+![](https://images.kscn.uk/aba8bae4a6ec99fb4a26b01333442385_720.png)
 
-![](https://images.kisechan.space/ed389a110c0630589ceded29eb06f8af_720.png)
+![](https://images.kscn.uk/ed389a110c0630589ceded29eb06f8af_720.png)
 
 ### 作业调度问题
 
@@ -1009,7 +1009,7 @@ $$
 
 将两个调度表相同的作业放在相同的时间片执行：
 
-![](https://images.kisechan.space/20250531155739.png)
+![](https://images.kscn.uk/20250531155739.png)
 
 我们用 $a$ 替换 $I$ 中执行的某个作业 $b$（此时间槽是 $a$ 可接受的），构造新的作业集合：
 
@@ -1096,7 +1096,7 @@ $$
 
 要将作业 $i$ 插入到正确的位置 $r+1$，就要检查新作业插入后是否仍满足：对于序列中位置 $l>r$，要求有 $D[J(l)] \geq l$，也就是说当前这个作业的截止时间比它的位置编号还要大，有往后挪而不延期的余地。然后将 $r+1$ 到 $k$ 这所有的作业往后挪一位。
 
-![](https://images.kisechan.space/image-20250513185338215.png)
+![](https://images.kscn.uk/image-20250513185338215.png)
 
 ---
 
@@ -1180,7 +1180,7 @@ $$
 
 按这个顺序安排即可。
 
-![求解过程](https://images.kisechan.space/20250602164916.png)
+![求解过程](https://images.kscn.uk/20250602164916.png)
 
 ---
 
@@ -1257,9 +1257,9 @@ int FJS(const vector<int>& D, vector<int>& J) {
 - 对应的期限为 $(2, 4, 3, 1, 4, 6, 2)$
 - $b = \min\{ n, \max\{d(i)\} \} = \min\{7, 6\}= 6$
 
-![](https://images.kisechan.space/20250602170347.png)
+![](https://images.kscn.uk/20250602170347.png)
 
-![](https://images.kisechan.space/20250602170523.png)
+![](https://images.kscn.uk/20250602170523.png)
 
 > 这个图画错了，看并查集数组的值。
 
@@ -1779,7 +1779,7 @@ $$
 
 最终问题转化为：从起点 $V(1,0)$ 到 $V(r+1, n)$ 的最大利润路径。
 
-![4个资源分配给3个项目的资源分配问题](https://images.kisechan.space/image-20250513205920584.png)
+![4个资源分配给3个项目的资源分配问题](https://images.kscn.uk/image-20250513205920584.png)
 
 ### 旅行商问题
 
@@ -1833,7 +1833,7 @@ $$
 
 例题：状压 dp [吃奶酪](https://www.luogu.com.cn/problem/P1433)
 
-题解可以看[这一篇博客](https://blog.kisechan.space/2025/algo-state-dp/)。
+题解可以看[这一篇博客](https://blog.kscn.uk/2025/algo-state-dp/)。
 
 ```cpp
 #include <bits/stdc++.h>
@@ -2128,7 +2128,7 @@ R(i, j) = k。
 
 按公式迭代计算即可，注意细节。
 
-![计算结果（乘以了 20）](https://images.kisechan.space/20250603140820.png)
+![计算结果（乘以了 20）](https://images.kscn.uk/20250603140820.png)
 
 ```mermaid
 graph TD
@@ -2137,7 +2137,7 @@ graph TD
   C-->D[stop]
 ```
 
-![本人草稿](https://images.kisechan.space/262b8dd67976d5c96bf34e6c15ba86a6_720.png)
+![本人草稿](https://images.kscn.uk/262b8dd67976d5c96bf34e6c15ba86a6_720.png)
 
 #### Knuth的优化方法
 
@@ -2929,9 +2929,9 @@ LC 检索适用于求解最优解问题。
 
 如果使用深度优先搜索或 FIFO 检索，效率不高：
 
-![FIFO 检索](https://images.kisechan.space/20250603192447.png)
+![FIFO 检索](https://images.kscn.uk/20250603192447.png)
 
-![DFS](https://images.kisechan.space/20250603192545.png)
+![DFS](https://images.kscn.uk/20250603192545.png)
 
 ---
 
@@ -2950,7 +2950,7 @@ $$
   - 当前状态中位置不正确的牌数（不包括空格）
   - 或者更复杂地，所有非空牌的“曼哈顿距离”之和
 
-![一个搜索过程](https://images.kisechan.space/20250603192848.png)
+![一个搜索过程](https://images.kscn.uk/20250603192848.png)
 
 ```plaintext
  1  2  3  4
@@ -2972,7 +2972,7 @@ $$
 
 先前的算法中：算法一旦判断出儿子结点 $X$ 是答案结点，则打印路径，操作结束。但基于 LC 检索，**并不一定能得到最优解**。
 
-![反例](https://images.kisechan.space/20250603193104.png)
+![反例](https://images.kscn.uk/20250603193104.png)
 
 因为估计函数 $\hat c (X)$ 更小，有可能它真实的成本反而会变大，这就要求追加对估计函数的条件：
 
@@ -3030,7 +3030,7 @@ $U$ **界定当前结点的死活，并通过剪枝加快找到最优解**。如
 - 当叶结点 $X$ 是答案结点时，$c(X)=u(X)$
 - 对于结点 $X$ ，有 $\hat c(X)\le c(X)\le u(X)$
 
-![U 和 u(X)](https://images.kisechan.space/20250603194838.png)
+![U 和 u(X)](https://images.kscn.uk/20250603194838.png)
 
 可以看出， $\hat c(X)$ 和 $u(X)$ 都是对于**子树** $X$ 的**所有答案结点成本最小值** $c(X)$ 的估计，只不过
 
@@ -3181,7 +3181,7 @@ LCBB(T, ĉ, u, ε, cost)
 - FIFO + 剪枝（BB-FIFO）
 - LCBB（成本限界+最小估价）
 
-![](https://images.kisechan.space/20250603201455.png)
+![](https://images.kscn.uk/20250603201455.png)
 
 ### 0/1 背包问题的分支限界法解
 
@@ -3435,6 +3435,6 @@ $$
 
 ---
 
-![](https://images.kisechan.space/image-20250519210943189.png)
+![](https://images.kscn.uk/image-20250519210943189.png)
 
 ## 参考和注解

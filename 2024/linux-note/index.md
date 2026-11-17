@@ -1,8 +1,8 @@
 ﻿---
 title: Linux课程笔记
-url: https://blog.kisechan.space/2024/linux-note/
+url: https://blog.kscn.uk/2024/linux-note/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 # Linux和开源

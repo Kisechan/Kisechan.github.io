@@ -1,8 +1,8 @@
 ﻿---
 title: Agent 时代一些有意思的 Web 小惯例
-url: https://blog.kisechan.space/2026/web-for-agents/
+url: https://blog.kscn.uk/2026/web-for-agents/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 本文主要来介绍一些 Web 开发领域有意思的约定，以及现在的 Agent 时代又有些什么新的潮流，来方便 Agent 工作。例如，`robots.txt` 可以让爬虫了解网站希望它遵循的抓取规则；搜索引擎可以通过 `sitemap.xml` 获得网站的页面清单；RSS 阅读器能够通过 `atom.xml` 订阅内容更新。
@@ -475,7 +475,7 @@ https://isitagentready.com/
 
 该服务从内容可读取性、访问策略、身份认证、服务发现等维度检查网站的 Agent 兼容能力。
 
-![本站的 Agent-Ready 分数](https://images.kisechan.space/uploads/2026/10/23/agent-readiness-https-blog-kisechan-space-622a0fca.png)
+![本站的 Agent-Ready 分数](https://images.kscn.uk/uploads/2026/10/23/agent-readiness-https-blog-kisechan-space-622a0fca.png)
 
 本站的 Agent-Ready 分数不算太高，可能主要是因为确实没有提供 API、 MCP 等的能力。但在 Markdown for Agents 等方面做了很多努力哦。现在可以让 Agent 直接获取本站的 markdown 文章了。
 

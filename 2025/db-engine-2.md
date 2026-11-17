@@ -1,8 +1,8 @@
 ﻿---
 title: 设计一个数据库引擎 (2) 索引
-url: https://blog.kisechan.space/2025/db-engine-2/
+url: https://blog.kscn.uk/2025/db-engine-2/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 **数据库系列笔记**
@@ -12,22 +12,22 @@ time: '2026-11-15T08:57:06.623Z'
 ---
 
 Kisechan 的数据库系列笔记
-https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/
+https://blog.kscn.uk/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/
 
 ---
 
 - **数据库原理课程笔记部分**：
-  - [数据库原理 课程笔记 (1) 数据库、关系代数和 SQL](https://blog.kisechan.space/2025/notes-database-1/)
-  - [数据库原理 课程笔记 (2) E-R 模型和关系模式](https://blog.kisechan.space/2025/notes-database-2/)
-  - [数据库原理 课程笔记 (3) 存储、索引、事务和并发](https://blog.kisechan.space/2025/notes-database-3/)
-  - [数据库原理 课程笔记 (4) 杂项和题目整理](https://blog.kisechan.space/2025/notes-database-4/)
+  - [数据库原理 课程笔记 (1) 数据库、关系代数和 SQL](https://blog.kscn.uk/2025/notes-database-1/)
+  - [数据库原理 课程笔记 (2) E-R 模型和关系模式](https://blog.kscn.uk/2025/notes-database-2/)
+  - [数据库原理 课程笔记 (3) 存储、索引、事务和并发](https://blog.kscn.uk/2025/notes-database-3/)
+  - [数据库原理 课程笔记 (4) 杂项和题目整理](https://blog.kscn.uk/2025/notes-database-4/)
 - **手搓数据库** (CS346) **部分**：
-  - [设计一个数据库引擎 (1) 内存、外存和记录管理](https://blog.kisechan.space/2025/db-engine-1/)
+  - [设计一个数据库引擎 (1) 内存、外存和记录管理](https://blog.kscn.uk/2025/db-engine-1/)
   - 设计一个数据库引擎 (2) 索引 【**当前阅读**】
-  - [设计一个数据库引擎 (3) SQL 处理](https://blog.kisechan.space/2025/db-engine-3/)
+  - [设计一个数据库引擎 (3) SQL 处理](https://blog.kscn.uk/2025/db-engine-3/)
 - **Oracle 和 NoSQL 课程部分**：
   - ~~Oracle 的学习使用和环境配置~~
-  - [NoSQL 的学习使用和环境配置](https://blog.kisechan.space/2026/nosql/)
+  - [NoSQL 的学习使用和环境配置](https://blog.kscn.uk/2026/nosql/)
 
 ## 任务需求
 
@@ -107,7 +107,7 @@ fn calculate_entries_per_page(key_size: usize, rid_size: usize) -> usize {
 
 ### 实现流程
 
-![结果示例](https://images.kisechan.space/%E6%88%AA%E5%B1%8F2025-11-11%2019.49.34.png)
+![结果示例](https://images.kscn.uk/%E6%88%AA%E5%B1%8F2025-11-11%2019.49.34.png)
 
 #### 创建表并插入数据
 

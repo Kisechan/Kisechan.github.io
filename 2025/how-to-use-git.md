@@ -1,8 +1,8 @@
 ﻿---
 title: Git 团队合作的简单使用教程
-url: https://blog.kisechan.space/2025/how-to-use-git/
+url: https://blog.kscn.uk/2025/how-to-use-git/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 - 可以直接把本文投喂给你的队友

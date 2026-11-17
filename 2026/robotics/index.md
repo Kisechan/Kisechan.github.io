@@ -1,8 +1,8 @@
 ﻿---
 title: 机器人学入门笔记
-url: https://blog.kisechan.space/2026/robotics/
+url: https://blog.kscn.uk/2026/robotics/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 机器人学主要包含三个方面：
@@ -19,7 +19,7 @@ time: '2026-11-15T08:57:06.623Z'
 
 要描述一个三维空间的物体，可以在质心标记它的位置，要记录它的转动形态，就可以在质心上建立三个坐标（body frame），然后计算它们和世界坐标（world frame）的投影：
 
-![](https://images.kisechan.space/20260326162921588.webp)
+![](https://images.kscn.uk/20260326162921588.webp)
 
 其中，$^A_BR$ 表示 body frame $B$ 对 world frame $A$ 的坐标，依次用 $X$、$Y$、$Z$ 的 column vector （长度都是 1）表示，也表示三主轴对 frame $A$ 的投影。叫做**旋转矩阵**。
 
@@ -308,7 +308,7 @@ $。
 
 #### 乘法规则
 
-![](https://images.kisechan.space/20260330223802383.png)
+![](https://images.kscn.uk/20260330223802383.png)
 
 主要是为了区分两种情况：
 
@@ -332,13 +332,13 @@ $$
 
 对于机械臂来说，就可以把它拟合成下面的形式：
 
-![](https://images.kisechan.space/20260401084938943.png)
+![](https://images.kscn.uk/20260401084938943.png)
 
 ### 手臂几何描述和 DH 表示法
 
 在机器人手臂的几何建模中，需要描述**连杆**（link）和**关节**（axis）的几何关系，有了这样的建模我们才能计算出顺运动学的结果。
 
-![](https://images.kisechan.space/20260401090236099.png)
+![](https://images.kscn.uk/20260401090236099.png)
 
 每个关节需要四个参数：
 
@@ -347,7 +347,7 @@ $$
 
 有了这两个参数足以应付一个杆连接的情况了，但是多杆连接就需要更多参数来描述：
 
-![](https://images.kisechan.space/20260401090628601.png)
+![](https://images.kscn.uk/20260401090628601.png)
 
 - $d_i$：**连杆偏移**，用于描述关节之间沿关节轴方向的距离
 - $\theta_i$：**关节角**，如图所示
@@ -356,11 +356,11 @@ $$
 
 有了这四个参数还需要建立坐标系，才能描述出变换矩阵，建立坐标系的规则如下：
 
-![](https://images.kisechan.space/20260401091039736.png)
+![](https://images.kscn.uk/20260401091039736.png)
 
-![](https://images.kisechan.space/20260401091141508.png)
+![](https://images.kscn.uk/20260401091141508.png)
 
-![](https://images.kisechan.space/img/20260401091219407.png)
+![](https://images.kscn.uk/img/20260401091219407.png)
 
 #### Denavit-Hartenberg 表示法
 
@@ -396,7 +396,7 @@ $$
     W_\text{dexterous} \subseteq W_\text{reachable}
   $$
 
-![图 2 的原点就是灵巧工作空间](https://images.kisechan.space/20260401093729658.png)
+![图 2 的原点就是灵巧工作空间](https://images.kscn.uk/20260401093729658.png)
 
 以及**子空间**，Subspace，即**运动集合或姿态集合的子空间**。
 
@@ -410,7 +410,7 @@ $$
 
 ### Pieper's solution
 
-![PUMA](https://images.kisechan.space/20260401103705760.png)
+![PUMA](https://images.kscn.uk/20260401103705760.png)
 
 如果一个六自由度机械臂满足以下条件之一，则逆运动学可以解析求解：
 

@@ -1,8 +1,8 @@
 ﻿---
 title: Windows上简单的Socket通信：echo程序
-url: https://blog.kisechan.space/2024/socket/
+url: https://blog.kscn.uk/2024/socket/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ### 关于Socket
@@ -202,8 +202,8 @@ int main()
 
 如果有两个或多个客户端，就需要衍生出子线程分别为他们服务，如图：
 
-![](https://images.kisechan.space/202405191703045.png)
-![](https://images.kisechan.space/202405191703385.png)
+![](https://images.kscn.uk/202405191703045.png)
+![](https://images.kscn.uk/202405191703385.png)
 
 不过，C++提供的thread库能够帮我们简单地实现多线程编程，其中的thread对象可以创建一个新线程执行函数，让其与主线程并行运行（执行detach()函数），再用vector容器存储它就可以很容易地达到多线程编程的效果。
 

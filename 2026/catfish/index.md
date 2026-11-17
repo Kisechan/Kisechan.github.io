@@ -1,8 +1,8 @@
 ﻿---
 title: 想要成为鱼的猫
-url: https://blog.kisechan.space/2026/catfish/
+url: https://blog.kscn.uk/2026/catfish/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 想要成为鱼，可是我不会游泳。
@@ -15,4 +15,4 @@ time: '2026-11-15T08:57:06.623Z'
 
 鱼真幸运，如果还有机会的话，我就不想做猫了，只是我大概是不会游泳的猫，不能变成猫猫鱼。如果神明能感受到我的愿望的话，那就降下奇迹，把我变成幸运的鱼吧。
 
-![趵突泉公园](https://images.kisechan.space/uploads/2026/06/09/clipboard-964fe4bc-3f52-4915-a20d-4f4f15267f72-b528ef98.png)
+![趵突泉公园](https://images.kscn.uk/uploads/2026/06/09/clipboard-964fe4bc-3f52-4915-a20d-4f4f15267f72-b528ef98.png)

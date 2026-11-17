@@ -1,11 +1,11 @@
 ﻿---
 title: Redis
-url: https://blog.kisechan.space/tags/Redis/
+url: https://blog.kscn.uk/tags/Redis/
 type: tag
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## Articles
 
-- [NoSQL 的学习使用和环境配置](https://blog.kisechan.space/2026/nosql/index.md)
-- [面向对象程序设计课设心得](https://blog.kisechan.space/2025/oop-practicum/index.md)
+- [NoSQL 的学习使用和环境配置](https://blog.kscn.uk/2026/nosql/index.md)
+- [面向对象程序设计课设心得](https://blog.kscn.uk/2025/oop-practicum/index.md)

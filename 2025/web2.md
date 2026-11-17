@@ -1,8 +1,8 @@
 ﻿---
 title: Web编程学习笔记2：CSS基础样式
-url: https://blog.kisechan.space/2025/web2/
+url: https://blog.kscn.uk/2025/web2/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 本笔记主要依据MDN Web Docs：[https://developer.mozilla.org/zh-CN/](https://developer.mozilla.org/zh-CN/)
@@ -65,7 +65,7 @@ span {
 
 那么浏览器就会解析 HTML 文件，并创造一个 DOM，然后解析 CSS：浏览器会把 CSS 中的规则使用在三个`<span>`标签上，然后渲染出图像到屏幕。效果如图：
 
-![使用 CSS 渲染的效果](https://images.kisechan.space/20250212155818.png)
+![使用 CSS 渲染的效果](https://images.kscn.uk/20250212155818.png)
 
 <p class="note note-warning">如果 CSS 文件中出现了无法解析的属性或值，那么浏览器并不会报错，它会什么也不做，然后继续处理下一个规则。</p>
 
@@ -209,7 +209,7 @@ li[class~="a"] {
 
 效果为：
 
-![](https://images.kisechan.space/attr1.png)
+![](https://images.kscn.uk/attr1.png)
 
 #### 子字符串匹配选择器
 
@@ -249,7 +249,7 @@ li[class*="a"] {
 
 效果为：
 
-![](https://images.kisechan.space/attr2.png)
+![](https://images.kscn.uk/attr2.png)
 
 选择器进行字符串匹配时，是默认大小写敏感的。在选择器的`]`之前，加上字母`i`，就可以实现大小写不敏感。
 
@@ -371,7 +371,7 @@ color: orange;
 
 效果为：
 
-![](https://images.kisechan.space/css-inherit1.png)
+![](https://images.kscn.uk/css-inherit1.png)
 
 可以看到，`项目1`和`项目2`继承了`<main>`的样式，把文字变成了紫色，而`项目3`并没有继承父类的样式，而是被它自己的样式覆盖率。一般而言，与文字有关的样式会被继承，而**与布局（宽、高、边框等）有关的不会**。
 

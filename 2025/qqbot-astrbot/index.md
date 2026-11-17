@@ -1,8 +1,8 @@
 ﻿---
 title: 用AstrBot框架搭建一个qq机器人
-url: https://blog.kisechan.space/2025/qqbot-astrbot/
+url: https://blog.kscn.uk/2025/qqbot-astrbot/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## 部署框架
@@ -39,6 +39,6 @@ AstrBot 官方文档：https://astrbot.app/
 
 效果如图：
 
-![部署完成后的仪表盘](https://images.kisechan.space/astrbot-showtime.png)
+![部署完成后的仪表盘](https://images.kscn.uk/astrbot-showtime.png)
 
 ---

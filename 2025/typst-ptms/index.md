@@ -1,8 +1,8 @@
 ﻿---
 title: 用 Typst 排版一份概率论笔记
-url: https://blog.kisechan.space/2025/typst-ptms/
+url: https://blog.kscn.uk/2025/typst-ptms/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## 排版
@@ -15,7 +15,7 @@ time: '2026-11-15T08:57:06.623Z'
 
 本人练手项目选择是把**之前的博客**（概率论与数理统计的复习笔记）重新排版成一份 Typst 笔记，看起来更加美观和正规。
 
-<a href="https://blog.kisechan.space/2025/notes-ptms/" name="https://images.kisechan.space/icon.png" class="LinkCard">笔记原文链接在这里！</a>
+<a href="https://blog.kscn.uk/2025/notes-ptms/" name="https://images.kscn.uk/icon.png" class="LinkCard">笔记原文链接在这里！</a>
 
 ### 预设和字体
 

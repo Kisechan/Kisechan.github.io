@@ -1,10 +1,10 @@
 ﻿---
 title: Huffman 树
-url: https://blog.kisechan.space/tags/Huffman-%E6%A0%91/
+url: https://blog.kscn.uk/tags/Huffman-%E6%A0%91/
 type: tag
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## Articles
 
-- [算法笔记7：k-叉 Huffman 树](https://blog.kisechan.space/2025/algo-k-ary-huffman-tree/index.md)
+- [算法笔记7：k-叉 Huffman 树](https://blog.kscn.uk/2025/algo-k-ary-huffman-tree/index.md)

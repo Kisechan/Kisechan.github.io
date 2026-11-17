@@ -1,8 +1,8 @@
 ﻿---
 title: 给 Typora 主题 Purple 加上背景图片
-url: https://blog.kisechan.space/2025/typora-purple/
+url: https://blog.kscn.uk/2025/typora-purple/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 # Purple 修改
@@ -34,6 +34,6 @@ time: '2026-11-15T08:57:06.623Z'
 
 如图：
 
-![修改效果展示](https://images.kisechan.space/typora-purple-reviseshowtime.png)
+![修改效果展示](https://images.kscn.uk/typora-purple-reviseshowtime.png)
 
 ---

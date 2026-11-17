@@ -1,8 +1,8 @@
 ﻿---
 title: 数据库原理 课程笔记 (1) 数据库、关系代数和 SQL
-url: https://blog.kisechan.space/2025/notes-database-1/
+url: https://blog.kscn.uk/2025/notes-database-1/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 **数据库系列笔记**
@@ -12,22 +12,22 @@ time: '2026-11-15T08:57:06.623Z'
 ---
 
 Kisechan 的数据库系列笔记
-https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/
+https://blog.kscn.uk/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/
 
 ---
 
 - **数据库原理课程笔记部分**：
   - 数据库原理 课程笔记 (1) 数据库、关系代数和 SQL 【**当前阅读**】
-  - [数据库原理 课程笔记 (2) E-R 模型和关系模式](https://blog.kisechan.space/2025/notes-database-2/)
-  - [数据库原理 课程笔记 (3) 存储、索引、事务和并发](https://blog.kisechan.space/2025/notes-database-3/)
-  - [数据库原理 课程笔记 (4) 杂项和题目整理](https://blog.kisechan.space/2025/notes-database-4/)
+  - [数据库原理 课程笔记 (2) E-R 模型和关系模式](https://blog.kscn.uk/2025/notes-database-2/)
+  - [数据库原理 课程笔记 (3) 存储、索引、事务和并发](https://blog.kscn.uk/2025/notes-database-3/)
+  - [数据库原理 课程笔记 (4) 杂项和题目整理](https://blog.kscn.uk/2025/notes-database-4/)
 - **手搓数据库** (CS346) **部分**：
-  - [设计一个数据库引擎 (1) 内存、外存和记录管理](https://blog.kisechan.space/2025/db-engine-1/)
-  - [设计一个数据库引擎 (2) 索引](https://blog.kisechan.space/2025/db-engine-2/)
-  - [设计一个数据库引擎 (3) SQL 处理](https://blog.kisechan.space/2025/db-engine-3/)
+  - [设计一个数据库引擎 (1) 内存、外存和记录管理](https://blog.kscn.uk/2025/db-engine-1/)
+  - [设计一个数据库引擎 (2) 索引](https://blog.kscn.uk/2025/db-engine-2/)
+  - [设计一个数据库引擎 (3) SQL 处理](https://blog.kscn.uk/2025/db-engine-3/)
 - **Oracle 和 NoSQL 课程部分**：
   - ~~Oracle 的学习使用和环境配置~~
-  - [NoSQL 的学习使用和环境配置](https://blog.kisechan.space/2026/nosql/)
+  - [NoSQL 的学习使用和环境配置](https://blog.kscn.uk/2026/nosql/)
 
 ## 关于
 
@@ -138,7 +138,7 @@ https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/
 
 ### 用户和管理员
 
-![用户和管理员](https://images.kisechan.space/image-20250329152731147.png)
+![用户和管理员](https://images.kscn.uk/image-20250329152731147.png)
 
 数据库用户不负责建结构、配置系统，他们主要分为：
 
@@ -264,7 +264,7 @@ graph TD
   - 外码一般用箭头指向它所引用的主码；
 - 箭头用于表示外码 → 主码的**引用关系**。
 
-![模式图（Schema Diagram）](https://images.kisechan.space/schema-diagram.png)
+![模式图（Schema Diagram）](https://images.kscn.uk/schema-diagram.png)
 
 ### 关系代数
 
@@ -319,7 +319,7 @@ $$
 - **属性个数相同**
 - **对应属性域相同或兼容**（也就是得对应，数据对数据字符串对字符串）
 
-![并集](https://images.kisechan.space/image-20250329161423557.png)
+![并集](https://images.kscn.uk/image-20250329161423557.png)
 
 #### 差集
 
@@ -340,7 +340,7 @@ $$
 - $r\cap s=\emptyset$
 - 否则就要把交叉共有的那个属性换名
 
-![笛卡尔积](https://images.kisechan.space/image-20250329161858069.png)
+![笛卡尔积](https://images.kscn.uk/image-20250329161858069.png)
 
 #### 换名
 
@@ -475,7 +475,7 @@ $$
 
 **常用于查询类似于“选了所有的课的学生”等情况**。
 
-![除](https://images.kisechan.space/image-20250329163725274.png)
+![除](https://images.kscn.uk/image-20250329163725274.png)
 
 **除的 SQL 等价写法**：
 
@@ -492,13 +492,13 @@ $$
 
 > 信用卡能透支多少钱：
 >
-> ![credit_info 表](https://images.kisechan.space/image-20250429143756037.png)
+> ![credit_info 表](https://images.kscn.uk/image-20250429143756037.png)
 >
 > $$
 > \Pi_{\text{customer\_name}, \text{limit} - \text{credit\_balance}}(\text{credit\_info})
 > $$
 >
-> ![运算结果](https://images.kisechan.space/image-20250429144117501.png)
+> ![运算结果](https://images.kscn.uk/image-20250429144117501.png)
 
 #### 聚集运算
 
@@ -524,7 +524,7 @@ $$
 > _\text{branch\_name}\mathcal{G}_{\textbf{sum}(\text{salary})}(\text{pt\_works})
 > $$
 >
-> ![](https://images.kisechan.space/image-20250429150743019.png)
+> ![](https://images.kscn.uk/image-20250429150743019.png)
 
 #### 外连接
 
@@ -689,7 +689,7 @@ $$
 r\gets\Pi_{F_1,F_2,...,F_n}(\sigma_p(r)\cup(r-\sigma_p(r)))
 $$
 
-> ![](https://images.kisechan.space/image-20250429191621966.png)
+> ![](https://images.kscn.uk/image-20250429191621966.png)
 >
 > 1. 删除贷款额度在0到50之间的所有贷款记录：
 >

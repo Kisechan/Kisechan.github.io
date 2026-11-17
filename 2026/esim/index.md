@@ -1,8 +1,8 @@
 ﻿---
 title: eSIM 折腾记录
-url: https://blog.kisechan.space/2026/esim/
+url: https://blog.kscn.uk/2026/esim/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 文章写于 2026 年八月，**存在过时的可能性**。
@@ -18,7 +18,7 @@ time: '2026-11-15T08:57:06.623Z'
   - Xesim X2 可以下载无限次的 eSIM。价格 29 USD。
 - Xesim X2 Pro 据官网说法是兼容性最强的，iOS 不用下载 app，也可以写入 eSIM。价格 36 USD。
 
-![就像这样](https://images.kisechan.space/uploads/2026/08/26/image-20260826080852150-1fcbea9f.png)
+![就像这样](https://images.kscn.uk/uploads/2026/08/26/image-20260826080852150-1fcbea9f.png)
 
 想买的话用我的邀请码 `rf2isj` 可以 -5%，或者去各种社交媒体到处都是，可能有减得更多的。
 
@@ -70,7 +70,7 @@ https://lifecell.ua
 
 手机下载 Saily 的 app 就可以购买相关套餐了，保号套餐只需要 0.99 USD，可以搭配其他的套餐一起买。用新客优惠可以 -2 USD，在社交媒体上找找邀请码可以 -5 USD。
 
-![](https://images.kisechan.space/uploads/2026/08/26/image-20260826083157796-fc2600f1.png)
+![](https://images.kscn.uk/uploads/2026/08/26/image-20260826083157796-fc2600f1.png)
 
 唯一的不好之处就是**需要身份验证**，可以选护照或者身份证。我选的是护照，需要上传护照照片和自拍。
 

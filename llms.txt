@@ -10,39 +10,39 @@
 
 ## 站点导览
 
-- [关于我](https://blog.kisechan.space/about.md): 作者介绍、研究兴趣和联系方式。
-- [全部文章归档](https://blog.kisechan.space/archives.md): 完整的公开文章列表，可从这里查找本文未列出的内容。
-- [分类索引](https://blog.kisechan.space/categories.md): 按学习与写作主题浏览文章。
-- [标签索引](https://blog.kisechan.space/tags.md): 按技术、工具和课程关键词继续查找。
+- [关于我](https://blog.kscn.uk/about.md): 作者介绍、研究兴趣和联系方式。
+- [全部文章归档](https://blog.kscn.uk/archives.md): 完整的公开文章列表，可从这里查找本文未列出的内容。
+- [分类索引](https://blog.kscn.uk/categories.md): 按学习与写作主题浏览文章。
+- [标签索引](https://blog.kscn.uk/tags.md): 按技术、工具和课程关键词继续查找。
 
 ## 课程笔记
 
-- [课程笔记分类](https://blog.kisechan.space/categories/课程笔记.md): 机器学习、编译原理、算法、网络和操作系统等本科课程的学习记录。
-- [机器学习 课程笔记](https://blog.kisechan.space/2025/notes-machine-learning.md): 从基本概念到常见学习方法，配合公式和图示整理课程内容。
-- [编译原理课程笔记](https://blog.kisechan.space/2026/notes-compilers.md): 编译与解释、词法分析、语法分析等内容的系统整理。
-- [数据库原理 课程笔记 (1) 数据库、关系代数和 SQL](https://blog.kisechan.space/2025/notes-database-1.md): 数据库系列的理论入口，可继续阅读关系模式、存储、事务和并发部分。
-- [操作系统复习](https://blog.kisechan.space/2025/notes-os.md): 操作系统基本概念、资源管理和课程复习提纲。
+- [课程笔记分类](https://blog.kscn.uk/categories/课程笔记.md): 机器学习、编译原理、算法、网络和操作系统等本科课程的学习记录。
+- [机器学习 课程笔记](https://blog.kscn.uk/2025/notes-machine-learning.md): 从基本概念到常见学习方法，配合公式和图示整理课程内容。
+- [编译原理课程笔记](https://blog.kscn.uk/2026/notes-compilers.md): 编译与解释、词法分析、语法分析等内容的系统整理。
+- [数据库原理 课程笔记 (1) 数据库、关系代数和 SQL](https://blog.kscn.uk/2025/notes-database-1.md): 数据库系列的理论入口，可继续阅读关系模式、存储、事务和并发部分。
+- [操作系统复习](https://blog.kscn.uk/2025/notes-os.md): 操作系统基本概念、资源管理和课程复习提纲。
 
 ## CS 杂谈与算法
 
-- [CS 杂谈分类](https://blog.kisechan.space/categories/CS-杂谈.md): 编程语言、开发工具、环境配置与实际使用经验。
-- [在服务器上比较优雅地使用 Agent](https://blog.kisechan.space/2026/server-agent-workflow.md): 远程服务器上的 OpenCode、Codex 和 SSH 工作流。
-- [体验 Rust 的特性](https://blog.kisechan.space/2025/rust-taste.md): 在工程实践中理解 Rust 的语法、所有权与语言特性。
-- [算法分类](https://blog.kisechan.space/categories/算法.md): 算法题笔记与实现记录。
-- [算法笔记1：单调队列优化 dp](https://blog.kisechan.space/2025/monotonic-queue-dp.md): 从滑动窗口与单调队列理解动态规划优化。
-- [可视化Dijkstra算法模拟地图导航](https://blog.kisechan.space/2024/dijkstra.md): 使用 Qt 实现最短路算法的可视化寻路小程序。
+- [CS 杂谈分类](https://blog.kscn.uk/categories/CS-杂谈.md): 编程语言、开发工具、环境配置与实际使用经验。
+- [在服务器上比较优雅地使用 Agent](https://blog.kscn.uk/2026/server-agent-workflow.md): 远程服务器上的 OpenCode、Codex 和 SSH 工作流。
+- [体验 Rust 的特性](https://blog.kscn.uk/2025/rust-taste.md): 在工程实践中理解 Rust 的语法、所有权与语言特性。
+- [算法分类](https://blog.kscn.uk/categories/算法.md): 算法题笔记与实现记录。
+- [算法笔记1：单调队列优化 dp](https://blog.kscn.uk/2025/monotonic-queue-dp.md): 从滑动窗口与单调队列理解动态规划优化。
+- [可视化Dijkstra算法模拟地图导航](https://blog.kscn.uk/2024/dijkstra.md): 使用 Qt 实现最短路算法的可视化寻路小程序。
 
 ## 语言学习与生活记录
 
-- [Notas de repaso en español](https://blog.kisechan.space/2026/Notas-de-repaso-en-espanol.md): 西班牙语名词、冠词等语法的复习整理。
-- [想法分类](https://blog.kisechan.space/categories/想法.md): 个人经历、学习和生活中的思考。
-- [写给新的日子中，失败的我](https://blog.kisechan.space/2026/for-new-myself.md): 对大学生活、成长与自我认识的回顾。
-- [游记分类](https://blog.kisechan.space/categories/游记.md): 旅行中的见闻与经历。
+- [Notas de repaso en español](https://blog.kscn.uk/2026/Notas-de-repaso-en-espanol.md): 西班牙语名词、冠词等语法的复习整理。
+- [想法分类](https://blog.kscn.uk/categories/想法.md): 个人经历、学习和生活中的思考。
+- [写给新的日子中，失败的我](https://blog.kscn.uk/2026/for-new-myself.md): 对大学生活、成长与自我认识的回顾。
+- [游记分类](https://blog.kscn.uk/categories/游记.md): 旅行中的见闻与经历。
 
 ## 抓取入口与格式参考
 
-- [robots.txt](https://blog.kisechan.space/robots.txt): 公开抓取规则、AI 用途偏好和 Sitemap 地址。
-- [Sitemap](https://blog.kisechan.space/sitemap.xml): 供爬虫发现页面的站点地图。
-- [RSS / Atom](https://blog.kisechan.space/atom.xml): 订阅最近更新的文章。
+- [robots.txt](https://blog.kscn.uk/robots.txt): 公开抓取规则、AI 用途偏好和 Sitemap 地址。
+- [Sitemap](https://blog.kscn.uk/sitemap.xml): 供爬虫发现页面的站点地图。
+- [RSS / Atom](https://blog.kscn.uk/atom.xml): 订阅最近更新的文章。
 - [Cloudflare Markdown for Agents](https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/): 本站 Agent 阅读体验参考的 Markdown 访问设计。
 - [llms.txt v2 提案](https://llmstxt.org/): 本索引与 Markdown 发现链接采用的格式约定。

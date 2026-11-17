@@ -1,13 +1,13 @@
 ﻿---
 title: 我面对抑郁状态的一些可能的理想解法
-url: https://blog.kisechan.space/2026/depressive/
+url: https://blog.kscn.uk/2026/depressive/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 文章主要内容**由我和 GPT 5.6 共同整理**。
 
-![](https://images.kisechan.space/uploads/2026/08/21/e4996736-0d05-4856-bdf8-70f9950d49ea-073355a9.png)
+![](https://images.kscn.uk/uploads/2026/08/21/e4996736-0d05-4856-bdf8-70f9950d49ea-073355a9.png)
 
 > 想象一下你重度抑郁，全身像瘫痪一样，无法起床，结果你妈叫你要调整作息，出门运动就会好。
 >
@@ -82,4 +82,4 @@ _今天最低工作量完成了，我现在打游戏_。这时候游戏带来的
 
 反正，今天活着就行，其他的事情不需要了。
 
-![一些雷霆小药盒](https://images.kisechan.space/uploads/2026/08/21/img-2211-abbb2520.jpeg)
+![一些雷霆小药盒](https://images.kscn.uk/uploads/2026/08/21/img-2211-abbb2520.jpeg)

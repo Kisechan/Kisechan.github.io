@@ -1,8 +1,8 @@
 ﻿---
 title: 软件工程课程部分内容归纳
-url: https://blog.kisechan.space/2025/notes-software-engineering-summary/
+url: https://blog.kscn.uk/2025/notes-software-engineering-summary/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 > 前面的大部分内容使用 [NotebookLM](https://notebooklm.google.com/) 完成。
@@ -585,7 +585,7 @@ ISO 9000对过程的定义: **使用资源将输入转化为输出的活动所�
 
 #### 瀑布模型
 
-![](https://images.kisechan.space/20251212233655094.png)
+![](https://images.kscn.uk/20251212233655094.png)
 
 #### 原型/快速原型模型
 
@@ -593,7 +593,7 @@ ISO 9000对过程的定义: **使用资源将输入转化为输出的活动所�
 
 快速原型化的软件开发大体可以如下图所示：
 
-![](https://images.kisechan.space/20251212233724443.png)
+![](https://images.kscn.uk/20251212233724443.png)
 
 #### 阶段式开发（演化模型）
 
@@ -664,11 +664,11 @@ ISO 9000对过程的定义: **使用资源将输入转化为输出的活动所�
 
 系统流程图是概括地描绘**物理系统**的传统工具。它的基本思想是用图形符号以黑盒子形式描绘组成系统的每个部件。包括程序、文档、数据库和人工过程等。**它表达了数据在系统各部件之间的流动情况**。
 
-![](https://images.kisechan.space/20251212234310268.png)
+![](https://images.kscn.uk/20251212234310268.png)
 
 #### 数据流图（DFD）
 
-![](https://images.kisechan.space/20251212234347133.png)
+![](https://images.kscn.uk/20251212234347133.png)
 
 #### 数据字典
 
@@ -765,7 +765,7 @@ ISO 9000对过程的定义: **使用资源将输入转化为输出的活动所�
 
 #### 软件设计过程
 
-![](https://images.kisechan.space/20251212234929683.png)
+![](https://images.kscn.uk/20251212234929683.png)
 
 **概要设计/总体设计**：将软件需求转化为数据结构和软件的系统结构，即系统的模块划分。
 
@@ -868,7 +868,7 @@ ISO 9000对过程的定义: **使用资源将输入转化为输出的活动所�
 
 耦合（Coupling）是模块与其他模块、外界之间连接程度的量化指标，模块间联系越紧密、越多，耦合度就越高，模块的独立性就越差。
 
-![](https://images.kisechan.space/20251212235215981.png)
+![](https://images.kscn.uk/20251212235215981.png)
 
 - **非直接耦合**（Nondirect Coupling）：无直接联系
 
@@ -2138,7 +2138,7 @@ $$
 - **完善性维护**（Perfective maintenance）
 - **预防性维护**（Preventive maintenance）
 
-![前三类维护占总维护比例和维护在软件生存期所占比例](https://images.kisechan.space/20251213134537580.png)
+![前三类维护占总维护比例和维护在软件生存期所占比例](https://images.kscn.uk/20251213134537580.png)
 
 ##### 维护报告
 
@@ -2200,7 +2200,7 @@ $$
 
 库存目录分析->文档重构->逆向工程->代码重构->数据重构->正向工程
 
-![软件工程再工程过程](https://images.kisechan.space/20251213134758849.png)
+![软件工程再工程过程](https://images.kscn.uk/20251213134758849.png)
 
 ### 面向对象方法学引论
 
@@ -2277,7 +2277,7 @@ Actor：**可能使用这些Use Case的人或外部系统**。(Actors are roles 
 
 用例之间的关系：《extend》、《include》、Generalizatio
 
-![](https://images.kisechan.space/20251213135423874.png)
+![](https://images.kscn.uk/20251213135423874.png)
 
 Actor与Use Case间的连线称为通信关联，表示Actor与相应Use Case的交互。
 
@@ -2292,7 +2292,7 @@ Actor与Use Case间的连线称为通信关联，表示Actor与相应Use Case的
 - 包含在 Use Case中的对象称为参与对象；
 - 顺序图展示了这些对象间传送消息的时间顺序，反映了对象之间的一次特定交互过程；
 
-![](https://images.kisechan.space/20251213135520639.png)
+![](https://images.kscn.uk/20251213135520639.png)
 
 #### UML 的三种扩展机制
 
@@ -2307,7 +2307,7 @@ Actor与Use Case间的连线称为通信关联，表示Actor与相应Use Case的
 
 #### 用 UML 描述系统的 5 个视图
 
-![](https://images.kisechan.space/20251213135622129.png)
+![](https://images.kscn.uk/20251213135622129.png)
 
 ### 面向对象分析
 
@@ -2413,7 +2413,7 @@ Use Case间的关系：包含、扩展、泛化
 
 也可以用特殊图示表示：
 
-![](https://images.kisechan.space/20251213135949350.png)
+![](https://images.kscn.uk/20251213135949350.png)
 
 实体类描述必须存储的信息，以及与这些信息直接相关的操作；
 
@@ -2479,7 +2479,7 @@ Use Case本身（如，报告紧急情况）
 
 ### 面向对象设计
 
-![类间关系与 UML 绘制](https://images.kisechan.space/20251122202516535.png)
+![类间关系与 UML 绘制](https://images.kscn.uk/20251122202516535.png)
 
 ### 软件项目管理
 
@@ -2599,7 +2599,7 @@ Use Case本身（如，报告紧急情况）
 
 外部接口数：机器可读的全部接口（例如，磁盘或磁带上的数据文件）的数量，用这些接口把信息传送给另一个系统。
 
-![](https://images.kisechan.space/20251213140701215.png)
+![](https://images.kscn.uk/20251213140701215.png)
 
 由各项的计数同与其对应的复杂度权重计算加权和，此为未经调整的功能点计数（UFP）。
 

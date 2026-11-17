@@ -1,8 +1,8 @@
 ﻿---
 title: 强化学习概述：复习一些经典算法
-url: https://blog.kisechan.space/2026/reinforcement-learning/
+url: https://blog.kscn.uk/2026/reinforcement-learning/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## 决策和交互

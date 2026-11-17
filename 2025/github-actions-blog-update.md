@@ -1,13 +1,13 @@
 ﻿---
 title: GitHub Profile 自动化更新最新博客文章
-url: https://blog.kisechan.space/2025/github-actions-blog-update/
+url: https://blog.kscn.uk/2025/github-actions-blog-update/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## 技术选型 GitHub Actions
 
-我们的**目标**是：在我的 [GitHub 个人主页](https://github.com/Kisechan)（仓库中的 `README.md`）中，添加一个“_Blog Post_”栏目。该栏目需要能够自动、动态地拉取我个人博客的最新文章列表，并以链接的形式展示出来。考虑到我早已为博客提供了 [Atom 形式的 Feed](https://blog.kisechan.space/atom.xml)，这会让完成这个任务简单很多。
+我们的**目标**是：在我的 [GitHub 个人主页](https://github.com/Kisechan)（仓库中的 `README.md`）中，添加一个“_Blog Post_”栏目。该栏目需要能够自动、动态地拉取我个人博客的最新文章列表，并以链接的形式展示出来。考虑到我早已为博客提供了 [Atom 形式的 Feed](https://blog.kscn.uk/atom.xml)，这会让完成这个任务简单很多。
 
 既然和 GitHub 仓库有关，那么就可以采用 GitHub Actions 自动化进行 CI/CD 了，于是决定选用社区成熟的 `gautamkrishnar/blog-post-workflow`，它可以提供傻瓜式操作。
 
@@ -47,7 +47,7 @@ jobs:
       - name: Pull in dev.to posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://blog.kisechan.space/atom.xml"
+          feed_list: "https://blog.kscn.uk/atom.xml"
           max_post_count: 5
           date_format: "yyyy-mm-dd"
           custom_tags: "post_tags/category:term/"
@@ -91,7 +91,7 @@ jobs:
 
 ## 成品展示
 
-![](https://images.kisechan.space/github.com_Kisechan.png)
+![](https://images.kscn.uk/github.com_Kisechan.png)
 
 ## 参考和注解
 

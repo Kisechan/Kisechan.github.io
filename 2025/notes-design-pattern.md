@@ -1,11 +1,11 @@
 ﻿---
 title: 软件设计模式 课程笔记
-url: https://blog.kisechan.space/2025/notes-design-pattern/
+url: https://blog.kscn.uk/2025/notes-design-pattern/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
-![设计模式课程的主要内容](https://images.kisechan.space/20251115161935679.png)
+![设计模式课程的主要内容](https://images.kscn.uk/20251115161935679.png)
 
 ## 面向对象和设计模式
 
@@ -287,7 +287,7 @@ private:
 
 #### 关系模型（类间关系）是复用的基础
 
-![类间关系与 UML 绘制](https://images.kisechan.space/20251122202516535.png)
+![类间关系与 UML 绘制](https://images.kscn.uk/20251122202516535.png)
 
 类之间的关系是 OO 中复用的工具。
 
@@ -1451,7 +1451,7 @@ classDiagram
 |      **Director（指挥者）**       | 控制构建顺序，调用 Builder 的方法 |
 |        **Product（产品）**        |        最终生成的复杂对象         |
 
-![](https://images.kisechan.space/20251119145606655.png)
+![](https://images.kscn.uk/20251119145606655.png)
 
 **优点**：
 
@@ -1544,7 +1544,7 @@ classDiagram
 | **ConcretePrototype（具体原型）** |   实现 `clone` 方法    |
 |       **Client（客户端）**        | 使用原型对象生成新对象 |
 
-![](https://images.kisechan.space/20251119145530992.png)
+![](https://images.kscn.uk/20251119145530992.png)
 
 #### 深拷贝 & 浅拷贝
 
@@ -1654,7 +1654,7 @@ PrototypeManager --> Prototype
 2. 类负责自行创建这个实例
 3. 类提供全局访问该实例的静态方法
 
-![image-20251119151757504](https://images.kisechan.space/20251119151757573.png)
+![image-20251119151757504](https://images.kscn.uk/20251119151757573.png)
 
 ---
 
@@ -1884,7 +1884,7 @@ classDiagram
 
 注意，在图中， **`Target` 是我们需要调用的“统一的接口”**，而 `Adaptee` 是旧的或者不兼容的接口，所以我们需要用 `Adapter` 兼容它的功能。
 
-![](https://images.kisechan.space/20251119173802423.png)
+![](https://images.kscn.uk/20251119173802423.png)
 
 ```java
 public class Adapter implements Target {
@@ -1921,7 +1921,7 @@ public class Adapter implements Target {
 
 使用继承。
 
-![](https://images.kisechan.space/20251119173726029.png)
+![](https://images.kscn.uk/20251119173726029.png)
 
 ```java
 public class Adapter extends Adaptee implements Target {
@@ -2003,7 +2003,7 @@ public class InputStreamAdapter extends InputStream {
 - 定义一个 **默认适配器类（提供空方法）**
 - 子类只需覆盖需要的方法
 
-![](https://images.kisechan.space/20251119174411026.png)
+![](https://images.kscn.uk/20251119174411026.png)
 
 常见于 Java AWT：
 
@@ -2018,7 +2018,7 @@ public class InputStreamAdapter extends InputStream {
 - Target → Adaptee
 - Adaptee → Target
 
-![image-20251119174346420](https://images.kisechan.space/20251119174346497.png)
+![image-20251119174346420](https://images.kscn.uk/20251119174346497.png)
 
 3. **智能适配器**
 
@@ -2095,7 +2095,7 @@ public class InputStreamAdapter extends InputStream {
 - Handle and Body
 - Interface
 
-![](https://images.kisechan.space/20251119211900832.png)
+![](https://images.kscn.uk/20251119211900832.png)
 
 1. **实现接口**
 
@@ -2251,7 +2251,7 @@ pen.draw("Flower");
 
 结构示意：
 
-![](https://images.kisechan.space/20251119212646602.png)
+![](https://images.kscn.uk/20251119212646602.png)
 
 ---
 
@@ -2367,7 +2367,7 @@ class Composite extends Component {
 }
 ```
 
-![](https://images.kisechan.space/20251119214330094.png)
+![](https://images.kscn.uk/20251119214330094.png)
 
 ---
 
@@ -2377,7 +2377,7 @@ class Composite extends Component {
 - Composite：Plate（含若干水果或子盘子）
 - 调用 `operation()` → 遍历整个结构并吃掉水果
 
-![](https://images.kisechan.space/20251119214246123.png)
+![](https://images.kscn.uk/20251119214246123.png)
 
 ---
 
@@ -2453,7 +2453,7 @@ ConcreteComponent  Decorator
              ConcreteDecoratorB
 ```
 
-![](https://images.kisechan.space/20251119214859977.png)
+![](https://images.kscn.uk/20251119214859977.png)
 
 ---
 
@@ -2621,7 +2621,7 @@ r.say();  // 特有功能
 
    - 不知道外观类的存在。
 
-![](https://images.kisechan.space/20251120104532730.png)
+![](https://images.kscn.uk/20251120104532730.png)
 
 **模式实现示例**
 
@@ -3024,7 +3024,7 @@ FlyweightFactory → 通常设计为单例
 
    - 调用前后加入新的行为
 
-![](https://images.kisechan.space/20251120104441427.png)
+![](https://images.kscn.uk/20251120104441427.png)
 
 ---
 
@@ -3184,7 +3184,7 @@ public class Proxy implements Subject {
 | **ConcreteHandler**       | 实现处理逻辑；决定是否处理或转发           |
 | **Client**                | 负责创建链并发起请求                       |
 
-![](https://images.kisechan.space/20251120112503279.png)
+![](https://images.kscn.uk/20251120112503279.png)
 
 **典型代码**
 
@@ -3320,7 +3320,7 @@ a.handleRequest(10);
 | **Colleague（同事抽象类）** | 持有中介者引用；定义自身行为           |
 | **ConcreteColleague**       | 实现同事行为，通过中介者与其他同事通信 |
 
-![](https://images.kisechan.space/20251120112729183.png)
+![](https://images.kscn.uk/20251120112729183.png)
 
 ---
 
@@ -3451,7 +3451,7 @@ member1.send("hello");
 - **Receiver**：执行真正的业务逻辑
 - **Invoker**：请求发送者，通过 Command 调用 Receiver
 
-![](https://images.kisechan.space/20251120153648003.png)
+![](https://images.kscn.uk/20251120153648003.png)
 
 ---
 
@@ -3614,7 +3614,7 @@ FunctionButton 是 Invoker
 
 ---
 
-![](https://images.kisechan.space/20251120154459358.png)
+![](https://images.kscn.uk/20251120154459358.png)
 
 角色：
 
@@ -3650,7 +3650,7 @@ C++ 可通过 `friend`。
 - `undo`：向后取一个备忘录
 - `redo`：向前取一个备忘录
 
-![](https://images.kisechan.space/20251120154619657.png)
+![](https://images.kscn.uk/20251120154619657.png)
 
 ```mermaid
 sequenceDiagram
@@ -3746,7 +3746,7 @@ Originator 可以直接 `clone()`，这个 `clone` 就作为备忘录对象保�
 
 迭代器内部持有聚合对象的引用。
 
-![](https://images.kisechan.space/20251121163400638.png)
+![](https://images.kscn.uk/20251121163400638.png)
 
 **抽象迭代器**：
 
@@ -3866,7 +3866,7 @@ class ConcreteIterator implements Iterator {
 | Observer         | 抽象观察者 |
 | ConcreteObserver | 具体观察者 |
 
-![](https://images.kisechan.space/20251121163603487.png)
+![](https://images.kscn.uk/20251121163603487.png)
 
 **抽象目标类**：
 
@@ -3991,7 +3991,7 @@ else if (state == EXPERT) {...}
 | State（抽象状态类）         | 统一定义不同状态的行为接口       |
 | ConcreteState（具体状态类） | 每个状态一个类，封装该状态的行为 |
 
-![](https://images.kisechan.space/20251121164751972.png)
+![](https://images.kscn.uk/20251121164751972.png)
 
 #### 状态转换的两种方式
 
@@ -4110,7 +4110,7 @@ class Context {
 }
 ```
 
-![](https://images.kisechan.space/20251121165212124.png)
+![](https://images.kscn.uk/20251121165212124.png)
 
 ---
 
@@ -4180,7 +4180,7 @@ class Context {
 
 模板方法模式的结构是最简单的行为模式之一：
 
-![](https://images.kisechan.space/20251121165346083.png)
+![](https://images.kscn.uk/20251121165346083.png)
 
 ```java
 abstract class Dining {
@@ -4344,7 +4344,7 @@ Gemini 整理。
 
 ### UML 绘图
 
-![类间关系与 UML 绘制](https://images.kisechan.space/20251122202516535.png)
+![类间关系与 UML 绘制](https://images.kscn.uk/20251122202516535.png)
 
 ### 选取设计模式
 

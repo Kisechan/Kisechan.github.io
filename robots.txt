@@ -7,7 +7,7 @@ Disallow: /private/
 Disallow: /search/
 Disallow: /cdn-cgi/
 Allow: /
-Sitemap: https://blog.kisechan.space/sitemap.xml
+Sitemap: https://blog.kscn.uk/sitemap.xml
 
 User-agent: GPTBot
 Disallow: /
@@ -21,5 +21,5 @@ Disallow: /
 User-agent: Applebot-Extended
 Disallow: /
 
-# Agent index: https://blog.kisechan.space/llms.txt
+# Agent index: https://blog.kscn.uk/llms.txt
 # Public Markdown copies are available through page alternate links.

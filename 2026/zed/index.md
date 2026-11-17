@@ -1,8 +1,8 @@
 ﻿---
 title: 我的简易 Zed 配置和使用体验
-url: https://blog.kisechan.space/2026/zed/
+url: https://blog.kscn.uk/2026/zed/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 因为 VSCode 目前一些已有的不好体验，包括 Electron 开发、新版本的丑陋 UI，外加社交媒体之类的地方对 Zed 的炒作，所以尝试了一下这个新的编辑器。
@@ -17,7 +17,7 @@ time: '2026-11-15T08:57:06.623Z'
 
 Zed 的配置文件一般位于 `~/.config/zed/settings.json`，快捷键配置位于 `~/.config/zed/keymap.json`。
 
-![](https://images.kisechan.space/uploads/2026/09/12/image-20260912234325938-19986147.png)
+![](https://images.kscn.uk/uploads/2026/09/12/image-20260912234325938-19986147.png)
 
 ## 外观配置
 

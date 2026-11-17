@@ -1,8 +1,8 @@
 ﻿---
 title: Apuntes de español, semana 1
-url: https://blog.kisechan.space/2026/Apuntes-de-espan%CC%83ol-semana-1/
+url: https://blog.kscn.uk/2026/Apuntes-de-espan%CC%83ol-semana-1/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 **注意**：
@@ -14,6 +14,6 @@ time: '2026-11-15T08:57:06.623Z'
 ---
 
 Apuntes-de-español-semana-1.pdf
-https://images.kisechan.space/Apuntes-de-espan%CC%83ol-semana-1.pdf
+https://images.kscn.uk/Apuntes-de-espan%CC%83ol-semana-1.pdf
 
 ---

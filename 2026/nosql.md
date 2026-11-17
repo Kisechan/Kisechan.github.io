@@ -1,8 +1,8 @@
 ﻿---
 title: NoSQL 的学习使用和环境配置
-url: https://blog.kisechan.space/2026/nosql/
+url: https://blog.kscn.uk/2026/nosql/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 **数据库系列笔记**
@@ -12,19 +12,19 @@ time: '2026-11-15T08:57:06.623Z'
 ---
 
 Kisechan 的数据库系列笔记
-https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/
+https://blog.kscn.uk/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/
 
 ---
 
 - **数据库原理课程笔记部分**：
-  - [数据库原理 课程笔记 (1) 数据库、关系代数和 SQL](https://blog.kisechan.space/2025/notes-database-1/)
-  - [数据库原理 课程笔记 (2) E-R 模型和关系模式](https://blog.kisechan.space/2025/notes-database-2/)
-  - [数据库原理 课程笔记 (3) 存储、索引、事务和并发](https://blog.kisechan.space/2025/notes-database-3/)
-  - [数据库原理 课程笔记 (4) 杂项和题目整理](https://blog.kisechan.space/2025/notes-database-4/)
+  - [数据库原理 课程笔记 (1) 数据库、关系代数和 SQL](https://blog.kscn.uk/2025/notes-database-1/)
+  - [数据库原理 课程笔记 (2) E-R 模型和关系模式](https://blog.kscn.uk/2025/notes-database-2/)
+  - [数据库原理 课程笔记 (3) 存储、索引、事务和并发](https://blog.kscn.uk/2025/notes-database-3/)
+  - [数据库原理 课程笔记 (4) 杂项和题目整理](https://blog.kscn.uk/2025/notes-database-4/)
 - **手搓数据库** (CS346) **部分**：
-  - [设计一个数据库引擎 (1) 内存、外存和记录管理](https://blog.kisechan.space/2025/db-engine-1/)
-  - [设计一个数据库引擎 (2) 索引](https://blog.kisechan.space/2025/db-engine-2/)
-  - [设计一个数据库引擎 (3) SQL 处理](https://blog.kisechan.space/2025/db-engine-3/)
+  - [设计一个数据库引擎 (1) 内存、外存和记录管理](https://blog.kscn.uk/2025/db-engine-1/)
+  - [设计一个数据库引擎 (2) 索引](https://blog.kscn.uk/2025/db-engine-2/)
+  - [设计一个数据库引擎 (3) SQL 处理](https://blog.kscn.uk/2025/db-engine-3/)
 - **Oracle 和 NoSQL 课程部分**：
   - ~~Oracle 的学习使用和环境配置~~
   - NoSQL 的学习使用和环境配置 【**当前阅读**】
@@ -228,7 +228,7 @@ sudo ufw allow 8088    # YARN ResourceManager
 sudo ufw allow 16010   # HBase Master UI
 ```
 
-![](https://images.kisechan.space/20260215223449587.png)
+![](https://images.kscn.uk/20260215223449587.png)
 
 ##### Hadoop 安装
 
@@ -565,7 +565,7 @@ scan 'test'
 exit
 ```
 
-![](https://images.kisechan.space/20260215223523846.png)
+![](https://images.kscn.uk/20260215223523846.png)
 
 ### 使用 Docker 配置 Hadoop/HBase 环境
 
@@ -579,7 +579,7 @@ exit
 docker pull kisechan/hadoop-hbase:latest
 ```
 
-<a href="https://hub.docker.com/repository/docker/kisechan/hadoop-hbase" name="https://images.kisechan.space/docker-icon.png" class="LinkCard">hadoop-hbase</a>
+<a href="https://hub.docker.com/repository/docker/kisechan/hadoop-hbase" name="https://images.kscn.uk/docker-icon.png" class="LinkCard">hadoop-hbase</a>
 
 使用步骤可以参考其中的 README 或 Overview。
 
@@ -688,7 +688,7 @@ Shard 通常本身就是一个复制集，因此每个数据分区仍然具备�
 
 ### 若干使用问题
 
-![](https://images.kisechan.space/20260215224221594.png)
+![](https://images.kscn.uk/20260215224221594.png)
 
 #### 聚合框架
 
@@ -1067,6 +1067,6 @@ sudo ufw allow 7687/tcp
 
 如果使用的是 Azure 服务器，那么微软官方已经提供了 Neo4j 的预设，直接选择即可。
 
-![](https://images.kisechan.space/20260222221158134.png)
+![](https://images.kscn.uk/20260222221158134.png)
 
 ## 参考和注解

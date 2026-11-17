@@ -1,13 +1,13 @@
 ﻿---
 title: Español
-url: https://blog.kisechan.space/tags/Espanol/
+url: https://blog.kscn.uk/tags/Espanol/
 type: tag
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## Articles
 
-- [Notas de repaso en español](https://blog.kisechan.space/2026/Notas-de-repaso-en-espanol/index.md)
-- [Apuntes de español, semana 3](https://blog.kisechan.space/2026/Apuntes-de-espanol-semana-3/index.md)
-- [Apuntes de español, semana 2](https://blog.kisechan.space/2026/Apuntes-de-espanol-semana-2/index.md)
-- [Apuntes de español, semana 1](https://blog.kisechan.space/2026/Apuntes-de-espan%CC%83ol-semana-1/index.md)
+- [Notas de repaso en español](https://blog.kscn.uk/2026/Notas-de-repaso-en-espanol/index.md)
+- [Apuntes de español, semana 3](https://blog.kscn.uk/2026/Apuntes-de-espanol-semana-3/index.md)
+- [Apuntes de español, semana 2](https://blog.kscn.uk/2026/Apuntes-de-espanol-semana-2/index.md)
+- [Apuntes de español, semana 1](https://blog.kscn.uk/2026/Apuntes-de-espan%CC%83ol-semana-1/index.md)

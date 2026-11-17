@@ -1,8 +1,8 @@
 ﻿---
 title: “正确”的理想的，我的生活
-url: https://blog.kisechan.space/2026/dreaming-live/
+url: https://blog.kscn.uk/2026/dreaming-live/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 只是很想讲讲近况。
@@ -74,7 +74,7 @@ time: '2026-11-15T08:57:06.623Z'
 
 虹桥站的一个标语看着还是很感动的：
 
-![](https://images.kisechan.space/uploads/2026/11/14/1971c25e-30b0-447f-9cae-b5f4725cd5b2-1-105-c-bcd642d1.jpeg)
+![](https://images.kscn.uk/uploads/2026/11/14/1971c25e-30b0-447f-9cae-b5f4725cd5b2-1-105-c-bcd642d1.jpeg)
 
 面试的几天嫌吃饭麻烦，所以就天天吃便利店，罗森的饭团都吃得我想吐了。
 
@@ -90,7 +90,7 @@ time: '2026-11-15T08:57:06.623Z'
 
 我希望，我可以作为独属于我的幸福的存在，一直存在着。
 
-![作者 X: @Yebiyo1206，非常可爱的！](https://images.kisechan.space/uploads/2026/11/14/f200a5f2-ba56-40fe-80c1-7dac171ee94d-1-105-c-2895ff36.jpeg)
+![作者 X: @Yebiyo1206，非常可爱的！](https://images.kscn.uk/uploads/2026/11/14/f200a5f2-ba56-40fe-80c1-7dac171ee94d-1-105-c-2895ff36.jpeg)
 
 ---
 

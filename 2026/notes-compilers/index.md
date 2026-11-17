@@ -1,8 +1,8 @@
 ﻿---
 title: 编译原理课程笔记
-url: https://blog.kisechan.space/2026/notes-compilers/
+url: https://blog.kscn.uk/2026/notes-compilers/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## 概论
@@ -17,7 +17,7 @@ time: '2026-11-15T08:57:06.623Z'
 
 #### 编译方式
 
-![](https://images.kisechan.space/uploads/2026/06/17/image-20260617204547229-5c2c52fc.png)
+![](https://images.kscn.uk/uploads/2026/06/17/image-20260617204547229-5c2c52fc.png)
 
 将⾼级语⾔（源语⾔）翻译成低级语⾔（如汇编语⾔或机器语⾔）的⽬标程序的翻译⽅式。⼀次性将源程序翻译为⽬标程序，之后直接运⾏⽬标程序，⽆需重复翻译。
 
@@ -25,7 +25,7 @@ time: '2026-11-15T08:57:06.623Z'
 
 #### 解释方式
 
-![](https://images.kisechan.space/uploads/2026/06/17/image-20260617204629206-2a5d5588.png)
+![](https://images.kscn.uk/uploads/2026/06/17/image-20260617204629206-2a5d5588.png)
 
 逐⾏翻译并同时执⾏⾼级语⾔程序，翻译与执⾏同步完成。⽆需⽣成独⽴的⽬标程序，边翻译边运⾏。
 
@@ -33,7 +33,7 @@ time: '2026-11-15T08:57:06.623Z'
 
 #### 转换方式
 
-![](https://images.kisechan.space/uploads/2026/06/17/image-20260617204712228-e0a79442.png)
+![](https://images.kscn.uk/uploads/2026/06/17/image-20260617204712228-e0a79442.png)
 
 将⼀种⾼级语⾔（A 语⾔）转换为另⼀种⾼级语⾔（B 语⾔），再利⽤ B 语⾔的编译器执⾏。不直接属于⾼级语⾔的实现⽅式，⽽是⼀种变通策略。
 
@@ -41,7 +41,7 @@ time: '2026-11-15T08:57:06.623Z'
 
 ### 编译程序的组成
 
-![编译程序的组成](https://images.kisechan.space/uploads/2026/06/17/image-20260617204803691-b97bb593.png)
+![编译程序的组成](https://images.kscn.uk/uploads/2026/06/17/image-20260617204803691-b97bb593.png)
 
 表处理和错误处理也可以算作编译程序的组成部分，但是主要还是中间的六个部分。
 
@@ -311,7 +311,7 @@ $$
 
 #### 正则表达式的局限性
 
-![](https://images.kisechan.space/uploads/2026/06/20/image-20260620190125859-e6a05814.png)
+![](https://images.kscn.uk/uploads/2026/06/20/image-20260620190125859-e6a05814.png)
 
 #### 注意事项
 
@@ -325,7 +325,7 @@ $(0|1)*$ 表示任意字串，那么答案应该是 $1(0|1)*0|0$。
 
 例题：
 
-![](https://images.kisechan.space/uploads/2026/06/20/image-20260620191618350-1a04db97.png)
+![](https://images.kscn.uk/uploads/2026/06/20/image-20260620191618350-1a04db97.png)
 
 1. 可以构造成 $(y|z)*(x(y∣z)∗x(y∣z)∗)∗$
 2. 可以构造成 $(x∣z∣y(x∣z))∗(\varepsilon∣y)$
@@ -384,9 +384,9 @@ DFA 有两种常见表示方式。
 
 第一种是状态转换图。状态转换图使用有向图表示自动机：
 
-![](https://images.kisechan.space/uploads/2026/06/17/image-20260617213332191-3fc88fea.png)
+![](https://images.kscn.uk/uploads/2026/06/17/image-20260617213332191-3fc88fea.png)
 
-![](https://images.kisechan.space/uploads/2026/06/17/image-20260617213448765-62872c0a.png)
+![](https://images.kscn.uk/uploads/2026/06/17/image-20260617213448765-62872c0a.png)
 
 ---
 
@@ -483,11 +483,11 @@ $$
 
 ---
 
-![](https://images.kisechan.space/uploads/2026/06/20/image-20260620201843577-40a6734c.png)
+![](https://images.kscn.uk/uploads/2026/06/20/image-20260620201843577-40a6734c.png)
 
 这个 DFA 可以画成下面的图，其中 D 是个非法状态：
 
-![](https://images.kisechan.space/uploads/2026/06/20/image-20260620202035990-2bdee2d9.png)
+![](https://images.kscn.uk/uploads/2026/06/20/image-20260620202035990-2bdee2d9.png)
 
 #### DFA 描述单词
 
@@ -604,7 +604,7 @@ $$
 
 含义是：NFA 在某个状态读入一个字符，或通过 $\varepsilon$ 空边，可以转移到一个状态集合。**它允许一个状态对同一输入有多个后继状态**，**也允许 $\varepsilon$ 转移**。
 
-![](https://images.kisechan.space/uploads/2026/06/20/image-20260620211618332-7e2a558a.png)
+![](https://images.kscn.uk/uploads/2026/06/20/image-20260620211618332-7e2a558a.png)
 
 ---
 
@@ -628,11 +628,11 @@ $$
 
 可以作为 DFA 中的一个状态 $s_i'$。
 
-![](https://images.kisechan.space/uploads/2026/06/21/image-20260621163447756-8bc93534.png)
+![](https://images.kscn.uk/uploads/2026/06/21/image-20260621163447756-8bc93534.png)
 
 #### 无 $\varepsilon$ 空边 NFA 的确定化
 
-![](https://images.kisechan.space/uploads/2026/06/17/image-20260617223045483-f052f90d.png)
+![](https://images.kscn.uk/uploads/2026/06/17/image-20260617223045483-f052f90d.png)
 
 对于无 $\varepsilon$ 空边的 NFA，确定化时直接计算状态集合在每个输入符号下能到达的新状态集合。
 
@@ -646,7 +646,7 @@ $$
 
 #### 带 $\varepsilon$ 空边 NFA 的确定化
 
-![](https://images.kisechan.space/uploads/2026/06/17/image-20260617223109247-b52e6a4c.png)
+![](https://images.kscn.uk/uploads/2026/06/17/image-20260617223109247-b52e6a4c.png)
 
 带 $\varepsilon$ 空边时，需要先引入 $\varepsilon$ 闭包。状态集 $J$ 的 $\varepsilon$ 闭包记为：
 
@@ -676,7 +676,7 @@ $$
 
 其中 $I_a$ 就是状态集 $I$ 读入 $a$ 后在 DFA 中应转移到的新状态集合，**它也是闭包**。
 
-![](https://images.kisechan.space/uploads/2026/06/20/image-20260620211912913-1ee2e0e9.png)
+![](https://images.kscn.uk/uploads/2026/06/20/image-20260620211912913-1ee2e0e9.png)
 
 ---
 
@@ -690,7 +690,7 @@ $$
 
 ---
 
-![](https://images.kisechan.space/uploads/2026/06/18/image-20260618194325697-f46777ad.png)
+![](https://images.kscn.uk/uploads/2026/06/18/image-20260618194325697-f46777ad.png)
 
 课件中的例子把 NFA 状态集合转换为 DFA 状态，例如：
 
@@ -708,9 +708,9 @@ $$
 
 另一个例题：
 
-![](https://images.kisechan.space/uploads/2026/06/21/image-20260621164101170-c33662df.png)
+![](https://images.kscn.uk/uploads/2026/06/21/image-20260621164101170-c33662df.png)
 
-![](https://images.kisechan.space/uploads/2026/06/21/image-20260621164514757-c0afdfa6.png)
+![](https://images.kscn.uk/uploads/2026/06/21/image-20260621164514757-c0afdfa6.png)
 
 ---
 
@@ -754,7 +754,7 @@ DFA 化简常用状态分离法。步骤：
 
 ---
 
-![](https://images.kisechan.space/uploads/2026/06/18/image-20260618195359750-ba23e5ae.png)
+![](https://images.kscn.uk/uploads/2026/06/18/image-20260618195359750-ba23e5ae.png)
 
 课件例子中的初始划分为：
 
@@ -790,7 +790,7 @@ $$
 
 正则表达式到 NFA 的转换基于基本结构组合。
 
-![](https://images.kisechan.space/uploads/2026/06/18/image-20260618195754700-18b2a765.png)
+![](https://images.kscn.uk/uploads/2026/06/18/image-20260618195754700-18b2a765.png)
 
 1. 单个字符 $a$：**构造一条从开始状态到终止状态、标记为 $a$ 的边**。
 2. 连接表达式 $ab$：**先构造 $a$ 的 NFA，再构造 $b$ 的 NFA，把前一个片段的终止状态连接到后一个片段的开始状态**。
@@ -822,7 +822,7 @@ $$
 
 即所有字母表 ${a,b}$ 上以 $aa$ 结尾的字符串。
 
-![](https://images.kisechan.space/uploads/2026/06/21/image-20260621165235847-f523bcc9.png)
+![](https://images.kscn.uk/uploads/2026/06/21/image-20260621165235847-f523bcc9.png)
 
 #### NFA 到正则表达式
 
@@ -870,7 +870,7 @@ $$
 
 NFA 中先通过 $a$ 或 $b$ 进入中间部分，中间部分在 $c$ 和 $d$ 上循环，最后通过 $e$ 或 $f$ 到达终止状态。
 
-![](https://images.kisechan.space/uploads/2026/06/21/image-20260621165623768-c9293ad7.png)
+![](https://images.kscn.uk/uploads/2026/06/21/image-20260621165623768-c9293ad7.png)
 
 第二步：NFA 确定化。
 
@@ -920,7 +920,7 @@ $$
 - $\{S_1,S_2\}$ 读入 $c$ 或 $d$ 仍留在 $\{S_1,S_2\}$
 - $\{S_1,S_2\}$ 读入 $e$ 或 $f$ 到达 $S_3$
 
-![](https://images.kisechan.space/uploads/2026/06/21/image-20260621165820878-c868fdf8.png)
+![](https://images.kscn.uk/uploads/2026/06/21/image-20260621165820878-c868fdf8.png)
 
 ---
 
@@ -1041,15 +1041,15 @@ $$
 
 语法分析树描述的是结构，线性推导描述的是推导顺序。一个句型若文法无二义性，通常对应唯一分析树；线性推导过程可能不止一种。
 
-![](https://images.kisechan.space/uploads/2026/06/21/image-20260621204643300-5be72d5b.png)
+![](https://images.kscn.uk/uploads/2026/06/21/image-20260621204643300-5be72d5b.png)
 
 ---
 
 例题：
 
-![](https://images.kisechan.space/uploads/2026/06/21/image-20260621205120548-71947de8.png)
+![](https://images.kscn.uk/uploads/2026/06/21/image-20260621205120548-71947de8.png)
 
-![](https://images.kisechan.space/uploads/2026/06/21/image-20260621205201975-522d57a4.png)
+![](https://images.kscn.uk/uploads/2026/06/21/image-20260621205201975-522d57a4.png)
 
 #### 二义性文法
 
@@ -1065,15 +1065,15 @@ $$
 
 对串 $i*i+i$ 可以构造两种不同结构的分析树，因此它是二义性文法。二义性会直接影响语法分析器如何确定结构。
 
-![](https://images.kisechan.space/uploads/2026/06/21/image-20260621205323463-bafbcbe0.png)
+![](https://images.kscn.uk/uploads/2026/06/21/image-20260621205323463-bafbcbe0.png)
 
 ---
 
 另一个例子：
 
-![](https://images.kisechan.space/uploads/2026/06/21/image-20260621205422792-be801df8.png)
+![](https://images.kscn.uk/uploads/2026/06/21/image-20260621205422792-be801df8.png)
 
-![](https://images.kisechan.space/uploads/2026/06/21/image-20260621205433445-8b09022e.png)
+![](https://images.kscn.uk/uploads/2026/06/21/image-20260621205433445-8b09022e.png)
 
 在 C 语言中，`else` 会和最近的 `if` 匹配。
 
@@ -1197,7 +1197,7 @@ $$
 
 本质上是把“共同开头”先抽出来，再延后分支选择。
 
-![](https://images.kisechan.space/uploads/2026/06/21/image-20260621210740896-342b46cf.png)
+![](https://images.kscn.uk/uploads/2026/06/21/image-20260621210740896-342b46cf.png)
 
 #### 消除左递归
 
@@ -1209,7 +1209,7 @@ $A \Rightarrow^+ A\dots$
 
 则称文法有左递归。
 
-![](https://images.kisechan.space/uploads/2026/06/21/image-20260621210849605-8d1cfd9b.png)
+![](https://images.kscn.uk/uploads/2026/06/21/image-20260621210849605-8d1cfd9b.png)
 
 ##### 直接左递归
 
@@ -1249,11 +1249,11 @@ $ A \to A\gamma\alpha \mid b\alpha \mid \beta $
 
 ---
 
-![](https://images.kisechan.space/uploads/2026/06/21/image-20260621211736142-3e5cb8f0.png)
+![](https://images.kscn.uk/uploads/2026/06/21/image-20260621211736142-3e5cb8f0.png)
 
 可以这样构建：
 
-![](https://images.kisechan.space/uploads/2026/06/21/image-20260621211921081-7f7727e7.png)
+![](https://images.kscn.uk/uploads/2026/06/21/image-20260621211921081-7f7727e7.png)
 
 所以它是一个二义性的文法。
 

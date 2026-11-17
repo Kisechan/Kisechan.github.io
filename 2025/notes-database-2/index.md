@@ -1,8 +1,8 @@
 ﻿---
 title: 数据库原理 课程笔记 (2) E-R 模型和关系模式
-url: https://blog.kisechan.space/2025/notes-database-2/
+url: https://blog.kscn.uk/2025/notes-database-2/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 **数据库系列笔记**
@@ -12,22 +12,22 @@ time: '2026-11-15T08:57:06.623Z'
 ---
 
 Kisechan 的数据库系列笔记
-https://blog.kisechan.space/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/
+https://blog.kscn.uk/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/
 
 ---
 
 - **数据库原理课程笔记部分**：
-  - [数据库原理 课程笔记 (1) 数据库、关系代数和 SQL](https://blog.kisechan.space/2025/notes-database-1/)
+  - [数据库原理 课程笔记 (1) 数据库、关系代数和 SQL](https://blog.kscn.uk/2025/notes-database-1/)
   - 数据库原理 课程笔记 (2) E-R 模型和关系模式 【**当前阅读**】
-  - [数据库原理 课程笔记 (3) 存储、索引、事务和并发](https://blog.kisechan.space/2025/notes-database-3/)
-  - [数据库原理 课程笔记 (4) 杂项和题目整理](https://blog.kisechan.space/2025/notes-database-4/)
+  - [数据库原理 课程笔记 (3) 存储、索引、事务和并发](https://blog.kscn.uk/2025/notes-database-3/)
+  - [数据库原理 课程笔记 (4) 杂项和题目整理](https://blog.kscn.uk/2025/notes-database-4/)
 - **手搓数据库** (CS346) **部分**：
-  - [设计一个数据库引擎 (1) 内存、外存和记录管理](https://blog.kisechan.space/2025/db-engine-1/)
-  - [设计一个数据库引擎 (2) 索引](https://blog.kisechan.space/2025/db-engine-2/)
-  - [设计一个数据库引擎 (3) SQL 处理](https://blog.kisechan.space/2025/db-engine-3/)
+  - [设计一个数据库引擎 (1) 内存、外存和记录管理](https://blog.kscn.uk/2025/db-engine-1/)
+  - [设计一个数据库引擎 (2) 索引](https://blog.kscn.uk/2025/db-engine-2/)
+  - [设计一个数据库引擎 (3) SQL 处理](https://blog.kscn.uk/2025/db-engine-3/)
 - **Oracle 和 NoSQL 课程部分**：
   - ~~Oracle 的学习使用和环境配置~~
-  - [NoSQL 的学习使用和环境配置](https://blog.kisechan.space/2026/nosql/)
+  - [NoSQL 的学习使用和环境配置](https://blog.kscn.uk/2026/nosql/)
 
 ## 实体-联系模型
 
@@ -140,17 +140,17 @@ erDiagram
 
 #### 绘图示例
 
-![](https://images.kisechan.space/20250609190020.png)
+![](https://images.kscn.uk/20250609190020.png)
 
-![](https://images.kisechan.space/20250609191930.png)
+![](https://images.kscn.uk/20250609191930.png)
 
-![](https://images.kisechan.space/20250609192027.png)
+![](https://images.kscn.uk/20250609192027.png)
 
-![全参与。老师可以不指导学生，每位学生必须至少由 1 名老师指导](https://images.kisechan.space/20250610221359.png)
+![全参与。老师可以不指导学生，每位学生必须至少由 1 名老师指导](https://images.kscn.uk/20250610221359.png)
 
-![也可以使用 a..b 来表示实体集的基数约束。 1 名老师可以指导 0 名或者多名学生， 1 名学生只能被 1 名老师指导。](https://images.kisechan.space/20250610221956.png)
+![也可以使用 a..b 来表示实体集的基数约束。 1 名老师可以指导 0 名或者多名学生， 1 名学生只能被 1 名老师指导。](https://images.kscn.uk/20250610221956.png)
 
-![弱实体集用双线矩形表示，和实体集的区别属性集用虚线标记。弱实体集没有足够的属性作为主码，必须依赖 1 个强实体集。](https://images.kisechan.space/20250610222544.png)
+![弱实体集用双线矩形表示，和实体集的区别属性集用虚线标记。弱实体集没有足够的属性作为主码，必须依赖 1 个强实体集。](https://images.kscn.uk/20250610222544.png)
 
 ### 设计 ER 模型
 
@@ -279,13 +279,13 @@ erDiagram
 
 **直接对应一个关系模式**。
 
-![](https://images.kisechan.space/image-20250420221105454.png)
+![](https://images.kscn.uk/image-20250420221105454.png)
 
 #### 弱实体集
 
 **分辨符和关联的强实体集的主码**作为主码，和其他属性一同构成一个关系模式。
 
-![](https://images.kisechan.space/image-20250420221152027.png)
+![](https://images.kscn.uk/image-20250420221152027.png)
 
 #### 联系集
 
@@ -299,13 +299,13 @@ erDiagram
 
 联系集包含了自身的属性，还需要包含**参与该联系的属性集的主码**：
 
-![](https://images.kisechan.space/fklqniufbaq.png)
+![](https://images.kscn.uk/fklqniufbaq.png)
 
 #### 复合属性
 
 可以为子属性的每一个属性，都建一个单独的属性**合并到父属性中**。
 
-![](https://images.kisechan.space/image-20250420221935705.png)
+![](https://images.kscn.uk/image-20250420221935705.png)
 
 #### 多值属性
 
@@ -359,7 +359,7 @@ ER 模型和关系模式一脉相承：
 - 分解成更小的模式是更好的
 - 但是有些分解会带来代价
 
-![不是那么好的分解](https://images.kisechan.space/image-20250423205721731.png)
+![不是那么好的分解](https://images.kscn.uk/image-20250423205721731.png)
 
 ### 模式分解的目标
 

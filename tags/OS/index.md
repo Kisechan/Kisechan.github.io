@@ -1,10 +1,10 @@
 ﻿---
 title: OS
-url: https://blog.kisechan.space/tags/OS/
+url: https://blog.kscn.uk/tags/OS/
 type: tag
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## Articles
 
-- [操作系统复习](https://blog.kisechan.space/2025/notes-os/index.md)
+- [操作系统复习](https://blog.kscn.uk/2025/notes-os/index.md)

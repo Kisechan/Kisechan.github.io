@@ -1,8 +1,8 @@
 ﻿---
 title: Links
-url: https://blog.kisechan.space/links/
+url: https://blog.kscn.uk/links/
 type: page
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## Links

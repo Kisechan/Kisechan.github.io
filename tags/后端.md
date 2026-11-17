@@ -1,10 +1,10 @@
 ﻿---
 title: 后端
-url: https://blog.kisechan.space/tags/%E5%90%8E%E7%AB%AF/
+url: https://blog.kscn.uk/tags/%E5%90%8E%E7%AB%AF/
 type: tag
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## Articles
 
-- [网页浏览计数服务](https://blog.kisechan.space/2025/view-counter/index.md)
+- [网页浏览计数服务](https://blog.kscn.uk/2025/view-counter/index.md)

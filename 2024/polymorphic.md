@@ -1,8 +1,8 @@
 ﻿---
 title: 多态实验
-url: https://blog.kisechan.space/2024/polymorphic/
+url: https://blog.kscn.uk/2024/polymorphic/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 # 组合模式的应用
@@ -139,7 +139,7 @@ Branches.push_back(new Company(3, 0, Com.Branches.size() + 1));
 }
 ```
 
-![调用结果](https://images.kisechan.space/202405252245405.png)
+![调用结果](https://images.kscn.uk/202405252245405.png)
 
 可以看到，我们的操作都是实现了的。
 

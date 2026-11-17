@@ -1,8 +1,8 @@
 ﻿---
 title: 算法题复健和推免机试记录
-url: https://blog.kisechan.space/2026/algorithm-rehabilitation/
+url: https://blog.kscn.uk/2026/algorithm-rehabilitation/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 最近为了准备推免机试才重新捡起了算法题，老实说我其实一直对自己的做题能力没有什么信心：
@@ -23,7 +23,7 @@ time: '2026-11-15T08:57:06.623Z'
 3. 矩阵的 01 的翻转，<font color="red">不会</font>，骗分 60/100。
 4. 手写 GCD，签到题，<font color="green">AC</font>。
 
-![](https://images.kisechan.space/uploads/2026/09/15/image-20260915182715003-566e2bb8.png)
+![](https://images.kscn.uk/uploads/2026/09/15/image-20260915182715003-566e2bb8.png)
 
 私以为 Hot 100 的题型覆盖范围还是挺广挺全的，如果真的能吃透差不多就能应付大多数机试了（清除外）。会了典型题型，然后再做一些模拟就够了，当然“掌握”的意思就是要熟练于心。
 

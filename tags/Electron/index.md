@@ -1,10 +1,10 @@
 ﻿---
 title: Electron
-url: https://blog.kisechan.space/tags/Electron/
+url: https://blog.kscn.uk/tags/Electron/
 type: tag
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## Articles
 
-- [制作一只非常可爱的说的道理桌宠](https://blog.kisechan.space/2025/shuodedaoli-deskpet/index.md)
+- [制作一只非常可爱的说的道理桌宠](https://blog.kscn.uk/2025/shuodedaoli-deskpet/index.md)

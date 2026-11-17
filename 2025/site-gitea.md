@@ -1,13 +1,13 @@
 ﻿---
 title: 自部署 Gitea
-url: https://blog.kisechan.space/2025/site-gitea/
+url: https://blog.kscn.uk/2025/site-gitea/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## 部署
 
-可以直接访问[这里](https://gitea.kisechan.space/)。
+可以直接访问[这里](https://gitea.kscn.uk/)。
 
 ## 弯路
 

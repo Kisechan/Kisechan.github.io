@@ -1,10 +1,10 @@
 ﻿---
 title: Python
-url: https://blog.kisechan.space/tags/Python/
+url: https://blog.kscn.uk/tags/Python/
 type: tag
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## Articles
 
-- [二手房房价数据的爬取、清洗、可视化、预测](https://blog.kisechan.space/2024/crawer/index.md)
+- [二手房房价数据的爬取、清洗、可视化、预测](https://blog.kscn.uk/2024/crawer/index.md)

@@ -1,8 +1,8 @@
 ﻿---
 title: 为博客增添 PWA 支持
-url: https://blog.kisechan.space/2025/site-pwa/
+url: https://blog.kscn.uk/2025/site-pwa/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## 介绍
@@ -67,7 +67,7 @@ hexo clean && hexo g && hexo s
 
 现在博客可以通过下面的域名访问到：
 
-- [https://blog.kisechan.space/](https://blog.kisechan.space/)，用 Cloudflare 部署的镜像。
+- [https://blog.kscn.uk/](https://blog.kscn.uk/)，用 Cloudflare 部署的镜像。
 - [https://kisechan-blog.pages.dev/](https://kisechan-blog.pages.dev/)，和上面是一个站，只是上面的绑了域名。
 - [https://kisechan.github.io/](https://kisechan.github.io/)，在 GitHub Pages 部署的博客。
 

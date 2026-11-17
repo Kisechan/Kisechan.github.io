@@ -1,8 +1,8 @@
 ﻿---
 title: 用 Vue、 Element Plus 和 Yaml 实现的友链页面
-url: https://blog.kisechan.space/2025/site-friend-links/
+url: https://blog.kscn.uk/2025/site-friend-links/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## 友链格式
@@ -12,10 +12,10 @@ time: '2026-11-15T08:57:06.623Z'
 ```yaml
 - category: "朋友们"
   links:
-    - avatar: "https://images.kisechan.space/icon.jpg"
+    - avatar: "https://images.kscn.uk/icon.jpg"
       title: "Kisechan's Blog"
       description: "Kisechan 的博客"
-      url: "https://blog.kisechan.space"
+      url: "https://blog.kscn.uk"
     - avatar: "https://example.com/avatar.png"
       title: "个人博客"
       description: "这是一个个人博客"
@@ -234,6 +234,6 @@ export default {
 
 ## 效果展示
 
-![Demo](https://images.kisechan.space/site-friend-links-showtime.png)
+![Demo](https://images.kscn.uk/site-friend-links-showtime.png)
 
-具体的可以移步[https://www.kisechan.space/links](https://www.kisechan.space/links)。
+具体的可以移步[https://kscn.uk/links](https://kscn.uk/links)。

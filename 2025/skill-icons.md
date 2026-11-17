@@ -1,11 +1,11 @@
 ﻿---
 title: 在 Cloudflare Workers 部署 skill-icons
-url: https://blog.kisechan.space/2025/skill-icons/
+url: https://blog.kscn.uk/2025/skill-icons/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
-[**Skill Icons 项目**](https://skillicons.dev/)是一个用于生成技能展示图标的工具，可以帮助用户在 GitHub 或简历中展示自己掌握的技术栈。但原项目已经很久没有维护，图标库也没有更新，于是博主自己部署了一个到 Cloudflare Workers，访问[这里](https://skill-icons.kisechan.space/)即可看到新的代码。
+[**Skill Icons 项目**](https://skillicons.dev/)是一个用于生成技能展示图标的工具，可以帮助用户在 GitHub 或简历中展示自己掌握的技术栈。但原项目已经很久没有维护，图标库也没有更新，于是博主自己部署了一个到 Cloudflare Workers，访问[这里](https://skill-icons.kscn.uk/)即可看到新的代码。
 
 ## 环境配置
 
@@ -48,7 +48,7 @@ compatibility_date = "2025-12-05" # 这是我配置的时候的日期
 
 # 如果你想把 Worker 绑定到自己的自定义域，就可以加上下面的部分
 [[routes]]
-pattern = "skill-icons.kisechan.space"
+pattern = "skill-icons.kscn.uk"
 custom_domain = true
 ```
 
@@ -158,7 +158,7 @@ curl "https://skill-icons.kisechan.workers.dev/icons?i=js,html,css"
 
 > 非常搞笑的是，在博主配置 Worker 的时候，[Cloudflare 又崩了](https://www.cloudflarestatus.com/incidents/lfrm31y6sw9q)，明明半个月前就崩了一次，怕不是又是 Rust 程序员干的（）
 >
-> ![](https://images.kisechan.space/20251206144816526.png)
+> ![](https://images.kscn.uk/20251206144816526.png)
 
 ### 配置根路径重定向
 
@@ -191,4 +191,4 @@ wrangler deploy
 
 可以访问我的 [GitHub Profile](https://github.com/Kisechan) 查看：
 
-![](https://images.kisechan.space/20251206144524071.png)
+![](https://images.kscn.uk/20251206144524071.png)

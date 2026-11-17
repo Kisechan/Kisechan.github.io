@@ -1,8 +1,8 @@
 ﻿---
 title: ''
-url: https://blog.kisechan.space/fonts/README.html
+url: https://blog.kscn.uk/fonts/README.html
 type: page
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 # Blog fonts

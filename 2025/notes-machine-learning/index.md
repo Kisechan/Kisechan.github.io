@@ -1,8 +1,8 @@
 ﻿---
 title: 机器学习 课程笔记
-url: https://blog.kisechan.space/2025/notes-machine-learning/
+url: https://blog.kscn.uk/2025/notes-machine-learning/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 ## 写在前面
@@ -34,7 +34,7 @@ time: '2026-11-15T08:57:06.623Z'
 
 关于考试范围，在笔记中不重要的章节，博主也已经在上面和文档中的标题中用*斜体*标注了它的标题，重点部分用**粗体**标出。
 
-![](https://images.kisechan.space/20251129151005471.jpeg)
+![](https://images.kscn.uk/20251129151005471.jpeg)
 
 考试同时也不涉及复杂的公式推导，只要背下来公式，并知道如何计算即可。需要记住的公式已用 `\boxed` 标记出，例如：
 
@@ -64,7 +64,7 @@ $$
 
 **矩阵求逆方法**（高斯-若尔当方法）：
 
-![](https://images.kisechan.space/20251130135039699.png)
+![](https://images.kscn.uk/20251130135039699.png)
 
 ## _绪论_
 
@@ -549,7 +549,7 @@ $$
 
 条件：$X^TX$ **可逆**。
 
-![简化解法，来自饭哥 https://blog.csdn.net/mifanandpeicai/article/details/144317165?spm=1001.2014.3001.5501](https://images.kisechan.space/20251130142020112.png)
+![简化解法，来自饭哥 https://blog.csdn.net/mifanandpeicai/article/details/144317165?spm=1001.2014.3001.5501](https://images.kscn.uk/20251130142020112.png)
 
 ### 梯度下降法解法
 
@@ -1492,7 +1492,7 @@ SVM 的学习策略是间隔最大化，可以形式化为一个求解凸二次�
 
 [^3]: Perceptron，也是一种二分类线性分类模型，本质上跟神经网络的感知机模型**是一个东西**，只不过神经网络的是原始感知机的推广。通过 $y=\mathrm{sign}(w^T x+b)$ 得到分类结果。
 
-![**结构风险最小化示意图**，图中是置信范围，置信范围用于量化模型在训练数据上的经验风险与模型在所有可能数据上的真实风险（期望风险）之间的不确定性。这个范围通常与样本数量和模型的VC维有关。较大的置信范围意味着模型性能的不确定性更高，而较小的置信范围意味着模型性能的估计更精确。](https://images.kisechan.space/20251130145709762.png)
+![**结构风险最小化示意图**，图中是置信范围，置信范围用于量化模型在训练数据上的经验风险与模型在所有可能数据上的真实风险（期望风险）之间的不确定性。这个范围通常与样本数量和模型的VC维有关。较大的置信范围意味着模型性能的不确定性更高，而较小的置信范围意味着模型性能的估计更精确。](https://images.kscn.uk/20251130145709762.png)
 
 这就是 **SVM 为什么要搞“最大间隔”的理论依据**。
 
@@ -1595,7 +1595,7 @@ $$
 
 - **总间隔**：正负两类支持向量之间的距离是 $\frac{2}{||w||}$。
 
-![边界](https://images.kisechan.space/20251128143730572.png)
+![边界](https://images.kscn.uk/20251128143730572.png)
 
 #### 最终优化目标（Primal Problem 原始问题）
 
@@ -1622,11 +1622,11 @@ $$
 f(x)=\text{sign}(w^*\cdot x+b^*)
 $$
 
-![](https://images.kisechan.space/20251128144942968.png)
+![](https://images.kscn.uk/20251128144942968.png)
 
 > **例题**
 >
-> ![](https://images.kisechan.space/20251130211308900.png)
+> ![](https://images.kscn.uk/20251130211308900.png)
 >
 > 也可以用支持向量的几何特征来算，$x_1$ 和 $x_3$ 肯定是支持向量，代入进方程是 1，它们的连线也是垂直于超平面的，可以这样算出来。
 
@@ -1717,7 +1717,7 @@ $$
 
 > **例题**
 >
-> ![](https://images.kisechan.space/20251130212325330.png)
+> ![](https://images.kscn.uk/20251130212325330.png)
 
 _**KKT 条件**_
 
@@ -1794,7 +1794,7 @@ $$
 - “低维空间不可分，映射到高维空间就线性可分了。”
 - 映射函数 $\phi(x)$：把 $x$ 变成**高维向量**。
 
-![](https://images.kisechan.space/20251128165415249.png)
+![](https://images.kscn.uk/20251128165415249.png)
 
 #### 维数灾难与核方法
 
@@ -1819,7 +1819,7 @@ $$
 
 ### _SVM 回归 （SVR）_
 
-![](https://images.kisechan.space/20251128165506632.png)
+![](https://images.kscn.uk/20251128165506632.png)
 
 SVM 也可以做回归预测。**核心区别**：
 
@@ -1894,7 +1894,7 @@ PCA 是**无监督、线性**的降维方法，通过**平移、旋转坐标轴*
 > - **方向一**：沿着饼最长的方向画（**方差最大**，信息保留最多）。
 > - **方向二**：与方向一垂直（**正交**，互不相关）。
 
-![](https://images.kisechan.space/20251128171111174.png)
+![](https://images.kscn.uk/20251128171111174.png)
 
 **PCA的两个核心目标（数学本质）：**
 
@@ -1963,7 +1963,7 @@ _(注：这两个目标在数学上是等价的)_
 4.  **排序与筛选**：将**特征值从大到小排序**，选前 $k$ 个对应的特征向量。
 5.  **投影**：$Y = P X$ （$P$ 是选出的特征向量组成的矩阵）。
 
-![简化版计算 PCA 算法，来自饭哥](https://images.kisechan.space/20251201152626891.png)
+![简化版计算 PCA 算法，来自饭哥](https://images.kscn.uk/20251201152626891.png)
 
 ---
 
@@ -2138,17 +2138,17 @@ K-Means 算法的流程如下：
 3.  **更新** (Update)：重新计算每个簇的**均值**（Mean）[^9]，作为新的质心。
 4.  **迭代**：重复 2 和 3，直到**质心不再变化**或达到最大迭代次数。
 
-![](https://images.kisechan.space/20251128215835126.png)
+![](https://images.kscn.uk/20251128215835126.png)
 
 > **例题**
 >
-> ![](https://images.kisechan.space/20251201170437708.png)
+> ![](https://images.kscn.uk/20251201170437708.png)
 
 [^9]: 求**均值**就是把这些样本在每个维度上的值求平均，得到一个新的点，然后这个点就是新的质心。例如二维的样本点 $(x_i, y_i)$，它们组成的簇的均值/质心就是 $(\frac{1}{n}\sum x_i, \frac{1}{n}\sum y_i)$。
 
 #### K-means 的损失函数
 
-![](https://images.kisechan.space/20251128220015688.png)
+![](https://images.kscn.uk/20251128220015688.png)
 
 #### K 值的选择
 
@@ -2184,7 +2184,7 @@ K-Means 算法的流程如下：
 - **凝聚法** (Agglomerative)：自底向上。开始时每个点都是一个簇，然后两两合并，直到剩下一个大簇。
 - **分裂法** (Divisive)：自顶向下。
 
-![一种层次聚类算法](https://images.kisechan.space/20251201170021659.png)
+![一种层次聚类算法](https://images.kscn.uk/20251201170021659.png)
 
 #### 簇间距离
 
@@ -2208,7 +2208,7 @@ K-Means 算法的流程如下：
 
 解决 K-Means 无法聚类非球形数据（如笑脸图）的问题。它将簇定义为密度相连的点的最大集合，能够把具有高密度的区域划分为簇。
 
-![DBSCAN（Density-Based Spatial Clustering of Applications with Noise）算法](https://images.kisechan.space/20251128220608673.png)
+![DBSCAN（Density-Based Spatial Clustering of Applications with Noise）算法](https://images.kscn.uk/20251128220608673.png)
 
 **核心概念**：
 
@@ -2737,7 +2737,7 @@ CNN 只能处理网格数据（图片），RNN 处理序列数据。
 
 M-P 神经元模型是最原始的神经元模型。
 
-![](https://images.kisechan.space/20251128202520130.png)
+![](https://images.kscn.uk/20251128202520130.png)
 
 公式：
 

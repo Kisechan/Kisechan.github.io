@@ -1,15 +1,15 @@
 ﻿---
 title: NEOVIM 体验
-url: https://blog.kisechan.space/2025/neovim-try/
+url: https://blog.kscn.uk/2025/neovim-try/
 type: post
-time: '2026-11-15T08:57:06.623Z'
+time: '2026-11-17T12:50:06.115Z'
 ---
 
 > 具体内容以后再补，先写快捷键的。
 
 ## 快捷键归纳
 
-算是[先前笔记的部分内容](https://blog.kisechan.space/2024/linux-note/#%E8%BE%93%E5%85%A5%E6%A8%A1%E5%BC%8F)的重置。
+算是[先前笔记的部分内容](https://blog.kscn.uk/2024/linux-note/#%E8%BE%93%E5%85%A5%E6%A8%A1%E5%BC%8F)的重置。
 
 ### 模式切换
 
