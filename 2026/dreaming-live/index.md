@@ -2,7 +2,7 @@
 title: “正确”的理想的，我的生活
 url: https://blog.kscn.uk/2026/dreaming-live/
 type: post
-time: '2026-11-17T13:09:51.092Z'
+time: '2026-11-18T12:43:29.709Z'
 ---
 
 只是很想讲讲近况。

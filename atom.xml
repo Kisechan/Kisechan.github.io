@@ -1,526 +1,321 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="zh-CN">
   <title>Κομήτης</title>
   
   <subtitle>qwq</subtitle>
-  <link href="https://blog.kscn.uk/atom.xml" rel="self"/>
+  <link href="https://blog.kscn.uk/atom.xml" rel="self" type="application/atom+xml"/>
   
-  <link href="https://blog.kscn.uk/"/>
-  <updated>2026-11-17T12:03:46.019Z</updated>
-  <id>https://blog.kscn.uk/</id>
-  
-  <author>
-    <name>Kisechan</name>
-    
-  </author>
-  
+  <link href="https://blog.kscn.uk/" rel="alternate" type="text/html"/>
+  <updated>2026-11-14T09:15:13.000Z</updated>
+  <id>tag:kscn.uk,2026-11-18:feed</id>
+  <author><name>Kisechan</name></author>
   <generator uri="https://hexo.io/">Hexo</generator>
+  
   
   <entry>
     <title>强化学习概述：复习一些经典算法</title>
-    <link href="https://blog.kscn.uk/2026/reinforcement-learning/"/>
-    <id>https://blog.kscn.uk/2026/reinforcement-learning/</id>
+    <link href="https://blog.kscn.uk/2026/reinforcement-learning/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/reinforcement-learning/</id>
     <published>2026-11-14T09:15:13.000Z</published>
-    <updated>2026-11-17T12:03:46.019Z</updated>
+    <updated>2026-11-14T09:15:13.000Z</updated>
+    <summary type="text">决策和交互 强化学习的经典决策环境模型是一个 Markov 决策过程（MDP, Markov Decision Process），通常表示为： &#92;mathcal M=(&#92;mathcal S,&#92;mathcal A,P,R,&#92;gamma) 其实就是状态和转移，强化学习的最基本状态交互循环，符号可以用下面的方式理解： 符号 理解 &#92;mathcal S 所有可能的状态 &#92;mathcal A 所有可以执行…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/11/14/add2e530-9a14-42a1-ab65-90fe1bf5f6bd-1-105-c-246b0f40.jpeg"/>
+    
+    <category term="具身智能" scheme="https://blog.kscn.uk/categories/" label="具身智能"/>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;决策和交互&quot;&gt;决策和交互&lt;/h2&gt;
-&lt;p&gt;强化学习的经典决策环境模型是一个 Markov 决策过程（MDP, Markov Decision Process），通常表示为：&lt;/p&gt;
-&lt;p class=&quot;katex-block &quot;&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="具身智能" scheme="https://blog.kscn.uk/categories/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/"/>
-    
-    
-    <category term="强化学习" scheme="https://blog.kscn.uk/tags/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/"/>
+    <category term="强化学习" scheme="https://blog.kscn.uk/tags/" label="强化学习"/>
     
   </entry>
+  
   
   <entry>
     <title>“正确”的理想的，我的生活</title>
-    <link href="https://blog.kscn.uk/2026/dreaming-live/"/>
-    <id>https://blog.kscn.uk/2026/dreaming-live/</id>
+    <link href="https://blog.kscn.uk/2026/dreaming-live/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/dreaming-live/</id>
     <published>2026-11-13T15:26:27.000Z</published>
-    <updated>2026-11-17T12:03:46.030Z</updated>
+    <updated>2026-11-13T15:26:27.000Z</updated>
+    <summary type="text">只是很想讲讲近况。 一味地吐黑泥，控诉焦虑，那也太无聊了吧，还是要讲一下更开心的事情呢。 在街道上头晕目眩 未来能有幸福到流泪的时刻吗？ 一直以来总觉得，当我成为了理想中的我，圆满的我，终于就可以获得幸福了。我一直都很卑微地，希望能够实现自己的愿望。 我也希望能和那些学业有成的人一样，在自己的领域有所建树，能够骄傲地展示自己的成果； 我也希望能和那些技术大神一样，什么都会啊，成为一个真正的 ge…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/11/13/6c06a2dc-1876-4481-963d-f973fb3a6513-1-105-c-0d7e4524.jpeg"/>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;只是很想讲讲近况。&lt;/p&gt;
-&lt;p&gt;一味地吐黑泥，控诉焦虑，那也太无聊了吧，还是要讲一下更开心的事情呢。&lt;/p&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="想法" scheme="https://blog.kscn.uk/categories/%E6%83%B3%E6%B3%95/"/>
+    <category term="想法" scheme="https://blog.kscn.uk/categories/" label="想法"/>
     
     
   </entry>
+  
   
   <entry>
     <title>Agent 时代一些有意思的 Web 小惯例</title>
-    <link href="https://blog.kscn.uk/2026/web-for-agents/"/>
-    <id>https://blog.kscn.uk/2026/web-for-agents/</id>
+    <link href="https://blog.kscn.uk/2026/web-for-agents/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/web-for-agents/</id>
     <published>2026-10-23T09:45:40.000Z</published>
-    <updated>2026-11-17T12:03:46.025Z</updated>
+    <updated>2026-10-23T09:45:40.000Z</updated>
+    <summary type="text">本文主要来介绍一些 Web 开发领域有意思的约定，以及现在的 Agent 时代又有些什么新的潮流，来方便 Agent 工作。例如，robots.txt 可以让爬虫了解网站希望它遵循的抓取规则；搜索引擎可以通过 sitemap.xml 获得网站的页面清单；RSS 阅读器能够通过 atom.xml 订阅内容更新。 这些东西算是很常见但是很少看见有人讲解的。它们一部分属于正式互联网标准，一部分是被广泛…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/10/23/da31529f-f784-4624-b8ea-3f7f7c89deec-5425e55a.jpeg"/>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;本文主要来介绍一些 Web 开发领域有意思的约定，以及现在的 Agent 时代又有些什么新的潮流，来方便 Agent 工作。例如，&lt;code&gt;robots.txt&lt;/code&gt; 可以让爬虫了解网站希望它遵循的抓取规则；搜索引擎可以通过</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kscn.uk/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    <category term="CS 杂谈" scheme="https://blog.kscn.uk/categories/" label="CS 杂谈"/>
     
     
   </entry>
+  
   
   <entry>
     <title>写给新的日子中，失败的我</title>
-    <link href="https://blog.kscn.uk/2026/for-new-myself/"/>
-    <id>https://blog.kscn.uk/2026/for-new-myself/</id>
+    <link href="https://blog.kscn.uk/2026/for-new-myself/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/for-new-myself/</id>
     <published>2026-10-08T20:28:49.000Z</published>
-    <updated>2026-11-17T12:03:46.026Z</updated>
+    <updated>2026-10-08T20:28:49.000Z</updated>
+    <summary type="text">上大学以来，或者说是从来都没有写过一点东西当作大的总结，那就趁现在还记得最近这几年的感受，把它们记录下来吧。马上就是生日，要在新的一岁到来之前，给自己留下点东西哦。 当然，在我敲下这几个字的时候应该就已经决定了这篇文章就是毫无营养的混乱的流水账，仅仅是把曾经挥霍在胡思乱想上的光阴整合起来吧。 当下的不断延长，就是一辈子 生活有什么意思呢？是啊，我的生活就像现在的我自己一样无趣，没有什么想做的事，…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/10/09/clipboard-addc94d5-8f29-4e1d-b350-6aabf41bd4af-e828e831.png"/>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;上大学以来，或者说是从来都没有写过一点东西当作大的总结，那就趁现在还记得最近这几年的感受，把它们记录下来吧。马上就是生日，要在新的一岁到来之前，给自己留下点东西哦。&lt;/p&gt;
-&lt;p&gt;当然，在我敲下这几个字的时候应该就已经决定了这篇文章就是毫无营养的混乱的流水账，仅仅是把曾经挥</summary>
-        
-      
-    
-    
-    
-    <category term="想法" scheme="https://blog.kscn.uk/categories/%E6%83%B3%E6%B3%95/"/>
+    <category term="想法" scheme="https://blog.kscn.uk/categories/" label="想法"/>
     
     
   </entry>
+  
   
   <entry>
     <title>用 Wine 在 Mac 上玩一些老 galgame 的方法</title>
-    <link href="https://blog.kscn.uk/2026/games-for-mac/"/>
-    <id>https://blog.kscn.uk/2026/games-for-mac/</id>
+    <link href="https://blog.kscn.uk/2026/games-for-mac/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/games-for-mac/</id>
     <published>2026-10-01T23:04:43.000Z</published>
-    <updated>2026-11-17T12:03:46.018Z</updated>
+    <updated>2026-10-01T23:04:43.000Z</updated>
+    <summary type="text">最近想在 macOS 上玩一些 Windows 老游戏，主要是体积不大的 .exe 小游戏和视觉小说。我的机器是 Apple Silicon Mac，所以玩 Windows 游戏要多一层架构转换问题。 最开始考虑的是直接使用 wine-stable： 1 brew install --cask wine-stable 实际尝试后发现 Homebrew 里的 wine-stable 已经因为 Ga…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/10/02/4f3428c3-3155-45ed-b387-d2d3aafe5310-1-105-c-b10223ad.jpeg"/>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;最近想在 macOS 上玩一些 Windows 老游戏，主要是体积不大的 &lt;code&gt;.exe&lt;/code&gt; 小游戏和视觉小说。我的机器是 Apple Silicon Mac，所以玩 Windows 游戏要多一层架构转换问题。&lt;/p&gt;
-&lt;p&gt;最开始考虑的是直接使用</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kscn.uk/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    <category term="CS 杂谈" scheme="https://blog.kscn.uk/categories/" label="CS 杂谈"/>
     
     
   </entry>
+  
   
   <entry>
     <title>算法题复健和推免机试记录</title>
-    <link href="https://blog.kscn.uk/2026/algorithm-rehabilitation/"/>
-    <id>https://blog.kscn.uk/2026/algorithm-rehabilitation/</id>
+    <link href="https://blog.kscn.uk/2026/algorithm-rehabilitation/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/algorithm-rehabilitation/</id>
     <published>2026-09-15T10:15:55.000Z</published>
-    <updated>2026-11-17T12:03:46.037Z</updated>
+    <updated>2026-09-15T10:15:55.000Z</updated>
+    <summary type="text">最近为了准备推免机试才重新捡起了算法题，老实说我其实一直对自己的做题能力没有什么信心： 太久没做题了，一些板子都不记得了。 难的题型还有高阶的数据结构和完全不会。 之前参加的算法比赛没有成绩，被早培的 OIer 和天赋哥们吊起来打。 不愿意动脑子只想用 Agent 来写代码。 因为这些原因，所以心里很虚，一直也没有什么动力去做题，本科三年也越来越觉得做题是毫无意义的，大一的时候放弃 ACM 队的…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/09/15/853f9f53-a0e4-4880-82fb-2de0b564077e-1-105-c-1e078bce.jpeg"/>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;最近为了准备推免机试才重新捡起了算法题，老实说我其实一直对自己的做题能力没有什么信心：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;太久没做题了，一些板子都不记得了。&lt;/li&gt;
-&lt;li&gt;难的题型还有高阶的数据结构和完全不会。&lt;/li&gt;
-&lt;li&gt;之前参加的算法比赛没有成绩，被早培的 OIer</summary>
-        
-      
-    
-    
-    
-    <category term="算法" scheme="https://blog.kscn.uk/categories/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://blog.kscn.uk/categories/" label="算法"/>
     
     
   </entry>
+  
   
   <entry>
     <title>我的简易 Zed 配置和使用体验</title>
-    <link href="https://blog.kscn.uk/2026/zed/"/>
-    <id>https://blog.kscn.uk/2026/zed/</id>
+    <link href="https://blog.kscn.uk/2026/zed/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/zed/</id>
     <published>2026-09-12T15:34:57.000Z</published>
-    <updated>2026-11-17T12:03:46.025Z</updated>
+    <updated>2026-09-12T15:34:57.000Z</updated>
+    <summary type="text">因为 VSCode 目前一些已有的不好体验，包括 Electron 开发、新版本的丑陋 UI，外加社交媒体之类的地方对 Zed 的炒作，所以尝试了一下这个新的编辑器。 不得不说，其实使用起来比 VSCode 的可定制化程度还是更高的。但没有内置的 WebView 比较麻烦，不可以实时在侧边/软件内渲染出 Typst 或 PDF 的预览，不太方便。 我对 Zed 的配置目标只有下面的要求： 代码阅…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/09/12/8c51bb92-f15b-4954-87ae-712bba1dc9d0-1-105-c-f8d69441.jpeg"/>
+    
+    <category term="CS 杂谈" scheme="https://blog.kscn.uk/categories/" label="CS 杂谈"/>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;因为 VSCode 目前一些已有的不好体验，包括 Electron 开发、新版本的丑陋 UI，外加社交媒体之类的地方对 Zed 的炒作，所以尝试了一下这个新的编辑器。&lt;/p&gt;
-&lt;p&gt;不得不说，其实使用起来比 VSCode 的可定制化程度还是更高的。但没有内置的</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kscn.uk/categories/CS-%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="Zed" scheme="https://blog.kscn.uk/tags/Zed/"/>
+    <category term="Zed" scheme="https://blog.kscn.uk/tags/" label="Zed"/>
     
   </entry>
+  
   
   <entry>
     <title>eSIM 折腾记录</title>
-    <link href="https://blog.kscn.uk/2026/esim/"/>
-    <id>https://blog.kscn.uk/2026/esim/</id>
+    <link href="https://blog.kscn.uk/2026/esim/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/esim/</id>
     <published>2026-08-25T23:42:21.000Z</published>
-    <updated>2026-11-17T12:03:46.020Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note note-danger&quot;&gt;
-            &lt;p&gt;文章写于 2026 年八月，&lt;strong&gt;存在过时的可能性&lt;/strong&gt;。&lt;/p&gt;
-          &lt;/div&gt;
-&lt;h2</summary>
-        
-      
-    
-    
+    <updated>2026-08-25T23:42:21.000Z</updated>
+    <summary type="text">文章写于 2026 年八月，存在过时的可能性。 设备 博主现在在用的手机是国行 iPhone 17，是没有原生 eSIM 卡槽的，那么想用 eSIM 就得找一个能写入 eSIM 的实体 SIM 卡。 那这个我看网上推荐再考虑到性价比选的是 Xesim X1 大容量版，可以去它官网了解更多，也有很多个版本的卡： Xesim X1 和 Xesim X2 在 iOS 系统上不能直接写入 eSIM，需要…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/08/26/618367f3-0754-40f1-a63e-d3d5fc2eed79-e4640e7c.jpeg"/>
     
     
   </entry>
+  
   
   <entry>
     <title>我面对抑郁状态的一些可能的理想解法</title>
-    <link href="https://blog.kscn.uk/2026/depressive/"/>
-    <id>https://blog.kscn.uk/2026/depressive/</id>
+    <link href="https://blog.kscn.uk/2026/depressive/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/depressive/</id>
     <published>2026-08-20T21:05:45.000Z</published>
-    <updated>2026-11-17T12:03:46.029Z</updated>
+    <updated>2026-08-20T21:05:45.000Z</updated>
+    <summary type="text">文章主要内容由我和 GPT 5.6 共同整理。 想象一下你重度抑郁，全身像瘫痪一样，无法起床，结果你妈叫你要调整作息，出门运动就会好。 经典不会让小腿肯折的人起来走走，但是让抑郁症看开点。 对抑郁症患者说别想这么多和看开点的到底是什么心理。 那作为一个真实的，会影响情绪调节、动机、注意力、睡眠和行动能力的精神疾病，我觉得抑郁症患者看到这样的话更多产生的是一些更严重的的内疚感和挫败感，即使出门运动…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/08/21/6deb5b26-91d4-49f0-8569-384728dba9ae-a4f9ffb3.png"/>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;note note-primary&quot;&gt;
-            &lt;p&gt;文章主要内容&lt;strong&gt;由我和 GPT 5.6 共同整理&lt;/strong&gt;。&lt;/p&gt;
-          &lt;/div&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="想法" scheme="https://blog.kscn.uk/categories/%E6%83%B3%E6%B3%95/"/>
+    <category term="想法" scheme="https://blog.kscn.uk/categories/" label="想法"/>
     
     
   </entry>
+  
   
   <entry>
     <title>在无锡和杭州的愉快日子</title>
-    <link href="https://blog.kscn.uk/2026/travelogue-jiangyin-wuxi-hangzhou/"/>
-    <id>https://blog.kscn.uk/2026/travelogue-jiangyin-wuxi-hangzhou/</id>
+    <link href="https://blog.kscn.uk/2026/travelogue-jiangyin-wuxi-hangzhou/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/travelogue-jiangyin-wuxi-hangzhou/</id>
     <published>2026-08-15T15:30:01.000Z</published>
-    <updated>2026-11-17T12:03:46.021Z</updated>
+    <updated>2026-08-15T15:30:01.000Z</updated>
+    <summary type="text">23 号到 27 号去江阴、无锡市还有杭州和 @mithsakar 一起玩了一下，算是我七月里忙碌的科研和项目之后最开心最放松的一段时间了，不过记录拖到现在才写，毕竟有点太懒了，或者是最近玩的和工作的比较多，没有写博客的闲情逸致（？ 好好珍惜美好的日子 起因的话其实只是之前期末周的某一天说想一起去看洛天依的 live，到了开票的时候就买了杭州场的票。那么既然要去杭州的话，那就其实并不顺路去无锡一…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/08/15/a1513dfa-77b8-429e-9766-c75845afa448-f8a86b95.jpeg"/>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;23 号到 27 号去江阴、无锡市还有杭州和 &lt;a href=&quot;https://x.com/mithsakar&quot;&gt;@mithsakar&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="游记" scheme="https://blog.kscn.uk/categories/%E6%B8%B8%E8%AE%B0/"/>
+    <category term="游记" scheme="https://blog.kscn.uk/categories/" label="游记"/>
     
     
   </entry>
+  
   
   <entry>
     <title>使用 RVC 制作 AI 翻唱</title>
-    <link href="https://blog.kscn.uk/2026/rvc-ai-conversion/"/>
-    <id>https://blog.kscn.uk/2026/rvc-ai-conversion/</id>
+    <link href="https://blog.kscn.uk/2026/rvc-ai-conversion/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/rvc-ai-conversion/</id>
     <published>2026-08-03T14:12:28.000Z</published>
-    <updated>2026-11-17T12:03:46.026Z</updated>
+    <updated>2026-08-03T14:12:28.000Z</updated>
+    <summary type="text">博主第一次做 AI 翻唱，于是记录一下全流程的 pipeline 以及自己的经验。 下面是效果，让 AI 绘名唱了一下我最喜欢的夜鹿曲子，就喜欢听铃果唱歌！ 我用的 pipeline： GitHub - Kisechan/rvc-conversion-pipelinehttps://github.com/Kisechan/rvc-conversion-pipeline 硬件设施 博主使用的是 M…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/08/03/13314859-d33a-4167-81c5-1947b4768757-94a7c47c.jpeg"/>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;博主第一次做 AI 翻唱，于是记录一下全流程的 pipeline 以及自己的经验。&lt;/p&gt;
-&lt;p&gt;下面是效果，让 AI 绘名唱了一下我最喜欢的夜鹿曲子，就喜欢听铃果唱歌！&lt;/p&gt;
-&lt;div align=&quot;center&quot;&gt;&lt;iframe</summary>
-        
-      
-    
-    
-    
-    
-    <category term="AI 翻唱" scheme="https://blog.kscn.uk/tags/AI-%E7%BF%BB%E5%94%B1/"/>
+    <category term="AI 翻唱" scheme="https://blog.kscn.uk/tags/" label="AI 翻唱"/>
     
   </entry>
+  
   
   <entry>
     <title>在服务器上比较优雅地使用 Agent</title>
-    <link href="https://blog.kscn.uk/2026/server-agent-workflow/"/>
-    <id>https://blog.kscn.uk/2026/server-agent-workflow/</id>
+    <link href="https://blog.kscn.uk/2026/server-agent-workflow/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/server-agent-workflow/</id>
     <published>2026-07-22T02:03:44.000Z</published>
-    <updated>2026-11-17T12:03:46.016Z</updated>
+    <updated>2026-07-22T02:03:44.000Z</updated>
+    <summary type="text">用的是 Mac remote 连接 ubuntu 22.04 的服务器，摸索出来了一套还可以的 agent workflow。 代理 安装的是 mihomo，只有 CLI 界面也可以方便使用。 OpenCode 博主喜欢使用 OpenCode 提供的 WebUI 界面，TUI 才是需要被淘汰的。 可以使用 WebUI 和 SSH 隧道的方式来，首先在服务器上配置： 1 2 3 4 5 # 安装…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/07/22/a9cae2ab-172b-420a-a1cc-5361598ed4fb-1-105-c-42477f21.jpeg"/>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;用的是 Mac remote 连接 ubuntu 22.04 的服务器，摸索出来了一套还可以的 agent workflow。&lt;/p&gt;
-&lt;h2 id=&quot;代理&quot;&gt;代理&lt;/h2&gt;
-&lt;p&gt;安装的是 mihomo，只有 CLI 界面也可以方便使用。&lt;/p&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="CS 杂谈" scheme="https://blog.kscn.uk/categories/CS-%E6%9D%82%E8%B0%88/"/>
+    <category term="CS 杂谈" scheme="https://blog.kscn.uk/categories/" label="CS 杂谈"/>
     
     
   </entry>
+  
   
   <entry>
     <title>GMR 和 OmniRetarget</title>
-    <link href="https://blog.kscn.uk/2026/gmr-omniretarget/"/>
-    <id>https://blog.kscn.uk/2026/gmr-omniretarget/</id>
+    <link href="https://blog.kscn.uk/2026/gmr-omniretarget/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/gmr-omniretarget/</id>
     <published>2026-06-28T14:21:50.000Z</published>
-    <updated>2026-11-17T12:03:46.038Z</updated>
+    <updated>2026-06-28T14:21:50.000Z</updated>
+    <summary type="text">人形机器人要做一件看起来很简单的事：模仿人类动作。但是因为人和机器人的身体根本不一样——腿长不同、手臂比例不同、关节活动范围不同、驱动方式不同。这就是所谓的具身差距（Embodiment Gap），所以这个工作做起来并不简单。 解决这个问题的关键环节叫做运动重定向（Motion Retargeting），把人类骨骼上的动作数据，转换成机器人能执行的关节轨迹。 人形机器人训练的整个的 pipeli…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/06/29/%E9%9F%B3%E6%A5%BD%E3%82%92%E6%84%9B%E3%81%99%E3%82%8B%E5%B0%91%E5%A5%B3%E3%81%9F%E3%82%99%E3%81%A1-94450441-7507eabc.jpg"/>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;人形机器人要做一件看起来很简单的事：&lt;strong&gt;模仿人类动作&lt;/strong&gt;。但是因为人和机器人的身体根本不一样——腿长不同、手臂比例不同、关节活动范围不同、驱动方式不同。这就是所谓的&lt;strong&gt;具身差距&lt;/strong&gt;（Embodiment</summary>
-        
-      
-    
-    
-    
-    <category term="具身智能" scheme="https://blog.kscn.uk/categories/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/"/>
+    <category term="具身智能" scheme="https://blog.kscn.uk/categories/" label="具身智能"/>
     
     
   </entry>
+  
   
   <entry>
     <title>编译原理题型总结笔记</title>
-    <link href="https://blog.kscn.uk/2026/notes-compiler-solutions/"/>
-    <id>https://blog.kscn.uk/2026/notes-compiler-solutions/</id>
+    <link href="https://blog.kscn.uk/2026/notes-compiler-solutions/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/notes-compiler-solutions/</id>
     <published>2026-06-23T06:58:30.000Z</published>
-    <updated>2026-11-17T12:03:46.014Z</updated>
+    <updated>2026-06-23T06:58:30.000Z</updated>
+    <summary type="text">主要题型（根据 23 级考题） NFA、DFA 画图、转换、最小 DFA 画语法树，找短语、简单短语和句柄 求三个集合和递归下降程序编写 驻留法求符号表 写四元式并优化它 NFA，DFA 和正则表达式 概念题 与DFA相比，NFA的非确定性体现在: A. 允许有多个开始状态 B. 允许有多个终止状态 C. 在没有任何输入的情况下允许进行状态转换 D. 一个状态可以有多个不同后继状态 选择 AC，…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/06/23/ce8b1cc994b3a3e215759e00e8d81ec4-720-8e86137f.jpg"/>
+    
+    <category term="课程笔记" scheme="https://blog.kscn.uk/categories/" label="课程笔记"/>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;主要题型（根据-23-级考题）&quot;&gt;主要题型（根据 23 级考题）&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;NFA、DFA 画图、转换、最小</summary>
-        
-      
-    
-    
-    
-    <category term="课程笔记" scheme="https://blog.kscn.uk/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="编译原理" scheme="https://blog.kscn.uk/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/"/>
+    <category term="编译原理" scheme="https://blog.kscn.uk/tags/" label="编译原理"/>
     
   </entry>
+  
   
   <entry>
     <title>我消沉的两个月里</title>
-    <link href="https://blog.kscn.uk/2026/in-my-depressed-days/"/>
-    <id>https://blog.kscn.uk/2026/in-my-depressed-days/</id>
+    <link href="https://blog.kscn.uk/2026/in-my-depressed-days/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/in-my-depressed-days/</id>
     <published>2026-06-19T13:47:24.000Z</published>
     <updated>2026-06-19T13:47:24.000Z</updated>
+    <summary type="text">今天是端午节，没吃粽子。北门有卖，但是昨晚通了个宵睡到下午去和朋友唱 K，晚上去外面吃自助吃饱了，所以今天就不吃了。并不是因为心情不好，或者是有很多事情要做，也有可能是。 如果看到了这些话，还是想继续看下去这篇博客的话，那也许说明你现在没什么事要做，愿意听我在郁闷的时候讲一些废话，很感谢哦。 消沉的日子里 其实我自认为两个月前的生活比我目前的状态正常多了，好像已经有点记不清了呢。至少每天都有在上…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/06/23/qq-pic-merged-1782156483772-0c97ad86.jpg"/>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;今天是端午节，没吃粽子。北门有卖，但是昨晚通了个宵睡到下午去和朋友唱</summary>
-        
-      
-    
-    
-    
-    <category term="想法" scheme="https://blog.kscn.uk/categories/%E6%83%B3%E6%B3%95/"/>
+    <category term="想法" scheme="https://blog.kscn.uk/categories/" label="想法"/>
     
     
   </entry>
+  
   
   <entry>
     <title>编译原理课程笔记</title>
-    <link href="https://blog.kscn.uk/2026/notes-compilers/"/>
-    <id>https://blog.kscn.uk/2026/notes-compilers/</id>
+    <link href="https://blog.kscn.uk/2026/notes-compilers/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/notes-compilers/</id>
     <published>2026-06-17T12:41:50.000Z</published>
-    <updated>2026-11-17T12:03:46.017Z</updated>
+    <updated>2026-06-17T12:41:50.000Z</updated>
+    <summary type="text">概论 编程语言的发展： 第一代 机器语言: 能够被计算机的硬件系统直接执行的指令程序, 如“0001000101”。 第二代 汇编语言: 将硬件指令用一些助记符表示, 即符号化的机器语言, 如“ADD, MOV”。 第三代 高级语言: 从程序员的角度出发, 对汇编语言进一步抽象, 使用便于理解的“自然语言”表述。 高级语言的实现 编译方式 将⾼级语⾔（源语⾔）翻译成低级语⾔（如汇编语⾔或机器语⾔…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/06/17/qq-pic-merged-1781700197530-a6b5193b.jpg"/>
+    
+    <category term="课程笔记" scheme="https://blog.kscn.uk/categories/" label="课程笔记"/>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;概论&quot;&gt;概论&lt;/h2&gt;
-&lt;p&gt;编程语言的发展：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;第一代&lt;/strong&gt; &lt;strong&gt;机器语言&lt;/strong&gt;: 能够被计算机的硬件系统直接执行的指令程序,</summary>
-        
-      
-    
-    
-    
-    <category term="课程笔记" scheme="https://blog.kscn.uk/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="编译原理" scheme="https://blog.kscn.uk/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/"/>
+    <category term="编译原理" scheme="https://blog.kscn.uk/tags/" label="编译原理"/>
     
   </entry>
+  
   
   <entry>
     <title>一些精神药物的服用体验</title>
-    <link href="https://blog.kscn.uk/2026/experiences-with-taking-psychiatric-medications/"/>
-    <id>https://blog.kscn.uk/2026/experiences-with-taking-psychiatric-medications/</id>
+    <link href="https://blog.kscn.uk/2026/experiences-with-taking-psychiatric-medications/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/experiences-with-taking-psychiatric-medications/</id>
     <published>2026-06-16T18:13:26.000Z</published>
-    <updated>2026-11-17T12:03:46.023Z</updated>
+    <updated>2026-06-16T18:13:26.000Z</updated>
+    <summary type="text">因为是第一次吃这类药物，所以记录一下当前吃过的部分精神药物的用后感受。笔者处方的症状为焦虑抑郁状态，吃的都是抗抑郁药（SSRI）和抗焦虑药（西泮），应该都算是药效较为温和的药物。 到现在大概吃了有一个月，所以大概还是有一些起效的……吧？ 药物终究只能缓解难过的感受，真正还得靠自己拯救自己。 不涉及任何形式的医疗建议，不要不遵医嘱乱吃药。 SSRI 笔者吃的 SSRI 类药物是草酸艾司西酞普兰。…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/06/17/image-1780975466834-830-3919db8e.png"/>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;因为是第一次吃这类药物，所以记录一下当前吃过的部分精神药物的用后感受。笔者处方的症状为焦虑抑郁状态，吃的都是抗抑郁药（SSRI）和抗焦虑药（西泮），应该都算是药效较为温和的药物。&lt;/p&gt;
-&lt;p&gt;到现在大概吃了有一个月，所以大概还是有一些起效的……吧？&lt;/p&gt;
-&lt;div</summary>
-        
-      
-    
-    
-    
-    <category term="想法" scheme="https://blog.kscn.uk/categories/%E6%83%B3%E6%B3%95/"/>
+    <category term="想法" scheme="https://blog.kscn.uk/categories/" label="想法"/>
     
     
   </entry>
+  
   
   <entry>
     <title>想要成为鱼的猫</title>
-    <link href="https://blog.kscn.uk/2026/catfish/"/>
-    <id>https://blog.kscn.uk/2026/catfish/</id>
+    <link href="https://blog.kscn.uk/2026/catfish/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/catfish/</id>
     <published>2026-06-08T14:05:10.000Z</published>
-    <updated>2026-11-17T12:03:46.037Z</updated>
+    <updated>2026-06-08T14:05:10.000Z</updated>
+    <summary type="text">想要成为鱼，可是我不会游泳。 很羡慕呢，羡慕那些学业事业有成、被爱着的幸运的孩子，羡慕那些天上飞行的鸟儿，羡慕有主人陪伴着的小猫。我也许没有些什么吧，只能在地上生活着，成天做些没有意义的事情来消磨生命，却感受不到多少的幸福。 既然感受不到幸福的话，为什么神要给我生活在地上的机会呢？我也是幸运的，被选中的吗？我是坏猫，我的生活过得一塌糊涂，我的性格也很糟糕，我存在的每一天都在伤害身边爱自己的人和自…</summary>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;想要成为鱼，可是我不会游泳。&lt;/p&gt;
-&lt;p&gt;很羡慕呢，羡慕那些学业事业有成、被爱着的幸运的孩子，羡慕那些天上飞行的鸟儿，羡慕有主人陪伴着的小猫。我也许没有些什么吧，只能在地上生活着，成天做些没有意义的事情来消磨生命，却感受不到多少的幸福。&lt;/p&gt;
-&lt;p&gt;既然感受不到幸福的话</summary>
-        
-      
-    
-    
-    
-    <category term="想法" scheme="https://blog.kscn.uk/categories/%E6%83%B3%E6%B3%95/"/>
+    <category term="想法" scheme="https://blog.kscn.uk/categories/" label="想法"/>
     
     
   </entry>
+  
   
   <entry>
     <title>香港游记</title>
-    <link href="https://blog.kscn.uk/2026/travelogue-hongkong/"/>
-    <id>https://blog.kscn.uk/2026/travelogue-hongkong/</id>
+    <link href="https://blog.kscn.uk/2026/travelogue-hongkong/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/travelogue-hongkong/</id>
     <published>2026-05-23T03:03:23.000Z</published>
-    <updated>2026-11-17T12:03:46.011Z</updated>
+    <updated>2026-05-23T03:03:23.000Z</updated>
+    <summary type="text">18 号周一去了一趟香港，可惜犯了很多笨蛋操作，原本的计划基本都泡汤了，也没有停留多久，事先没有安排好导致除了很多岔子，下次再来就会准备好了！ 深圳 早上起床的时候准备买一个漫游流量包去香港用，免得直接漫游太贵，结果发现现在的手机卡太老都不能开通漫游，需要去营业厅换一个，这下给我干不会了，没办法只能临时下单买一张流量卡用，要不然去了香港直接失联。讨厌电信。 流量卡是到深圳北站东广场自取的，出站全…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/05/23/20260517-221631-acda76ff.jpg"/>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;18 号周一去了一趟香港，可惜犯了很多笨蛋操作，原本的计划基本都泡汤了，也没有停留多久，事先没有安排好导致除了很多岔子，下次再来就会准备好了！&lt;/p&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="游记" scheme="https://blog.kscn.uk/categories/%E6%B8%B8%E8%AE%B0/"/>
+    <category term="游记" scheme="https://blog.kscn.uk/categories/" label="游记"/>
     
     
   </entry>
   
+  
   <entry>
     <title>Notas de repaso en español</title>
-    <link href="https://blog.kscn.uk/2026/Notas-de-repaso-en-espanol/"/>
-    <id>https://blog.kscn.uk/2026/Notas-de-repaso-en-espanol/</id>
+    <link href="https://blog.kscn.uk/2026/Notas-de-repaso-en-espanol/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/Notas-de-repaso-en-espanol/</id>
     <published>2026-04-22T08:29:42.000Z</published>
     <updated>2026-04-22T08:29:42.000Z</updated>
+    <summary type="text">名次的性、数 性 只有人和动物才可以进行阴阳性的转换。 阳性： 常见词尾：-o, -ma, -or, -aje 特例：mano, foto, radio, cama 使用 el, los 阴性： 常见词尾：-a, -d, -ción, -sión 特例：día, sofá, mapa 使用 la, las 阴阳同形： 常见词尾：-ista 重音 以元音、n、s 结尾的词重音位置在倒数第二个音节…</summary>
+    <media:thumbnail url="https://images.kscn.uk/uploads/2026/04/16/20260413-112804-7150ce06.jpg"/>
+    
+    <category term="Linguistik" scheme="https://blog.kscn.uk/categories/" label="Linguistik"/>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;名次的性、数&quot;&gt;名次的性、数&lt;/h2&gt;
-&lt;h3 id=&quot;性&quot;&gt;性&lt;/h3&gt;
-&lt;p&gt;只有人和动物才可以进行阴阳性的转换。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;阳性&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;常见词尾：-o,</summary>
-        
-      
-    
-    
-    
-    <category term="Linguistik" scheme="https://blog.kscn.uk/categories/Linguistik/"/>
-    
-    
-    <category term="Español" scheme="https://blog.kscn.uk/tags/Espanol/"/>
+    <category term="Español" scheme="https://blog.kscn.uk/tags/" label="Español"/>
     
   </entry>
   

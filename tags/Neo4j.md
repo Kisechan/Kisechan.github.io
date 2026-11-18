@@ -2,7 +2,7 @@
 title: Neo4j
 url: https://blog.kscn.uk/tags/Neo4j/
 type: tag
-time: '2026-11-17T13:09:51.092Z'
+time: '2026-11-18T12:43:29.709Z'
 ---
 
 ## Articles

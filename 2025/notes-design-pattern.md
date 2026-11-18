@@ -2,7 +2,7 @@
 title: 软件设计模式 课程笔记
 url: https://blog.kscn.uk/2025/notes-design-pattern/
 type: post
-time: '2026-11-17T13:09:51.092Z'
+time: '2026-11-18T12:43:29.709Z'
 ---
 
 ![设计模式课程的主要内容](https://images.kscn.uk/20251115161935679.png)

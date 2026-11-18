@@ -2,7 +2,7 @@
 title: 海明码
 url: https://blog.kscn.uk/2024/hanming-code/
 type: post
-time: '2026-11-17T13:09:51.092Z'
+time: '2026-11-18T12:43:29.709Z'
 ---
 
 ## 组成
