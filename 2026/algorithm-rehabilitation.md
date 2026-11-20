@@ -2,7 +2,7 @@
 title: 算法题复健和推免机试记录
 url: https://blog.kscn.uk/2026/algorithm-rehabilitation/
 type: post
-time: '2026-11-18T12:43:29.709Z'
+time: '2026-11-20T09:08:12.798Z'
 ---
 
 最近为了准备推免机试才重新捡起了算法题，老实说我其实一直对自己的做题能力没有什么信心：

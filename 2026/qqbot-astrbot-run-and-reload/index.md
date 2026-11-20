@@ -2,7 +2,7 @@
 title: 在各种情况导致 QQBot 崩了以后进行重新启动的快捷方式
 url: https://blog.kscn.uk/2026/qqbot-astrbot-run-and-reload/
 type: post
-time: '2026-11-18T12:43:29.709Z'
+time: '2026-11-20T09:08:12.798Z'
 ---
 
 最近用 Napneko+Astrbot 重新部署了一下 QQ 机器人，但是频频出现问题，重启都麻烦，所以记录一下。

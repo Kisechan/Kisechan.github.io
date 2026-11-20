@@ -2,7 +2,7 @@
 title: Element Plus
 url: https://blog.kscn.uk/tags/Element-Plus/
 type: tag
-time: '2026-11-18T12:43:29.709Z'
+time: '2026-11-20T09:08:12.798Z'
 ---
 
 ## Articles

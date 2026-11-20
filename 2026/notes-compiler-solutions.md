@@ -2,7 +2,7 @@
 title: 编译原理题型总结笔记
 url: https://blog.kscn.uk/2026/notes-compiler-solutions/
 type: post
-time: '2026-11-18T12:43:29.709Z'
+time: '2026-11-20T09:08:12.798Z'
 ---
 
 ## 主要题型（根据 23 级考题）

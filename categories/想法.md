@@ -2,11 +2,12 @@
 title: 想法
 url: https://blog.kscn.uk/categories/%E6%83%B3%E6%B3%95/
 type: category
-time: '2026-11-18T12:43:29.709Z'
+time: '2026-11-20T09:08:12.798Z'
 ---
 
 ## Articles
 
+- [星空和 Voyage 1977](https://blog.kscn.uk/2026/starry-and-voyage-1977/index.md)
 - [“正确”的理想的，我的生活](https://blog.kscn.uk/2026/dreaming-live/index.md)
 - [写给新的日子中，失败的我](https://blog.kscn.uk/2026/for-new-myself/index.md)
 - [我面对抑郁状态的一些可能的理想解法](https://blog.kscn.uk/2026/depressive/index.md)

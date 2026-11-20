@@ -2,11 +2,12 @@
 title: Archives
 url: https://blog.kscn.uk/archives/
 type: archive
-time: '2026-11-18T12:43:29.709Z'
+time: '2026-11-20T09:08:12.798Z'
 ---
 
 ## Articles
 
+- [星空和 Voyage 1977](https://blog.kscn.uk/2026/starry-and-voyage-1977/index.md)
 - [强化学习概述：复习一些经典算法](https://blog.kscn.uk/2026/reinforcement-learning/index.md)
 - [“正确”的理想的，我的生活](https://blog.kscn.uk/2026/dreaming-live/index.md)
 - [Agent 时代一些有意思的 Web 小惯例](https://blog.kscn.uk/2026/web-for-agents/index.md)
