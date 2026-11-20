@@ -2,7 +2,7 @@
 title: Notas de repaso en español
 url: https://blog.kscn.uk/2026/Notas-de-repaso-en-espanol/
 type: post
-time: '2026-11-20T09:08:12.798Z'
+time: '2026-11-20T09:16:16.853Z'
 ---
 
 ## 名次的性、数

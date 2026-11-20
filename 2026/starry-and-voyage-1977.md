@@ -2,7 +2,7 @@
 title: 星空和 Voyage 1977
 url: https://blog.kscn.uk/2026/starry-and-voyage-1977/
 type: post
-time: '2026-11-20T09:08:12.798Z'
+time: '2026-11-20T09:16:16.853Z'
 ---
 
 > Nov. 18, 2026, 5:16am EST

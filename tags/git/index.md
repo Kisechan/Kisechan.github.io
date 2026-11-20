@@ -2,7 +2,7 @@
 title: git
 url: https://blog.kscn.uk/tags/git/
 type: tag
-time: '2026-11-20T09:08:12.798Z'
+time: '2026-11-20T09:16:16.853Z'
 ---
 
 ## Articles
