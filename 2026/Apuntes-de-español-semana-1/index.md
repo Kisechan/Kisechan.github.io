@@ -2,7 +2,7 @@
 title: Apuntes de español, semana 1
 url: https://blog.kscn.uk/2026/Apuntes-de-espan%CC%83ol-semana-1/
 type: post
-time: '2026-11-22T11:41:27.001Z'
+time: '2026-11-22T11:52:06.991Z'
 ---
 
 **注意**：

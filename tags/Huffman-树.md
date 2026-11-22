@@ -2,7 +2,7 @@
 title: Huffman 树
 url: https://blog.kscn.uk/tags/Huffman-%E6%A0%91/
 type: tag
-time: '2026-11-22T11:41:27.001Z'
+time: '2026-11-22T11:52:06.991Z'
 ---
 
 ## Articles

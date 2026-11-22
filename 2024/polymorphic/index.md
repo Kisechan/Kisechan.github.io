@@ -2,7 +2,7 @@
 title: 多态实验
 url: https://blog.kscn.uk/2024/polymorphic/
 type: post
-time: '2026-11-22T11:41:27.001Z'
+time: '2026-11-22T11:52:06.991Z'
 ---
 
 # 组合模式的应用
