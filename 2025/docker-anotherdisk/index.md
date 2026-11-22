@@ -2,7 +2,7 @@
 title: 把 Docker 安装到别的磁盘
 url: https://blog.kscn.uk/2025/docker-anotherdisk/
 type: post
-time: '2026-11-22T11:39:36.940Z'
+time: '2026-11-22T11:41:27.001Z'
 ---
 
 ## 安装

@@ -2,7 +2,7 @@
 title: 为博客增添 PWA 支持
 url: https://blog.kscn.uk/2025/site-pwa/
 type: post
-time: '2026-11-22T11:39:36.940Z'
+time: '2026-11-22T11:41:27.001Z'
 ---
 
 ## 介绍

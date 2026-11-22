@@ -2,7 +2,7 @@
 title: NoSQL 的学习使用和环境配置
 url: https://blog.kscn.uk/2026/nosql/
 type: post
-time: '2026-11-22T11:39:36.940Z'
+time: '2026-11-22T11:41:27.001Z'
 ---
 
 **数据库系列笔记**

@@ -2,7 +2,7 @@
 title: C++
 url: https://blog.kscn.uk/tags/C/
 type: tag
-time: '2026-11-22T11:39:36.940Z'
+time: '2026-11-22T11:41:27.001Z'
 ---
 
 ## Articles

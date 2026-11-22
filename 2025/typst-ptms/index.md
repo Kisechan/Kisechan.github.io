@@ -2,7 +2,7 @@
 title: 用 Typst 排版一份概率论笔记
 url: https://blog.kscn.uk/2025/typst-ptms/
 type: post
-time: '2026-11-22T11:39:36.940Z'
+time: '2026-11-22T11:41:27.001Z'
 ---
 
 ## 排版
