@@ -2,7 +2,7 @@
 title: 编译原理
 url: https://blog.kscn.uk/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/
 type: tag
-time: '2026-11-20T09:16:16.853Z'
+time: '2026-11-22T09:11:35.978Z'
 ---
 
 ## Articles

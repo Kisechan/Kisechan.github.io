@@ -2,11 +2,12 @@
 title: Κομήτης
 url: https://blog.kscn.uk/
 type: home
-time: '2026-11-20T09:16:16.853Z'
+time: '2026-11-22T09:11:35.978Z'
 ---
 
 ## Articles
 
+- [Cloudflare 文档学习：DNS](https://blog.kscn.uk/2026/cloudflare-dns/index.md)
 - [星空和 Voyage 1977](https://blog.kscn.uk/2026/starry-and-voyage-1977/index.md)
 - [强化学习概述：复习一些经典算法](https://blog.kscn.uk/2026/reinforcement-learning/index.md)
 - [“正确”的理想的，我的生活](https://blog.kscn.uk/2026/dreaming-live/index.md)

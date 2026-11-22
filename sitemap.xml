@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.kscn.uk/2026/starry-and-voyage-1977/</loc>
+    <loc>https://blog.kscn.uk/2026/cloudflare-dns/</loc>
     
-    <lastmod>2026-11-20T08:33:16.000Z</lastmod>
+    <lastmod>2026-11-22T07:29:23.000Z</lastmod>
     
-    <date>1795163596000</date>
-    <title>星空和 Voyage 1977 - Κομήτης</title>
+    <date>1795332563000</date>
+    <title>Cloudflare 文档学习：DNS - Κομήτης</title>
     
     <desc></desc>
   </url>
@@ -15,9 +15,9 @@
   <url>
     <loc>https://blog.kscn.uk/about/index.html</loc>
     
-    <lastmod>2026-11-17T12:03:46.044Z</lastmod>
+    <lastmod>2026-11-21T15:05:38.152Z</lastmod>
     
-    <date>1794917026044</date>
+    <date>1795273538152</date>
     <title>关于 - Κομήτης</title>
     
     <desc></desc>
@@ -26,10 +26,21 @@
   <url>
     <loc>https://blog.kscn.uk/fonts/README.html</loc>
     
-    <lastmod>2026-11-14T12:57:31.655Z</lastmod>
+    <lastmod>2026-11-21T15:05:28.215Z</lastmod>
     
-    <date>1794661051655</date>
+    <date>1795273528215</date>
     <title> - Κομήτης</title>
+    
+    <desc></desc>
+  </url>
+  
+  <url>
+    <loc>https://blog.kscn.uk/2026/starry-and-voyage-1977/</loc>
+    
+    <lastmod>2026-11-20T08:33:16.000Z</lastmod>
+    
+    <date>1795163596000</date>
+    <title>星空和 Voyage 1977 - Κομήτης</title>
     
     <desc></desc>
   </url>

@@ -2,7 +2,7 @@
 title: Categories
 url: https://blog.kscn.uk/categories/
 type: category_index
-time: '2026-11-20T09:16:16.853Z'
+time: '2026-11-22T09:11:35.978Z'
 ---
 
 ## Categories
@@ -10,6 +10,7 @@ time: '2026-11-20T09:16:16.853Z'
 - [Linguistik](https://blog.kscn.uk/categories/Linguistik/index.md): 4 articles
 - [算法](https://blog.kscn.uk/categories/%E7%AE%97%E6%B3%95/index.md): 8 articles
 - [想法](https://blog.kscn.uk/categories/%E6%83%B3%E6%B3%95/index.md): 8 articles
+- [Cloudflare Learning 文档学习](https://blog.kscn.uk/categories/Cloudflare-Learning-%E6%96%87%E6%A1%A3%E5%AD%A6%E4%B9%A0/index.md): 1 articles
 - [CS 杂谈](https://blog.kscn.uk/categories/CS-%E6%9D%82%E8%B0%88/index.md): 24 articles
 - [练手项目](https://blog.kscn.uk/categories/%E7%BB%83%E6%89%8B%E9%A1%B9%E7%9B%AE/index.md): 7 articles
 - [课程笔记](https://blog.kscn.uk/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/index.md): 19 articles

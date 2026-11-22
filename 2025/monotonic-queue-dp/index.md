@@ -2,7 +2,7 @@
 title: 算法笔记1：单调队列优化 dp
 url: https://blog.kscn.uk/2025/monotonic-queue-dp/
 type: post
-time: '2026-11-20T09:16:16.853Z'
+time: '2026-11-22T09:11:35.978Z'
 ---
 
 ## 单调队列

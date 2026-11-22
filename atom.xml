@@ -6,10 +6,29 @@
   <link href="https://blog.kscn.uk/atom.xml" rel="self" type="application/atom+xml"/>
   
   <link href="https://blog.kscn.uk/" rel="alternate" type="text/html"/>
-  <updated>2026-11-20T08:33:16.000Z</updated>
+  <updated>2026-11-22T07:29:23.000Z</updated>
   <id>tag:kscn.uk,2026-11-18:feed</id>
   <author><name>Kisechan</name></author>
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  
+  <entry>
+    <title>Cloudflare 文档学习：DNS</title>
+    <link href="https://blog.kscn.uk/2026/cloudflare-dns/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/cloudflare-dns/</id>
+    <published>2026-11-22T07:29:23.000Z</published>
+    <updated>2026-11-22T07:29:23.000Z</updated>
+    <summary type="text">本文参考的原文档来自于 Cloudflare Learning Center： DNS | Cloudflare Learning Center https://www.cloudflare.com/learning/dns/ 域名管理体系 底层映射逻辑 互联网通信的本质是设备间的数据寻址，DNS 体系建立在以下三个核心概念的映射关系之上： IP 地址（机器标识符） 互联网协议（IP）为每台接入…</summary>
+    <media:thumbnail url="https://p.kscn.uk/uploads/2026/11/22/eac0f881-955a-401e-be46-c4a6dea5acd4-1-105-c-ab126437.jpeg"/>
+    
+    <category term="Cloudflare Learning 文档学习" scheme="https://blog.kscn.uk/categories/" label="Cloudflare Learning 文档学习"/>
+    
+    
+    <category term="计算机网络" scheme="https://blog.kscn.uk/tags/" label="计算机网络"/>
+    
+    <category term="DNS" scheme="https://blog.kscn.uk/tags/" label="DNS"/>
+    
+  </entry>
   
   
   <entry>
@@ -298,21 +317,6 @@
     
     
     <category term="想法" scheme="https://blog.kscn.uk/categories/" label="想法"/>
-    
-    
-  </entry>
-  
-  
-  <entry>
-    <title>香港游记</title>
-    <link href="https://blog.kscn.uk/2026/travelogue-hongkong/" rel="alternate" type="text/html"/>
-    <id>tag:kscn.uk,2026-11-18:2026/travelogue-hongkong/</id>
-    <published>2026-05-23T03:03:23.000Z</published>
-    <updated>2026-05-23T03:03:23.000Z</updated>
-    <summary type="text">18 号周一去了一趟香港，可惜犯了很多笨蛋操作，原本的计划基本都泡汤了，也没有停留多久，事先没有安排好导致除了很多岔子，下次再来就会准备好了！ 深圳 早上起床的时候准备买一个漫游流量包去香港用，免得直接漫游太贵，结果发现现在的手机卡太老都不能开通漫游，需要去营业厅换一个，这下给我干不会了，没办法只能临时下单买一张流量卡用，要不然去了香港直接失联。讨厌电信。 流量卡是到深圳北站东广场自取的，出站全…</summary>
-    <media:thumbnail url="https://images.kscn.uk/uploads/2026/05/23/20260517-221631-acda76ff.jpg"/>
-    
-    <category term="游记" scheme="https://blog.kscn.uk/categories/" label="游记"/>
     
     
   </entry>

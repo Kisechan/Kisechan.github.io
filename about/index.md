@@ -2,7 +2,7 @@
 title: 关于
 url: https://blog.kscn.uk/about/
 type: page
-time: '2026-11-20T09:16:16.853Z'
+time: '2026-11-22T09:11:35.978Z'
 ---
 
 很高兴见到你哦！我是 `Kisechan`, a. k. a. `Kise Platinyl` [^1]。
