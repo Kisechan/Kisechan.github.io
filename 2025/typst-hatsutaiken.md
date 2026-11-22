@@ -2,7 +2,7 @@
 title: Typst 初体验
 url: https://blog.kscn.uk/2025/typst-hatsutaiken/
 type: post
-time: '2026-11-22T09:14:45.102Z'
+time: '2026-11-22T11:38:04.203Z'
 ---
 
 **参考**：

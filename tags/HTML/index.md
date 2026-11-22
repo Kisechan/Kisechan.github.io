@@ -2,7 +2,7 @@
 title: HTML
 url: https://blog.kscn.uk/tags/HTML/
 type: tag
-time: '2026-11-22T09:14:45.102Z'
+time: '2026-11-22T11:38:04.203Z'
 ---
 
 ## Articles

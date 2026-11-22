@@ -2,7 +2,7 @@
 title: 设计一个数据库引擎 (2) 索引
 url: https://blog.kscn.uk/2025/db-engine-2/
 type: post
-time: '2026-11-22T09:14:45.102Z'
+time: '2026-11-22T11:38:04.203Z'
 ---
 
 **数据库系列笔记**

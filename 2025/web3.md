@@ -2,7 +2,7 @@
 title: Web编程学习笔记3：JS入门
 url: https://blog.kscn.uk/2025/web3/
 type: post
-time: '2026-11-22T09:14:45.102Z'
+time: '2026-11-22T11:38:04.203Z'
 ---
 
 本笔记主要依据MDN Web Docs：[https://developer.mozilla.org/zh-CN/](https://developer.mozilla.org/zh-CN/)
