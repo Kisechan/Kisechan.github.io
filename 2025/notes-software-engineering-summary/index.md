@@ -2,7 +2,7 @@
 title: 软件工程课程部分内容归纳
 url: https://blog.kscn.uk/2025/notes-software-engineering-summary/
 type: post
-time: '2026-11-22T09:11:35.978Z'
+time: '2026-11-22T09:14:45.102Z'
 ---
 
 > 前面的大部分内容使用 [NotebookLM](https://notebooklm.google.com/) 完成。

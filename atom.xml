@@ -18,7 +18,7 @@
     <id>tag:kscn.uk,2026-11-18:2026/cloudflare-dns/</id>
     <published>2026-11-22T07:29:23.000Z</published>
     <updated>2026-11-22T07:29:23.000Z</updated>
-    <summary type="text">本文参考的原文档来自于 Cloudflare Learning Center： DNS | Cloudflare Learning Center https://www.cloudflare.com/learning/dns/ 域名管理体系 底层映射逻辑 互联网通信的本质是设备间的数据寻址，DNS 体系建立在以下三个核心概念的映射关系之上： IP 地址（机器标识符） 互联网协议（IP）为每台接入…</summary>
+    <summary type="text">本文参考的原文档来自于 Cloudflare Learning Center： DNS | Cloudflare Learning Centerhttps://www.cloudflare.com/learning/dns/ 域名管理体系 底层映射逻辑 互联网通信的本质是设备间的数据寻址，DNS 体系建立在以下三个核心概念的映射关系之上： IP 地址（机器标识符） 互联网协议（IP）为每台接入互…</summary>
     <media:thumbnail url="https://p.kscn.uk/uploads/2026/11/22/eac0f881-955a-401e-be46-c4a6dea5acd4-1-105-c-ab126437.jpeg"/>
     
     <category term="Cloudflare Learning 文档学习" scheme="https://blog.kscn.uk/categories/" label="Cloudflare Learning 文档学习"/>

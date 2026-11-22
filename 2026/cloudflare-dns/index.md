@@ -2,7 +2,7 @@
 title: Cloudflare 文档学习：DNS
 url: https://blog.kscn.uk/2026/cloudflare-dns/
 type: post
-time: '2026-11-22T09:11:35.978Z'
+time: '2026-11-22T09:14:45.102Z'
 ---
 
 本文参考的原文档来自于 Cloudflare Learning Center：
@@ -10,7 +10,6 @@ time: '2026-11-22T09:11:35.978Z'
 ---
 
 DNS | Cloudflare Learning Center
-
 https://www.cloudflare.com/learning/dns/
 
 ---
