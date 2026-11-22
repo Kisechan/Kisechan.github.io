@@ -2,7 +2,7 @@
 title: Web
 url: https://blog.kscn.uk/categories/Web/
 type: category
-time: '2026-11-22T11:38:04.203Z'
+time: '2026-11-22T11:39:36.940Z'
 ---
 
 ## Articles

@@ -2,7 +2,7 @@
 title: Linux
 url: https://blog.kscn.uk/tags/Linux/
 type: tag
-time: '2026-11-22T11:38:04.203Z'
+time: '2026-11-22T11:39:36.940Z'
 ---
 
 ## Articles

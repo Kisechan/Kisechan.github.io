@@ -2,7 +2,7 @@
 title: 自部署 Gitea
 url: https://blog.kscn.uk/2025/site-gitea/
 type: post
-time: '2026-11-22T11:38:04.203Z'
+time: '2026-11-22T11:39:36.940Z'
 ---
 
 ## 部署

@@ -2,7 +2,7 @@
 title: 让Hexo博客支持Emoji表情
 url: https://blog.kscn.uk/2025/hexo-emoji/
 type: post
-time: '2026-11-22T11:38:04.203Z'
+time: '2026-11-22T11:39:36.940Z'
 ---
 
 # 安装
