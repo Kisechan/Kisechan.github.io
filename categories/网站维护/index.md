@@ -2,11 +2,12 @@
 title: 网站维护
 url: https://blog.kscn.uk/categories/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/
 type: category
-time: '2026-11-22T11:52:06.991Z'
+time: '2026-11-23T02:53:11.663Z'
 ---
 
 ## Articles
 
+- [Κομήτης 的历史和思维，若能成为彗星](https://blog.kscn.uk/2026/cometa/index.md)
 - [为博客增添 PWA 支持](https://blog.kscn.uk/2025/site-pwa/index.md)
 - [自部署 Gitea](https://blog.kscn.uk/2025/site-gitea/index.md)
 - [网站替换新的图标 CSS](https://blog.kscn.uk/2025/site-new-icon-css/index.md)

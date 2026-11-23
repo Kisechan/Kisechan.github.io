@@ -6,10 +6,25 @@
   <link href="https://blog.kscn.uk/atom.xml" rel="self" type="application/atom+xml"/>
   
   <link href="https://blog.kscn.uk/" rel="alternate" type="text/html"/>
-  <updated>2026-11-22T07:29:23.000Z</updated>
+  <updated>2026-11-23T02:45:23.000Z</updated>
   <id>tag:kscn.uk,2026-11-18:feed</id>
   <author><name>Kisechan</name></author>
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  
+  <entry>
+    <title>Κομήτης 的历史和思维，若能成为彗星</title>
+    <link href="https://blog.kscn.uk/2026/cometa/" rel="alternate" type="text/html"/>
+    <id>tag:kscn.uk,2026-11-18:2026/cometa/</id>
+    <published>2026-11-23T02:45:23.000Z</published>
+    <updated>2026-11-23T02:45:23.000Z</updated>
+    <summary type="text">在上大学之前，其实我一直都没有经受过“正经的”计算机和编程学习，仅仅是爱玩点游戏，才会去折腾折腾电脑罢了，也只是学了些皮毛。直到大一的 C 语言课，我才真正用手和键盘敲下并编译运行自己的第一行代码（如果之前的恶搞 Basic 程序不算的话）。 或许对于大多数身经百战、见得多了的技术宅们而言，博客算是个简单得不能再简单的东西了，就该人手一个，各自有自己的特色，夸张的动效，还有铺天盖地的插件。在大一…</summary>
+    <media:thumbnail url="https://p.kscn.uk/uploads/2026/11/23/63810a03-5460-4afa-8810-6a4590d2541d-1-105-c-74c9704b.jpeg"/>
+    
+    <category term="网站维护" scheme="https://blog.kscn.uk/categories/" label="网站维护"/>
+    
+    
+  </entry>
   
   
   <entry>
@@ -300,21 +315,6 @@
     <updated>2026-06-16T18:13:26.000Z</updated>
     <summary type="text">因为是第一次吃这类药物，所以记录一下当前吃过的部分精神药物的用后感受。笔者处方的症状为焦虑抑郁状态，吃的都是抗抑郁药（SSRI）和抗焦虑药（西泮），应该都算是药效较为温和的药物。 到现在大概吃了有一个月，所以大概还是有一些起效的……吧？ 药物终究只能缓解难过的感受，真正还得靠自己拯救自己。 不涉及任何形式的医疗建议，不要不遵医嘱乱吃药。 SSRI 笔者吃的 SSRI 类药物是草酸艾司西酞普兰。…</summary>
     <media:thumbnail url="https://images.kscn.uk/uploads/2026/06/17/image-1780975466834-830-3919db8e.png"/>
-    
-    <category term="想法" scheme="https://blog.kscn.uk/categories/" label="想法"/>
-    
-    
-  </entry>
-  
-  
-  <entry>
-    <title>想要成为鱼的猫</title>
-    <link href="https://blog.kscn.uk/2026/catfish/" rel="alternate" type="text/html"/>
-    <id>tag:kscn.uk,2026-11-18:2026/catfish/</id>
-    <published>2026-06-08T14:05:10.000Z</published>
-    <updated>2026-06-08T14:05:10.000Z</updated>
-    <summary type="text">想要成为鱼，可是我不会游泳。 很羡慕呢，羡慕那些学业事业有成、被爱着的幸运的孩子，羡慕那些天上飞行的鸟儿，羡慕有主人陪伴着的小猫。我也许没有些什么吧，只能在地上生活着，成天做些没有意义的事情来消磨生命，却感受不到多少的幸福。 既然感受不到幸福的话，为什么神要给我生活在地上的机会呢？我也是幸运的，被选中的吗？我是坏猫，我的生活过得一塌糊涂，我的性格也很糟糕，我存在的每一天都在伤害身边爱自己的人和自…</summary>
-    
     
     <category term="想法" scheme="https://blog.kscn.uk/categories/" label="想法"/>
     

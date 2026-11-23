@@ -2,11 +2,12 @@
 title: Archives
 url: https://blog.kscn.uk/archives/
 type: archive
-time: '2026-11-22T11:52:06.991Z'
+time: '2026-11-23T02:53:11.663Z'
 ---
 
 ## Articles
 
+- [Κομήτης 的历史和思维，若能成为彗星](https://blog.kscn.uk/2026/cometa/index.md)
 - [Cloudflare 文档学习：DNS](https://blog.kscn.uk/2026/cloudflare-dns/index.md)
 - [星空和 Voyage 1977](https://blog.kscn.uk/2026/starry-and-voyage-1977/index.md)
 - [强化学习概述：复习一些经典算法](https://blog.kscn.uk/2026/reinforcement-learning/index.md)

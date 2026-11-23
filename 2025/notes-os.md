@@ -2,7 +2,7 @@
 title: 操作系统复习
 url: https://blog.kscn.uk/2025/notes-os/
 type: post
-time: '2026-11-22T11:52:06.991Z'
+time: '2026-11-23T02:53:11.663Z'
 ---
 
 ## 操作系统概述
