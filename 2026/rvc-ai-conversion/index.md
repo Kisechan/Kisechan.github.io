@@ -2,7 +2,7 @@
 title: 使用 RVC 制作 AI 翻唱
 url: https://blog.kscn.uk/2026/rvc-ai-conversion/
 type: post
-time: '2026-11-23T02:53:11.663Z'
+time: '2026-11-23T03:04:43.314Z'
 ---
 
 博主第一次做 AI 翻唱，于是记录一下全流程的 pipeline 以及自己的经验。

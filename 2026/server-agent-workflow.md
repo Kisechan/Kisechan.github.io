@@ -2,7 +2,7 @@
 title: 在服务器上比较优雅地使用 Agent
 url: https://blog.kscn.uk/2026/server-agent-workflow/
 type: post
-time: '2026-11-23T02:53:11.663Z'
+time: '2026-11-23T03:04:43.314Z'
 ---
 
 用的是 Mac remote 连接 ubuntu 22.04 的服务器，摸索出来了一套还可以的 agent workflow。

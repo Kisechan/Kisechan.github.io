@@ -2,7 +2,7 @@
 title: Web编程学习笔记2：CSS基础样式
 url: https://blog.kscn.uk/2025/web2/
 type: post
-time: '2026-11-23T02:53:11.663Z'
+time: '2026-11-23T03:04:43.314Z'
 ---
 
 本笔记主要依据MDN Web Docs：[https://developer.mozilla.org/zh-CN/](https://developer.mozilla.org/zh-CN/)

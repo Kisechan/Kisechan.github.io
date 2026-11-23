@@ -2,7 +2,7 @@
 title: 在无锡和杭州的愉快日子
 url: https://blog.kscn.uk/2026/travelogue-jiangyin-wuxi-hangzhou/
 type: post
-time: '2026-11-23T02:53:11.663Z'
+time: '2026-11-23T03:04:43.314Z'
 ---
 
 23 号到 27 号去江阴、无锡市还有杭州和 [@mithsakar](https://x.com/mithsakar) 一起玩了一下，算是我七月里忙碌的科研和项目之后最开心最放松的一段时间了，不过记录拖到现在才写，毕竟有点太懒了，或者是最近玩的和工作的比较多，没有写博客的闲情逸致（？

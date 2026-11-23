@@ -2,7 +2,7 @@
 title: NEOVIM 体验
 url: https://blog.kscn.uk/2025/neovim-try/
 type: post
-time: '2026-11-23T02:53:11.663Z'
+time: '2026-11-23T03:04:43.314Z'
 ---
 
 > 具体内容以后再补，先写快捷键的。
