@@ -2,7 +2,7 @@
 title: 概率论与数理统计
 url: https://blog.kscn.uk/2025/notes-ptms/
 type: post
-time: '2026-11-23T03:04:43.314Z'
+time: '2026-11-23T04:44:58.410Z'
 ---
 
 ## 概率论

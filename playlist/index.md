@@ -2,7 +2,7 @@
 title: 歌单
 url: https://blog.kscn.uk/playlist/
 type: page
-time: '2026-11-23T03:04:43.314Z'
+time: '2026-11-23T04:44:58.410Z'
 ---
 
 本页通过[hexo-tag-aplayer](https://github.com/MoePlayer/hexo-tag-aplayer)插件，将APlayer播放器插入hexo博客页面当中。

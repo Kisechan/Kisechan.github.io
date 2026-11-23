@@ -2,7 +2,7 @@
 title: 具身智能
 url: https://blog.kscn.uk/categories/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD/
 type: category
-time: '2026-11-23T03:04:43.314Z'
+time: '2026-11-23T04:44:58.410Z'
 ---
 
 ## Articles
