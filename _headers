@@ -18,5 +18,11 @@
 /.well-known/blog-capabilities.json
   Access-Control-Allow-Origin: *
 
+/.well-known/mcp/server-card.json
+  Access-Control-Allow-Origin: *
+
+/.well-known/poppy.json
+  Access-Control-Allow-Origin: *
+
 /api/v1/*
   Access-Control-Allow-Origin: *

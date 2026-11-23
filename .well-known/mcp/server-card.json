@@ -1,0 +1,14 @@
+{
+  "serverInfo": {
+    "name": "kometis-blog",
+    "version": "1.0.0"
+  },
+  "description": "Read-only search and Markdown access for public Κομήτης blog articles.",
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "https://blog.kscn.uk/mcp"
+  },
+  "capabilities": {
+    "tools": {}
+  }
+}

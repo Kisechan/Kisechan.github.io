@@ -13,10 +13,24 @@
       "name": "search_blog_articles",
       "availability": "in browsers with WebMCP support"
     },
+    "remoteMcp": {
+      "available": true,
+      "endpoint": "https://blog.kscn.uk/mcp",
+      "serverCard": "https://blog.kscn.uk/.well-known/mcp/server-card.json",
+      "authentication": "none"
+    },
+    "poppy": {
+      "manifest": "https://blog.kscn.uk/.well-known/poppy.json",
+      "mode": "website-only",
+      "sessions": false
+    },
     "oauth": {
       "available": false
     },
-    "remoteMcp": {
+    "oauthProtectedResource": {
+      "available": false
+    },
+    "agentRegistration": {
       "available": false
     },
     "a2a": {

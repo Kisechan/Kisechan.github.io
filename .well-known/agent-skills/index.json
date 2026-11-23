@@ -6,7 +6,7 @@
       "type": "skill-md",
       "description": "Find, read, and cite public articles from the Κομήτης blog, including Chinese course notes and technical posts.",
       "url": "https://blog.kscn.uk/.well-known/agent-skills/read-kometis-blog/SKILL.md",
-      "digest": "sha256:8264beb4a6ea3acc8d017cbef4de8d5c1cbba6697d90a01cb401907c0a3b18f7"
+      "digest": "sha256:032cf19f214ea4cdd62c7d2ab3c1433d0caa321d4412bd0c0d013e390a563a1b"
     }
   ]
 }

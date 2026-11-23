@@ -16,6 +16,16 @@
         "Find Chinese articles about robotics",
         "Read and cite a blog article"
       ]
+    },
+    {
+      "identifier": "urn:air:blog.kscn.uk:server:blog-mcp",
+      "displayName": "Κομήτης blog MCP",
+      "type": "application/mcp-server-card+json",
+      "url": "https://blog.kscn.uk/.well-known/mcp/server-card.json",
+      "representativeQueries": [
+        "Search the blog for reinforcement learning",
+        "Read an article from the public Markdown archive"
+      ]
     }
   ]
 }
