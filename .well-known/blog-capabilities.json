@@ -1,0 +1,29 @@
+{
+  "site": "https://blog.kscn.uk",
+  "access": "public-read-only",
+  "interfaces": {
+    "readingGuide": "https://blog.kscn.uk/llms.txt",
+    "markdownArchive": "https://blog.kscn.uk/archives.md",
+    "atom": "https://blog.kscn.uk/atom.xml",
+    "articleIndex": "https://blog.kscn.uk/api/v1/articles.json",
+    "apiCatalog": "https://blog.kscn.uk/.well-known/api-catalog",
+    "skills": "https://blog.kscn.uk/.well-known/agent-skills/index.json",
+    "resourceCatalog": "https://blog.kscn.uk/.well-known/ai-catalog.json",
+    "webMcp": {
+      "name": "search_blog_articles",
+      "availability": "in browsers with WebMCP support"
+    },
+    "oauth": {
+      "available": false
+    },
+    "remoteMcp": {
+      "available": false
+    },
+    "a2a": {
+      "available": false
+    },
+    "payments": {
+      "available": false
+    }
+  }
+}

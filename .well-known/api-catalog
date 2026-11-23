@@ -1,0 +1,19 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://blog.kscn.uk/api/v1/articles.json",
+      "service-desc": [
+        {
+          "href": "https://blog.kscn.uk/api/v1/openapi.json",
+          "type": "application/json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://blog.kscn.uk/.well-known/agent-skills/read-kometis-blog/SKILL.md",
+          "type": "text/markdown"
+        }
+      ]
+    }
+  ]
+}

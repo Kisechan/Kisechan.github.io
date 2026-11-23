@@ -1,0 +1,21 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Κομήτης",
+    "identifier": "https://blog.kscn.uk"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:blog.kscn.uk:skill:read-kometis-blog",
+      "displayName": "Read the Κομήτης blog",
+      "type": "application/agent-skills+md",
+      "url": "https://blog.kscn.uk/.well-known/agent-skills/read-kometis-blog/SKILL.md",
+      "description": "Find, read, and cite public articles from the Κομήτης blog, including Chinese course notes and technical posts.",
+      "representativeQueries": [
+        "Find course notes about compilers",
+        "Find Chinese articles about robotics",
+        "Read and cite a blog article"
+      ]
+    }
+  ]
+}

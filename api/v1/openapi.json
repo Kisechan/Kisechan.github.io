@@ -1,0 +1,71 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Κομήτης public article index",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://blog.kscn.uk"
+    }
+  ],
+  "paths": {
+    "/api/v1/articles.json": {
+      "get": {
+        "operationId": "listPublicArticles",
+        "summary": "List public articles in reverse publication order",
+        "description": "Use markdownUrl to read the article and url to cite it. Filter the index client-side.",
+        "responses": {
+          "200": {
+            "description": "Public article index",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "articles"
+                  ],
+                  "properties": {
+                    "articles": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "title",
+                          "description",
+                          "url",
+                          "markdownUrl",
+                          "published"
+                        ],
+                        "properties": {
+                          "title": {
+                            "type": "string"
+                          },
+                          "description": {
+                            "type": "string"
+                          },
+                          "url": {
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          "markdownUrl": {
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          "published": {
+                            "type": "string",
+                            "format": "date-time"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
