@@ -2,7 +2,7 @@
 title: 网页浏览计数服务
 url: https://blog.kscn.uk/2025/view-counter/
 type: post
-time: '2026-11-23T04:44:58.410Z'
+time: '2026-11-23T05:08:03.377Z'
 ---
 
 使用 Golang 和 Gin 实现一个简单的网页浏览计数服务。

@@ -2,7 +2,7 @@
 title: 数据库原理 课程笔记 (2) E-R 模型和关系模式
 url: https://blog.kscn.uk/2025/notes-database-2/
 type: post
-time: '2026-11-23T04:44:58.410Z'
+time: '2026-11-23T05:08:03.377Z'
 ---
 
 **数据库系列笔记**

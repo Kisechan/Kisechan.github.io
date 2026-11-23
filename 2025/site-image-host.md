@@ -2,7 +2,7 @@
 title: Cloudflare+Github图床
 url: https://blog.kscn.uk/2025/site-image-host/
 type: post
-time: '2026-11-23T04:44:58.410Z'
+time: '2026-11-23T05:08:03.377Z'
 ---
 
 ## 旧图床

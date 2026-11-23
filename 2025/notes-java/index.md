@@ -2,7 +2,7 @@
 title: Java 程序设计
 url: https://blog.kscn.uk/2025/notes-java/
 type: post
-time: '2026-11-23T04:44:58.410Z'
+time: '2026-11-23T05:08:03.377Z'
 ---
 
 > 速通的倒数第二门，唉这学期怎么都在速通，活得太没意思了。

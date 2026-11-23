@@ -2,7 +2,7 @@
 title: Linux课程笔记
 url: https://blog.kscn.uk/2024/linux-note/
 type: post
-time: '2026-11-23T04:44:58.410Z'
+time: '2026-11-23T05:08:03.377Z'
 ---
 
 # Linux和开源
