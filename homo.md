@@ -2,7 +2,7 @@
 title: 数字恶臭化工具
 url: https://blog.kscn.uk/homo/
 type: page
-time: '2026-11-23T05:08:03.377Z'
+time: '2026-11-25T11:54:39.590Z'
 ---
 
 本页程序源代码来自： https://gitlab.soraharu.com/XiaoXi/homo.js

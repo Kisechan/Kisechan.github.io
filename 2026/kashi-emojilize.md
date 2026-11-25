@@ -2,7 +2,7 @@
 title: 给你的歌词加上 Emoji！
 url: https://blog.kscn.uk/2026/kashi-emojilize/
 type: post
-time: '2026-11-23T05:08:03.377Z'
+time: '2026-11-25T11:54:39.590Z'
 ---
 
 受启发于各种评论区中的文案，制作了一个用 LLM (_DeepSeek-Chat_) **为 Vocaloid 歌词等文案自动添加发癫 emoji 的小工具**：

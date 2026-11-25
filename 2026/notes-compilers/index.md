@@ -2,7 +2,7 @@
 title: 编译原理课程笔记
 url: https://blog.kscn.uk/2026/notes-compilers/
 type: post
-time: '2026-11-23T05:08:03.377Z'
+time: '2026-11-25T11:54:39.590Z'
 ---
 
 ## 概论

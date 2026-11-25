@@ -2,7 +2,7 @@
 title: 想要成为鱼的猫
 url: https://blog.kscn.uk/2026/catfish/
 type: post
-time: '2026-11-23T05:08:03.377Z'
+time: '2026-11-25T11:54:39.590Z'
 ---
 
 想要成为鱼，可是我不会游泳。

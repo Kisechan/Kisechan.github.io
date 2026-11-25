@@ -23,9 +23,9 @@
 - [数据库原理 课程笔记 (1) 数据库、关系代数和 SQL](https://blog.kscn.uk/2025/notes-database-1.md): 数据库系列的理论入口，可继续阅读关系模式、存储、事务和并发部分。
 - [操作系统复习](https://blog.kscn.uk/2025/notes-os.md): 操作系统基本概念、资源管理和课程复习提纲。
 
-## CS 杂谈与算法
+## 技术杂谈与算法
 
-- [CS 杂谈分类](https://blog.kscn.uk/categories/CS-杂谈.md): 编程语言、开发工具、环境配置与实际使用经验。
+- [技术杂谈分类](https://blog.kscn.uk/categories/CS-杂谈.md): 编程语言、开发工具、环境配置与实际使用经验。
 - [在服务器上比较优雅地使用 Agent](https://blog.kscn.uk/2026/server-agent-workflow.md): 远程服务器上的 OpenCode、Codex 和 SSH 工作流。
 - [体验 Rust 的特性](https://blog.kscn.uk/2025/rust-taste.md): 在工程实践中理解 Rust 的语法、所有权与语言特性。
 - [算法分类](https://blog.kscn.uk/categories/算法.md): 算法题笔记与实现记录。

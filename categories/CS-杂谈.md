@@ -1,8 +1,8 @@
 ﻿---
-title: CS 杂谈
+title: 技术杂谈
 url: https://blog.kscn.uk/categories/CS-%E6%9D%82%E8%B0%88/
 type: category
-time: '2026-11-23T05:08:03.377Z'
+time: '2026-11-25T11:54:39.590Z'
 ---
 
 ## Articles

@@ -2,7 +2,7 @@
 title: 网站替换新的图标 CSS
 url: https://blog.kscn.uk/2025/site-new-icon-css/
 type: post
-time: '2026-11-23T05:08:03.377Z'
+time: '2026-11-25T11:54:39.590Z'
 ---
 
 ## 替换

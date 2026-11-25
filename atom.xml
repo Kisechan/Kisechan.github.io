@@ -102,7 +102,7 @@
     <summary type="text">本文主要来介绍一些 Web 开发领域有意思的约定，以及现在的 Agent 时代又有些什么新的潮流，来方便 Agent 工作。例如，robots.txt 可以让爬虫了解网站希望它遵循的抓取规则；搜索引擎可以通过 sitemap.xml 获得网站的页面清单；RSS 阅读器能够通过 atom.xml 订阅内容更新。 这些东西算是很常见但是很少看见有人讲解的。它们一部分属于正式互联网标准，一部分是被广泛…</summary>
     <media:thumbnail url="https://images.kscn.uk/uploads/2026/10/23/da31529f-f784-4624-b8ea-3f7f7c89deec-5425e55a.jpeg"/>
     
-    <category term="CS 杂谈" scheme="https://blog.kscn.uk/categories/" label="CS 杂谈"/>
+    <category term="技术杂谈" scheme="https://blog.kscn.uk/categories/" label="技术杂谈"/>
     
     
   </entry>
@@ -132,7 +132,7 @@
     <summary type="text">最近想在 macOS 上玩一些 Windows 老游戏，主要是体积不大的 .exe 小游戏和视觉小说。我的机器是 Apple Silicon Mac，所以玩 Windows 游戏要多一层架构转换问题。 最开始考虑的是直接使用 wine-stable： 1 brew install --cask wine-stable 实际尝试后发现 Homebrew 里的 wine-stable 已经因为 Ga…</summary>
     <media:thumbnail url="https://images.kscn.uk/uploads/2026/10/02/4f3428c3-3155-45ed-b387-d2d3aafe5310-1-105-c-b10223ad.jpeg"/>
     
-    <category term="CS 杂谈" scheme="https://blog.kscn.uk/categories/" label="CS 杂谈"/>
+    <category term="技术杂谈" scheme="https://blog.kscn.uk/categories/" label="技术杂谈"/>
     
     
   </entry>
@@ -162,7 +162,7 @@
     <summary type="text">因为 VSCode 目前一些已有的不好体验，包括 Electron 开发、新版本的丑陋 UI，外加社交媒体之类的地方对 Zed 的炒作，所以尝试了一下这个新的编辑器。 不得不说，其实使用起来比 VSCode 的可定制化程度还是更高的。但没有内置的 WebView 比较麻烦，不可以实时在侧边/软件内渲染出 Typst 或 PDF 的预览，不太方便。 我对 Zed 的配置目标只有下面的要求： 代码阅…</summary>
     <media:thumbnail url="https://images.kscn.uk/uploads/2026/09/12/8c51bb92-f15b-4954-87ae-712bba1dc9d0-1-105-c-f8d69441.jpeg"/>
     
-    <category term="CS 杂谈" scheme="https://blog.kscn.uk/categories/" label="CS 杂谈"/>
+    <category term="技术杂谈" scheme="https://blog.kscn.uk/categories/" label="技术杂谈"/>
     
     
     <category term="Zed" scheme="https://blog.kscn.uk/tags/" label="Zed"/>
@@ -237,7 +237,7 @@
     <summary type="text">用的是 Mac remote 连接 ubuntu 22.04 的服务器，摸索出来了一套还可以的 agent workflow。 代理 安装的是 mihomo，只有 CLI 界面也可以方便使用。 OpenCode 博主喜欢使用 OpenCode 提供的 WebUI 界面，TUI 才是需要被淘汰的。 可以使用 WebUI 和 SSH 隧道的方式来，首先在服务器上配置： 1 2 3 4 5 # 安装…</summary>
     <media:thumbnail url="https://images.kscn.uk/uploads/2026/07/22/a9cae2ab-172b-420a-a1cc-5361598ed4fb-1-105-c-42477f21.jpeg"/>
     
-    <category term="CS 杂谈" scheme="https://blog.kscn.uk/categories/" label="CS 杂谈"/>
+    <category term="技术杂谈" scheme="https://blog.kscn.uk/categories/" label="技术杂谈"/>
     
     
   </entry>

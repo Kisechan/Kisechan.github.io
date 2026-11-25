@@ -2,7 +2,7 @@
 title: 设计模式
 url: https://blog.kscn.uk/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/
 type: tag
-time: '2026-11-23T05:08:03.377Z'
+time: '2026-11-25T11:54:39.590Z'
 ---
 
 ## Articles

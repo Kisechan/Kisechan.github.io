@@ -2,7 +2,7 @@
 title: Κομήτης 的历史和思维，若能成为彗星
 url: https://blog.kscn.uk/2026/cometa/
 type: post
-time: '2026-11-23T05:08:03.377Z'
+time: '2026-11-25T11:54:39.590Z'
 ---
 
 ## 若能成为彗星

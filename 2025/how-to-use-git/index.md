@@ -2,7 +2,7 @@
 title: Git 团队合作的简单使用教程
 url: https://blog.kscn.uk/2025/how-to-use-git/
 type: post
-time: '2026-11-23T05:08:03.377Z'
+time: '2026-11-25T11:54:39.590Z'
 ---
 
 - 可以直接把本文投喂给你的队友

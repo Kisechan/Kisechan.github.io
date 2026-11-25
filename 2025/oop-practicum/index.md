@@ -2,7 +2,7 @@
 title: 面向对象程序设计课设心得
 url: https://blog.kscn.uk/2025/oop-practicum/
 type: post
-time: '2026-11-23T05:08:03.377Z'
+time: '2026-11-25T11:54:39.590Z'
 ---
 
 # 题设：电商系统

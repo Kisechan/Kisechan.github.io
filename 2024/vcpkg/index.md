@@ -2,7 +2,7 @@
 title: 利用vcpkg在VS中配置第三方库环境
 url: https://blog.kscn.uk/2024/vcpkg/
 type: post
-time: '2026-11-23T05:08:03.377Z'
+time: '2026-11-25T11:54:39.590Z'
 ---
 
 vcpkg是一个跨平台的C++包管理工具，可以自动下载、构建和配置第三方库，十分方便。
